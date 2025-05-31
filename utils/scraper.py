@@ -6,13 +6,14 @@ from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 
 import re
 import json
-# import os
-# from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
 
-## LANGCHAIN LLM SCRAPER AGENT
+dotenv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+load_dotenv(dotenv_path)
 
-API_KEY = 'AIzaSyDVIGZFOX0lAdFp5JKUmhzCkiC07ymfrcI'
-SERP_API_KEY = '9a522417f7a8d38e7fb19a4be4302a36d2c40dc586e295389efb94a5a948adff'
+API_KEY = os.getenv("GOOGLE_API_KEY")
+SERP_API_KEY = os.getenv('SERP_API_KEY')
 
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=API_KEY, temperature=0)
