@@ -1,0 +1,343 @@
+// Variables
+$primary-bg: #f8f9fa;
+$card-bg: #ffffff;
+$text-primary: #1a1a1a;
+$text-secondary: #6c757d;
+$text-muted: #adb5bd;
+$border-color: #e9ecef;
+$border-light: #f0f0f0;
+$focus-color: #007bff;
+$error-color: #dc3545;
+$error-bg: #f8d7da;
+$error-border: #f5c6cb;
+$disabled-bg: #f8f9fa;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 20px;
+$spacing-xl: 24px;
+$spacing-2xl: 32px;
+$spacing-3xl: 40px;
+
+// Border radius
+$border-radius-sm: 6px;
+$border-radius: 8px;
+$border-radius-lg: 12px;
+
+// Shadows
+$shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
+$shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-medium: 0.5s ease-out;
+
+// Breakpoints
+$mobile: 480px;
+
+// Typography
+$font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin input-focus {
+  outline: none;
+  border-color: $focus-color;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+@mixin button-hover {
+  background-color: #333;
+  transform: translateY(-1px);
+  box-shadow: $shadow-sm;
+}
+
+@mixin responsive($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin fade-in-up {
+  animation: fadeInUp $transition-medium;
+}
+
+// Animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY($spacing-lg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Main styles
+.login-container {
+  min-height: 100vh;
+  @include flex-center;
+  background-color: $primary-bg;
+  font-family: $font-stack;
+  padding: $spacing-lg;
+
+  .login-box {
+    background: $card-bg;
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-lg;
+    width: 100%;
+    max-width: 400px;
+    padding: 0;
+    overflow: hidden;
+    @include fade-in-up;
+
+    .logo {
+      padding: $spacing-3xl $spacing-3xl $spacing-lg $spacing-3xl;
+      border-bottom: 1px solid $border-light;
+
+      h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: $text-primary;
+        margin: 0;
+        letter-spacing: -0.5px;
+      }
+    }
+
+    .login-content {
+      padding: $spacing-3xl;
+
+      .login-title {
+        font-size: $spacing-xl;
+        font-weight: 600;
+        color: $text-primary;
+        text-align: center;
+        margin: 0 0 $spacing-2xl 0;
+        letter-spacing: -0.3px;
+      }
+
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-lg;
+
+        .form-group {
+          display: flex;
+          flex-direction: column;
+          gap: $spacing-sm;
+
+          .form-input {
+            width: 100%;
+            padding: $spacing-md;
+            border: 2px solid $border-color;
+            border-radius: $border-radius;
+            font-size: $spacing-md;
+            font-weight: 400;
+            color: $text-secondary;
+            background-color: $card-bg;
+            transition: all $transition-fast;
+            box-sizing: border-box;
+
+            &:focus {
+              @include input-focus;
+            }
+
+            &.error {
+              border-color: $error-color;
+            }
+
+            &::placeholder {
+              color: $text-muted;
+              font-weight: 400;
+            }
+
+            &:disabled {
+              background-color: $disabled-bg;
+              cursor: not-allowed;
+            }
+          }
+
+          .password-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            .password-toggle {
+              position: absolute;
+              right: $spacing-md;
+              background: none;
+              border: none;
+              cursor: pointer;
+              color: $text-secondary;
+              padding: 0;
+              @include flex-center;
+              height: $spacing-lg;
+              width: $spacing-lg;
+              transition: color $transition-fast;
+
+              &:hover {
+                color: $text-primary;
+              }
+
+              &:disabled {
+                cursor: not-allowed;
+                opacity: 0.5;
+              }
+            }
+          }
+
+          .error-message {
+            color: $error-color;
+            font-size: 14px;
+            font-weight: 500;
+            margin-top: $spacing-xs;
+
+            &.general-error {
+              text-align: center;
+              margin: $spacing-md 0;
+              padding: $spacing-lg;
+              background-color: $error-bg;
+              border: 1px solid $error-border;
+              border-radius: $border-radius-sm;
+            }
+          }
+        }
+
+        .forgot-password {
+          text-align: center;
+          margin: $spacing-sm 0 $spacing-xl 0;
+
+          .forgot-link {
+            color: $text-secondary;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color $transition-fast;
+
+            &:hover {
+              color: $text-primary;
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .login-button {
+          width: 100%;
+          padding: $spacing-md;
+          background-color: $text-primary;
+          color: white;
+          border: none;
+          border-radius: $border-radius;
+          font-size: $spacing-md;
+          font-weight: 600;
+          cursor: pointer;
+          transition: all $transition-fast;
+          margin-bottom: $spacing-xl;
+
+          &:hover:not(:disabled) {
+            @include button-hover;
+          }
+
+          &:active:not(:disabled) {
+            transform: translateY(0);
+          }
+
+          &:disabled {
+            background-color: $text-secondary;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+          }
+
+          &:focus-visible {
+            outline: 2px solid $focus-color;
+            outline-offset: 2px;
+          }
+        }
+      }
+
+      .signup-link {
+        text-align: center;
+        margin-bottom: $spacing-2xl;
+
+        .signup-text {
+          color: $text-secondary;
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
+          transition: color $transition-fast;
+
+          &:hover {
+            color: $text-primary;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .legal-text {
+        text-align: center;
+        margin-top: $spacing-lg;
+
+        p {
+          font-size: 12px;
+          color: $text-secondary;
+          line-height: 1.5;
+          margin: 0;
+        }
+
+        .legal-link {
+          color: $text-secondary;
+          text-decoration: underline;
+          transition: color $transition-fast;
+
+          &:hover {
+            color: $text-primary;
+          }
+        }
+      }
+    }
+
+    // Responsive design
+    @include responsive($mobile) {
+      max-width: 100%;
+      border-radius: $border-radius;
+
+      .logo {
+        padding: $spacing-2xl $spacing-2xl $spacing-md $spacing-2xl;
+
+        h1 {
+          font-size: $spacing-xl;
+        }
+      }
+
+      .login-content {
+        padding: $spacing-2xl;
+
+        .login-title {
+          font-size: $spacing-lg;
+          margin-bottom: $spacing-xl;
+        }
+      }
+    }
+  }
+
+  // Responsive container
+  @include responsive($mobile) {
+    padding: $spacing-md;
+  }
+}
+
+// Accessibility improvements
+.form-input:focus-visible,
+.login-button:focus-visible {
+  outline: 2px solid $focus-color;
+  outline-offset: 2px;
+} 

@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "client": "npm start --prefix client",
-    "server": "nodemon server.js",
+    "server": "npx nodemon index.js",
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "dev": "nodemon server.js",
+    "dev": "npx nodemon index.js",
+    "dev:simple": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "concurrently \"node server.js\" \"npm run client\""
+    "deploy": "concurrently \"node index.js\" \"npm run client\""
   },
   "repository": {
     "type": "git",
