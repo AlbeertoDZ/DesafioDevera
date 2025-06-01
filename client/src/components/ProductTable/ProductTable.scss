@@ -1,0 +1,79 @@
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    padding: 1.2em;
+  }
+  
+  .table-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .entries-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  
+    select {
+      padding: 0.3rem 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+  }
+  
+  .search-and-export {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+    input {
+      padding: 0.4rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+  
+    .export-btn {
+      background: none;
+      border: none;
+      color: #222;
+      cursor: pointer;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .products-table {
+    width: 100%;
+    border-collapse: collapse;
+  
+    th, td {
+      padding: 0.8rem;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+  
+    th {
+      font-weight: 600;
+      color: #444;
+    }
+  
+    td {
+      vertical-align: middle;
+    }
+  
+    img {
+      max-width: 40px;
+      height: auto;
+      border-radius: 5px;
+    }
+  }
