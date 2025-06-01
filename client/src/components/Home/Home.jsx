@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import Tabs from "../Tabs/Tabs";
 import SearchBar from "../SearchBar/SearchBar";
 import ProductTable from "../ProductTable/ProductTable";
+import Pagination from "../Pagination/Pagination";
 
 // import Filters from './Filters';
 // import JobList from './JobList';
@@ -12,6 +13,7 @@ const Home = () => (
     <Tabs />
     <SearchBar />
     <ProductTable />
+    <Pagination />
   </div>
 );
 
