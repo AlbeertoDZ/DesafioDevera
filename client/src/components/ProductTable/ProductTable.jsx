@@ -45,19 +45,30 @@ const ProductTable = () => {
       <div className="table-body">
         {products.map((product, index) => (
           <div className="table-row" key={index}>
-            <div className="cell"><input type="checkbox" /></div>
             <div className="cell">
+              <span className="label-mobile">Seleccionar</span>
+              <input type="checkbox" />
+            </div>
+            <div className="cell">
+              <span className="label-mobile">Producto</span>
               <div className="product-info">
                 <img src={product.image} alt={product.name} />
                 <span>{product.name}</span>
               </div>
             </div>
             <div className="cell">
-              <strong>{product.footprint}</strong>
-              <span>Kg Co2 Eq</span>
+              <span className="label-mobile">Huella de carbono</span>
+              <div>
+                <strong>{product.footprint}</strong>
+                <span> Kg Co2 Eq</span>
+              </div>
             </div>
-            <div className="cell"><strong>{product.difference}</strong></div>
             <div className="cell">
+              <span className="label-mobile">Diferencia huella</span>
+              <strong>{product.difference}</strong>
+            </div>
+            <div className="cell">
+              <span className="label-mobile">Score</span>
               <div className="score-bar">
                 <span className="label">{product.score}</span>
                 <div className="bar">
@@ -68,6 +79,7 @@ const ProductTable = () => {
               </div>
             </div>
             <div className="cell">
+              <span className="label-mobile">Status</span>
               <span className={`status ${
                 product.status === 'Pendiente'
                   ? 'pending'
@@ -78,9 +90,15 @@ const ProductTable = () => {
                 {product.status}
               </span>
             </div>
-            <div className="cell">👁</div>
-            <div className="cell">📥</div>
-            <div className="cell">📎</div>
+            <div className="cell">
+              <span className="label-mobile">Ver</span> 👁
+            </div>
+            <div className="cell">
+              <span className="label-mobile">Descargar</span> 📥
+            </div>
+            <div className="cell">
+              <span className="label-mobile">Archivos</span> 📎
+            </div>
           </div>
         ))}
       </div>

@@ -4,27 +4,16 @@
     align-items: center;
     padding: 1.2rem 1.5rem;
     margin-top: 1em;
+    flex-wrap: wrap;
   
-    .top-bar-left {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-  
-      label {
-        font-weight: 500;
-        color: #333;
-      }
-  
-      select {
-        padding: 0.3rem 0.5rem;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-      }
-    }
-  
+    .top-bar-left,
     .top-bar-right {
       display: flex;
       align-items: center;
+      gap: 0.5rem;
+    }
+  
+    .top-bar-right {
       gap: 0.75rem;
   
       .search-input {
@@ -58,6 +47,26 @@
         }
       }
     }
-  }
-
   
+    // Media query dentro de .top-bar → válido en SCSS
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 1rem;
+  
+      .top-bar-left {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+      }
+  
+      .top-bar-right {
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 100%;
+  
+        .search-input {
+          width: 100%;
+        }
+      }
+    }
+  }
