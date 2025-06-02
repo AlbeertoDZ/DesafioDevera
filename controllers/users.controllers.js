@@ -3,7 +3,6 @@ const User = require('../models/users.model'); // Modelo de usuario
 const bcrypt = require('bcrypt'); // Libreria para encriptar contraseñas
 const jwt = require('jsonwebtoken'); // Libreria para generar tokens
 
-
 // Validar JWT_SECRET
 const getJWTSecret = () => {
     const secret = process.env.JWT_SECRET;
@@ -56,13 +55,13 @@ const getUserByEmail = async (req, res) => {
 
 // Create user
 const createUser = async (req, res) => {
-    const newUser = req.body; // { name, lastname, email, password, id_company }
+    const newUser = req.body; // { name, lastname, email, password, id_empresa }
     if (
         "name" in newUser &&
         "lastname" in newUser &&
         "email" in newUser &&
         "password" in newUser &&
-        "id_company" in newUser
+        "id_empresa" in newUser
     )
         try {
             //Encriptar la contraseña
@@ -110,7 +109,7 @@ const loginUser = async (req, res) => {
                 id: user.id, 
                 email: user.email,
                 name: user.name,
-                id_company: user.id_company
+                id_empresa: user.id_empresa
             },
             getJWTSecret(),
             { expiresIn: '24h' }
@@ -145,9 +144,9 @@ const logoutUser = async (req, res) => {
 
 // Register user (usando base de datos real)
 const registerUser = async (req, res) => {
-    const newUser = req.body; // { name, lastname, email, password, id_company }
+    const newUser = req.body; // { name, lastname, email, password, id_empresa }
     
-    if (!newUser.name || !newUser.lastname || !newUser.email || !newUser.password || !newUser.id_company) {
+    if (!newUser.name || !newUser.lastname || !newUser.email || !newUser.password || !newUser.id_empresa) {
         return res.status(400).json({ message: "Todos los campos son requeridos" });
     }
 
@@ -171,7 +170,7 @@ const registerUser = async (req, res) => {
                 id: createdUser.id,
                 email: createdUser.email,
                 name: createdUser.name,
-                id_company: createdUser.id_company
+                id_empresa: createdUser.id_empresa
             },
             getJWTSecret(),
             { expiresIn: '24h' }
@@ -201,4 +200,3 @@ module.exports = {
     logoutUser,
     registerUser
 }
-

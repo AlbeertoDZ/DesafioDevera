@@ -1,0 +1,609 @@
+Process Name,Product Flow,Unit,Carbon Footprint (kg CO2 eq),Status
+"Acrylonitrile-Butadiene-Styrene granulate (ABS), production mix, at plant",acrylonitrile-butadiene-styrene granulate (ABS),kg,3.9384418650873307,Success
+"Aerated concrete block, production mix, at plant, mix of P2 04 and P4 05, average density 433 kg/m3",aerated concrete block,kg,0.44926386442453653,Success
+"Aerated concrete block, production mix, at plant, type P4 05 reinforced, average density 485 kg/m3",aerated concrete block,kg,0.5182731970260116,Success
+"Aluminium extrusion profile, production mix, at plant, primary production, aluminium semi-finished extrusion product, including primary production, transformation and   recycling",aluminium extrusion profile,kg,2.405827539863469,Success
+"Aluminium sheet, production mix, at plant, primary production, aluminium semi-finished sheet product, including primary production, transformation and recycling",aluminium sheet,kg,3.2168290021143666,Success
+"Anhydrite (CaSO4), production mix, at plant, technology mix of natural (33%), thermal (33%) and synthetic (33%) produced anhydrite, grinded and purified product",anhydrite (CaSO4),kg,0.10058354328418662,Success
+"Articulated lorry transport, Euro 0, 1, 2, 3, 4 mix, 40 t total weight, 27 t max payload",transport in t*km,t*km,0.04997474547096374,Success
+"Articulated lorry transport, Euro 0, 1, 2, 3, 4 mix, 40 t total weight, 27 t max payload",transport in t*km,t*km,0.04997474547096374,Success
+"Barge, technology mix, 1.228 t pay load capacity",cargo,kg,0.0,Success
+"Barge, technology mix, 1.228 t pay load capacity",cargo,kg,0.0,Success
+"Bentonite granular, sodium activated, Production at plant, 1000 kg of bentonite sodium activated granular with a particle size ranging from 0.5 to 5 mm and a moisture content ranging between 8 and 13%, stored in silo, ready to be shipped in bulk., none",Na-activated bentonite granular,kg,0.16913674049956157,Success
+"Bentonite powder, sodium activated, Production at plant, 1000 kg of bentonite  sodium activated powder with particle sizes below 74 µm and a moisture content ranging between 8 and 12%, stored in silo, ready to be shipped in bulk., None",Na-activated bentonite granular,kg,0.18052167819610937,Success
+"Benzene, production mix, at plant, technology mix, from pyrolysis gasoline, reformate and toluene dealkylation, liquid",benzene,kg,1.3906799882609542,Success
+"Beverage carton converting, converting mix, at plant, Converting, beverage carton",beverage carton - generic,m2,0.0066507592,Success
+"Bulk carrier ocean, technology mix, 100.000-200.000 dwt",transport in t*km,t*km,0.0024374654577004762,Success
+"Bulk carrier ocean, technology mix, 100.000-200.000 dwt",transport in t*km,t*km,0.0024374654577004762,Success
+"Calcium carbonate > 63 microns, at plant, Production",Calcium carbonate (> 63 microns),kg,0.039921916731612654,Success
+"Calcium silicate, production mix, at plant, blocks and elements, density 1400 to 2000 kg/m3",calcium silicate,kg,0.14129753629185932,Success
+"Chlorine, production mix for PVC production, at plant",chlorine,kg,1.1768157428099517,Success
+"Compressed air, production mix, 10 bar, high efficiency, low power consumption",compressed air,m3,0.0,Success
+"Compressed air, production mix, 10 bar, low efficiency, high power consumption",compressed air,m3,0.0,Success
+"Compressed air, production mix, 14 bar, high efficiency, low power consumption",compressed air,m3,0.0,Success
+"Compressed air, production mix, 14 bar, low efficiency, high power consumption",compressed air,m3,0.0,Success
+"Compressed air, production mix, 7 bar, high efficiency, low power consumption",compressed air,m3,0.0,Success
+"Compressed air, production mix, 7 bar, low efficiency, high power consumption",compressed air,m3,0.0,Success
+"Compressed air, production mix, at plant, 10 bar, high efficiency, low power consumption",compressed air,m3,0.0670477046208927,Success
+"Compressed air, production mix, at plant, 10 bar, low efficiency, high power consumption",compressed air,m3,0.09036864535859437,Success
+"Compressed air, production mix, at plant, 14 bar, high efficiency, low power consumption",compressed air,m3,0.07579305739753073,Success
+"Compressed air, production mix, at plant, 14 bar, low efficiency, high power consumption",compressed air,m3,0.09911399813523251,Success
+"Compressed air, production mix, at plant, 7 bar, high efficiency, low power consumption",compressed air,m3,0.05538723425204175,Success
+"Compressed air, production mix, at plant, 7 bar, low efficiency, high power consumption",compressed air,m3,0.08453841017416897,Success
+"Container glass (delivered to the end user of the contained product, reuse rate: 7%), production mix at plant, technology mix",Glass (formed & finished),kg,0.7855371346300107,Success
+"Container ship ocean, technology mix, 27.500 dwt pay load capacity",transport in t*km,t*km,0.013126392487444296,Success
+"Container ship ocean, technology mix, 27.500 dwt pay load capacity",transport in t*km,t*km,0.013126392487444296,Success
+"Continuous filament glass fibre (assembled rovings), at plant",Continuous filament glass fibre,kg,2.0144348052712173,Success
+"Continuous filament glass fibre (direct rovings), at plant",Continuous filament glass fibre,kg,1.3609510223299885,Success
+"Continuous filament glass fibre (dry chopped strands), at plant",Continuous filament glass fibre,kg,1.91687433257583,Success
+"Continuous filament glass fibre (wet chopped strands), at plant",Continuous filament glass fibre,kg,1.6508879226413151,Success
+"Copper sheet, consumption mix, at plant, technology mix, 0,6 mm thickness",copper sheet,kg,0.9836431255504801,Success
+"Copper sheet; technology mix; market mix, at plant; 0,6 mm thickness, Technology and Market Mix for Sheet fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathode production...",Copper sheet,kg,0.8555341516628505,Success
+"Copper tube, consumption mix, at plant, technology mix, diameter 15 mm, 1 mm thickness",copper tube,kg,0.9906699948665001,Success
+"Copper tube; technology mix; market mix, at plant; diameter 15 mm, 1 mm thickness, Technology and Market Mix for Tube fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathod...",copper tube,kg,1.313271241788193,Success
+"Copper wire, consumption mix, at plant, technology mix, cross section 1 mmy",copper wire,kg,0.795991413056557,Success
+"Copper wire; technology mix; market mix, at plant; cross section 1 mm, Technology and Market Mix for Wire fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathode production...",Copper wire,kg,0.8027893089810914,Success
+"Corrugated board boxes, production mix, at plant, technology mix, 16,6 % primary fibre, 83,4 % recycled fibre",corrugated board boxes,kg,-0.4446749146919661,Success
+"Crushed stone 16/32, production mix, at plant, open pit mining, undried",crushed stone 16/32,kg,0.013840779151783281,Success
+"De-ionised water, production mix, at plant, reverse osmosis, from groundwater",de-ionised water,kg,0.008539865406352999,Success
+"De-ionised water, production mix, at plant, reverse osmosis, from surface water",de-ionised water,kg,0.008539865406352999,Success
+"Diesel mix at refinery, production mix, at refinery, from crude oil and bio components, fuel supply, 10 ppm sulphur, 5.75 wt.% bio components",Diesel,kg,0.3564793284254205,Success
+"Diesel, consumption mix, at refinery, from crude oil, 200 ppm sulphur",diesel,kg,0.40353501687523696,Success
+"Drinking water, production mix, at plant, water purification treatment, from groundwater",drinking water,kg,0.000578955680386531,Success
+"Drinking water, production mix, at plant, water purification treatment, from surface water",drinking water,kg,0.0006284528895253521,Success
+Dummy_Aluminum oxide (alumina),Aluminum oxide (alumina),kg,,No alternative result methods
+Dummy_Aluminum scrap,Aluminum scrap,kg,,No alternative result methods
+Dummy_BF Gas Sludge,BF Gas Sludge,kg,,No alternative result methods
+Dummy_BF Shop Dust,BF Shop Dust,kg,,No alternative result methods
+Dummy_BF Slag,BF Slag,kg,,No alternative result methods
+Dummy_BOF Gas Dust,BOF Gas Dust,kg,,No alternative result methods
+Dummy_BOF Slag,BOF Slag,kg,,No alternative result methods
+Dummy_BOF Slag,BOF Slag,kg,,No alternative result methods
+Dummy_Battery,Battery,kg,,No alternative result methods
+Dummy_CaF2 (low radioactice),CaF2 (low radioactice),kg,,No alternative result methods
+Dummy_Chemicals (unspecified),Chemicals (unspecified),kg,,No alternative result methods
+Dummy_Chromium Solution,Chromium Solution,kg,,No alternative result methods
+Dummy_Cold Rolling Sludge,Cold Rolling Sludge,kg,,No alternative result methods
+Dummy_Cold rolling emulsion treatment sludge,Cold rolling emulsion treatment sludge,kg,,No alternative result methods
+Dummy_Continuous Casting Sludge,Continuous Casting Sludge,kg,,No alternative result methods
+Dummy_Cooling water,Cooling water,kg,,No alternative result methods
+Dummy_Cryolite,Cryolite,kg,,No alternative result methods
+Dummy_EAF Dust,EAF Dust,kg,,No alternative result methods
+Dummy_Flue dust,Flue dust,kg,,No alternative result methods
+Dummy_Glass for recovery (shards),Glass for recovery (shards),kg,,No alternative result methods
+Dummy_Gypsum,Gypsum,kg,,No alternative result methods
+Dummy_Gypsum (FDI),Gypsum (FDI),kg,,No alternative result methods
+Dummy_Gypsum (contaminated),Gypsum (contaminated),kg,,No alternative result methods
+Dummy_Hazardous non organic waste for disposal (unspecific),Hazardous non organic waste for disposal (unspecific),kg,,No alternative result methods
+Dummy_Hazardous organic waste for disposal (unspecific),Hazardous organic waste for disposal (unspecific),kg,,No alternative result methods
+Dummy_Hazardous waste (underground deposit),Hazardous waste (underground deposit),kg,,No alternative result methods
+Dummy_Hazardous waste (unspec.),Hazardous waste (unspec.),kg,,No alternative result methods
+Dummy_Highly radioactive waste,Highly radioactive waste,kg,,No alternative result methods
+Dummy_Hot Rolling Sludge,Hot Rolling Sludge,kg,,No alternative result methods
+Dummy_Hydrogen,Hydrogen,kg,,No alternative result methods
+Dummy_Iron scrap,Iron scrap,kg,,No alternative result methods
+Dummy_LPG - liquefied petroleum gas,LPG - liquefied petroleum gas,MJ,,No alternative result methods
+Dummy_Lead scrap,Lead scrap,kg,,No alternative result methods
+Dummy_Limestone,Limestone,kg,,No alternative result methods
+Dummy_Low radioactive wastes,Low radioactive wastes,kg,,No alternative result methods
+Dummy_Medium and low radioactive liquid waste,Medium and low radioactive liquid waste,kg,,No alternative result methods
+Dummy_Medium and low radioactive wastes,Medium and low radioactive wastes,kg,,No alternative result methods
+Dummy_Mineral waste,Mineral waste,kg,,No alternative result methods
+Dummy_Neutralized residues,Neutralized residues,kg,,No alternative result methods
+Dummy_Non Hazardous non organic waste for disposal (unspecific sludges and dusts),Non Hazardous non organic waste for disposal (unspecific sludges and dusts),kg,,No alternative result methods
+Dummy_Overburden (deposited),Overburden (deposited),kg,,No alternative result methods
+Dummy_Pickled hot rolled coil sludge,Pickled hot rolled coil sludge,kg,,No alternative result methods
+Dummy_Plastic (unspecified),Plastic (unspecified),kg,,No alternative result methods
+Dummy_Plutonium as residual product,Plutonium as residual product,kg,,No alternative result methods
+Dummy_Production residues (unspecified),Production residues (unspecified),kg,,No alternative result methods
+Dummy_Radioactive tailings,Radioactive tailings,kg,,No alternative result methods
+Dummy_Recycling goods,Recycling goods,kg,,No alternative result methods
+Dummy_Refractory,Refractory,kg,,No alternative result methods
+Dummy_Refractory,Refractory,kg,,No alternative result methods
+Dummy_Rolling gravel,Rolling gravel,kg,,No alternative result methods
+Dummy_Rolling tinder,Rolling tinder,kg,,No alternative result methods
+Dummy_Scoria,Scoria,kg,,No alternative result methods
+Dummy_Secondary Steel Making Slag,Secondary Steel Making Slag,kg,,No alternative result methods
+Dummy_Secondary fuel,Secondary fuel,MJ,,No alternative result methods
+Dummy_Secondary fuel renewable,Secondary fuel renewable,MJ,,No alternative result methods
+Dummy_Sinter / Pellet Dust,Sinter / Pellet Dust,kg,,No alternative result methods
+Dummy_Slag,Slag,kg,,No alternative result methods
+Dummy_Slag,Slag,kg,,No alternative result methods
+Dummy_Slag (Iron plate production),Slag (Iron plate production),kg,,No alternative result methods
+"Dummy_Slag (Mn 6,5%)","Slag (Mn 6,5%)",kg,,No alternative result methods
+Dummy_Slag (Uranium conversion),Slag (Uranium conversion),kg,,No alternative result methods
+Dummy_Slag (containing Pb),Slag (containing Pb),kg,,No alternative result methods
+Dummy_Slag (containing V),Slag (containing V),kg,,No alternative result methods
+Dummy_Slag (containing precious metal),Slag (containing precious metal),kg,,No alternative result methods
+Dummy_Slag (unspecified),Slag (unspecified),kg,,No alternative result methods
+Dummy_Sludge,Sludge,kg,,No alternative result methods
+Dummy_Sludge (from processing),Sludge (from processing),kg,,No alternative result methods
+Dummy_Steel scrap,Steel scrap,kg,,No alternative result methods
+Dummy_Steel scrap (St),Steel scrap (St),kg,,No alternative result methods
+Dummy_Steel scrap (external supply),Steel scrap (external supply),kg,,No alternative result methods
+Dummy_Sulphuric acid,Sulphuric acid,kg,,No alternative result methods
+Dummy_Tailings,Tailings,kg,,No alternative result methods
+Dummy_Uranium depleted,Uranium depleted,kg,,No alternative result methods
+Dummy_Waste (solid),Waste (solid),kg,,No alternative result methods
+Dummy_Waste (unspecified),Waste (unspecified),kg,,No alternative result methods
+Dummy_Waste for recovery (unspecific),Waste for recovery (unspecific),kg,,No alternative result methods
+Dummy_Waste paper,Waste paper,kg,,No alternative result methods
+Dummy_Waste radioactive,Waste radioactive,kg,,No alternative result methods
+Dummy_Water (desalinated; deionized),Water (desalinated; deionized),kg,,No alternative result methods
+Dummy_Water for industrial use,Water for industrial use,kg,,No alternative result methods
+Dummy_Wood,Wood,kg,,No alternative result methods
+Dummy_Wooden pallet (EURO),Wooden pallet (EURO),kg,,No alternative result methods
+Dummy_Zinc dust,Zinc dust,kg,,No alternative result methods
+Dummy_carcass meal,carcass meal,kg,,No alternative result methods
+Dummy_cargo,cargo,kg,,No alternative result methods
+Dummy_cullet float glass,cullet float glass,kg,,No alternative result methods
+Dummy_electricity,electricity,MJ,,No alternative result methods
+Dummy_energy (recovered),energy (recovered),MJ,,No alternative result methods
+Dummy_excavated material,excavated material,kg,,No alternative result methods
+Dummy_gypsum suspension,gypsum suspension,kg,,No alternative result methods
+Dummy_hydrated lime dry slaked,hydrated lime dry slaked,kg,,No alternative result methods
+Dummy_iron chloride,iron chloride,kg,,No alternative result methods
+Dummy_municipal waste (unspecified),municipal waste (unspecified),kg,,No alternative result methods
+Dummy_phosphoric acid,phosphoric acid,kg,,No alternative result methods
+Dummy_polyethylene low density foil(PE-LD),polyethylene low density foil(PE-LD),kg,,No alternative result methods
+Dummy_printing ink,printing ink,kg,,No alternative result methods
+Dummy_secondary fuel,secondary fuel,MJ,,No alternative result methods
+Dummy_secondary fuel renewable,secondary fuel renewable,MJ,,No alternative result methods
+Dummy_spoil (unspecified),spoil (unspecified),kg,,No alternative result methods
+Dummy_unspecified radioactive waste,unspecified radioactive waste,kg,,No alternative result methods
+Dummy_waste paper (unspecified),waste paper (unspecified),kg,,No alternative result methods
+Dummy_zinc calcine,zinc calcine,kg,,No alternative result methods
+Dummy_zinc dross,zinc dross,kg,,No alternative result methods
+Dummy_zinc oxide,zinc oxide,kg,,No alternative result methods
+Dummy_zinc scrap,zinc scrap,kg,,No alternative result methods
+"Electricity Mix, consumption mix, at consumer, AC, 115-220V",electricity mix,MJ,0.17953969620560606,Success
+"Electricity Mix, consumption mix, at consumer, AC, 125-220V",electricity mix,MJ,0.1986754162809934,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV",electricity mix,MJ,0.007578697328835151,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 220V",electricity mix,MJ,0.04998343211707828,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230-240V",electricity mix,MJ,0.18482825002255757,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 230V",electricity mix,MJ,0.08717137738219853,Success
+"Electricity Mix, consumption mix, at consumer, AC, 240V",electricity mix,MJ,0.29903835682453755,Success
+"Electricity Mix, consumption mix, at consumer, AC, 240V",electricity mix,MJ,0.29903835682453755,Success
+"Electricity Mix, consumption mix, at consumer, AC, < 1kV",electricity mix,MJ,0.1635068289345739,Success
+"Electricity Mix, consumption mix, at consumer, AC, < 1kV",electricity mix,MJ,0.1635068289345739,Success
+"Electricity from hydro power, production mix, at power plant, AC, 230V",Electricity,MJ,0.0016743018673313253,Success
+"Electricity from hydroelectric power plants, production mix, at power plant, AC, < 1kV",electricity from hydroelectric power plant,MJ,0.006775500609215898,Success
+"Electricity from wind power, production mix, at power plant, AC, < 1kV",electricity from wind power,MJ,0.0018458985974516727,Success
+"Electricity from wind power, production mix, at power plant, AC, <1kV",Electricity,MJ,0.0030766585743663183,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV",Electricity,MJ,0.1204353504110576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 220V",Electricity,MJ,0.004946007880157629,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, 230V",Electricity,MJ,0.1363664331067576,Success
+"Electricity grid mix, consumption mix, at consumer, AC, < 1kV",Electricity,MJ,0.136904451555328,Success
+"Ethene (Ethylene), production mix, at plant, from steam cracking, gaseous",ethene (ethylene),kg,1.3841776721173105,Success
+"Excavator, technology mix, 100 kW, Construction",excavated material,kg,0.0,Success
+"Excavator, technology mix, 500 kW, Mining",excavated material,kg,0.0,Success
+"GCC dry, Production at plant, Ground Calcium Carbonate (GCC) - dry, uncoated, with a CaCO3 content of 98% or more, a median particle size ranging typically from 2.5 to 5 µm, ready to be shipped in bulk. Production at plant., None",GCC dry,kg,0.0623923239465931,Success
+"GCC slurry, Production at plant, Ground Calcium Carbonate (GCC) - slurry, unbleached and uncoated, with a solid content of 75% in the slurry, a CaCO3 content of 98% or more, a median particle size ranging typically from 1 to 3 µm, ready to be shipped ...",GCC slurry - dry matter,kg,0.11644542170862678,Success
+"Gasoline (regular), consumption mix, at refinery, from crude oil, 100 ppm sulphur",gasoline (regular),kg,0.7039047566080577,Success
+"Gasoline mix (regular) at refinery, production mix, at refinery, from crude oil and bio components, fuel supply, 10 ppm sulphur, 5.75 wt.% bio components",Gasoline (regular),kg,0.6961031387283356,Success
+"Glass wool, production mix, at plant, fleece, density between 10 to 100 kg/m3",glass wool,kg,2.676522475024526,Success
+"Graphic Paper,  production mix, at plant,  technology mix,  79% primary fibre, 21% recycled fibre",Graphic paper (typical European),kg,-0.1192011619947544,Success
+"Gravel 2/32, production mix, at plant, wet and dry quarry, undried",gravel 2/32,kg,0.0033733736798040957,Success
+"Gypsum plaster (CaSO4 alpha hemihydrates), production mix, at plant, via calcination of calcium sulphate dihydrate, grinded and purified product",gypsum plaster (CaSO4 alpha hemihydrates),kg,0.24542752625671901,Success
+"Gypsum plaster (CaSO4 beta hemihydrates), production mix, at plant, technology mix of natural gypsum (45%) and gypsum from flue gas desulphurisation (55%), grinded and purified product",gypsum plaster (CaSO4 beta hemihydrates),kg,0.10863563871423641,Success
+"Gypsum plasterboard, production mix at factory, technology mix of plasterboard production, 12.5 mm thick, 10kg/m2",Gypsum plasterboard,m2,1.9950399281851985,Success
+"Gypsum stone (CaSO4-dihydrate), production mix, at plant, underground and open pit mining, grinded and purified product",gypsum stone (CaSO4-dihydrate),kg,0.0026581573717718633,Success
+"Hard Coal, consumption mix, at power plant, from underground and open pit mining",hard coal,kg,0.3433742036504114,Success
+"Hard coal mix, consumption mix, at consumer, technology mix","Hard coal, at consumer EU-27",kg,0.3317727492963855,Success
+"Heat, consumption mix, at consumer, residential heating systems from light fuel oil (low sulphur), condensing boiler, max. heat output 14,9   kW, at a temperature level of 55°C",heat,MJ,0.09505184449868073,Success
+"Heat, consumption mix, at consumer, residential heating systems from natural gas, condensing boiler, max. heat output 14,9 kW, at a temperature level of 55°C",heat,MJ,0.06919895788861698,Success
+"Heat, consumption mix, at consumer, residential heating systems from wood pellets, boiler, max. heat output 14,9 kW, at a temperature level of 70°C",heat,MJ,0.010826210112074297,Success
+"Heavy fuel oil at refinery (1.0wt.% S), production mix, at refinery, from crude oil, fuel supply, 1 wt.% sulphur",Heavy fuel oil (1.0 wt.% S),kg,0.4319719255721653,Success
+"Heavy fuel oil, consumption mix, at refinery, from crude oil",heavy fuel oil,kg,0.35841239525521407,Success
+"High impact polystyrene granulate (HIPS), production mix, at plant",high impact polystyrene granulate (HIPS),kg,3.5944117831485585,Success
+"Hydrogen chloride gas (HCl), production mix for PVC production, at plant",hydrogen chloride gas,kg,1.5212585258658082,Success
+"Kaolin coarse filler , at plant, Production",Kaolin coarse filler,kg,0.0944860340905942,Success
+"Kerosene / Jet A1 at refinery, production mix, at refinery, from crude oil, fuel supply, 480 ppm sulphur",Kerosene,kg,0.39790217533656785,Success
+"Kerosene, consumption mix, at refinery, from crude oil, 700 ppm sulphur",kerosene,kg,0.3589733144421613,Success
+"Landfill of biodegradable waste, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment",landfill of biodegradable waste,kg,-0.5673420115436225,Success
+"Landfill of ferro metals, at landfill site, landfill including leachate treatment and without collection, transport and pre-treatment",landfill of ferro metals,kg,-0.015011121011521923,Success
+"Landfill of glass/inert waste, at landfill site, landfill including leachate treatment and without collection, transport and pre-treatment",landfill of glas/inert waste,kg,-0.011789587819358445,Success
+"Landfill of municipal solid waste, AT, DE, IT, LU, NL, SE, CH technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment",municipal solid waste deposition,kg,-0.7933602254572489,Success
+"Landfill of municipal solid waste, BE, DK technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment",municipal solid waste deposition,kg,-0.8067237295657123,Success
+"Landfill of municipal solid waste, ES, GR, PT technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment",municipal solid waste deposition,kg,-1.0440266849022373,Success
+"Landfill of municipal solid waste, FR, GB, IE, FI, NO technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment",municipal solid waste deposition,kg,-0.7842227269246529,Success
+"Landfill of paper waste, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment",landfill of paper waste,kg,-0.9737490963764042,Success
+"Landfill of plastic waste, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment",landfill of plastic waste,kg,-0.07035570306060146,Success
+"Landfill of textiles, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment",landfill of textiles,kg,-1.0050919060249734,Success
+"Landfill of untreated wood, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment",landfill of untreated wood,kg,-1.5974540116718146,Success
+"Landfill of wood products (OSB, particle board), at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment","landfill of wood products (OSB, particle board)",kg,-1.6333866331344402,Success
+"Lead primary and secondary mix , production mix, at producer, technology mix, primary 46% /  secondary 54%",Lead (99.995%),kg,1.3834830786188768,Success
+"Lead sheet mix, production mix, at producer, technology mix, secondary",Lead sheet,kg,0.9935305637774229,Success
+"Lead, consumption mix, at plant, primary",lead,kg,1.7814686589461965,Success
+"Light fuel oil at refinery, production mix, at refinery, from crude oil, fuel supply, 0.1 wt.% sulphur",Light fuel oil,kg,0.4470858233124244,Success
+"Light fuel oil, consumption mix, at refinery, from crude oil, 2000 ppm sulphur",light fuel oil,kg,0.4025818306086322,Success
+"Lightweight concrete block, production mix, at plant, expanded clay as base material",lightweight concrete block,kg,0.24107219053039042,Success
+"Lignite mix, consumption mix, at consumer, technology mix",Lignite EU-27,kg,0.03801448255128019,Success
+"Lignite, consumption mix, at power plant, from open pit mining",lignite,kg,0.03988488209692115,Success
+"Liquid Packaging Board (LPB) production, production mix, at plant, production, mineral coated LPB (n=4), basis weight: 266 g/m2",liquid packaging board (LPB),kg,-5.384929984614,Success
+"Lorry transport, Euro 0, 1, 2, 3, 4 mix, 22 t total weight, 17,3 t max payload",cargo,kg,0.0,Success
+"Lorry transport, Euro 0, 1, 2, 3, 4 mix, 22 t total weight, 17,3t max payload",transport in t*km,t*km,0.06601265095049214,Success
+"Mining Truck, technology mix, 220 t payload, 1.700 kW",excavated material,kg,0.0,Success
+"Mining Truck, technology mix, 220 t payload, 1.700 kW",excavated material,kg,0.0,Success
+"Naphtha, consumption mix, at refinery, from crude oil",naphtha,kg,0.44001298293462815,Success
+"Natural Gas Mix, consumption mix, at consumer, technology mix, onshore and offshore production incl. pipeline and LNG transprt","Natural gas, at consumer EU-27",kg,0.5375141031915424,Success
+"Natural Gas, consumption mix, at consumer, from onshore and offshore production incl. pipeline and LNG transport, desulphurised",natural gas,kg,0.49305048070788576,Success
+"Nitrogen, production mix, at plant, via cryogenic air separation, gaseous",nitrogen,kg,0.08745422739460383,Success
+"Nylon 6 glass filled (PA 6 GF), production mix, at plant",nylon 6 glas filled (PA 6 GF),kg,7.3547462744226415,Success
+"Nylon 6 granulate (PA 6), production mix, at plant",nylon 6 granulate (PA 6),kg,9.207776333659695,Success
+"Nylon 66 GF 30 compound (PA 66 GF 30), production mix, at plant",nylon 66 GF 30 compound (PA 66 GF 30),kg,7.13848791107478,Success
+"Nylon 66 granulate (PA 66), production mix, at plant",nylon 66 granulate (PA 66),kg,8.210666728678223,Success
+"Oriented Strand Board, production mix, at plant, OSB III, 4,8% water content",oriented strand board,kg,-1.3785481070590908,Success
+"Oxygen, production mix, at plant, via cryogenic air separation, gaseous",oxygen,kg,0.14575704565767333,Success
+"PCC dry, Production at plant, Precipitated Calcium Carbonate (PCC) - dry, uncoated, with a CaCO3 content of 98% or more, a median particle size ranging typically from 1 to 3 µm, ready to be shipped either in bulk or bags. Production at plant., None",PCC dry,kg,0.7225518881819515,Success
+"PCC slurry, Production at plant, Precipitated Calcium Carbonate (PCC) - slurry, uncoated, with a solid content ranging from 15% to 40% in the slurry, a CaCO3 content of 98% or more, a median particle size ranging typically from 0.3 to 3 µm, ready to b...",PCC slurry - dry matter,kg,0.3572617001681105,Success
+"Particle board, production mix, at plant, P2 (Standard FPY), 7,8% water content",particle board,kg,-1.316909009239064,Success
+"Particle board, production mix, at plant, P5 (V100), 7,8% water content",particle board,kg,-1.2893428927018893,Success
+"Pine log with bark, production mix entry to saw mill, at plant, refostered managed forest, 44% water content",pine log with bark,kg,-1.0273536697839403,Success
+"Pine wood, production mix, at saw mill, timber, 40% water content",pine wood,kg,-1.0966490798322763,Success
+"Plane, technology mix, cargo, 68 t payload",transport in t*km,t*km,2.093607738519333,Success
+"Plane, technology mix, cargo, 68 t payload",transport in t*km,t*km,2.093607738519333,Success
+"Polyacrylonitrile fibres (PAN), production mix, at plant, from acrylonitrile and methacrylate, PAN without additives",polyacrylonitrile fibres (PAN),kg,5.7262955199689465,Success
+"Polyamide 6.6 fibres (PA 6.6), production mix, at plant, from adipic acid and hexamethylene diamine (HMDA), PA 6.6 granulate without additives",polyamide 6.6 fibres (PA 6.6),kg,11.107700530421177,Success
+"Polybutadiene granulate (PB), production mix, at plant",polybutadiene granulate (PB),kg,3.9635320687850077,Success
+"Polycarbonate granulate (PC), production mix, at plant",polycarbonate granulate (PC),kg,8.06046158432167,Success
+"Polyethylene high density granulate (PE-HD), production mix, at plant",polyethylene high density granulate (PE-HD),kg,1.98993886405001,Success
+"Polyethylene low density granulate (PE-LD), production mix, at plant",polyethylene low density granulate (PE-LD),kg,2.1734146208594236,Success
+"Polyethylene low linear density granulate (PE-LLD), production mix, at plant",polyethylene low linear density granulate (PE-LLD),kg,1.906413368516136,Success
+"Polyethylene terephthalate (PET) granulate, production mix, at plant, amorphous",polyethylene terephthalate (PET) granulate,kg,3.3586480939376644,Success
+"Polyethylene terephthalate (PET) granulate, production mix, at plant, bottle grade",polyethylene terephthalate (PET) granulate,kg,3.486511867044699,Success
+"Polyethylene terephthalate fibres (PET), production mix, at plant, via dimethyl terephthalate (DMT), PET granulate without additives",polyethylene terephthalate fibres (PET),kg,4.480407357257521,Success
+"Polymethyl methacrylate (PMMA) beads, production mix, at plant",polymethyl methacrylate (PMMA) beads,kg,7.277544583560667,Success
+"Polypropylene fibres (PP), production mix, at plant, crude oil based, PP granulate without additives",polypropylene fibres (PP),kg,2.3630156735963546,Success
+"Polypropylene granulate (PP), production mix, at plant",polypropylene granulate (PP),kg,2.0226149491604795,Success
+"Polystyrene (general purpose) granulate (GPPS), production mix, at plant, crystal form is pure polystyrene with few additives, used when clarity is required even though it is very   brittle",polystyrene (general purpose) granulate (GPPS),kg,3.618845621415589,Success
+"Polystyrene expandable granulate (EPS), production mix, at plant",polystyrene expandable granulate (EPS),kg,3.53375281628471,Success
+"Polyvinylchloride resin (B-PVC), production mix, at plant, bulk polymerisation",polyvinylchloride resin (B-PVC),kg,1.6502187406886188,Success
+"Polyvinylchloride resin (E-PVC), production mix, at plant, emulsion polymerisation",polyvinylchloride resin (E-PVC),kg,3.356640482969744,Success
+"Polyvinylchloride resin (S-PVC), production mix, at plant, suspension polymerisation",polyvinylchloride resin (S-PVC),kg,2.820225546489227,Success
+"Porocalce plaster production, Production mix at plant - Southern Italy, Porocalce plaster - Milling and mixing of sand, perlite, expanded glass, calcium hydroxide, 1 kg, Plaster",Porocalce,kg,0.5937290354541603,Success
+"Portland cement (CEM I), CEMBUREAU production mix, at plant, CEMBUREAU technology mix, EN 197-1",portland cement (CEM I),kg,0.9019096380228112,Success
+"Pre-cast concrete, production mix, at plant, minimum reinforcement, concrete type C20/25, without consideration of casings",pre-cast concrete,kg,0.12098681486079665,Success
+"Process Steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09608167466943571,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10472292956109239,Success
+"Process steam from Heavy fuel oil 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10339867856589247,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10224831741865524,Success
+"Process steam from Light fuel oil 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.10311854378862904,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ",process steam from heavy fuel oil,MJ,0.10103333846552284,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ",process steam from light fuel oil,MJ,0.0934340334986995,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.08186235451966105,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency",process steam,MJ,0.09017861796777155,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process steam from natural gas, consumption mix, at plant, heat plant, MJ",process steam from natural gas,MJ,0.07331912383252506,Success
+"Process water, production mix, at plant, ion exchange, from groundwater",process water,kg,0.006531512383768443,Success
+"Process water, production mix, at plant, ion exchange, from surface water",process water,kg,0.006531512383768443,Success
+"Propene (Propylene), production mix, at plant, from steam cracking, gaseous",propene (propylene),kg,1.3436954586844052,Success
+"Rail transport, technology mix, diesel driven, cargo",transport in t*km,t*km,0.02729313543028471,Success
+"Rail transport, technology mix, diesel driven, cargo",transport in t*km,t*km,0.02729313543028471,Success
+"Rail transport, technology mix, electricity driven, cargo",transport in t*km,t*km,0.026059743933070586,Success
+"Rail transport, technology mix, electricity driven, cargo",transport in t*km,t*km,0.026059743933070586,Success
+"Rock wool, production mix, at plant, fleece, density between 30 to 180 kg/m3",rock wool,kg,1.1025281173977748,Success
+"Sand 0/2, production mix, at plant, wet and dry quarry, undried",sand 0/2,kg,0.002436420397301952,Success
+"Small lorry transport, Euro 0, 1, 2, 3, 4 mix, 7,5 t total weight, 3,3 t max payload",transport in t*km,t*km,0.13687457518201745,Success
+"Small lorry transport, Euro 0, 1, 2, 3, 4 mix, 7,5 t total weight, 3,3 t max payload",transport in t*km,t*km,0.13687457518201745,Success
+"Sodium chloride (NaCl, dissolved), production mix for PVC production, at plant",sodium chloride,kg,0.16923806854184822,Success
+"Sodium hydroxide, production mix for PVC production, at plant, 100% NaOH",sodium hydroxide,kg,1.4704434039462595,Success
+"Special high grade zinc, production mix, at plant, primary production",special high grade zinc,kg,3.13596572127408,Success
+"Spruce log with bark, production mix entry to saw mill, at plant, refostered managed forest, 44% water content",spruce log with bark,kg,-1.0270142302197982,Success
+"Spruce wood, production mix, at saw mill, timber, 40% water content",spruce wood,kg,-1.0949317790950563,Success
+"Steel hot dip galvanized (ILCD), production mix, at plant, blast furnace route, 1kg, typical thickness between 0.3 - 3 mm. typical width between 600 - 2100 mm.",Steel hot-dip galvanised coil,kg,2.5022128969319994,Success
+"Steel hot dip galvanized, including recycling, production mix, at plant, blast furnace route, 1kg, typical thickness between 0.3 - 3 mm. typical width between 600 - 2100 mm.",Steel hot-dip galvanised coil,kg,1.3569390915952504,Success
+"Steel hot rolled coil (ILCD), production mix, at plant, blast furnace route, 1kg, typical thickness between 2 - 7 mm. typical width between 600 - 2100 mm",Steel hot rolled coil,kg,2.034542183322521,Success
+"Steel hot rolled coil, including recycling, production mix, at plant, blast furnace route, 1kg, typical thickness between 2 - 7 mm. typical width between 600 - 2100 mm",Steel hot rolled coil,kg,0.9179519612748428,Success
+"Steel hot rolled coil, production mix, at plant, blast furnace route, thickness 2 to 7 mm, width 600 to 2100 mm",steel hot rolled coil,kg,0.9315799844,Success
+"Steel hot rolled section, production mix, at plant, blast furnace and electric arc furnace route,",steel hot rolled section,kg,1.1342616118,Success
+"Steel rebar, production mix, at plant, blast furnace and electric arc furnace route,",steel rebar,kg,1.0302377533,Success
+"Steel sections (ILCD), production mix, at plant, blast furnace route / electric arc furnace route, 1 kg",Steel sections,kg,1.5806158782324151,Success
+"Steel sections, including recycling, production mix, at plant, blast furnace route / electric arc furnace route, 1kg",Steel sections,kg,1.2099759001566044,Success
+"Steel tinplate without EoL recycling  (collection year 2012/2013), European, production mix, at plant, blast furnace route, 1kg, typical thickness between 0.13 - 0.49 mm. typical width between 600 - 1100 mm.",Tin plate,kg,2.295254139958623,Success
+"Sulphur, consumption mix, at refinery, from crude oil, elemental sulphur",sulphur,kg,0.5596469027273306,Success
+"Titanium Dioxide, production mix, at plant, Chloride and sulphate processes, > 80% TiO2","Titanium dioxide, chloride and sulphate processes, >80% TiO2, production mix, at plant",kg,5.745192284653454,Success
+"Very fine milled silica sand d50 = 20 micrometer, at plant, Production, median diameter of silica sand grains is 20 micrometers",Very fine milled silica sand d50 = 20 micrometer,kg,0.12574909561492478,Success
+"Vinyl chloride monomer (VCM), production mix for PVC production , at plant",vinyl chloride monomer (VCM),kg,2.166989120275093,Success
+"Waste incineration of biodegradable waste fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of biodegradable waste fraction in municipal solid waste (MSW),kg,-0.5030246590810786,Success
+"Waste incineration of biodegradable waste fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of biodegradable waste fraction in municipal solid waste (MSW),kg,-0.5030246590810786,Success
+"Waste incineration of ferro metals, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of ferro metals,kg,0.6385014688402917,Success
+"Waste incineration of ferro metals, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of ferro metals,kg,0.6385014688402917,Success
+"Waste incineration of glass/inert material, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of glass/inert material,kg,-0.12947630402306304,Success
+"Waste incineration of glass/inert material, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of glass/inert material,kg,-0.12947630402306304,Success
+"Waste incineration of municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of municipal solid waste (MSW),kg,-0.5002440873514564,Success
+"Waste incineration of municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of municipal solid waste (MSW),kg,-0.5002440873514564,Success
+"Waste incineration of paper fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of paper fraction in municipal solid waste (MSW),kg,-0.6412168203731576,Success
+"Waste incineration of paper fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of paper fraction in municipal solid waste (MSW),kg,-0.6412168203731576,Success
+"Waste incineration of plastics (Nylon 6 GF 30, Nylon 66 GF 30), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (Nylon 6 GF 30, Nylon 66 GF 30)",kg,-0.7264146909350991,Success
+"Waste incineration of plastics (Nylon 6 GF 30, Nylon 66 GF 30), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (Nylon 6 GF 30, Nylon 66 GF 30)",kg,-0.7264146909350991,Success
+"Waste incineration of plastics (Nylon 6, Nylon 66, PAN), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (Nylon 6, Nylon 66, PAN)",kg,-1.1073867402106703,Success
+"Waste incineration of plastics (Nylon 6, Nylon 66, PAN), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (Nylon 6, Nylon 66, PAN)",kg,-1.1073867402106703,Success
+"Waste incineration of plastics (PE, PP, PS, PB), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (PE, PP, PS, PB)",kg,-3.2252857731714704,Success
+"Waste incineration of plastics (PE, PP, PS, PB), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (PE, PP, PS, PB)",kg,-3.2252857731714704,Success
+"Waste incineration of plastics (PET, PMMA, PC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (PET, PMMA, PC)",kg,-2.4240870239469747,Success
+"Waste incineration of plastics (PET, PMMA, PC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of plastics (PET, PMMA, PC)",kg,-2.4240870239469747,Success
+"Waste incineration of plastics (rigid PVC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of plastics (rigid PVC),kg,-2.4882284775749817,Success
+"Waste incineration of plastics (rigid PVC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of plastics (rigid PVC),kg,-2.4882284775749817,Success
+"Waste incineration of plastics (unspecified) fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of plastics (unspecified) fraction in municipal solid waste (MSW),kg,-0.8143495454826508,Success
+"Waste incineration of plastics (unspecified) fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of plastics (unspecified) fraction in municipal solid waste (MSW),kg,-0.8143495454826508,Success
+"Waste incineration of textile fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of textile fraction in municipal solid waste (MSW),kg,-0.806372472480079,Success
+"Waste incineration of textile fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of textile fraction in municipal solid waste (MSW),kg,-0.806372472480079,Success
+"Waste incineration of untreated wood (10,7% water content), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of untreated wood (10.7% water content),kg,-1.635158023689745,Success
+"Waste incineration of untreated wood (10,7% water content), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment",waste incineration of untreated wood (10.7% water content),kg,-1.635158023689745,Success
+"Waste incineration of wood products (OSB, particle board), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of wood products (OSB, particle board)",kg,-0.9124673897314107,Success
+"Waste incineration of wood products (OSB, particle board), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment","waste incineration of wood products (OSB, particle board)",kg,-0.9124673897314107,Success
+"Waste water treatment, at waste water treatment plant, chemical reduction/oxidation process, municipal waste water",waste water - untreated,kg,0.0,Success
+"Waste water treatment, at waste water treatment plant, domestic waste water according to the Directive 91/271/EEC concerning urban waste water treatment",waste water - untreated,kg,-0.028584226621633763,Success
+"Waste water treatment, at waste water treatment plant, industrial waste water according to the Directive 91/271/EEC concerning urban waste water treatment, organic contaminated",waste water - untreated,kg,-0.08356181912984488,Success
+"Waste water treatment, at waste water treatment plant, industrial waste water according to the Directive 91/271/EEC concerning urban waste water treatment, slightly organic and anorganic contaminated",waste water - untreated,kg,-0.036586348279287244,Success
+"Waste water treatment, at waste water treatment plant, industrial waste water according to the Directive 91/271/EEC concerning urban waste water treatment, slightly organic contaminated",waste water - untreated,kg,-0.03658636038489901,Success
+"cartonboard sheets; mixed technology; production mix, at plant; 46% primary fibre, 54% recovered fibre (en)","cartonboard boxes; mixed technology; production mix, a plant, 46% primary fibre, 54% recovered fibre",kg,0.16445368220041023,Success
+"corrugated board sheets, production mix, at plant, technology mix, 18% primary fibre, 82 % recycled fibre","corrugated board sheets; production mix, at plant; 18% primary fibre, 82% recycled fibre",kg,0.21759482666015428,Success

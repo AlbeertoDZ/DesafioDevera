@@ -1,0 +1,957 @@
+ Add 551g Twido Programmable Controller
+ Add Ethylene Vinyl Acetate (EVA) Resin
+ Mine & Air-Dry Gypsum in South Asutralia and Rail 425km
+6000-Q GasCogenerate Power Used in Place/MJ S
+6092-Q Solar Power Used in Place/MJ S
+6142-Q BioFuel Power Used in Place/MJ S
+6143-Q Renewable Power Used in Place/MJ S
+6179-Q Cogen NatGas Power Used in Place/MJ S
+6180-Q Hydro Power Used in Place/MJ S
+6266-Q Wind Power Used  in Place*MJ S
+6331-AU Generate Steam on Site/MJ S
+7487-AU Ceiling Rod Galvanised Steel/kg96%R S
+7498-AU Ceiling Rod Galvanised Steel*96%R S
+8289-AU GridSaw FSC bio KDT Oregon Lumber*kg S
+8350-Q Channel Beam ColumnRSJ Z350*kg96%R S
+8351-Q HR Channel Beam Column RSJ Z350*kg R51% S
+8504-AU Add 20mm Lime Gypsum Hardwall*kg S
+8520-AU Add 13mm StuccoboardLite*kg1%R S
+8703-AU Add F7 KDT Structural Oregon Lumber*kg S
+8705-AU DAR F7KDT Structural Oregon Lumber*kg S
+9043-AU Use 60yr Cedar Window Frame*kg S
+9066-AU Al Frame 6mm Glass Window 20kg/m2 S
+Add  Imported German Glazed White Porcelain Sink or Basin
+Add  Seamless Polyurethane Floor Coating
+Add  StyreneButadiene SBR 22%Ethylene PropyleneDiene EPDM 14%Polyurethane Track
+Add  White Silicone Modified Polyester (SMP) Exterior Coating
+Add 0.45m dia K12 Flanged Iron Pipe 172kg/m Length Mortar & Gasket Incl 77%PCR 
+Add 0.45mm Bitumen Aluminium Flashing Damp Proof Membrane
+Add 0.5m dia K12 Flanged Iron Pipe 200kg/m Length Mortar & Gasket Incl 78%PCR
+Add 0.5mm High Density Polyethylene HDPE Damp Proof Membrane
+Add 0.6m dia K12 Flanged Iron Pipe 264kg/m Length Mortar & Gasket Incl 76%PCR
+Add 0.6mm Brush Box Veneer FSC Moisture Resistant E1 Particleboard
+Add 0.6mm Fir Veneer FSC Moisture Resistant E1 Particleboard
+Add 0.6mm Lauan Veneer FSC Moisture Resistant E1 Particleboard
+Add 0.6mm Maple Veneer FSC Moisture Resistant E1 Particleboard
+Add 0.6mm Oak Veneer FSC Moisture Resistant E1 Particleboard
+Add 0.6mm Pine Veneer FSC Moisture Resistant E1 Particleboard
+Add 0.75m dia K12 Flanged Iron Pipe 361kg/m Length Mortar & Gasket Incl 78%PCR
+Add 10% Chlorinated Phenolic Napthalene Distillates Pesticide
+Add 10.4mm Laminated Flat Glass
+Add 10000gsm Shade Cloth Polyester 10%Polypropylene
+Add 100mm 7.6kg/m2 Aluminium XPS R5 Structural Insulated Panel (SIP)
+Add 100mm Corase Ground Crushed 117kg/m2 Granite
+Add 100mm K9 Ductile Iron Pipe Cement Lined SBR Gasket, Mortar Rubber Ring Joint (RRJ) 77%PCR
+Add 100mm RRJ Cast Iron Pipe Rubber Ring Joint (RRJ) no gasket 98%PCR
+Add 100mm uPVC 1.67kg/m Length Conduit Pipe
+Add 10gsm Protective High Density Polyethylene HDPE Stretch Wrapping
+Add 12 Compact Fluorescent Lamps 13%PCR
+Add 1200gsm SBR 22% EPDM 14%Polyurethane Track
+Add 122g Emergency Stop Button
+Add 13mm Aluminium Foil Faced Fire Resistant Plasterboard 1%PCR
+Add 13mm Moisture resistant Reinforced 9kg/m2 StuccoBoard 9kg 1%PCR
+Add 150mm K9 Ductile Iron Pipe Cement Lined SBR Gasket Rubber Ring Joint (RRJ) 77%PCR 
+Add 15200gsm Pilkington 6mm Float Glass
+Add 165 to 200g Electric Motor
+Add 16V PowerCable Cu Vinyl 0.9kg per m 50%PCR
+Add 16V Powercable Cu Vinyl 0.75kg per m 27%PCR
+Add 16mm uPVC 0.14kg/m Length Conduit Pipe 
+Add 17% Limestone Filled Grey DINP Plasticised Flexible Vinyl Extrusion
+Add 19% Limestone Filled Grey DINP Plasticised Flexible Vinyl Extrusion
+Add 190kg Pair SS304 Steel doorframe Double Glazed Color Aluminium Framed Entry Doors
+Add 190kg Pair SS304 Steel doorframe Double Glazed Color Aluminium Framed Inner Doors
+Add 1mm Polyester Polyvinylidene  Membrane
+Add 20% Limestone Filled White Polypropylene Extrusion
+Add 20kg Door Fielded Raw Gas Kiln Dried Wood
+Add 21kg Door Maple Frame  &  Veneer Ply Face
+Add 21kg Epoxy Coated Steel Doorframe Vermiculite Fil for 36dB Acoustic 7%PCR 
+Add 21kg door Oak Veneer & Ply Faced Pine Framed
+Add 225mm K9 Ductile Iron Pipe Cement Lined SBR Gasket Rubber Ring Joint (RRJ) 77%PCR 
+Add 225mm uPVC  2.5kg/m Length Conduit Pipe
+Add 22g/MJ Grease Lubrication
+Add 22kg Cedar Door Hung in Painted Oregon Doorframe
+Add 233gsm Hessian Protective Fabric 
+Add 23g LED Control Button
+Add 240V Powercable Al Vinyl 3.46kg per m 8%PCR
+Add 240V Powercable Cu Vinyl 1.3m per kg 27%PCR
+Add 240V Powercable Cu Vinyl EPDM 3%PCR
+Add 24kg Door Solid Maple Frame and Panels
+Add 25kg 1 hour Fire Door Maple Veneer Vermiculite fill Maple Stile & Rails
+Add 27kg Hardwood Door Hung in Painted Oregon Doorframe
+Add 30% Crystal Flux and 70% Tin:SIlver:Copper Solder 96:4:0.6  4%PCR - AU
+Add 30% Limestone Filled White High Density Polyethylene Extrusion
+Add 300mm K9 Ductile Iron Pipe Cement Lined SBR Gasket Rubber Ring Joint (RRJ) 77%PCR 
+Add 30kg Door Hardwood Frame Teak & Luan Veneer 15%w/w Single Light
+Add 30kg Plywood Hollow Core Door Hung in Aluminium  Doorframe
+Add 30kg Plywood Hollow Core Door Hung in Galvanised Steel Doorframe 10%PCR
+Add 3200gsm Tempered Masonite Hardboard Sheet
+Add 32kg Door Hardwood Frame Teak or Luan Veneer
+Add 33% Polyurethane Foam Bitumen Damp Proof Membrane DPM
+Add 34kg Pacific Maple Door Hung in Painted Oregon Doorframe
+Add 350g Electromagnetic Sensor 85%PCR
+Add 35kg 2 hour Fire Door Maple Veneer Vermiculite fill Maple Stile & Rails
+Add 36g Solenoid Actuator 85%PCR
+Add 3kg Common Face Brick
+Add 3kg Common Red Brick
+Add 3m Sheet High UV Tinted Polycarbonate
+Add 3mm MasoniteHardboard Sheet 20%PCR
+Add 3mm thick Sheet of Clear Acrylic Plexiglass
+Add 3x100mm Float Glass Louvres
+Add 400gsm Insulation Reflective Aluminium 400gsm Glasswool Batt 15%PCR
+Add 45kg 3 hour Fire Door Painted PinePly Faced Vermiculite fill Hardwood Stile & Rails
+Add 45kg 3 hour Fire DoorPinePly Faced Vermiculite fill Hardwood Stile & Rails
+Add 45kg Solid Maple Door Hung in Stainless Steel Doorframe
+Add 4mm Maple Veneered Ply Imported FSC Biomass Fuel Kiln Dried Timber Softwood - AU
+Add 4mm Teak or Lauan Veneered Structural Ply Imported Softwood FSC Wood-Fire Kiln Dried
+Add 4mm Toughened Flat Glass
+Add 50% Imported Cold Rolled Annealed Galvanised Flat, Angle or Bar 51%PCR 
+Add 50% Imported Cold Rolled Annealed Galvanised Lintel, Rib or Tbar 51%PCR
+Add 50% Imported Cold rolled Annealed Galvanised Steel Connectors 51%PCR
+Add 50% Imported Galvanised Cold Roll Annealed 0.48BMT Steel 51%PCR
+Add 50% Imported Hot rolled Steel Flats & Reinforcing Bars 51%PCR
+Add 50V Powercable Cu Vinyl PE 2kg per m 50%PCR
+Add 50mm uPVC 1kg/m Length Conduit Pipe 
+Add 570g Brass Fire Sprinkler
+Add 6.4mm Laminated Flat Glass
+Add 6.4mm Laminated Tint Flat Glass 
+Add 67kg 2 hour Fire Door Oregon Doorframe Painted Ply Faced Vermiculite fill Hardwood Stile & Rails
+Add 6mm Clear Flat Glass
+Add 6mm Mirror Float Glass
+Add 6mm Wired  Etched Flat Glass
+Add 6mm Wired Coloured Flat Glass
+Add 6mm Wired Georgian Polished Flat Glass 
+Add 6mm Wired Toughened Colour Flat Glass
+Add 6mm Wired Toughened Etched Flat Glass
+Add 6mm Wired Toughened Georgian Flat Glass
+Add 8% Copper Chrome Arsenic Preservative Treated Raw Pine Lumber
+Add 8.4mm Laminated Flat Glass - AU
+Add 8.4mm Laminated Tint Flat Glass
+Add 80g Gas Spring Stainless Steel Strut 85%PCR
+Add 9% Whiting Fillled DINP Plasticised  Flexible PolyvinylChloride Extrusion
+Add A, B, C, D HD High Grade Copper Tube 50%PCR
+Add ALAA1200 Aluminium Nut & Bolt 10%PCR - GLO
+Add AU White Glazed Porcelain Bathroom Suite
+Add Acetaldehyde
+Add Acetamide
+Add Acetic Anhydride @C Methylacetate
+Add Acrylonitrile Butadiene Styrene (ABS) 
+Add Al AA1200 Cold Rolled Annealed Aluminium Profile 
+Add Al3004 Aluminium Extrusion 33%PCR
+Add Al3004 Aluminium Extrusion Packaged 10%PCR
+Add Al3004 Aluminium Extrusion Packaged 33%PCR
+Add Al3004 Aluminium Wire 10%PCR
+Add Al3004 Cold Rolled Annealed Whte Polyester Coat Aluminium Sheet 33%PCR 
+Add Al3004 Whte Polyurethane Powdercoat Aluminium Extrusion 33%PCR
+Add Aluminium lined & clad Polystyrene (XPS) R5 Insulated SIP 8kg/m2 100mm Exterior Wall 
+Add Ammonium Chloride
+Add Ammonium Hydroxide
+Add Ammonium Nitrate
+Add Ammonium Nitrate Methanol Ehylhexanol Hardener for MUF
+Add Anodised Aluminium CurtainWall Framing 33%PCR
+Add Anti-Reducer EthyleneAcrylic for Textile Bath (Imported 7200km)
+Add Antioxidant ArylAlkylSulphonicAcid for Textile Bath
+Add Antioxidant Triethyl Phosphate
+Add AntioxidantTrisNonyl Phenyl Phosphite TNPP
+Add Antipiller Ethyl Cellulose for Textile Bath 
+Add Antistatic Methoxy Polyethylene Glycol (MPEG) for Textile Bath
+Add Architrave DAR Bio KJiln Dried Timber KDT Hardwood 
+Add Area 12.6kg/m2 Galvanised Cold Roll Annealed 1.6BMT Steel 51%PCR
+Add Area 4kg/m2 Color Zincalum 0.42BMT Steel Roll Formed Sheet 3.6%PCR
+Add Area 5.5kg/m2 Color Zincalum 0.7BMT Steel Rolled Formed Sheet 3.6%PCR
+Add Area 5kg/m2 Color Zincalum 0.48BMT Steel 3.6%PCR
+Add Area 750gsm 3:1 Aluminium:HDPE High Density Polyethylene Laminate Wrapping
+Add Area White Zincalum 0.6BMT Steel  Roll Formed Sheet 3.6%PCR
+Add Area of 150gsm Protective Kraft Paper 98%PCR
+Add Ballast Resistor & Capacitor for Compact Fluorescent Lamp 27%PCR
+Add Bar Chair of Galvanised Steel*kg 85%PCR
+Add BargeFascia1.1kg/m Color ZincAluminium Coated 0.48BMT Steel 3.6%PCR
+Add Barium Ferite Magnet 85%PCR
+Add Batten DAR Bio Kiln Dried Timber KDT Hardwood
+Add Bitumen 50% Polyurethane Foam
+Add Bitumen Alluminium Flashing Damp Proof Membrane
+Add Bitumen Aluminium High Density Polyethylene HDPE Damp Proof Membrane
+Add Bitumen Binder at Refinery
+Add Black Acrylonitrile Butadiene Styrene (ABS) Rubber Seal
+Add Bostik Vinyl Plumbweld Blue 
+Add Brass Pin, Plate, Item or Tube  2:1Copper:Zinc 64%PCR
+Add Brass Pin, Plate, Tube or Item 2:1Copper:Zinc 64%PCR
+Add Bulk Coloured HotMix Asphalt 2300kg/m3 Density 6.5%PCR - AU
+Add C Z Purlin Cold Rolled Z350 Galvanised Steel 3.6%PCR
+Add C15015 Steel Purlin  3.5kg/m Length Zincaluminium Coated 3.6%PCR
+Add C5H4NOS Permethrin Biocide Concentrate
+Add Cable Tray 9.4kg/m length CRA Galvanised 0.48BMT Steel 51%PCR - AU
+Add Calcined Alumina Non Wetting Refractory (Si glass fill)
+Add Canadian FSC Pine Lumber Biomass Air Dried Timber
+Add Canadian FSC Pine Lumber Biomass-Kiln Dried Timber KDT -AU
+Add Carbon Disulphide
+Add Carborundum SiC Grit
+Add Ceiling Tile of Vermiculite Perlite 
+Add Cement Mortar 0.5m2/kg Screed
+Add Cerium Lanthanum Yttrium Phosphor 
+Add Chromium Plated Galvanised Russian Cold Rolled Steel Profile 11%PCR
+Add Citric Acid made from Corn
+Add Citrus Essntial Oil and White Oil Organic Pesticide Concentrate 
+Add Clear Low Density Polyethylene Extrusion
+Add CoalTar Cresol Pitch Binder
+Add Coated Paper or Card made of FSC Eucalyptus Pulp 20%PCR
+Add Cold Roll Annealed Z350 Galvanised 0.6BMT Steel Bondek Profile 4%PCR 
+Add Cold Roll Annealed Zincalum Steel Hinge, Hanger, Plate or Connector 3.6%PCR
+Add Cold Rolled Oiled Steel Structural Sections 98%PCR
+Add Cold Rolled Steel Flat Angle Dowel 98%PCR
+Add Color Aluminium CurtainWall Framing 33%PCR
+Add ColorAluminium WindowFrame 33%PCR
+Add Colored Aluminium Insect Screen Door 33%PCR
+Add Colored Aluminium Security Grille 33%PCR
+Add Colored Alumiunium Venetian Slat 33%PCR
+Add Coloured Concrete 300kg/m2 Block Wall
+Add Coloured HotMix Asphalt 2300kg/m3 Density 6.5%PCR 
+Add Compressed Air in Mill
+Add Concentrate Pyrithione C5H4NOSZn
+Add Copper Chrome Arsenic Treated Hardwood Stump
+Add Corn Stover Cellulose Pulp 100%PCR
+Add Cut Timber Scrap 100% PCR
+Add DAR Canadian FSC Pine Lumber Biomass Fuel Kiln Dried Timber KDT
+Add Defoamer MethoxyDimethylPhenylsiloxane for Textile Bath
+Add Defoamer Polydimethylcyclosiloxane
+Add Demineralised Coolant Water
+Add Demineralised Coolant Water 
+Add Demineralisedd Process Water
+Add DiCycloPentaDiene DCPD
+Add DiIsoDecyPhthalate Plasticiser DINP
+Add DiIsoNonylCHexane Plasticiser DINCH
+Add DiallylPhthalateDAP TerePhthalicAcid
+Add DiazoDichloromethoxyphenylBenzAmide
+Add Dicumyl Peroxide (40%CaCO3)
+Add Diluted 12% Permethrin Biocide
+Add DioctylPhthalate Plasticiser DOTP
+Add Dressed All Round DAR Cypress Pine Board of Sawn Gas Kiln Dried Timber KDT 
+Add Dressed All Round DAR Pine Board of Sawn Gas Kiln Dried Timber KDT
+Add Ductile Iron Rail Rod & Pipe 99.9%PCR
+Add Duracomp Cladding of Polyester bound Pine fibre 30%PCR
+Add Earthenware Rainwater Pipe with Rubber Ring Joint (RRJ) (no rubber incl)
+Add Earthenware Sewer Pipe with Rubber Ring Joint (RRJ) (no rubber incl)
+Add Electrolytic Copper Plate, Pin or Wire 50%PCR
+Add Epoxy Melamine Copolymer
+Add Epoxy Sealed Sawn Chinese Slate
+Add Epoxy Sealer Glue
+Add EpoxyThinners
+Add EpoxyUrethane Chemical Anchor
+Add Ethanol
+Add Ethylene PropyleneDiene (EPDM) Rubber
+Add EthyleneGlycol Polyol
+Add Evertuff Cladding of Polyester bound pine fibre 49%PCR
+Add Expanded Polypropylene EPP Closed Cell Foam
+Add Exterior Coloured CI Pigment 6%PCR
+Add Exterior Coloured CI Pigment 6%PCR
+Add Exterior Warm Pastel CI Pigment 30%PCR
+Add Extruded Butadiene Acrylonitrile Rubber (NBR)
+Add Extruded Ethylene PropyleneDiene (EPDM) Rubber 
+Add F8 Framing H2 Light Organic Oil Preservative Treated Softwood
+Add FCS Rainforest Hardwood Lumber Biomas Fuel-Kiln Dried Timber KDT
+Add FCS certified Fibrecement 16.9kg*m2 Sheet 4%PCR
+Add FSC European F14-17 Hardwood Lumber Biomas Fuel-Kiln Dried Timber KDT
+Add FSC European Hardwood Lumber Biomas Fuel-Kiln Dried Timber KDT
+Add FSC Pine Molding of Electric Kiln Dried Timber Softwood
+Add FSC Shiplap VJ Board Maple Bio Kiln Dried Timber (KDT)
+Add FSC Shiplap VJ Board Maple Bio Kiln Dried Timber (KDT)
+Add FSC Shiplap VJ Board Oregon Bio Kiln Dried Timber (KDT)
+Add FSC Shiplap VJ Board Pine Bio Kiln Dried Timber (KDT)
+Add FSC Shiplap VJ Board Tasmanian Oak Bio Kiln Dried Timber (KDT)
+Add FSC Split & Cut Hardwood Shingles & Shakes - AU
+Add Fabric Stiffener Sodium Acrylate for Textile Bath
+Add Fascia 1.1kg/m Color ZincAluminium Coated 0.48BMT Steel 3.6%PCR
+Add Fibre Cement Pipe Flush Joint Requiring External Band (no band incl)
+Add FibreCement Pipe with Rubber Ring Joint (RRJ) (no rubber incl) 5%PCR
+Add Fibreglass Fly Screen with DINP Plasticised PolyvinylChloride (SPVC) Bead
+Add Fibreglass Reinforced 25% Limestone FIlled White Acrylic Extrusion
+Add Fibreglass Reinforced High Density Polyethylene 19gsm Damp Proof Membrane DPM
+Add Fibreglass Reinforced High Density Polyethylene Extrusion
+Add Fibreglass Reinforced Natural Rubber 30% Styrene Butadiene (SBR )
+Add Fibreglass Reinforced Polypropylene Extrusion
+Add Fibreglass Reinforced Polypropylene Strapping
+Add Fibreglass Reinforced White High Density Polyethylene Extrusion
+Add Filled 290mm High 140mm Concrete Block Wall
+Add FireRetard Hexabromocyclododecane
+Add Flexible Polyurethane Binder
+Add Flexible Polyurethane Foam
+Add Flexible Vinyl Nitrile Butadiene (NBR) Rubber Extrusion
+Add Flooring 6-9mm Sheet FibreCement
+Add Forest Stewardship Certified Lumber Pallet
+Add FormPly  ImportedSoftwood FSC Biomass Fuel Kiln Dried Timber
+Add Formaldehyde
+Add Fossil Fuelled Chloroform CHCl3
+Add Galvanised 150 Mesh Reinforcing Steel 97%PCR
+Add Galvanised Hot Rolled Section Z250 Steel 4%PCR 
+Add Galvanised Pressed DD13 Deep Drawing Grade Steel Shape 98%PCR
+Add Gas R22:Chlorodifluoromethane
+Add General Purpose Styrene (GPPS)
+Add Glass Shape Block or Slab 25%PCR
+Add GlassFibre Crenette Non Woven Fabric 20%PCR
+Add Glasswool R2-3.5 Insulation 20%PCR - AU
+Add Glasswool R2-3.5 Insulation 40%PCR
+Add Glasswool R2-3.5 Insulation 60%PCR
+Add Grey DINP Plasticised SPVC 43% Limestone Filled Gasket or Bead
+Add Ground Blast Furnace Slag (GGBS) Coproduct Pozzolan
+Add Ground Quartzite
+Add Hard Electrolytic Copper Wire or Drawn Section 100%PCR
+Add Hard Plaster 40% Hydrated Lime & 60% Calcined Stucco Dry Mass
+Add Hard Safety Mesh Galvanised Steel 98%PCR
+Add Hardwood Window Frame
+Add High Density Polyethylene (HDPE) Polyurethane Foam Backing Rods
+Add High Voltage Powercable Al Pb PP PE 10kg per m 14%PCR
+Add Hot Mix Asphalt Damp Proof Membrane - AU
+Add Hot Rolled Cast Iron Shape ex 99.9%PCR Fischer Converter
+Add Hot Rolled Square Mesh Steel 77%PCR
+Add Hotmix Asphalt 2300kg/m3 Density 3%PCR
+Add Hydrogen Peroxide
+Add Hydroxy Benzimidazolinyl Naphthamide
+Add Imported  15-20mm Split Chinese Slate Tile 
+Add Imported Chinese & TW Hot Rolled Galvanised Brackets or Connectors 51%PCR
+Add Imported Hard Drawn Steel Wire 98%PCR
+Add Imported LVL Hardwood Beam Biomass Fuel Kiln Dried - AU
+Add Imported LVL Softwood F14-17 Beam Biomass Fuel Kiln Dried
+Add Imported Taiwanese Galvanised Steel 1-5mm Gun Nail Tack 96%PCR 
+Add Imported Taiwanese Galvanised Steel Bolt Screw Tie 95%PCR
+Add Imported Taiwanese Galvanised Steel Coachscrew or Bolt 76%PCR
+Add Imported Taiwanese Galvanised Steel Tie, Screw or Nail 73% PCR
+Add Imported Taiwanese Hard Fine 267gsm Mesh Galvanised Steel 96%PCR
+Add Imported Taiwanese Hard Mesh Galvanised Steel 96%PCR
+Add Imported Taiwanese Hot Roll Steel Angle Flat Bars 98%PCR
+Add Imported Taiwanese Reinforcing 2x18F17 Mesh Steel 98%PCR
+Add Imported Taiwanese Reinforcing Mesh Galvanised Steel 98%PCR
+Add Injection Moulded Polypropylene Item
+Add Integrated Kraft Paper Made of FSC Eucalyptus Pulp 20%PCR
+Add Interior Organic CI Pigments & Dyes
+Add Interior Pastel CI Pigments & Dyes 
+Add Intermediate Azoethoxyphenol
+Add Levelling Aid Vegetable Oil to Textile Bath
+Add Lime Putty on Site as dry mass
+Add Linseed Oil Cement Putty
+Add Lubricant Ca Stearate Ester
+Add Lubricating Oil in place
+Add Lubricating Oils in Australia
+Add Mechanical Print Paper Made of FSC Hardwood Pulp 20%PCR
+Add Melamine Binder
+Add Melamine Urea Formaldehyde (MUF) Binder
+Add Melamine Urea Formaldehyde Binder
+Add Methane Diphenyl DiIsocyanate MDI
+Add MethoxyDimethylPhenylsiloxane
+Add MethylEthylketone MEK
+Add Milled FSC Pine Lumber Oil Fuelled Electric Kiln Dried Timber KDT
+Add Natural FSC Pine Lumber Biomass Fuel Kiln Dried Timber KDT
+Add Natural Rubber 30%  Styrene Butadiene Rubber (SBR) Gasket
+Add Natural Rubber 30% Styrene Butadiene Gaskets
+Add Newsprint Paper Integrated Mill Made of FSC Hardwood Pulp 20%PCR
+Add Nitrobenzene
+Add Nitrogenous Herbicide
+Add Nylon Fly Screen with DINP Plasticised PolyvinylChloride (SPVC) Bead 33%PR
+Add Oil Feedstock
+Add Okamul Polyurethane Glue
+Add Oleic Acid made from Corn
+Add Onduline Asphalt Coated Cellulose Paper Roofing
+Add Optical Brightener Benzoxazoline for Textile Bath
+Add Oxygen Bleached Cardboard 98%PCR
+Add Oxygen Bleached Paperboard of 35% FSC Eucalyptus, Imported Pine & 20%PCR
+Add PET Bottle from Imported USA Resin
+Add Packaged Imported Taiwanese Hot Roll Steel Angle Flat Bars 98%PCR - AU
+Add Packaged Low Density Polyethylene Flexible Wrapping
+Add Packaging 14g/m2 BAU Load Cradel to Fate of Pallet, Label, Strap & Wrap
+Add Packaging 15g/kg Full Glass Jars Cradel to Fate of Pallet, Label, Strap & Wrap
+Add Packaging 15g/kg Load Typical Cradel to Fate of Pallet, Label, Strap & Wrap
+Add Packaging 40g/kg Load Cradel to Fate of Pallet, Label, Strap & Wrap 
+Add Packed Polypropylene Film Shrink Wrapping 
+Add Pair 150kg Double Glazed Doors Color Aluminium Frame Sliding Doors
+Add Pair 150kg Tinted Double Glazed Doors Color Aluminium Frame Sliding Doors
+Add Paper from FSC Pulp to Condition Soil at End of Life
+Add Paper from Rainforest Pulp to Condition Soil at End of Life
+Add Paraffin Wax
+Add Pastel Polyester Woven Fabric
+Add Pastel Polyester Woven Fabric 77%PCR
+Add PentaerythritolPhthalicAnhydride PolyolAlkyd
+Add Phenol
+Add Phenol Formaldehyde Binder
+Add Phosphorus TriChloride
+Add PlasPanel Polyester Cladding 90%PCR
+Add Plasterboard Faced Polystyrene (XPS) Insulated Aluminium Roof SIP
+Add Plasterboard lined Polystyrene XPS Insulated Aluminium Clad SIP to Exterior Wall
+Add Plasterliner Kraft Paper made in New South Wales 98%PCR
+Add Polished Aluminium Frame Furniture Leg 21%PCR
+Add PolyVinylAcetate (PVA) Sealant
+Add PolyVinylAcetate (PVA) Sealer
+Add PolyVinylAcetate (PVA) Sealer Adhesive
+Add PolyVinylFluoride (PVF2) Exterior Coating
+Add Polybutadiene
+Add Polydimethylcyclosiloxane
+Add Polyester Color coated (SMP) Galvanised Z275 Steel TimDeck 4%PCR
+Add Polyester Vinyl Damp Proof Membrane DPM
+Add Polypropylene Coated Paper 20%PCR
+Add Polytetrahexmethylbutylaminoethylene (HALS)
+Add Polyurethane  Polymethyl Methacrylate PMMA Latex Membrane
+Add Polyurethane Sealed Cork 1720gsm Tile
+Add Potassium Sulphate
+Add Power Plant Fly Ash Pozzolan 100%PCR -
+Add Pressed DD13 Deep Drawing Grade Steel Shape 98%PCR
+Add PropylEthyleneOxiGlycerol Polyol
+Add Punched SS304 Stainless Steel Sheet Grate 47%PCR
+Add Quad Gutter 1.1kg/m Color ZincAluminium Coated 0.48BMT Steel 3.6%PCR
+Add Queensland FSC Pine Lumber Biomass Fuel Kiln Dried Timber KDT
+Add Queensland Made Hard Electrolytic Copper Wire or Drawn Tube
+Add R134aGas Tetrafluoroethylene
+Add RLA Acrylic Intertac Glue
+Add Rainwater Gutter & Downpipe Galvanised Steel 51%PCR
+Add Rainwater Gutter & Downpipe ZincAluminium Coated 0.5BMT Steel 3.6%PCR
+Add Red Vegetable Dye
+Add Refective Sarking Aluminium 360gsm 6% Fibreglass 57%PVA 24%Paper 5%PCR
+Add Reflectiive Aluminium Foil Fibreglass Reinforced Polvinyl Acetate Bonded - AU
+Add Reinforcing Mesh of Hard Steel 98%PCR
+Add RidgeCap1.6kg/m Color ZincAluminium Coated 0.48BMT Steel 3.6%PCR
+Add Rockwool Insulation 75%Post Industrial GGBFS Scrap 
+Add Roof Tile of Stone Chip SMP primed Zincaluminium Coated 0.6BMT Steel 3.6%PCR
+Add SS304 Stainless Steel Plate Profile 47%PCR
+Add SS304 Stainless Steel SS304 Profiles Items 47%PCR
+Add SS304 Stainless Steel SS304 Profiles Items 47%PCR
+Add SS304 Stainless Steel Wire Screen Grate 47%PCR
+Add Scandium ElectroTin Coproduct
+Add Security Mesh 8000gsm Galvanised Steel 98%PCR
+Add Self Stick Magnetic Iron Catch 85%PC
+Add Self Stick Natural Rubber Wedge Strip
+Add Self Stick Polypopylene Latch
+Add Self Stick White Vinyl Catch or Item
+Add Sheen Soap EthoxyHexylStearate for Textile Bath 
+Add Sheet Clear Fibreglass 20%PCR
+Add Sheet Clear Flexible Vinyl
+Add Shiplap VJ Board Luan Rainforest Bio Kiln Dried Timber (KDT)
+Add Silicone Extrusion or Gasket
+Add Sodium Cyanide
+Add Sodium Nitrate
+Add SoundCheck Polyurethane 1000gsm Glue
+Add Split Honed Sandstone
+Add Stabilised Nano Silica Matte or Pozzolan 100%PCR
+Add Stabiliser & Plasticiser Epoxidised Soy Bean Oil (ESBO)
+Add Stabiliser Barium Zinc Soap  with 45% TNPP Antioxidant for PVC
+Add Stabiliser Calcium Magnesium Stearate Soap
+Add Stabiliser Calcium Stearate
+Add Stabiliser Calcium Zinc Stearate (Imported)
+Add Stain block to Pastel Polyester Woven Fabric
+Add Stainless Steel Fly Screen with DINP Plasticised PolyvinylChloride (SPVC) Bead
+Add Stainless Steel Wired Aluminium Foil Skylight Duct 5%PCR
+Add Steel Gutter & Downpipe Stainless SS304 Stainless 47%PCR
+Add Steel Purlin 3.5kg/m Length  Cold Rolled Galvanised 3.6%PCR
+Add Steel-Belted Tyre 14%PCR
+Add Steel-Belted Tyre s14%PCR 
+Add Sticky Tape Kraft Paper Made of FSC Hardwood Pulp 20%PCR
+Add Strip-Welded Steel Pipe 4%PCR
+Add Structural Marine Ply Imported FSC Wood-fire Kiln Dried  Hardwood
+Add Structural Marine Ply Imported FSC Wood-fire Kiln Dried  Hardwood
+Add Structural Plywood Imported Softwood FSC Biomass Fuel Kiln Dried Timber
+Add Styrene AcryloNitrile (SAN)
+Add Styrene Butadiene (SBR) 30% Limestone Filled Latex
+Add Styrene Butadiene Rubber (SBR) 45% Limestone Filled Shape or Gasket
+Add Styrene Butadiene Rubber (SBR) 50% Limestone Filled Latex Backing
+Add Styrene Butadiene Rubber (SBR) Latex
+Add Tap or Shape of  Super High Grade ZnAl4 Alloy  (96%Zn4%Al)
+Add Tar Bitumen 30% Natural Rubber 22% Jute Wool Felt Damp Proof Membrane (DPM)
+Add Teflon ETFE Tension Membrane
+Add Tenfold Reuseable Forest Stewardship Certified Lumber Pallet
+Add Textured Acrylic Exterior Coating for Masonry 
+Add Thickener Diethyl Ether Polypropylene Glycol DEPPG
+Add Thickener of Sodium Acrylate with 5% Polyethylene Glycol
+Add Tinted 6mm Float Glass of 2530kg/m3 density
+Add TriChlorIsoPropylPhosphateTCP
+Add Trim DAR Bio Kiln Dried Timber Softwood
+Add TrimDeck PVF2 coated ZincAluminium Coated Steel 3.6%PCR
+Add Trimethylbenzene Thinners
+Add Tuladene Naphtha Paraffin Oil
+Add Typical Bed Acrylic Mortar Grout 
+Add Unbleached Sulphate FSC Hardwood Pulp for Masonite  20%PCR
+Add Unreinforced Concrete Pipe
+Add Upholstery Fabric Polyester 50% Solution Dyed Nylon SDN6/66
+Add Victorian-made Polyurethane Coating
+Add Viscoelastic Acrylic 1000gsm Quiet-Glue
+Add Waterproofing Polydimethylcyclosiloxane for Textile Bath (Imported 8000km)
+Add Welded Cold Roll Annealed 50% Imported Galvanised 0.48BMT Steel Form 51%PCR 
+Add Welded Cold Roll Annealed 50% Imported Galvanised 0.48BMT Steel Sliding Rail 51%PCR
+Add Welded Steel Pipe 0.053m/kg Mass 4%PCR
+Add Welded Steel Pipe 19.35kg/m Length 4%PCR
+Add White Aluminium Venetian Blind 700gsm Slat 33%PCR
+Add cold rolled Blue Steel Strapping 3.6%PCR 
+Add cold rolled Blue Steel Strapping 95%PCR
+Add pH Buffer Ammoniun Hydroxide  NH4OH for Textile Bath
+Add uPVC Conduit Tube or Item
+Add uPVC Rainwater Gutter & Downpipe
+Aluminium PVF2 Faced & Clad Polyisocyanate R1.5 Insulated 15kg*m2 SIP 80mm Wall
+Bag Rail 200km & Add Raw Corn Starch
+Bag, Ship 3,000km & Add  Nitrogen, Phosphorus & Potassium (NPK) Fertilizer
+Bar Chair Base High Density Polyethylene HDPE for ReoSlab
+Bleach Sodium Hypochlorite NaOCl
+Blend & River Barge Tin Metal 1000km 30%PCR
+Built MortarTied 175kg Extruded Brick Wall
+Burn Biodiesel Fuel in Pacific Rim
+Burn Bioethanol Fuel in Pafici Rim
+Burn Biogas Methane
+Burn Biomass Scrap 55.6g/MJ Fuel
+Burn Butane Fuel
+Burn Coal 36.3g/MJ
+Burn Coal Seam Gas Methane
+Burn Coal ex Bowen Basin 33g/MJ Fuel 
+Burn Coke in Place
+Burn Diesel in PacificRim
+Burn Heavy Fuel Oil in Pacific Rim
+Burn Industrial Scrap 100g/MJ Fuel
+Burn Kerosine Fuel in Pacific Rim
+Burn Light Fuel Oil in  Pacific Rim
+Burn Lignite 67.6g/MJ Fuel
+Burn Lignite 67g/MJ in Victoria
+Burn Natural Gas 
+Burn Petrol in PacificRim
+Burn Propane LPG 
+Burn Timber Scrap 18MJ/kg Fuel 
+Cast 10MPa Concrete
+Cast 10MPa Concrete 53%PCR
+Cast 15MPa Concrete
+Cast 20MPa Concrete
+Cast 20MPa Concrete 30%Ash
+Cast 20MPa Concrete 30%Ash
+Cast 20MPa Concrete 33%Ash
+Cast 20MPa Concrete 35.48%Ash
+Cast 25MPa Concrete
+Cast 30MPa Concrete
+Cast 32MPa Concrete
+Cast 32MPa Reo Concrete 37%Ash
+Cast 35MPa Concrete
+Cast 35MPa Concrete 30%Ash
+Cast 35Mpa Reo Concrete 3%PCR
+Cast 40MPa Concrete
+Cast 40MPa Concrete
+Cast 40MPa Concrete 10%Ash 2%PCR
+Cast 40MPa Concrete 30%Ash 7%PCR
+Cast 40MPa Concrete 40%Ash 6%PCR
+Cast 40MPa Reo Concrete
+Cast 40MPa Reo Concrete 24%Ash
+Cast 40MPa Reo Concrete 3%PCR
+Cast 45MPa Concrete 23%Ash 5% PCR
+Cast 45MPa Concrete 50%Ash 9%PCR
+Cast 50MPa Concrete
+Cast 5MPa Concrete
+Cast 5MPa Concrete 30%Ash
+Cast 65MPa Concrete 
+Cast 65MPa Reo Concrete 13%Ash
+Cast 80MPa Concrete
+Cast 80MPa Reo Concrete 32.8%Ash
+Cleaner Butoxyethoxy Ethanol
+Cleaner NonylphenolEthoxylate
+Coat 5mm Epoxy 280gsm Floor Finish 
+Coat Seamless Polyurethane 155gsm Flooring
+Coelectrogenerate NaOH Caustic
+Cold Roll Continuous Anneal A689 SpringSteel Bars 95%PCR
+Coproduce Acetylene on Site exEthene
+Deep Steam Clean Surface Area Twice Per Year
+Detonate ANFO Al Explosives
+Dilute Acticide MBS 1-methyl-1,2-Benzisothiazol-2-H-3-one Biocide
+Distill 12MJ/kg d-Limonene Essential Oil & Ship 1300km
+Distill Refine Add Ethylene
+Dye Treat Polyester Upholstery Fabric
+Electrowin Indium Ingot from Copper Slime in South Australia - AU
+Electrowin Zinc Lead Cadmium or Bismuth from Queensland Process Leachate 
+Electrowin Zinc, Silver, Gold, Indium Or Molybdenum from South Australian Leachate
+Fire & Sound Resistant Plasterboard 32kg*m2 Interior Wall 
+Fire Resist & Std 13mm Plasterboard Polyester R1.5 Insulated 26kg/m2 Interior Wall
+Fire Resist 13mm Plasterboard lined 43kg/m2 Zincalum Steel 0.42BMT Spandek Clad wall
+Fire Resist 26mm Plasterboard Lined Polyester R1.5 Insulated Color Zincalum Steel Clad 58kg*m2 Exterior Wall
+Fire Resist 26mm Plasterboard Polyester R1.5 Insulated Colour Zincalum Steel Clad 48kg*m2 Exterior Wall
+Fire Resist Plasterboard lined Vermiculite filled Zincalum Steel Clad 12kg/m2 80mm Exterior Wall
+Fluoride Treat & Road Haul Chemically Pure Sand 250km
+Forage & Grow Herd & Manure
+Fossil Hydrofluoric Acid ex Fluorspar
+Frasch Smelt Sulphur in Place
+Frasch Smelting Sulphur in Place
+Glue & Hang 100gsm Decore Wallpaper 20%PCR - AU
+Glue & Hang 100gsm Liner Wallpaper 20%PCR
+Glue & Hang 100gsm Vinyl Decore Wallpaper 20%PCR
+Glue & Hang 130gsm Suede Wallpaper 20%PCR - AU
+Glue & Screws 0.2kg/m2 to install Wallboard 63%PCR
+Glue High Density Polyethylene 19gsm Profile or Damp Proof Membrane DPM
+Grid Power Used In Queensland
+Grid Power Used in New South Wales
+Grid Power Used in New Zealand
+Grid Power Used in South Australia
+Grid Power Used in Tasmania
+Grid Power Used in Victoria
+Grid Power Used in West Australia
+Grow & Harvest 12MJ/kg Biomass Blossom
+Grow & Harvest 12MJ/kg Vegetable Pollen
+Grow 13MJ/kg Silage Biomass Feedstock
+Grow Harvest & Haul Biomass Feedstock 150km
+Grow Hew Haul Debark Eucalypt Log of FSC Plantation
+Grow, Hew, Haul & Debark Pine Log of FSC Plantation
+Gun Neutral Cure Silicone Sealer
+Gun Polystyrene 25% Bitumen 25% Polyurethane 5% Polyethylene Expanding Foam
+Gun Polystyrene Expanding Foam
+Gun White Silicone 43% Limestone Filled Joint Filler & Gap Sealer
+Harvest & Road Haul Wheat & Corn 100km
+Haul & Landfill 50% Concrete Scrap
+Haul 18.3MJ/kg Fallen Queensland Timber Scrap 20km for Fuel
+Haul Acrylates 100km to Paint Mill
+Haul Barium Sulphide BlackAsh
+Haul Bitumen 30km and add as Binder 
+Haul Calcium Chloride
+Haul Copper Chloride 1.35kkm
+Haul Pastel Glazed Ceramic Floor or Wall Tile 1,500km
+Haul Phosphorus PentaSulphide
+Haul Pilkington Float Glass 650km
+Haul Polyvinylidene Chloride Resin 100km
+Haul PowerPlant PC Fly Ash 150km
+Haul TetraChloro-Benzoquinone
+Haul Tinplate Coated Steel Can 50km 3.6%PCR 
+HeavyDuty Detergent Concentrate
+Hot Roll Electric Arc Furnace FerroMolybdenum Alloy in New South Wales 36%PCR
+Hot Rolled basic Oxygen Furnace Steel Billet 3.6%PCR
+IAI Ship Aluminium Chloride 650km
+Import & Add 5%Mohair & Sheep Wool 44%Jute & 60% NaturalRubber Underlay
+Import & Add 5%Sheep Wool 44%Jute & 60% Natural Rubber Underfelt
+Import 17000km & Add 8 Strand Nylon Rope
+Import Floorclean Detergent
+Import Pacific Maple Lumber FSC Bio Kiln Dried New Zealand Timber
+Import Road Haul 150km & Add Sawn 20-30mm Italian Marble
+Import Swiss Polyamide Resin Chip & Solution Dye Spin SDN6/6 Bulk Continuous (BCF) Fibre
+Import US Econyl Solution Dyed Nylon SDN6 Yarn & Weave Textile 50%PCR
+Import US Solution Dyed Nylon SDN6 Yarn & Weave Textile 
+Import Western Red Cedar Lumber Canadian FSC Bio Kiln Dried Timber 13,000km
+Import, Road Haul 150km & 100mm Pave Crushed Italian Marblep
+Import, Road Haul 150km & Add 10-20mm Sawn Italian Marble Tilep
+Import, Road Haul 150km & Add 20-40mm Italian Marble Face Tile - PAO
+Import, Road Haul 150km & Add 30mm Sawn Italian Marble Face Slab
+Import, Road Haul 150km & Add Honed Italian Marble Bench or Paver
+Import, Road Haul 150km, Polish & Add Italian Marble Bench or Paver
+Ketone Process Acetic Anhydride
+Lay 20mm Mortar 46kg*m2 Bed
+Layer Fertilise & Compost Soil 45%PCR Dry Mass 
+Liquify & Add Oxygen in Mill
+Liquify Argon on Site
+Make & Add AminoEthylCarbazole
+Make & Add Barium Oleate
+Make & Add Benzamide on Site
+Make & Add Carbon Cathode
+Make & Add Chloroethane
+Make & Add Methyl Chloride On Site
+Make & Add Sodium Ethoxide
+Make & Add Steam on Site
+Make & Add Terephthalic Acid
+Make & Haul Benzoquinone
+Make & Haul Chloracetone
+Make & Haul Diethyl Ether
+Make & Haul Ethyl Acetate 300km
+Make & Haul Hydroquinone
+Make & Haul Local Kaolin 25km (dry mass)
+Make & Haul Perchloroethylene
+Make & Haul Phosphoric Acid
+Make & Haul Sodium Acetate
+Make & Haul Tetrachloramethane
+Make & Haul Trichloroethylene
+Make & Haul Type K Fibreglass 250km - AU
+Make & Haul p-Xylene 150km
+Make & Rail 100km Glasswool Insulation Coil
+Make & Ship Antimony Trioxide 6kkm
+Make & Ship Nitric Acid 1,300km
+Make Acticide 1,2-Benzisothiazol-2-H-3-one Biocide Concentrate
+Make Acticide 2-Methylisothiazol-2-H-3-one Biocide Concentrate
+Make Add PropyleneOxide Polyol
+Make Aluminium Polyisocyuranate Wall Sandwich Panel (SIP)
+Make Ammonia Gas on Site
+Make Chlorine Gas on Site
+Make ChlorineDioxide on Site
+Make Chlorobenzene on Site
+Make Copper Sulphate
+Make DiChloroBenzene on Site
+Make Diazochloromethyl Benzamide
+Make Haul & Add Acetic Acid
+Make Haul & Add Chromic Acid
+Make Haul 100km & Add Urea Concentrate
+Make Haul Formic Acid
+Make Isopropanol for Disinfectant
+Make Nitrogen Gas on Site
+Make Potassium Chloride ex Sylvite
+Make Pyrex Glass Containers 25%PCR
+Make Rail Aluminium Sulphate 400km
+Make Sodium Chlorate On Site
+Make Toilet Paper from Imported Rainforest Pulp
+Methylene Chloride/Dichloromethane
+Mill & Haul Nut, Seed & Cereal Flour 100km
+Mine & Road Haul Shale 100km
+Mine & Road Haul West Australian Dolomite 100km
+Mine Bauxite at Saddleback in Western Asutralia & Rail 51km
+Mix & Add Mortar to Lay Pipe
+Mix & Haul Benzoyl Chloride 50km
+Mix Bricklayers Lime Putty Mortar
+Offset one kilogram of Greenhouse Gas CO2e 100 year
+Oil Heat Crystallise & Dry South Australian Sea Salt 
+On-Site Dig Grind & Reuse Concrete
+One Coat 30gsm Satin Pastel Solvent-based Enamel
+One Coat 88gsm Tung Oil Sealer
+Pack Al AA1200 Cold Rolled Annealed Aluminium Wire
+Pack Cold Rolled Annealed 0.48BMT Galvanised Steel Coil 4%PCR
+Pack Ship Use Toilet Roll of Rainforest Pulp
+Paint Pastel Semi Gloss Acrylic dry mass
+Paint Two Coats Pastel Gloss Acrylic 90gsm dry mass
+Paint White Acrylic Undercoat dry mass
+Painted Powered Plasterboard Faced Glasswool Insulated  Color Zincalum Steel Clad Wall
+Painted Powered Plasterboard Faced Polyester R1.5 Insulated Fibrecement Clad Exterior Wall
+Part A Red Iron Oxide Primer Intercure 420 (0.9kg/l) Epoxy 
+Part A Red Iron Oxide Primer Intercure 420 (1.8kg/l) Epoxy
+Part A White Top-coat  Interfine 629 Epoxy
+Part A Zinc-rich Primer Interzinc 315  Epoxy
+Part B White Top-coat  Interfine 629 Epoxy
+Part B Zinc-rich Primer Interzinc 315 Epoxy
+Paving 100mm 230kg/m2 HotMix Color Asphalt 7%PCR
+Paving 140mm HotMix Asphalt 14%PCR
+Paving 150mm 345kg/m2 HotMix Asphalt
+Paving 150mm 345kg/m2 HotMix Asphalt 3%PCR
+Paving 150mm 345kg/m2 HotMix Asphalt 4%PCR
+Paving 150mm 350kg/m2 FoamMix Asphalt 70%PCR
+Paving 50mm 120kg/m2 HotMix Color Asphalt 7%PCR
+Paving 75mm 700kg/m2 HotMix Asphalt 3%PCR
+Plasterboard 13mm single faced Polyester R1.5 Insluated 15kg*m2 Steel framed Inside Wall
+Plasterboard lined PolyIsocyuranate PIR Foam Insulated 6kg/m2 Zincalum Steel Clad 80mm Exterior Wall
+Prime, Undercoat & Top Coat 94gsm Pastel Acrylic Paint
+Pump & Gas Heat Pan Dry Sea Salt in Place
+Pump & Solar Pan Dry Sea Salt in South Australia
+Pump & Use Bore Water in New South Wales
+Pump & Use Bore Water in New Zealand
+Pump & Use Bore Water in Queensland
+Pump & Use Bore Water in Victoria
+Pump & Use Bore Water in West Australia
+Pump & Use Rain Water
+Pump & Use Rain Water
+Pump & Use Rain Water in New South Wales
+Pump & Use Rain Water in Queensland
+Pump & Use Rain Water in Victoria
+Pump & Use River Water in New Zealand
+Pump & Use Town Water in Australia
+Pump & Use Town Water in New South Wales
+Pump & Use Town Water in Queensland
+Pump & Use Town Water in South Australia
+Pump & Use Town Water in Tasmania
+Pump & Use Town Water in Victoria
+Pump & Use Town Water in West Australia
+Pump & Use Well Water
+Purify Hydrochloric Acid Gas
+QLD Made Lead Strip Flashing 0.1m2 Damp Proof Membrane DPM
+QLD Make Zinc Sulphate ZnSO4.7H2O
+Quarry & Road Haul 1-4um Bentonite Clay 100km
+Rail & Road Haul Electrolytic Tin Metal 520km 5%PCR
+Rail & Truck Crystal Flux of Zinc Ammonnium Chloride  500km - AU
+Rail & Truck Tasmanian Smelted Chromium Metal 50%PCR 200km
+Rail Al AA1200 Cold Rolled Annealed Aluminium Foil 
+Rail Barium Carbonate
+Rail Barium Sulphide Black Ash
+Rail Cross-linked EPDM Wire Cable Wrap 500km
+Rail Crushed Hematite 250km in Western Australia - AU
+Rail Dextrin Modified Starch 1000km
+Rail Freight in Circuit
+Rail General Freight
+Rail Hematite Pellets 20km in South Australia
+Rail Potassium Chloride
+Raod Haul Crushed Queensland Limestone 300km
+Reap & Cold Press 12MJ/kg Citrus Rind Essential Oil 
+Refine  Haul Methanol 50km
+Refined Alumina ex Worsley Western Australia IAI Bayer Process-AU
+Rehabilitate Site Adding 200g Top Soil with 0.1% NPK Fertiliser/kg Mine Output
+Render Fat & Add Prime Tallow
+Render Tallow & Make Stearic Acid
+Repaint three coats 90gsm Pastel Solvent-based Enamel
+River Barge Use/tkm S
+Road Haul  4.9kg/m2 Area ZincAluminium Coated 0.48BMT Steel Cladding 100km 3.6%PCR - AU
+Road Haul 0.5-1mm Coarse Sand 200km
+Road Haul 0.55mm ZincAluminium Coated Steel Cladding100km 3.6%PCR
+Road Haul 10-14mm River Pebbles 100km
+Road Haul 100km & Add Bagged Calcined Stucco
+Road Haul 125-250um Fine Sand 200km
+Road Haul 16-32mm Coarse River Pebbles
+Road Haul 200-300um Fine Sand from Illegal 0.16gsm Quarry 250km Disrupting River
+Road Haul 20km & Add Crushed Granite Aggregate in Queensland
+Road Haul 250km & Add Bulk Screened Calcined Lime
+Road Haul 32km & Add White Tin Frit Glaze 9:1Sand:Tin 10%PCR
+Road Haul Bagged Calcined Dolomite 200km in Western Australia
+Road Haul Bagged Hydrated Lime in New South Wales 100km
+Road Haul Bagged Hydrated Lime in New South Wales 390km
+Road Haul Calcined Clay 200km
+Road Haul Coarse Agregate from Illegal 0.16gsm Quarry 250km Disrupting River
+Road Haul Coarse Ground Granite Aggregate 20km
+Road Haul Color ZincAlum 0.42BMT Steel Cladding100km 3.6%PCR
+Road Haul Expanded Mesh Zinc Aluminium Coated 0.48BMT Steel 100km 3.6%PCR
+Road Haul Fibreglassmaking Sand 50km
+Road Haul Hard Drawn Spring Steel Coil 100km 95%PCR
+Road Haul Milled 1-4um Fine Clay 150km
+Road Haul PreStressed A689 SpringSteel Tendon Packaged 100km 95%PCR
+Road Haul Reclaimed Tin Ingot 50km 100%PCR
+Road Haul Rutile in West Australia 200km (for Titanium)
+Road Haul Stainless Steel Hot Rolled Item 100km 2%PCR
+Road Haul ZincAluminium Coated 0.35BMT Steel Cladding100km 3.6%PCR
+Road Haul ZincAluminium Coated 0.48BMT Steel Cladding 100km 3.6%PCR
+Road Haul ZincAluminium Coated 0.6BMT Steel Cladding100km 3.6%PCR
+Road Haul ZincAluminium Coated 0.7BMT Steel Cladding 50km 3.6%PCR
+Road Haul ZincAluminium Coated 0.8BMT Steel Cladding50km 3.6%PCR
+Road Use by Oil Tanker
+Road Use by Petrol Tanker
+Road Use for Coal Freight
+Road Use via 10-12t Van
+Road Use via 13-20t Rigid Truck
+Road Use via 15-20t Tipper Truck
+Road Use via 17.5t Concrete Mixer Truck
+Road Use via 18-25t SemiTrailer
+Road Use via 20t Concrete Mixer Truck
+Road Use via 21t Tipper Truck
+Road Use via 4t Van
+Road Use via 5-8t Van
+Road Use via >25t SemiTrailer
+Road Use via Private Car
+Roll Form Color Zincalum 0.7BMT Steel Profile Sheet 3.6%PCR
+Rotary Cut Bio Kiln Dry KDT Imported Ash Fir or Pine Veneer
+Rotary Cut Bio Kiln Dry KDT Imported New Zealand Pacific Maple Veneer
+Rotary Cut Bio Kiln Dry KDT Queensland BrushboxVeener
+Rotary Cut Bio Kiln Dry KDT Rainforest  Malayan Luan Veener
+Rotary Cut Bio Kiln Dry Timber KDT Imported Softwood Veener
+Rotary Cut Bio Kiln Dry Timber KDT Imported Western Red Cedar Veneer 
+Rotary Cut Bio Kiln Dry Timber KDT Softwood Veener
+Rotary Cut Bio Kiln Dry Timber KDT TasmanianOak Veneer
+Rotate 13MJ/kg Green Leaf Pasture for Foraging
+Sac Blend & Haul Marine Cement
+Sac, Oxygen Bleach & Add Corn Starch
+Sea Shipping via 250kt Tanker
+Sea Shipping via Bulk Cargo
+Sea Shipping via Container
+Shift 3km2/kg Topsoil Rock Overburden 
+Ship & Add OctylDecylGycoside Surfactant
+Ship & Add Sulphonate Oleate
+Ship 15-20mm Cleaved & Cut Chinese Slate Tile 20000km
+Ship 17,000km Digested Guano 97% Phosphate as P2O5
+Ship 4,000km Digested Guano 75% Phosphate as P2O5
+Ship 4,930 km Phosphate Rock 100% Concentrate as P2O5
+Ship AU Electric Arc Furnace Hot Rolled A689 SpringSteel 18,800km 95%PCR
+Ship Al6060 Aluminium Coil ex Victoria Lignite Power 2500km 20%PCR
+Ship Al6060 Aluminium Extrusion ex Victoria Lignite Power 3000km 20%PCR
+Ship Al6063 Aluminium Extrusion ex Victoria Lignite Power 1500km 20%PCR
+Ship Barium Butyl Benzoate
+Ship Bauxite from West Australian  Huntly & Convey15000km
+Ship Calcined Alumina 7000km ex Tasmania, Queensland & West Australia
+Ship Chipper Kiln Dried Timber KDT Pine FSC 5000km
+Ship Crushed Hematite 7000km from Western Australia
+Ship Crushed West Australia Talc 5000km
+Ship Dried Powdered Queensland Limestone 2000km
+Ship Electrolytic Tin Metal 17,000km 10%PCR
+Ship FSC Hardwood Lumber Biomass Fired Kiln Dried Timber KDT 1500km
+Ship FerroSilicon Alloy 12,000km
+Ship Galvanised Z350 Square Section 18,400km 3.6%PCR
+Ship Galvanised Z350 Square Section 18,400km 96%PCR - AU
+Ship Ground Feldspar 1000km from South Australia
+Ship Ground Quartzite made using Hydro Power 14,000km
+Ship Hot Rolled Al6063 Aluminium Coil ex Victoria Lignite Power 2750km 20%PCR
+Ship Hot Rolled Deep Drawing Grade EAF Steel Strip 19,000km 95%PCR
+Ship Hydrochloric Acid 1,400km
+Ship Hydropower Al3004 Aluminium Extrusion 19,500km
+Ship Italian Matte Terracotta Roof Tile 16000km
+Ship Metal Inert Gas (MIG) welding Stainless SS316L wire 12,000km 47%PCR
+Ship PU Powdercoat Al6060 Aluminium Extrusion ex Victoria Lignite Power 20%PCR 1500km - AU
+Ship Potassium Citrate Hydrate 500km
+Ship Queensland Copper Cathode 1,400km
+Ship Queensland Copper Cathode 19,000km 
+Ship Queensland Electrolytic Copper Wire 15,000km 50%PCR
+Ship Rail & Truck Queensland Refined HighGrade Electro Cadmium Metal 2300km 
+Ship Reciprocating Compressor 12000km
+Ship Refined Queensland HiGrade Zinc Metal 2000km
+Ship Sodium Sulphate
+Ship Sodium Sulphite
+Ship Solvay Sodium Carbonate
+Ship South Australian Electro Copper Cathode 12,000km
+Ship Tung Oil Coating 9000km
+Ship West Australian Cerium & Rare Earths 4000km
+Ship West Australian ElectroRefined Nickel Briquette 13000km
+Ship West Australian Talc 4000km
+Slab 150mm Polypropylene Fibre Reinforced Concrete 4%PCR
+Slab 150mm Reinforced Concrete 4%PCR
+Slab 200mm 32MPa Reinforced Concrete 3%PCR
+Slab 200mm 40MPa Reinforced Concrete 3%PCR
+Slab 250mm 35MPa Reinforced Concrete on PS Waffle Bed 3%PCR
+Slab 250mm 40MPa Reinforced Concrete on PS Waffle Bed 3%PCR
+Smelt Haul & Add Sulphuric Acid
+Solar Pan Crystallise Sea Salt in South Australia & Ship 1,300km
+Spin White Polyester 10% low melt PETG Filament
+Spray 100mm 40MPa Reo Shotcrete 44%PCR
+Spray 125mm 40MPa Reo Shotcrete 49%PCR
+Spray 150mm 40MPa Reo Shotcrete 304kg/m2 51%PCR
+Spray 300gsm Asphalt Primer
+Spray 32MPa Reo Shotcrete
+Spray 32MPa Reo Shotcrete 43%Ash
+Spray 40MPa Reo Shotcrete
+Spray 40MPa Reo Shotcrete 44%PCR
+Spray 40MPa Reo Shotcrete 49%PCR
+Spray 40MPa Reo Shotcrete 51%PCR
+Spray Foam Polyurethane Membrane
+Spray Paint Iron Oxide Red Metal Primer 50gsm Epoxy
+Spray Zinc-rich Metal Primer 68gsm Epoxy
+Stack & Steel Net Wrap Straw Bales for Walls
+Standard 13mm plasterboard R1.5 Polyester Insulated 26kg/m2 Interior Wall
+Steam Clean Flooring Area Twice Per Year
+Steel 78%PCR Reinforcing 39kg for 40MPa Shotcrete
+Synthesis of Benzoic Acid
+Treat & Pump Effluent for Drain
+Treat & Pump Effluent for Reuse
+Truck Al AA1200 White Polyester Coated 0.2mm Cold Rolled Annealed Coil 100km - AU
+Truck Color Zincalum 0.6BMT Steel Roll Formed Profile Sheet 100km 3.6%PCR
+Truck Hot Rolled basic Oxygen Furnace Steel Billet 50km 3.6%PCR
+Truck PU Powdercoat Al6060 Aluminium Extrusion ex Victoria Lignite Power 20%PCR 
+Truck Solder 96%Tin 4%SIlver 0.6%Copper 5%PCR 1000km
+Truck South Australian Electrorefined Selenium Ingot 150km
+Truck Taiwanese Galvanised Z350 Z & C Sections 96%PCR 
+Truck White Zincalum 0.48BMT Steel Roll Formed Profile 100km 3.6%PCR
+Truck White Zincalum 0.8BMT Steel Roll Formed Sheet 100km 3.6%PCR
+Undercoat White Solvent-based Enamel
+Use 20 year Upholstery Fabric Polyester 21% SND66 Solution Dyed Nylon
+Use 20 year Upholstery Fabric Polyester 21% SND66 Solution Dyed Nylon 60%PCR
+Use 20 years BAU Cladding 3kg/m2 Polyinylfluoride coated 1mm Aluminium 20%PCR
+Use 20 years Dyed Fine Cashmere Fabric
+Use 20 years Imported Chinese Glazed PorcelainTile
+Use 20 years Imported Chinese Non-slip PorcelainTiles
+Use 20 years Imported Italian Glazed Porcelain Tiles
+Use 20 years Intensively Farmed Cotton 350gsm Fabric
+Use 20 years Organic Cotton 350gsm Fabric
+Use 20 years Safety Grip Vinyl Floor Covering 
+Use 20 years Upholstery Fabric Polyester 50% Solution Dyed Nylon SDN6/66 
+Use 20MPa Reo Concrete 48%PCRS
+Use 32MPa Reo Concrete 50%PCR
+Use 40MPa Precast Reo Concrete 24%Ash
+Use 50MPa Precast Reo Concrete 18%Ash
+Use 60 years 20% Plastic Scrap Filled & 2% Talc Expanded Polystyrene (EPS) Foam 20%PCR
+Use 60 years 20MPa 55gsm Render 30%Ash
+Use 60 years 20MPa Aragonite Concrete
+Use 60 years 20Mpa 55gsm Render
+Use 60 years 25MPa 13gsm Render 36%Ash
+Use 60 years 25MPa Concrete 36%Ash
+Use 60 years 25Mpa Render
+Use 60 years 32MPa Reo Concrete
+Use 60 years 32MPa Reo Concrete 36%Ash
+Use 60 years 40MPa Precast Reo Concrete
+Use 60 years 40MPa Reo Concrete
+Use 60 years 40MPa Reo Shotcrete
+Use 60 years 40MPa Reo Shotcrete 24%Ash
+Use 60 years 50MP Reo Concrete 18%Ash
+Use 60 years 50MPa Reo Concrete
+Use 60 years 50MPa Reo Shotcrete
+Use 60 years 50MPa Reo Shotcrete 18%Ash
+Use 60 years 50Mpa Precast Reo Concrete 
+Use 60 years 65MPa Reo Concrete
+Use 60 years 800gsm Polyester R1.5 Insulation 83%PCR
+Use 60 years 80MPa Reo Concrete
+Use 60 years Cellulose Insulation 20%PCR
+Use 60 years Cellulose Insulation 99.5%PCR
+Use 60 years Plasterboard faced Polystyrene (XPS) Insulated Aluminium Roofing SIP
+Use 60 years Sheep Wool Insulation
+Use 60yr Painted Plasterboard Faced Polystyrene XPS R1.5 Insulated Aluminium Clad 15kg*m2 Exterior Wall
+Use 60yr Plasterboard Faced Polystyrene (XPS) Insulated Aluminium 15000gsm Roof SIP
+Use Polyester Nylon SuperSacs @ 3g/kg load Cradle to end of life fate 10%PCR
+Uv Cure Clear Polyurethane Coating
+Uv Cure White Polyurethane Powder Coating
+Weave Pastel Polyester Upholstery Fabric
+Weave Sheep Wool 10% Solution Dyed Nylon (SDN6/66) Textile
+White Solvent-based Enamel Sealer
+Win Barium, Strontium or Calcium Oxide at Cathode

@@ -1,0 +1,124 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  
+    a {
+      color: #4d4d4d !important;
+      text-decoration: none;
+    }
+  
+    .logo {
+      font-weight: 700;
+      font-size: 1.5rem;
+  
+      .dot {
+        color: #2bb686;
+      }
+    }
+  
+    .hamburger {
+      display: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin-left: auto;
+    }
+  
+    .nav-menu {
+        display: flex;
+        gap: 1.5rem;
+      
+        a {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          color: #4d4d4d;
+          font-weight: 400;
+      
+          &.active {
+            color: #1a1a1a;
+          }
+      
+          &.disabled {
+            color: #828282 !important;
+            pointer-events: none;
+          }
+        }
+      
+        .profile-mobile {
+          display: none;
+        }
+      }
+  
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+  
+      .avatar {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+  
+      .username {
+        font-weight: 500;
+        color: #232323;
+      }
+  
+      .arrow {
+        font-size: 0.8rem;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+  
+      .hamburger {
+        display: block;
+      }
+  
+      .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+        display: none;
+  
+        &.open {
+          display: flex;
+        }
+  
+        .profile-mobile {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin-top: 1rem;
+  
+          .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+          }
+  
+          .username {
+            font-weight: 500;
+            color: #393939;
+          }
+  
+          .arrow {
+            font-size: 0.8rem;
+          }
+        }
+      }
+  
+      .navbar-right {
+        display: none;
+      }
+    }
+  }

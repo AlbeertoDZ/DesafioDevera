@@ -51,9 +51,9 @@ const getUserByEmail = async (email) => {
 
 //CREATE USER
 const createUser = async (user) => {
-    const { name, lastname, email, password, id_company } = user;
+    const { name, lastname, email, password, id_empresa } = user;
     let client, result;
-    if (!name || !lastname || !email || !password || !id_company) {
+    if (!name || !lastname || !email || !password || !id_empresa) {
         throw new Error('Todos los campos son obligatorios');
     }
     try {
@@ -63,7 +63,7 @@ const createUser = async (user) => {
             lastname,
             email,
             password,
-            id_company
+            id_empresa
         ]);
         result = data.rowCount
     } catch (error) {
@@ -81,4 +81,3 @@ module.exports = {
     getUserByEmail,
     createUser
 }
-

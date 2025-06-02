@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "npm start --prefix client",
+    "client": "npm run dev --prefix client",
     "server": "npx nodemon index.js",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "dev": "npx nodemon index.js",

@@ -1,0 +1,137 @@
+// Variables del Chat
+$chat-bg: #ffffff;
+$input-bg: #f8f9fa;
+$border-color: #e9ecef;
+$primary-color: #00bcd4;
+$text-primary: #1a1a1a;
+$text-secondary: #6c757d;
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px;
+    background-color: $chat-bg;
+    
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 3px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 3px;
+      
+      &:hover {
+        background: #a8a8a8;
+      }
+    }
+  }
+
+  .chat-input-form {
+    border-top: 1px solid $border-color;
+    padding: 20px 24px;
+    background-color: $chat-bg;
+
+    .chat-input-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background-color: $input-bg;
+      border: 2px solid $border-color;
+      border-radius: 25px;
+      padding: 8px 16px;
+      transition: border-color 0.2s ease;
+
+      &:focus-within {
+        border-color: $primary-color;
+        box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.1);
+      }
+
+      .chat-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 14px;
+        color: $text-primary;
+        padding: 8px 0;
+
+        &::placeholder {
+          color: $text-secondary;
+        }
+      }
+
+      .chat-input-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .action-button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 36px;
+          height: 36px;
+          border: none;
+          background: none;
+          color: $text-secondary;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: all 0.2s ease;
+
+          &:hover {
+            background-color: rgba(0, 188, 212, 0.1);
+            color: $primary-color;
+          }
+        }
+
+        .send-button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 36px;
+          height: 36px;
+          border: none;
+          background-color: $primary-color;
+          color: white;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: all 0.2s ease;
+
+          &:hover:not(:disabled) {
+            background-color: darken($primary-color, 10%);
+            transform: scale(1.05);
+          }
+
+          &:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+            transform: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .chat-window {
+    .chat-messages {
+      padding: 16px;
+    }
+
+    .chat-input-form {
+      padding: 16px;
+    }
+  }
+} 
