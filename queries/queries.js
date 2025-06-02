@@ -12,3 +12,5 @@ const queries = {
     getAllProducts: `SELECT * FROM products;`,
     getProductById: `SELECT * FROM products WHERE id = $1`,
 }
+
+module.exports = queries;

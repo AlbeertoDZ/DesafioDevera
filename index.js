@@ -11,21 +11,20 @@ app.use(cors());
 // Para poder leer JSON en las peticiones
 app.use(express.json());
 
+//RUTAS API (deben ir antes del middleware de archivos estáticos)
+const usersRoutes = require("./routes/users.routes");
+app.use("/api/users", usersRoutes);  
+
 // Middleware para servir archivos estáticos de front
 app.use(express.static("public"));
 
 // Servir archivos generados por Vite en /client/dist
 app.use(express.static(path.join(__dirname, "client", "dist")));
 
+// Catch-all handler: envía el frontend para todas las rutas que no sean API
 app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"));
-  });
-
-//RUTAS
-const usersRoutes = require("./routes/users.routes");
-
-//Rutas API
-app.use("/api/users", usersRoutes);  
+});
 
 //Iniciar el servidor
 const port = 3000;
