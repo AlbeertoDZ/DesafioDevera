@@ -20,7 +20,6 @@ const Navbar = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [menuOpen]);
 
-  // Cerrar al hacer clic en un link
   const handleLinkClick = () => {
     setMenuOpen(false);
   };
@@ -28,7 +27,9 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-left">
-        <span className="logo">devera<span className="dot">.</span></span>
+        <a href="/" className="logo">
+          devera<span className="dot">.</span>
+        </a>
       </div>
 
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
@@ -36,28 +37,28 @@ const Navbar = () => {
       </div>
 
       <nav ref={menuRef} className={`nav-menu ${menuOpen ? 'open' : ''}`}>
-  <a href="#" className="active" onClick={handleLinkClick}>Home</a>
-  <a href="#" className="disabled" onClick={handleLinkClick}>Onboarding chat</a>
+        <a href="#" className="active" onClick={handleLinkClick}>Home</a>
+        <a href="#onboarding" onClick={handleLinkClick}>Onboarding chat</a>
 
-  <div className="profile-mobile" onClick={handleLinkClick}>
-    <img
-      src="https://randomuser.me/api/portraits/women/1.jpg"
-      alt="Paula Sánchez"
-      className="avatar"
-    />
-    <span className="username">Paula Sánchez</span>
-    <span className="arrow">▾</span>
-  </div>
-</nav>
+        <a href="#profile" className="profile-mobile" onClick={handleLinkClick}>
+          <img
+            src="https://randomuser.me/api/portraits/women/1.jpg"
+            alt="Paula Sánchez"
+            className="avatar"
+          />
+          <span className="username">Paula Sánchez</span>
+          <span className="arrow">▾</span>
+        </a>
+      </nav>
 
-      <div className="navbar-right">
+      <a href="#profile" className="navbar-right">
         <img
           src="https://randomuser.me/api/portraits/women/1.jpg"
           alt="Paula Sánchez"
           className="avatar"
         />
         <span className="username">Paula Sánchez</span>
-      </div>
+      </a>
     </header>
   );
 };
