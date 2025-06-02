@@ -5,7 +5,6 @@
 
 :root {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.5;
   font-weight: 400;
   
   font-synthesis: none;
@@ -14,13 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  color: #1a1a1a;
-  background-color: #f8f9fa;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%;        
 }
 
 #root {
@@ -33,9 +31,6 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
-}
 
 h1 {
   font-size: 3.2em;
@@ -47,14 +42,10 @@ button {
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
@@ -65,9 +56,6 @@ button:focus-visible {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
   }
   button {
     background-color: #f9f9f9;
