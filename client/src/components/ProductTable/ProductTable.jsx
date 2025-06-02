@@ -4,7 +4,7 @@ const ProductTable = () => {
   const products = [
     {
       name: 'Elabaute',
-      image: '/images/elabaute.png',
+      image: 'https://dominandoelecommerce.com/wp-content/uploads/2019/06/fotografia-de-producto-para-tiendas-online.jpg',
       footprint: '5,78',
       difference: '-40%',
       score: 'A',
@@ -12,7 +12,7 @@ const ProductTable = () => {
     },
     {
       name: 'Natura Face',
-      image: '/images/naturaface.png',
+      image: 'https://comunicacionmarketing.es/wp-content/uploads/2019/11/Amazon-lucha-por-mantener-la-marca-de-Nike-en-su-marketplace.jpg',
       footprint: '4,21',
       difference: '-28%',
       score: 'B',
@@ -20,7 +20,7 @@ const ProductTable = () => {
     },
     {
       name: 'EcoLotion',
-      image: '/images/ecolotion.png',
+      image: 'https://www.revistaeyn.com/binrepository/1280x900/40c0/1200d900/none/26086/CMVW/nike-air-vapormax-2020-0_EN1406339_MG223324389.jpg',
       footprint: '6,02',
       difference: '-35%',
       score: 'C',
@@ -91,14 +91,17 @@ const ProductTable = () => {
               </span>
             </div>
             <div className="cell">
-              <span className="label-mobile">Ver</span> 👁
-            </div>
-            <div className="cell">
-              <span className="label-mobile">Descargar</span> 📥
-            </div>
-            <div className="cell">
-              <span className="label-mobile">Archivos</span> 📎
-            </div>
+                <span className="label-mobile">Ver</span>
+                <button className="icon-button" onClick={() => alert(`Ver ${product.name}`)}>👁</button>
+                </div>
+                <div className="cell">
+                <span className="label-mobile">Descargar</span>
+                <button className="icon-button" onClick={() => alert(`Descargar ${product.name}`)}>📥</button>
+                </div>
+                <div className="cell">
+                <span className="label-mobile">Archivos</span>
+                <button className="icon-button" onClick={() => alert(`Archivos de ${product.name}`)}>📎</button>
+                </div>
           </div>
         ))}
       </div>

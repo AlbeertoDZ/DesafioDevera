@@ -5,7 +5,6 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
-  // Cerrar el menú si se hace clic fuera
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -37,19 +36,19 @@ const Navbar = () => {
       </div>
 
       <nav ref={menuRef} className={`nav-menu ${menuOpen ? 'open' : ''}`}>
-        <a href="#" className="active" onClick={handleLinkClick}>🏠 Home</a>
-        <a href="#" className="disabled" onClick={handleLinkClick}>💬 Onboarding chat</a>
+  <a href="#" className="active" onClick={handleLinkClick}>Home</a>
+  <a href="#" className="disabled" onClick={handleLinkClick}>Onboarding chat</a>
 
-        <div className="profile-mobile">
-          <img
-            src="https://randomuser.me/api/portraits/women/1.jpg"
-            alt="Paula Sánchez"
-            className="avatar"
-          />
-          <span className="username">Paula Sánchez</span>
-          <span className="arrow">▾</span>
-        </div>
-      </nav>
+  <div className="profile-mobile" onClick={handleLinkClick}>
+    <img
+      src="https://randomuser.me/api/portraits/women/1.jpg"
+      alt="Paula Sánchez"
+      className="avatar"
+    />
+    <span className="username">Paula Sánchez</span>
+    <span className="arrow">▾</span>
+  </div>
+</nav>
 
       <div className="navbar-right">
         <img
@@ -58,7 +57,6 @@ const Navbar = () => {
           className="avatar"
         />
         <span className="username">Paula Sánchez</span>
-        <span className="arrow">▾</span>
       </div>
     </header>
   );

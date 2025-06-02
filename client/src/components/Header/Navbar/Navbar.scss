@@ -27,18 +27,17 @@
       gap: 1.5rem;
   
       a {
-        color: #ccc;
         text-decoration: none;
         display: flex;
         align-items: center;
   
         &.active {
-          color: #2bb686;
+          color: #000000;
           font-weight: 500;
         }
   
         &.disabled {
-          color: #aaa;
+            color: #828282;
           pointer-events: none;
         }
       }

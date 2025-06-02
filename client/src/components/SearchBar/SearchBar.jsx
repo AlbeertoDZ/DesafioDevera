@@ -20,7 +20,7 @@ const TopBar = () => {
         />
         <button className="export-button">
           <img src="/icons/download-icon.svg" alt="Export" />
-          Exportar listado <span className="extension">.csv</span>
+          Exportar listado<span className="extension">.csv</span>
         </button>
       </div>
     </div>

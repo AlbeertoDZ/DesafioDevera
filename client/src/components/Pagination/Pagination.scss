@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    width: 100%;
   }
   
   .pagination-btn {
@@ -35,13 +34,11 @@
     }
   
     &.active {
-      background-color: #2f855a;
+      background-color: #25A488;
       color: white;
     }
   
     &.disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
     }
   }
   

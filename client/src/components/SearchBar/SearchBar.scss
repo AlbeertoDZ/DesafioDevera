@@ -18,7 +18,7 @@
   
       .search-input {
         padding: 0.4rem 0.8rem;
-        border-radius: 8px;
+        border-radius: 2px;
         border: 1px solid #ccc;
         width: 240px;
       }
@@ -29,8 +29,8 @@
         gap: 0.4rem;
         border: none;
         background: none;
-        color: #1e1e1e;
-        font-weight: 500;
+        color: #4f4f4f;
+        font-weight: 400;
         cursor: pointer;
   
         img {
@@ -39,7 +39,7 @@
         }
   
         .extension {
-          font-weight: 600;
+          font-weight: 400;
         }
   
         &:hover {
@@ -65,7 +65,7 @@
         width: 100%;
   
         .search-input {
-          width: 100%;
+          width: 80%;
         }
       }
     }

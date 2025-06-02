@@ -3,14 +3,10 @@
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    background-color: #f9f9f9;
   }
   
   .tabs-container {
     display: flex;
-    gap: 1rem;
     padding: 1.2em;
     margin-top: 1em;
   
@@ -29,35 +25,23 @@
   }
   
   .tab {
-    padding: 1rem 2.5rem;
-    border: none;
+    padding: 1.2em;
     background: none;
-    font-weight: 600;
-    color: #555;
     cursor: pointer;
-    border-bottom: 3px solid transparent;
-    border-radius: 8px;
     transition: all 0.3s ease;
-    font-size: 1rem;
-  
-    &:hover {
-      background-color: #f2f2f2;
-      color: #2f855a;
-    }
   
     &.active {
-      color: white;
-      background-color: #2f855a;
-      border-radius: 10px;
-      border: none;
+      color: rgb(255, 255, 255);
+      background-color: #25A488;
+      border-radius: 2px;
     }
+
+    &.disabled {
+        color: rgb(90, 90, 90);
+        border-radius: 2px;
+      }
   
     @media (max-width: 768px) {
-      padding: 0.8rem 1.5rem;
-      font-size: 0.95rem;
-    }
-  
-    @media (max-width: 480px) {
       width: 90%;
       text-align: center;
       padding: 0.8rem;
