@@ -52,7 +52,7 @@ const Login = () => {
       [name]: value
     }));
     
-    // Limpiar errores cuando el usuario empiece a escribir
+    // Limpiar errores de validación cuando el usuario empiece a escribir
     if (formErrors[name]) {
       setFormErrors(prev => ({
         ...prev,
@@ -60,27 +60,35 @@ const Login = () => {
       }));
     }
 
-    // Limpiar error general si existe
-    if (error) {
-      setError(null);
-    }
+    // NO limpiar el error general de credenciales aquí
+    // Solo se limpiará cuando se haga un nuevo intento de login
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     
+    // Limpiar error general SOLO al hacer submit
+    setError(null);
+    
     if (!validateForm()) {
       return;
     }
 
+    console.log('Intentando login con:', formData.email);
+    
     const result = await login(formData);
+    
+    console.log('Resultado del login:', result);
     
     if (result.success) {
       console.log('Login exitoso:', result.user);
-      // Aquí podrías redirigir al dashboard o mostrar una notificación
       alert(`¡Bienvenido ${result.user.name || result.user.email}!`);
+      // NO limpiar los campos en caso de éxito
+    } else {
+      console.log('Login fallido:', result.error);
+      // NO limpiar los campos en caso de error
+      // El error se mostrará automáticamente
     }
-    // Los errores se manejan automáticamente en el hook useAuth
   };
 
   const togglePasswordVisibility = () => {
@@ -142,7 +150,14 @@ const Login = () => {
             </div>
 
             {error && (
-              <div className="error-message general-error">{error}</div>
+              <div className="error-message general-error">
+                <strong>
+                  {error === 'Credenciales inválidas' 
+                    ? 'Email o contraseña incorrectos'
+                    : error
+                  }
+                </strong>
+              </div>
             )}
 
             <button 
@@ -150,7 +165,7 @@ const Login = () => {
               className="login-button"
               disabled={loading}
             >
-              {loading ? 'Cargando...' : 'Comenzar'}
+              {loading ? 'Cargando...' : 'Continuar'}
             </button>
           </form>
 

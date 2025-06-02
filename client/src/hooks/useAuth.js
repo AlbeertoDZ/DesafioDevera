@@ -23,8 +23,12 @@ axios.interceptors.request.use(
 axios.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response?.status === 401) {
-      // Token expirado o inválido
+    // Solo redirigir si hay un token pero la respuesta es 401 (token inválido)
+    // NO redirigir en intentos de login fallidos
+    if (error.response?.status === 401 && 
+        localStorage.getItem('authToken') && 
+        !error.config.url.includes('/login')) {
+      // Token expirado o inválido en requests autenticadas
       localStorage.removeItem('authToken');
       localStorage.removeItem('userData');
       window.location.href = '/login';
@@ -58,7 +62,7 @@ export const useAuth = () => {
   // Función de login
   const login = async (credentials) => {
     setLoading(true);
-    setError(null);
+    // NO limpiar el error aquí - se limpiará desde el componente
 
     try {
       const response = await axios.post('/users/login', credentials);
@@ -70,6 +74,8 @@ export const useAuth = () => {
       
       setUser(userData);
       setLoading(false);
+      // Limpiar error solo en caso de éxito
+      setError(null);
       
       return { success: true, user: userData };
     } catch (err) {
