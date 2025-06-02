@@ -1,6 +1,7 @@
 import Login from './components/Login/Login'
 import './App.css'
 import Home from "./components/Home/Home";
+import OnboardingContainer from './components/Onboarding/OnboardingContainer';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Login />
       <Home />
+      <OnboardingContainer />
     </div>
   )
 }
