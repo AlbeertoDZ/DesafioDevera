@@ -1,0 +1,43 @@
+// Variables para Dashboard
+$dashboard-bg: #f8f9fa;
+$white: #ffffff;
+$text-primary: #1a1a1a;
+$text-secondary: #6c757d;
+$border-color: #e9ecef;
+
+// Layout
+.dashboard {
+  min-height: 100vh;
+  background-color: $dashboard-bg;
+  display: flex;
+  flex-direction: column;
+
+  .dashboard-content {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 70px); // Altura del header
+  }
+
+  .dashboard-main {
+    flex: 1;
+    background-color: $white;
+    margin: 20px;
+    margin-left: 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .dashboard {
+    .dashboard-content {
+      flex-direction: column;
+    }
+    
+    .dashboard-main {
+      margin: 10px;
+    }
+  }
+} 

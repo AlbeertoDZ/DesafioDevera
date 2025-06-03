@@ -81,9 +81,30 @@ $font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica N
   }
 }
 
+@keyframes slideInError {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
 // Main styles
 .login-container {
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   @include flex-center;
   background-color: $primary-bg;
   font-family: $font-stack;
@@ -202,11 +223,40 @@ $font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica N
 
             &.general-error {
               text-align: center;
-              margin: $spacing-md 0;
-              padding: $spacing-lg;
-              background-color: $error-bg;
-              border: 1px solid $error-border;
-              border-radius: $border-radius-sm;
+              margin: $spacing-lg 0;
+              padding: $spacing-md $spacing-lg;
+              background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
+              color: white;
+              border: none;
+              border-radius: $border-radius;
+              font-weight: 600;
+              font-size: 15px;
+              box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+              position: relative;
+              overflow: hidden;
+              animation: slideInError 0.3s ease-out;
+              
+              &::before {
+                content: "⚠️";
+                margin-right: 8px;
+                font-size: 16px;
+              }
+              
+              &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+                animation: shimmer 2s infinite;
+              }
+              
+              strong {
+                font-weight: 700;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+              }
             }
           }
         }

@@ -1,0 +1,933 @@
+MG-silicon, at plant | Scenario: 2025, pessimistic, BAU
+MG-silicon, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+MG-silicon, at plant | Scenario: 2025, very optimistic, 440ppm
+MG-silicon, at plant | Scenario: 2025, very optimistic, Renew
+MG-silicon, at plant | Scenario: 2050, pessimistic, 440ppm
+MG-silicon, at plant | Scenario: 2050, pessimistic, BAU
+MG-silicon, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+MG-silicon, at plant | Scenario: 2050, very optimistic, 440ppm
+MG-silicon, at plant | Scenario: 2050, very optimistic, Renew
+MG-silicon, at plant | Scenario: Today
+aluminium, primary, liquid, at plant | Scenario: 2025, pessimistic, 440ppm
+aluminium, primary, liquid, at plant | Scenario: 2025, pessimistic, BAU
+aluminium, primary, liquid, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+aluminium, primary, liquid, at plant | Scenario: 2025, very optimistic, 440ppm
+aluminium, primary, liquid, at plant | Scenario: 2025, very optimistic, Renew
+aluminium, primary, liquid, at plant | Scenario: 2050, pessimistic, 440ppm
+aluminium, primary, liquid, at plant | Scenario: 2050, pessimistic, BAU
+aluminium, primary, liquid, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+aluminium, primary, liquid, at plant | Scenario: 2050, very optimistic, 440ppm
+aluminium, primary, liquid, at plant | Scenario: 2050, very optimistic, Renew
+aluminium, primary, liquid, at plant | Scenario: Today
+clinker, at plant | Scenario: 2025, pessimistic, 440ppm
+clinker, at plant | Scenario: 2025, pessimistic, BAU
+clinker, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+clinker, at plant | Scenario: 2025, very optimistic, 440ppm
+clinker, at plant | Scenario: 2025, very optimistic, Renew
+clinker, at plant | Scenario: 2050, pessimistic, 440ppm
+clinker, at plant | Scenario: 2050, pessimistic, BAU
+clinker, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+clinker, at plant | Scenario: 2050, very optimistic, 440ppm
+clinker, at plant | Scenario: 2050, very optimistic, Renew
+clinker, at plant | Scenario: Today
+construction, hard coal IGCC power plant 450MW | Scenario: Today | U
+copper, primary, at refinery | Scenario: 2025, pessimistic, 440ppm
+copper, primary, at refinery | Scenario: 2025, pessimistic, 440ppm
+copper, primary, at refinery | Scenario: 2025, pessimistic, BAU
+copper, primary, at refinery | Scenario: 2025, pessimistic, BAU
+copper, primary, at refinery | Scenario: 2025, realistic-optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2025, realistic-optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2025, very optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2025, very optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2025, very optimistic, Renew
+copper, primary, at refinery | Scenario: 2025, very optimistic, Renew
+copper, primary, at refinery | Scenario: 2050, pessimistic, 440ppm
+copper, primary, at refinery | Scenario: 2050, pessimistic, 440ppm
+copper, primary, at refinery | Scenario: 2050, pessimistic, BAU
+copper, primary, at refinery | Scenario: 2050, pessimistic, BAU
+copper, primary, at refinery | Scenario: 2050, realistic-optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2050, realistic-optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2050, very optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2050, very optimistic, 440ppm
+copper, primary, at refinery | Scenario: 2050, very optimistic, Renew
+copper, primary, at refinery | Scenario: 2050, very optimistic, Renew
+copper, primary, at refinery | Scenario: Today
+copper, primary, at refinery | Scenario: Today
+dismantling, hard coal IGCC power plant 450MW | Scenario: Today | U
+electricity mix, aluminium industry | Scenario: 2025, pessimistic, 440ppm
+electricity mix, aluminium industry | Scenario: 2025, pessimistic, BAU
+electricity mix, aluminium industry | Scenario: 2025, realistic-optimistic, 440ppm
+electricity mix, aluminium industry | Scenario: 2025, very optimistic, 440ppm
+electricity mix, aluminium industry | Scenario: 2025, very optimistic, Renew
+electricity mix, aluminium industry | Scenario: 2050, pessimistic, 440ppm
+electricity mix, aluminium industry | Scenario: 2050, pessimistic, BAU
+electricity mix, aluminium industry | Scenario: 2050, realistic-optimistic, 440ppm
+electricity mix, aluminium industry | Scenario: 2050, very optimistic, 440ppm
+electricity mix, aluminium industry | Scenario: 2050, very optimistic, Renew
+electricity mix, aluminium industry | Scenario: Today
+electricity, Fresnel CHP for cooling, with PCM-storage, at power plant, 200MW | Scenario: 2025, very optimistic, 440ppm
+electricity, Fresnel CHP for cooling, with PCM-storage, at power plant, 200MW | Scenario: 2025, very optimistic, Renew
+electricity, Fresnel CHP for desalination, at power plant, with PCM-stor., 200MW | Scenario: 2025, very optimistic, 440ppm
+electricity, Fresnel CHP for desalination, at power plant, with PCM-stor., 200MW | Scenario: 2025, very optimistic, Renew
+electricity, Fresnel, at power plant, with PCM-storage, 400MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, Fresnel, with PCM-storage, at power plant, 200MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at Fresnel CHP (for cooling), at plant, with PCM-storage, 400MW | Scenario: 2050, very optimistic, 440ppm
+electricity, at Fresnel CHP (for cooling), at plant, with PCM-storage, 400MW | Scenario: 2050, very optimistic, Renew
+electricity, at Fresnel CHP (for desalination), at plant,with PCM-storage, 400MW | Scenario: 2050, very optimistic, 440ppm
+electricity, at Fresnel CHP (for desalination), at plant,with PCM-storage, 400MW | Scenario: 2050, very optimistic, Renew
+electricity, at MCFC CHP 2000kW | Scenario: 2025, pessimistic, 440ppm
+electricity, at MCFC CHP 2000kW | Scenario: 2025, pessimistic, BAU
+electricity, at MCFC CHP 2000kW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at MCFC CHP 2000kW | Scenario: 2025, very optimistic, 440ppm
+electricity, at MCFC CHP 2000kW | Scenario: 2025, very optimistic, Renew
+electricity, at MCFC CHP 2000kW | Scenario: 2050, pessimistic, 440ppm
+electricity, at MCFC CHP 2000kW | Scenario: 2050, pessimistic, BAU
+electricity, at MCFC CHP 2000kW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at MCFC CHP 2000kW | Scenario: 2050, very optimistic, 440ppm
+electricity, at MCFC CHP 2000kW | Scenario: 2050, very optimistic, Renew
+electricity, at MCFC CHP 250kW | Scenario: 2025, pessimistic, 440ppm
+electricity, at MCFC CHP 250kW | Scenario: 2025, pessimistic, BAU
+electricity, at MCFC CHP 250kW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at MCFC CHP 250kW | Scenario: 2025, very optimistic, 440ppm
+electricity, at MCFC CHP 250kW | Scenario: 2025, very optimistic, Renew
+electricity, at MCFC CHP 250kW | Scenario: 2050, pessimistic, 440ppm
+electricity, at MCFC CHP 250kW | Scenario: 2050, pessimistic, BAU
+electricity, at MCFC CHP 250kW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at MCFC CHP 250kW | Scenario: 2050, very optimistic, 440ppm
+electricity, at MCFC CHP 250kW | Scenario: 2050, very optimistic, Renew
+electricity, at MCFC CHP 250kW | Scenario: Today
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, pessimistic, 440ppm
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, pessimistic, BAU
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, very optimistic, 440ppm
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, very optimistic, Renew
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, pessimistic, 440ppm
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, pessimistic, BAU
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, very optimistic, 440ppm
+electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, very optimistic, Renew
+electricity, at SOFC, planar small, 1kW | Scenario: Today
+electricity, at SOFC, planar, 1kW | Scenario: 2025, pessimistic, 440ppm
+electricity, at SOFC, planar, 1kW | Scenario: 2025, pessimistic, BAU
+electricity, at SOFC, planar, 1kW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at SOFC, planar, 1kW | Scenario: 2025, very optimistic, 440ppm
+electricity, at SOFC, planar, 1kW | Scenario: 2025, very optimistic, Renew
+electricity, at SOFC, planar, 1kW | Scenario: 2050, pessimistic, 440ppm
+electricity, at SOFC, planar, 1kW | Scenario: 2050, pessimistic, BAU
+electricity, at SOFC, planar, 1kW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at SOFC, planar, 1kW | Scenario: 2050, very optimistic, 440ppm
+electricity, at SOFC, planar, 1kW | Scenario: 2050, very optimistic, Renew
+electricity, at SOFC, tubular CHP with woodgas, hybrid, 1000kW | Scenario: 2050, very optimistic, 440ppm
+electricity, at SOFC, tubular CHP with woodgas, hybrid, 1000kW | Scenario: 2050, very optimistic, Renew
+electricity, at SOFC, tubular CHP, 250kW | Scenario: Today
+electricity, at SOFC, tubular CHP, hybrid, 1000kW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at SOFC, tubular CHP, hybrid, 1000kW | Scenario: 2050, very optimistic, 440ppm
+electricity, at SOFC, tubular CHP, hybrid, 1000kW | Scenario: 2050, very optimistic, Renew
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, pessimistic, 440ppm
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, pessimistic, BAU
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, very optimistic, 440ppm
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, very optimistic, Renew
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2050, pessimistic, 440ppm
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2050, pessimistic, BAU
+electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at SOFC, tubular CHP, wood gas, 300kW | Scenario: 2025, very optimistic, 440ppm
+electricity, at SOFC, tubular CHP, wood gas, 300kW | Scenario: 2025, very optimistic, Renew
+electricity, at hi-eff. gasif. (poplar) w. ICE, emiss.ctrl., S. EU, all. exergy | Scenario: Today
+electricity, at hi-effic. gasifier (poplar) w. ICE, emiss.ctrl., alloc. exergy | Scenario: Today
+electricity, at hi-effic. gasifier (res.wood) w. ICE, emiss.ctrl., alloc. exergy | Scenario: Today
+electricity, at offshore wind park 1068MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at offshore wind park 1332MW | Scenario: 2025, very optimistic, 440ppm
+electricity, at offshore wind park 1332MW | Scenario: 2025, very optimistic, Renew
+electricity, at offshore wind park 1440MW | Scenario: 2050, pessimistic, 440ppm
+electricity, at offshore wind park 1440MW | Scenario: 2050, pessimistic, BAU
+electricity, at offshore wind park 160MW | Scenario: Today
+electricity, at offshore wind park 1944MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at offshore wind park 2496MW | Scenario: 2050, very optimistic, 440ppm
+electricity, at offshore wind park 2496MW | Scenario: 2050, very optimistic, Renew
+electricity, at offshore wind park 752MW | Scenario: 2025, pessimistic, 440ppm
+electricity, at offshore wind park 752MW | Scenario: 2025, pessimistic, BAU
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, pessimistic, 440ppm
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, pessimistic, BAU
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, very optimistic, 440ppm
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, very optimistic, Renew
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, pessimistic, 440ppm
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, pessimistic, BAU
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, very optimistic, 440ppm
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, very optimistic, Renew
+electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: Today
+electricity, at solar tower, DNI2000, hybrid, with storage, 15MW | Scenario: Today
+electricity, at solar tower, DNI2000, with storage, 15MW | Scenario: Today
+electricity, at solar trough, DNI2000, hybrid, with storage, 46MW | Scenario: Today
+electricity, at steam turbine (poplar), emiss. ctrl., South EU, alloc. exergy | Scenario: Today
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, 440ppm
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, BAU
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, 440ppm
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, Renew
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, 440ppm
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, BAU
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, 440ppm
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, Renew
+electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: Today
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, 440ppm
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, BAU
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, 440ppm
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, Renew
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, 440ppm
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, BAU
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, 440ppm
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, Renew
+electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: Today
+electricity, from wave energy, 7MW | Scenario: 2025, pessimistic, 440ppm
+electricity, from wave energy, 7MW | Scenario: 2025, pessimistic, BAU
+electricity, from wave energy, 7MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, from wave energy, 7MW | Scenario: 2025, very optimistic, 440ppm
+electricity, from wave energy, 7MW | Scenario: 2025, very optimistic, Renew
+electricity, from wave energy, 7MW | Scenario: 2050, pessimistic, 440ppm
+electricity, from wave energy, 7MW | Scenario: 2050, pessimistic, BAU
+electricity, from wave energy, 7MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, from wave energy, 7MW | Scenario: 2050, very optimistic, 440ppm
+electricity, from wave energy, 7MW | Scenario: 2050, very optimistic, Renew
+electricity, from wave energy, 7MW | Scenario: Today
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew
+electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew
+electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew
+electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew
+electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, pessimistic, BAU
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, very optimistic, Renew
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, pessimistic, BAU
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, very optimistic, Renew
+electricity, hard coal, at IGCC power plant 450MW | Scenario: Today
+electricity, hard coal, at power plant 350 MW | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal, at power plant 350 MW | Scenario: 2025, pessimistic, BAU
+electricity, hard coal, at power plant 350 MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal, at power plant 350 MW | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal, at power plant 350 MW | Scenario: 2025, very optimistic, Renew
+electricity, hard coal, at power plant 350 MW | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal, at power plant 350 MW | Scenario: 2050, pessimistic, BAU
+electricity, hard coal, at power plant 350 MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal, at power plant 350 MW | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal, at power plant 350 MW | Scenario: 2050, very optimistic, Renew
+electricity, hard coal, at power plant 350 MW | Scenario: Today
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, 440ppm | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, BAU
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, BAU | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, 440ppm | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, Renew
+electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, Renew | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, 440ppm | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, BAU
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, BAU | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, 440ppm | U
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, Renew
+electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, Renew | U
+electricity, hard coal, at power plant 600 MW | Scenario: Today
+electricity, hard coal, at power plant 800 MW | Scenario: 2025, pessimistic, 440ppm
+electricity, hard coal, at power plant 800 MW | Scenario: 2025, pessimistic, BAU
+electricity, hard coal, at power plant 800 MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, hard coal, at power plant 800 MW | Scenario: 2025, very optimistic, 440ppm
+electricity, hard coal, at power plant 800 MW | Scenario: 2025, very optimistic, Renew
+electricity, hard coal, at power plant 800 MW | Scenario: 2050, pessimistic, 440ppm
+electricity, hard coal, at power plant 800 MW | Scenario: 2050, pessimistic, BAU
+electricity, hard coal, at power plant 800 MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, hard coal, at power plant 800 MW | Scenario: 2050, very optimistic, 440ppm
+electricity, hard coal, at power plant 800 MW | Scenario: 2050, very optimistic, Renew
+electricity, hard coal, at power plant 800 MW | Scenario: Today
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew
+electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew
+electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew
+electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew
+electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite plant 800MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite plant 800MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite plant 800MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite plant 800MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite plant 800MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite plant 800MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite plant 800MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite plant 800MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew
+electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U
+electricity, lignite power plant 800MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite power plant 800MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite power plant 800MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite power plant 800MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite power plant 800MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite power plant 800MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite power plant 800MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U
+electricity, lignite power plant 800MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, pessimistic, BAU
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, very optimistic, Renew
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, pessimistic, BAU
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, very optimistic, Renew
+electricity, lignite, at power plant 950 MW | Scenario: 2025, pessimistic, 440ppm
+electricity, lignite, at power plant 950 MW | Scenario: 2025, pessimistic, BAU
+electricity, lignite, at power plant 950 MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, lignite, at power plant 950 MW | Scenario: 2025, very optimistic, 440ppm
+electricity, lignite, at power plant 950 MW | Scenario: 2025, very optimistic, Renew
+electricity, lignite, at power plant 950 MW | Scenario: 2050, pessimistic, 440ppm
+electricity, lignite, at power plant 950 MW | Scenario: 2050, pessimistic, BAU
+electricity, lignite, at power plant 950 MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, lignite, at power plant 950 MW | Scenario: 2050, very optimistic, 440ppm
+electricity, lignite, at power plant 950 MW | Scenario: 2050, very optimistic, Renew
+electricity, lignite, at power plant 950 MW | Scenario: Today
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, pessimistic, BAU
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, very optimistic, Renew
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, pessimistic, BAU
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm
+electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, very optimistic, Renew
+electricity, natural gas, at cogeneration 200kWe lean burn, allocation exergy | Scenario: 2050, pessimistic, 440ppm
+electricity, natural gas, at cogeneration 200kWe lean burn, allocation exergy | Scenario: 2050, pessimistic, BAU
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, pessimistic, 440ppm
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, pessimistic, BAU
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, very optimistic, 440ppm
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, very optimistic, Renew
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, pessimistic, 440ppm
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, pessimistic, BAU
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, very optimistic, 440ppm
+electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, very optimistic, Renew
+electricity, natural gas, at turbine, 50MWe | Scenario: 2025, pessimistic, 440ppm
+electricity, natural gas, at turbine, 50MWe | Scenario: 2025, pessimistic, BAU
+electricity, natural gas, at turbine, 50MWe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, natural gas, at turbine, 50MWe | Scenario: 2025, very optimistic, 440ppm
+electricity, natural gas, at turbine, 50MWe | Scenario: 2025, very optimistic, Renew
+electricity, natural gas, at turbine, 50MWe | Scenario: 2050, pessimistic, 440ppm
+electricity, natural gas, at turbine, 50MWe | Scenario: 2050, pessimistic, BAU
+electricity, natural gas, at turbine, 50MWe | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, natural gas, at turbine, 50MWe | Scenario: 2050, very optimistic, 440ppm
+electricity, natural gas, at turbine, 50MWe | Scenario: 2050, very optimistic, Renew
+electricity, nuclear, at EFR reactor | Scenario: 2025, pessimistic, 440ppm
+electricity, nuclear, at EFR reactor | Scenario: 2025, pessimistic, BAU
+electricity, nuclear, at EFR reactor | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, nuclear, at EFR reactor | Scenario: 2025, very optimistic, 440ppm
+electricity, nuclear, at EFR reactor | Scenario: 2025, very optimistic, Renew
+electricity, nuclear, at EFR reactor | Scenario: 2050, pessimistic, 440ppm
+electricity, nuclear, at EFR reactor | Scenario: 2050, pessimistic, BAU
+electricity, nuclear, at EFR reactor | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, nuclear, at EFR reactor | Scenario: 2050, very optimistic, 440ppm
+electricity, nuclear, at EFR reactor | Scenario: 2050, very optimistic, Renew
+electricity, nuclear, at EPR reactor | Scenario: 2025, pessimistic, 440ppm
+electricity, nuclear, at EPR reactor | Scenario: 2025, pessimistic, BAU
+electricity, nuclear, at EPR reactor | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, nuclear, at EPR reactor | Scenario: 2025, very optimistic, 440ppm
+electricity, nuclear, at EPR reactor | Scenario: 2025, very optimistic, Renew
+electricity, nuclear, at EPR reactor | Scenario: 2050, pessimistic, 440ppm
+electricity, nuclear, at EPR reactor | Scenario: 2050, pessimistic, BAU
+electricity, nuclear, at EPR reactor | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, nuclear, at EPR reactor | Scenario: 2050, very optimistic, 440ppm
+electricity, nuclear, at EPR reactor | Scenario: 2050, very optimistic, Renew
+electricity, nuclear, at power plant boiling water reactor | Scenario: Today
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, pessimistic, 440ppm
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, pessimistic, BAU
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, very optimistic, 440ppm
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, very optimistic, Renew
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, pessimistic, 440ppm
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, pessimistic, BAU
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, very optimistic, 440ppm
+electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, very optimistic, Renew
+electricity, nuclear, at power plant pressure water reactor | Scenario: Today
+electricity, photovoltaic, flat roof, mc-Si, retrofit, Central Europe | Scenario: Today
+electricity, photovoltaic, flat roof, mc-Si, retrofit, Southern Europe | Scenario: Today
+electricity, photovoltaic, flat roof, sc-Si, retrofit, Central Europe | Scenario: Today
+electricity, photovoltaic, flat roof, sc-Si, retrofit, Southern Europe | Scenario: Today
+electricity, photovoltaic, ground mounted power plant, mc-Si, Central Europe | Scenario: Today
+electricity, photovoltaic, ground mounted power plant, mc-Si, Southern Europe | Scenario: Today
+electricity, photovoltaic, ground mounted power plant, sc-Si, Central Europe | Scenario: Today
+electricity, photovoltaic, ground mounted power plant, sc-Si, Southern Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, mc-Si, integrated, Central Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, mc-Si, integrated, Southern Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, mc-Si, retrofit, Central Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, mc-Si, retrofit, Southern Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, sc-Si, integrated, Central Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, sc-Si, integrated, Southern Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, sc-Si, retrofit, Central Europe | Scenario: Today
+electricity, photovoltaic, tilted roof, sc-Si, retrofit, Southern Europe | Scenario: Today
+electricity, photovoltaic, vertical facade, mc-Si, integrated, Central Europe | Scenario: Today
+electricity, photovoltaic, vertical facade, mc-Si, integrated, Southern Europe | Scenario: Today
+electricity, photovoltaic, vertical facade, sc-Si, integrated, Central Europe | Scenario: Today
+electricity, photovoltaic, vertical facade, sc-Si, integrated, Southern Europe | Scenario: Today
+electricity, production mix UCTE | Scenario: 2025, pessimistic, 440ppm
+electricity, production mix UCTE | Scenario: 2025, pessimistic, BAU
+electricity, production mix UCTE | Scenario: 2025, very optimistic, 440ppm
+electricity, production mix UCTE | Scenario: 2025, very optimistic, Renew
+electricity, production mix UCTE | Scenario: 2050, pessimistic, 440ppm
+electricity, production mix UCTE | Scenario: 2050, pessimistic, BAU
+electricity, production mix UCTE | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, production mix UCTE | Scenario: 2050, very optimistic, 440ppm
+electricity, production mix UCTE | Scenario: 2050, very optimistic, Renew
+electricity, pv, ground mounted power plant, c-Si, low eff., Central EU | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, low eff., Southern EU | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2050, very optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2050, very optimistic, Renew
+electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2050, very optimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2050, very optimistic, Renew
+electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2025, pessimistic, BAU
+electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2050, pessimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2050, pessimistic, BAU
+electricity, pv, ground mounted power plant, c-Si, very thick, South. EU | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si, very thick, South. EU | Scenario: 2025, pessimistic, BAU
+electricity, pv, ground mounted power plant, c-Si,very thick, Southern EU | Scenario: 2050, pessimistic, 440ppm
+electricity, pv, ground mounted power plant, c-Si,very thick, Southern EU | Scenario: 2050, pessimistic, BAU
+electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, ground mounted power plant, sc-Si, 150, Central Europe | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, ground mounted power plant, sc-Si, 150, Central Europe | Scenario: 2025, pessimistic, BAU
+electricity, pv, ground mounted power plant, sc-Si, 150, Southern Europe | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, ground mounted power plant, sc-Si, 150, Southern Europe | Scenario: 2025, pessimistic, BAU
+electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2050, very optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2050, very optimistic, Renew
+electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2050, very optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2050, very optimistic, Renew
+electricity, pv, tilted roof, CdTe, integrated, low eff, Central Europe | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, low eff, Central Europe | Scenario: 2025, pessimistic, BAU
+electricity, pv, tilted roof, CdTe, integrated, low eff. Southern Europe | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, low eff. Southern Europe | Scenario: 2025, pessimistic, BAU
+electricity, pv, tilted roof, CdTe, integrated, short, Central Europe | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, integrated, short, Southern Europe | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, CdTe, low eff. integrated, Central Europe | Scenario: 2050, pessimistic, 440ppm
+electricity, pv, tilted roof, CdTe, low eff. integrated, Central Europe | Scenario: 2050, pessimistic, BAU
+electricity, pv, tilted roof, CdTe, low eff.,  integrated, Southern EU | Scenario: 2050, pessimistic, 440ppm
+electricity, pv, tilted roof, CdTe, low eff.,  integrated, Southern EU | Scenario: 2050, pessimistic, BAU
+electricity, pv, tilted roof, c-Si, integrated, low eff., Central Europe | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, low eff., Southern Europe | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2050, very optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2050, very optimistic, Renew
+electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2050, very optimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2050, very optimistic, Renew
+electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2025, pessimistic, BAU
+electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2050, pessimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2050, pessimistic, BAU
+electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2025, pessimistic, BAU
+electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2050, pessimistic, 440ppm
+electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2050, pessimistic, BAU
+electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe | Scenario: 2025, very optimistic, 440ppm
+electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe | Scenario: 2025, very optimistic, Renew
+electricity, pv, tilted roof, sc-Si, integrated, 150, Central Europe | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, tilted roof, sc-Si, integrated, 150, Central Europe | Scenario: 2025, pessimistic, BAU
+electricity, pv, tilted roof, sc-Si, integrated, 150, Southern Europe | Scenario: 2025, pessimistic, 440ppm
+electricity, pv, tilted roof, sc-Si, integrated, 150, Southern Europe | Scenario: 2025, pessimistic, BAU
+electricity, solar thermal, at solar trough, DNI2000, with storage, 46MW | Scenario: Today
+electricity, solar tower, with salt storage, at power plant, 180MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, solar tower, with salt storage, at power plant, 180MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, solar trough, PCM-storage, at power plant, 200MW | Scenario: 2025, realistic-optimistic, 440ppm
+electricity, solar trough, concrete storage, at power plant, 180MW | Scenario: 2025, pessimistic, 440ppm
+electricity, solar trough, concrete storage, at power plant, 180MW | Scenario: 2025, pessimistic, BAU
+electricity, solar trough, salt storage, at power plant, 180MW | Scenario: 2025, pessimistic, 440ppm
+electricity, solar trough, salt storage, at power plant, 180MW | Scenario: 2025, pessimistic, BAU
+electricity, trough, at power plant, with salt storage, 400MW | Scenario: 2050, pessimistic, 440ppm
+electricity, trough, at power plant, with salt storage, 400MW | Scenario: 2050, pessimistic, BAU
+electricity, trough, with PCM-storage, at power plant, 400MW | Scenario: 2050, realistic-optimistic, 440ppm
+electricity, trough, with concrete storage, at power plant, 400MW | Scenario: 2050, pessimistic, 440ppm
+electricity, trough, with concrete storage, at power plant, 400MW | Scenario: 2050, pessimistic, BAU
+ferronickel, 25% Ni, at plant | Scenario: 2025, pessimistic, 440ppm
+ferronickel, 25% Ni, at plant | Scenario: 2025, pessimistic, BAU
+ferronickel, 25% Ni, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+ferronickel, 25% Ni, at plant | Scenario: 2025, very optimistic, 440ppm
+ferronickel, 25% Ni, at plant | Scenario: 2025, very optimistic, Renew
+ferronickel, 25% Ni, at plant | Scenario: 2050, pessimistic, 440ppm
+ferronickel, 25% Ni, at plant | Scenario: 2050, pessimistic, BAU
+ferronickel, 25% Ni, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+ferronickel, 25% Ni, at plant | Scenario: 2050, very optimistic, 440ppm
+ferronickel, 25% Ni, at plant | Scenario: 2050, very optimistic, Renew
+ferronickel, 25% Ni, at plant | Scenario: Today
+flat glass, uncoated, at plant | Scenario: 2025, pessimistic, 440ppm
+flat glass, uncoated, at plant | Scenario: 2025, pessimistic, BAU
+flat glass, uncoated, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+flat glass, uncoated, at plant | Scenario: 2025, very optimistic, 440ppm
+flat glass, uncoated, at plant | Scenario: 2025, very optimistic, Renew
+flat glass, uncoated, at plant | Scenario: 2050, pessimistic, 440ppm
+flat glass, uncoated, at plant | Scenario: 2050, pessimistic, BAU
+flat glass, uncoated, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+flat glass, uncoated, at plant | Scenario: 2050, very optimistic, 440ppm
+flat glass, uncoated, at plant | Scenario: 2050, very optimistic, Renew
+flat glass, uncoated, at plant | Scenario: Today
+hard coal supply, Europe | Scenario: Today | U
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, pessimistic, 440ppm
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, pessimistic, BAU
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, realistic-optimistic, 440ppm
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, very optimistic, 440ppm
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, very optimistic, Renew
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, pessimistic, 440ppm
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, pessimistic, BAU
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, realistic-optimistic, 440ppm
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, very optimistic, 440ppm
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, very optimistic, Renew
+hydrogen, compressed gas, at hydrogen fuelling station | Scenario: Today
+nickel, 99.5%, at plant | Scenario: 2025, pessimistic, 440ppm
+nickel, 99.5%, at plant | Scenario: 2025, pessimistic, BAU
+nickel, 99.5%, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+nickel, 99.5%, at plant | Scenario: 2025, very optimistic, 440ppm
+nickel, 99.5%, at plant | Scenario: 2025, very optimistic, Renew
+nickel, 99.5%, at plant | Scenario: 2050, pessimistic, 440ppm
+nickel, 99.5%, at plant | Scenario: 2050, pessimistic, BAU
+nickel, 99.5%, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+nickel, 99.5%, at plant | Scenario: 2050, very optimistic, 440ppm
+nickel, 99.5%, at plant | Scenario: 2050, very optimistic, Renew
+nickel, 99.5%, at plant | Scenario: Today
+operation, hard coal IGCC power plant 450MW | Scenario: Today | U
+operation, lorry 16t | Scenario: 2025, pessimistic, 440ppm
+operation, lorry 16t | Scenario: 2025, pessimistic, BAU
+operation, lorry 16t | Scenario: 2025, realistic-optimistic, 440ppm
+operation, lorry 16t | Scenario: 2025, very optimistic, 440ppm
+operation, lorry 16t | Scenario: 2025, very optimistic, Renew
+operation, lorry 16t | Scenario: 2050, pessimistic, 440ppm
+operation, lorry 16t | Scenario: 2050, pessimistic, BAU
+operation, lorry 16t | Scenario: 2050, realistic-optimistic, 440ppm
+operation, lorry 16t | Scenario: 2050, very optimistic, 440ppm
+operation, lorry 16t | Scenario: 2050, very optimistic, Renew
+operation, lorry 28t | Scenario: 2025, pessimistic, 440ppm
+operation, lorry 28t | Scenario: 2025, pessimistic, BAU
+operation, lorry 28t | Scenario: 2025, realistic-optimistic, 440ppm
+operation, lorry 28t | Scenario: 2025, very optimistic, 440ppm
+operation, lorry 28t | Scenario: 2025, very optimistic, Renew
+operation, lorry 28t | Scenario: 2050, pessimistic, 440ppm
+operation, lorry 28t | Scenario: 2050, pessimistic, BAU
+operation, lorry 28t | Scenario: 2050, realistic-optimistic, 440ppm
+operation, lorry 28t | Scenario: 2050, very optimistic, 440ppm
+operation, lorry 28t | Scenario: 2050, very optimistic, Renew
+operation, lorry 32t | Scenario: 2025, pessimistic, 440ppm
+operation, lorry 32t | Scenario: 2025, pessimistic, BAU
+operation, lorry 32t | Scenario: 2025, realistic-optimistic, 440ppm
+operation, lorry 32t | Scenario: 2025, very optimistic, 440ppm
+operation, lorry 32t | Scenario: 2025, very optimistic, Renew
+operation, lorry 32t | Scenario: 2050, pessimistic, 440ppm
+operation, lorry 32t | Scenario: 2050, pessimistic, BAU
+operation, lorry 32t | Scenario: 2050, realistic-optimistic, 440ppm
+operation, lorry 32t | Scenario: 2050, very optimistic, 440ppm
+operation, lorry 32t | Scenario: 2050, very optimistic, Renew
+operation, van < 3,5t | Scenario: 2025, very optimistic, 440ppm
+operation, van < 3,5t | Scenario: 2025, very optimistic, Renew
+operation, van < 3,5t | Scenario: 2050, pessimistic, 440ppm
+operation, van < 3,5t | Scenario: 2050, pessimistic, BAU
+operation, van < 3,5t | Scenario: 2050, realistic-optimistic, 440ppm
+operation, van < 3,5t | Scenario: 2050, very optimistic, 440ppm
+operation, van < 3,5t | Scenario: 2050, very optimistic, Renew
+pig iron, at plant | Scenario: 2025, pessimistic, 440ppm
+pig iron, at plant | Scenario: 2025, pessimistic, BAU
+pig iron, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+pig iron, at plant | Scenario: 2025, very optimistic, 440ppm
+pig iron, at plant | Scenario: 2025, very optimistic, Renew
+pig iron, at plant | Scenario: 2050, pessimistic, 440ppm
+pig iron, at plant | Scenario: 2050, pessimistic, BAU
+pig iron, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+pig iron, at plant | Scenario: 2050, very optimistic, 440ppm
+pig iron, at plant | Scenario: 2050, very optimistic, Renew
+pig iron, at plant | Scenario: Today
+sinter, iron, at plant | Scenario: 2025, pessimistic, 440ppm
+sinter, iron, at plant | Scenario: 2025, pessimistic, BAU
+sinter, iron, at plant | Scenario: 2025, realistic-optimistic, 440ppm
+sinter, iron, at plant | Scenario: 2025, very optimistic, 440ppm
+sinter, iron, at plant | Scenario: 2025, very optimistic, Renew
+sinter, iron, at plant | Scenario: 2050, pessimistic, 440ppm
+sinter, iron, at plant | Scenario: 2050, pessimistic, BAU
+sinter, iron, at plant | Scenario: 2050, realistic-optimistic, 440ppm
+sinter, iron, at plant | Scenario: 2050, very optimistic, 440ppm
+sinter, iron, at plant | Scenario: 2050, very optimistic, Renew
+sinter, iron, at plant | Scenario: Today
+transport, lorry 16t | Scenario: Today
+transport, lorry 28t | Scenario: Today
+transport, lorry 32t | Scenario: Today
+transport, van <3.5t | Scenario: Today
+zinc for coating, at regional storage | Scenario: Today

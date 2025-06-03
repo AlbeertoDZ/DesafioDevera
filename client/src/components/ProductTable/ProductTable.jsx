@@ -1,8 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import './ProductTable.scss';
 
 const ProductTable = () => {
+  const navigate = useNavigate();
+
   const products = [
     {
+      id: 1,
       name: 'Elabaute',
       image: 'https://dominandoelecommerce.com/wp-content/uploads/2019/06/fotografia-de-producto-para-tiendas-online.jpg',
       footprint: '5,78',
@@ -11,6 +15,7 @@ const ProductTable = () => {
       status: 'Pendiente',
     },
     {
+      id: 2,
       name: 'Natura Face',
       image: 'https://comunicacionmarketing.es/wp-content/uploads/2019/11/Amazon-lucha-por-mantener-la-marca-de-Nike-en-su-marketplace.jpg',
       footprint: '4,21',
@@ -19,6 +24,7 @@ const ProductTable = () => {
       status: 'En análisis',
     },
     {
+      id: 3,
       name: 'EcoLotion',
       image: 'https://www.revistaeyn.com/binrepository/1280x900/40c0/1200d900/none/26086/CMVW/nike-air-vapormax-2020-0_EN1406339_MG223324389.jpg',
       footprint: '6,02',
@@ -27,6 +33,10 @@ const ProductTable = () => {
       status: 'Finalizado',
     },
   ];
+
+  const handleViewProduct = (productId) => {
+    navigate(`/product/${productId}`);
+  };
 
   return (
     <div className="table-wrapper">
@@ -92,7 +102,7 @@ const ProductTable = () => {
             </div>
             <div className="cell">
                 <span className="label-mobile">Ver</span>
-                <button className="icon-button" onClick={() => alert(`Ver ${product.name}`)}>👁</button>
+                <button className="icon-button" onClick={() => handleViewProduct(product.id)}>👁</button>
                 </div>
                 <div className="cell">
                 <span className="label-mobile">Descargar</span>

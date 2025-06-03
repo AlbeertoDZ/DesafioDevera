@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Eye, EyeOff } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 import './Login.scss';
@@ -12,14 +13,7 @@ const Login = () => {
   const [formErrors, setFormErrors] = useState({});
 
   const { login, loading, error, isAuthenticated, setError } = useAuth();
-
-  // Redirigir si ya está autenticado
-  useEffect(() => {
-    if (isAuthenticated()) {
-      // Aquí podrías redirigir al dashboard
-      console.log('Usuario ya autenticado');
-    }
-  }, [isAuthenticated]);
+  const navigate = useNavigate();
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -52,7 +46,7 @@ const Login = () => {
       [name]: value
     }));
     
-    // Limpiar errores cuando el usuario empiece a escribir
+    // Limpiar errores de validación cuando el usuario empiece a escribir
     if (formErrors[name]) {
       setFormErrors(prev => ({
         ...prev,
@@ -60,27 +54,32 @@ const Login = () => {
       }));
     }
 
-    // Limpiar error general si existe
-    if (error) {
-      setError(null);
-    }
+    // NO limpiar el error general de credenciales aquí
+    // Solo se limpiará cuando se haga un nuevo intento de login
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     
+    // Limpiar error general SOLO al hacer submit
+    setError(null);
+    
     if (!validateForm()) {
       return;
     }
 
+    console.log('Intentando login con:', formData.email);
+    
     const result = await login(formData);
+    
+    console.log('Resultado del login:', result);
     
     if (result.success) {
       console.log('Login exitoso:', result.user);
-      // Aquí podrías redirigir al dashboard o mostrar una notificación
-      alert(`¡Bienvenido ${result.user.name || result.user.email}!`);
+    } else {
+      console.log('Login fallido:', result.error);
+      // El error se mostrará automáticamente desde el hook
     }
-    // Los errores se manejan automáticamente en el hook useAuth
   };
 
   const togglePasswordVisibility = () => {
@@ -142,7 +141,14 @@ const Login = () => {
             </div>
 
             {error && (
-              <div className="error-message general-error">{error}</div>
+              <div className="error-message general-error">
+                <strong>
+                  {error === 'Credenciales inválidas' 
+                    ? 'Email o contraseña incorrectos'
+                    : error
+                  }
+                </strong>
+              </div>
             )}
 
             <button 
@@ -150,7 +156,7 @@ const Login = () => {
               className="login-button"
               disabled={loading}
             >
-              {loading ? 'Cargando...' : 'Comenzar'}
+              {loading ? 'Cargando...' : 'Continuar'}
             </button>
           </form>
 
