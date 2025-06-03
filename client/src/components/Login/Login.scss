@@ -103,7 +103,8 @@ $font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica N
 
 // Main styles
 .login-container {
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   @include flex-center;
   background-color: $primary-bg;
   font-family: $font-stack;
