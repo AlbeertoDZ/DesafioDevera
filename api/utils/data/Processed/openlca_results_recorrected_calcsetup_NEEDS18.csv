@@ -1,0 +1,934 @@
+Process Name,Product Flow,Unit,Carbon Footprint (kg CO2 eq),Status
+"MG-silicon, at plant | Scenario: 2025, pessimistic, BAU","MG-silicon, at plant",kg,4.600802588148402,Success
+"MG-silicon, at plant | Scenario: 2025, realistic-optimistic, 440ppm","MG-silicon, at plant",kg,4.546478735064911,Success
+"MG-silicon, at plant | Scenario: 2025, very optimistic, 440ppm","MG-silicon, at plant",kg,4.121226251652873,Success
+"MG-silicon, at plant | Scenario: 2025, very optimistic, Renew","MG-silicon, at plant",kg,4.114757061235308,Success
+"MG-silicon, at plant | Scenario: 2050, pessimistic, 440ppm","MG-silicon, at plant",kg,4.509883439403144,Success
+"MG-silicon, at plant | Scenario: 2050, pessimistic, BAU","MG-silicon, at plant",kg,4.598851337530792,Success
+"MG-silicon, at plant | Scenario: 2050, realistic-optimistic, 440ppm","MG-silicon, at plant",kg,4.471863417862913,Success
+"MG-silicon, at plant | Scenario: 2050, very optimistic, 440ppm","MG-silicon, at plant",kg,3.1291500095698384,Success
+"MG-silicon, at plant | Scenario: 2050, very optimistic, Renew","MG-silicon, at plant",kg,3.1371321598127637,Success
+"MG-silicon, at plant | Scenario: Today","MG-silicon, at plant",kg,4.6380694968348575,Success
+"aluminium, primary, liquid, at plant | Scenario: 2025, pessimistic, 440ppm","aluminium, primary, liquid, at plant",kg,11.823020294750808,Success
+"aluminium, primary, liquid, at plant | Scenario: 2025, pessimistic, BAU","aluminium, primary, liquid, at plant",kg,11.958347293597507,Success
+"aluminium, primary, liquid, at plant | Scenario: 2025, realistic-optimistic, 440ppm","aluminium, primary, liquid, at plant",kg,11.976757364226422,Success
+"aluminium, primary, liquid, at plant | Scenario: 2025, very optimistic, 440ppm","aluminium, primary, liquid, at plant",kg,10.334112277315745,Success
+"aluminium, primary, liquid, at plant | Scenario: 2025, very optimistic, Renew","aluminium, primary, liquid, at plant",kg,10.308897233266576,Success
+"aluminium, primary, liquid, at plant | Scenario: 2050, pessimistic, 440ppm","aluminium, primary, liquid, at plant",kg,11.641941185178263,Success
+"aluminium, primary, liquid, at plant | Scenario: 2050, pessimistic, BAU","aluminium, primary, liquid, at plant",kg,11.948426295593679,Success
+"aluminium, primary, liquid, at plant | Scenario: 2050, realistic-optimistic, 440ppm","aluminium, primary, liquid, at plant",kg,10.27368192277086,Success
+"aluminium, primary, liquid, at plant | Scenario: 2050, very optimistic, 440ppm","aluminium, primary, liquid, at plant",kg,9.637864823222413,Success
+"aluminium, primary, liquid, at plant | Scenario: 2050, very optimistic, Renew","aluminium, primary, liquid, at plant",kg,9.671813213945281,Success
+"aluminium, primary, liquid, at plant | Scenario: Today","aluminium, primary, liquid, at plant",kg,12.108853525534856,Success
+"clinker, at plant | Scenario: 2025, pessimistic, 440ppm","clinker, at plant",kg,0.9149503048802627,Success
+"clinker, at plant | Scenario: 2025, pessimistic, BAU","clinker, at plant",kg,0.9159405132214097,Success
+"clinker, at plant | Scenario: 2025, realistic-optimistic, 440ppm","clinker, at plant",kg,0.8703893896515276,Success
+"clinker, at plant | Scenario: 2025, very optimistic, 440ppm","clinker, at plant",kg,0.8026363688428089,Success
+"clinker, at plant | Scenario: 2025, very optimistic, Renew","clinker, at plant",kg,0.8025001789208941,Success
+"clinker, at plant | Scenario: 2050, pessimistic, 440ppm","clinker, at plant",kg,0.913659402345254,Success
+"clinker, at plant | Scenario: 2050, pessimistic, BAU","clinker, at plant",kg,0.9158622585050166,Success
+"clinker, at plant | Scenario: 2050, realistic-optimistic, 440ppm","clinker, at plant",kg,0.8349554385756038,Success
+"clinker, at plant | Scenario: 2050, very optimistic, 440ppm","clinker, at plant",kg,0.7080736572483393,Success
+"clinker, at plant | Scenario: 2050, very optimistic, Renew","clinker, at plant",kg,0.7082028829121216,Success
+"clinker, at plant | Scenario: Today","clinker, at plant",kg,0.9171067784117005,Success
+"construction, hard coal IGCC power plant 450MW | Scenario: Today | U","construction, hard coal IGCC power plant 450MW",Item(s),0.0,Success
+"copper, primary, at refinery | Scenario: 2025, pessimistic, 440ppm","copper, primary, at refinery",kg,2.3596424961109177,Success
+"copper, primary, at refinery | Scenario: 2025, pessimistic, 440ppm","copper, primary, at refinery",kg,2.3596424961109177,Success
+"copper, primary, at refinery | Scenario: 2025, pessimistic, BAU","copper, primary, at refinery",kg,2.600791976916871,Success
+"copper, primary, at refinery | Scenario: 2025, pessimistic, BAU","copper, primary, at refinery",kg,2.600791976916871,Success
+"copper, primary, at refinery | Scenario: 2025, realistic-optimistic, 440ppm","copper, primary, at refinery",kg,1.8006138484396383,Success
+"copper, primary, at refinery | Scenario: 2025, realistic-optimistic, 440ppm","copper, primary, at refinery",kg,1.8006138484396383,Success
+"copper, primary, at refinery | Scenario: 2025, very optimistic, 440ppm","copper, primary, at refinery",kg,1.7240306109382615,Success
+"copper, primary, at refinery | Scenario: 2025, very optimistic, 440ppm","copper, primary, at refinery",kg,1.7240306109382615,Success
+"copper, primary, at refinery | Scenario: 2025, very optimistic, Renew","copper, primary, at refinery",kg,1.6871608942594158,Success
+"copper, primary, at refinery | Scenario: 2025, very optimistic, Renew","copper, primary, at refinery",kg,1.6871608942594158,Success
+"copper, primary, at refinery | Scenario: 2050, pessimistic, 440ppm","copper, primary, at refinery",kg,1.9732671750091246,Success
+"copper, primary, at refinery | Scenario: 2050, pessimistic, 440ppm","copper, primary, at refinery",kg,1.9732671750091246,Success
+"copper, primary, at refinery | Scenario: 2050, pessimistic, BAU","copper, primary, at refinery",kg,2.593942786299664,Success
+"copper, primary, at refinery | Scenario: 2050, pessimistic, BAU","copper, primary, at refinery",kg,2.593942786299664,Success
+"copper, primary, at refinery | Scenario: 2050, realistic-optimistic, 440ppm","copper, primary, at refinery",kg,1.3835811354420422,Success
+"copper, primary, at refinery | Scenario: 2050, realistic-optimistic, 440ppm","copper, primary, at refinery",kg,1.3835811354420422,Success
+"copper, primary, at refinery | Scenario: 2050, very optimistic, 440ppm","copper, primary, at refinery",kg,1.3046236155643012,Success
+"copper, primary, at refinery | Scenario: 2050, very optimistic, 440ppm","copper, primary, at refinery",kg,1.3046236155643012,Success
+"copper, primary, at refinery | Scenario: 2050, very optimistic, Renew","copper, primary, at refinery",kg,1.3519699275533863,Success
+"copper, primary, at refinery | Scenario: 2050, very optimistic, Renew","copper, primary, at refinery",kg,1.3519699275533863,Success
+"copper, primary, at refinery | Scenario: Today","copper, primary, at refinery",kg,2.8100589718728664,Success
+"copper, primary, at refinery | Scenario: Today","copper, primary, at refinery",kg,2.8100589718728664,Success
+"dismantling, hard coal IGCC power plant 450MW | Scenario: Today | U","dismantling, hard coal IGCC power plant 450MW",Item(s),0.0,Success
+"electricity mix, aluminium industry | Scenario: 2025, pessimistic, 440ppm","electricity mix, aluminium industry",kWh,0.33562355596938975,Success
+"electricity mix, aluminium industry | Scenario: 2025, pessimistic, BAU","electricity mix, aluminium industry",kWh,0.33694420792722396,Success
+"electricity mix, aluminium industry | Scenario: 2025, realistic-optimistic, 440ppm","electricity mix, aluminium industry",kWh,0.42776364488888297,Success
+"electricity mix, aluminium industry | Scenario: 2025, very optimistic, 440ppm","electricity mix, aluminium industry",kWh,0.3950788956564358,Success
+"electricity mix, aluminium industry | Scenario: 2025, very optimistic, Renew","electricity mix, aluminium industry",kWh,0.3947879744674228,Success
+"electricity mix, aluminium industry | Scenario: 2050, pessimistic, 440ppm","electricity mix, aluminium industry",kWh,0.33354239322923346,Success
+"electricity mix, aluminium industry | Scenario: 2050, pessimistic, BAU","electricity mix, aluminium industry",kWh,0.3369007759845939,Success
+"electricity mix, aluminium industry | Scenario: 2050, realistic-optimistic, 440ppm","electricity mix, aluminium industry",kWh,0.4128984707070848,Success
+"electricity mix, aluminium industry | Scenario: 2050, very optimistic, 440ppm","electricity mix, aluminium industry",kWh,0.36961175287406367,Success
+"electricity mix, aluminium industry | Scenario: 2050, very optimistic, Renew","electricity mix, aluminium industry",kWh,0.36998661990088916,Success
+"electricity mix, aluminium industry | Scenario: Today","electricity mix, aluminium industry",kWh,0.33803774443889156,Success
+"electricity, Fresnel CHP for cooling, with PCM-storage, at power plant, 200MW | Scenario: 2025, very optimistic, 440ppm","electricity, Fresnel CHP for cooling, with PCM-storage, at power plant, 200MW",kWh,0.018343828552059085,Success
+"electricity, Fresnel CHP for cooling, with PCM-storage, at power plant, 200MW | Scenario: 2025, very optimistic, Renew","electricity, Fresnel CHP for cooling, with PCM-storage, at power plant, 200MW",kWh,0.018269739190351426,Success
+"electricity, Fresnel CHP for desalination, at power plant, with PCM-stor., 200MW | Scenario: 2025, very optimistic, 440ppm","electricity, Fresnel CHP for desalination, at power plant, with PCM-stor., 200MW",kWh,0.019498635515688263,Success
+"electricity, Fresnel CHP for desalination, at power plant, with PCM-stor., 200MW | Scenario: 2025, very optimistic, Renew","electricity, Fresnel CHP for desalination, at power plant, with PCM-stor., 200MW",kWh,0.019419889389328204,Success
+"electricity, Fresnel, at power plant, with PCM-storage, 400MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, Fresnel, at power plant, with PCM-storage, 400MW",kWh,0.019279252803710015,Success
+"electricity, Fresnel, with PCM-storage, at power plant, 200MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, Fresnel, with PCM-storage, at power plant, 200MW",kWh,0.034810248069224725,Success
+"electricity, at Fresnel CHP (for cooling), at plant, with PCM-storage, 400MW | Scenario: 2050, very optimistic, 440ppm","electricity, at Fresnel CHP (for cooling), at plant, with PCM-storage, 400MW",kWh,0.01420553052585015,Success
+"electricity, at Fresnel CHP (for cooling), at plant, with PCM-storage, 400MW | Scenario: 2050, very optimistic, Renew","electricity, at Fresnel CHP (for cooling), at plant, with PCM-storage, 400MW",kWh,0.014286209346562039,Success
+"electricity, at Fresnel CHP (for desalination), at plant,with PCM-storage, 400MW | Scenario: 2050, very optimistic, 440ppm","electricity, at Fresnel CHP (for desalination), at plant,with PCM-storage, 400MW",kWh,0.01509987369906583,Success
+"electricity, at Fresnel CHP (for desalination), at plant,with PCM-storage, 400MW | Scenario: 2050, very optimistic, Renew","electricity, at Fresnel CHP (for desalination), at plant,with PCM-storage, 400MW",kWh,0.015185585436768767,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2025, pessimistic, 440ppm","electricity, at MCFC CHP 2000kW",kWh,0.45331000221412787,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2025, pessimistic, BAU","electricity, at MCFC CHP 2000kW",kWh,0.455920683869004,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at MCFC CHP 2000kW",kWh,0.4459124044990569,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2025, very optimistic, 440ppm","electricity, at MCFC CHP 2000kW",kWh,0.43778708447354603,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2025, very optimistic, Renew","electricity, at MCFC CHP 2000kW",kWh,0.43731152973781373,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2050, pessimistic, 440ppm","electricity, at MCFC CHP 2000kW",kWh,0.449179593251847,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2050, pessimistic, BAU","electricity, at MCFC CHP 2000kW",kWh,0.4558373034349996,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at MCFC CHP 2000kW",kWh,0.4302378197179196,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2050, very optimistic, 440ppm","electricity, at MCFC CHP 2000kW",kWh,0.3974391343261805,Success
+"electricity, at MCFC CHP 2000kW | Scenario: 2050, very optimistic, Renew","electricity, at MCFC CHP 2000kW",kWh,0.3980525837082658,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2025, pessimistic, 440ppm","electricity, at MCFC CHP 250kW",kWh,0.4716513059625237,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2025, pessimistic, BAU","electricity, at MCFC CHP 250kW",kWh,0.47239049020633805,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at MCFC CHP 250kW",kWh,0.46435002150377863,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2025, very optimistic, 440ppm","electricity, at MCFC CHP 250kW",kWh,0.4569096898677852,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2025, very optimistic, Renew","electricity, at MCFC CHP 250kW",kWh,0.45677449746420523,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2050, pessimistic, 440ppm","electricity, at MCFC CHP 250kW",kWh,0.47051228852066695,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2050, pessimistic, BAU","electricity, at MCFC CHP 250kW",kWh,0.47236182463210075,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at MCFC CHP 250kW",kWh,0.45123045195351147,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2050, very optimistic, 440ppm","electricity, at MCFC CHP 250kW",kWh,0.43339887525899834,Success
+"electricity, at MCFC CHP 250kW | Scenario: 2050, very optimistic, Renew","electricity, at MCFC CHP 250kW",kWh,0.4335732274249944,Success
+"electricity, at MCFC CHP 250kW | Scenario: Today","electricity, at MCFC CHP 250kW",kWh,0.5034932331986438,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, pessimistic, 440ppm","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.0652549471589339,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, pessimistic, BAU","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.07871560306105352,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.06357922576918898,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, very optimistic, 440ppm","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.05691386287496869,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2025, very optimistic, Renew","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.05478238923213924,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, pessimistic, 440ppm","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.04140103242942693,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, pessimistic, BAU","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.07081978644831441,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.039532522089852244,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, very optimistic, 440ppm","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.03686159798796662,Success
+"electricity, at MCFC CHP 250kW, from wood gas | Scenario: 2050, very optimistic, Renew","electricity, at MCFC CHP 250kW, from wood gas",kWh,0.03967621243266646,Success
+"electricity, at SOFC, planar small, 1kW | Scenario: Today","electricity, at SOFC, planar small, 1kW",kWh,0.8034094842115371,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2025, pessimistic, 440ppm","electricity, at SOFC, planar, 1kW",kWh,0.7267749443334183,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2025, pessimistic, BAU","electricity, at SOFC, planar, 1kW",kWh,0.7279615713213016,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at SOFC, planar, 1kW",kWh,0.7155504819441794,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2025, very optimistic, 440ppm","electricity, at SOFC, planar, 1kW",kWh,0.704071529993211,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2025, very optimistic, Renew","electricity, at SOFC, planar, 1kW",kWh,0.7038492802672973,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2050, pessimistic, 440ppm","electricity, at SOFC, planar, 1kW",kWh,0.7249347651817798,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2050, pessimistic, BAU","electricity, at SOFC, planar, 1kW",kWh,0.7279178873179617,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at SOFC, planar, 1kW",kWh,0.694983315718094,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2050, very optimistic, 440ppm","electricity, at SOFC, planar, 1kW",kWh,0.643989112227401,Success
+"electricity, at SOFC, planar, 1kW | Scenario: 2050, very optimistic, Renew","electricity, at SOFC, planar, 1kW",kWh,0.6442629921565145,Success
+"electricity, at SOFC, tubular CHP with woodgas, hybrid, 1000kW | Scenario: 2050, very optimistic, 440ppm","electricity, at SOFC, tubular CHP with woodgas, hybrid, 1000kW",kWh,0.03227636924576655,Success
+"electricity, at SOFC, tubular CHP with woodgas, hybrid, 1000kW | Scenario: 2050, very optimistic, Renew","electricity, at SOFC, tubular CHP with woodgas, hybrid, 1000kW",kWh,0.03448883066001789,Success
+"electricity, at SOFC, tubular CHP, 250kW | Scenario: Today","electricity, at SOFC, tubular CHP, 250kW",kWh,0.5224949236992983,Success
+"electricity, at SOFC, tubular CHP, hybrid, 1000kW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at SOFC, tubular CHP, hybrid, 1000kW",kWh,0.03318962667745538,Success
+"electricity, at SOFC, tubular CHP, hybrid, 1000kW | Scenario: 2050, very optimistic, 440ppm","electricity, at SOFC, tubular CHP, hybrid, 1000kW",kWh,0.34449775782349956,Success
+"electricity, at SOFC, tubular CHP, hybrid, 1000kW | Scenario: 2050, very optimistic, Renew","electricity, at SOFC, tubular CHP, hybrid, 1000kW",kWh,0.34457592893346434,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, pessimistic, 440ppm","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.4344554609672844,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, pessimistic, BAU","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.4348434678060615,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.42775761075477575,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, very optimistic, 440ppm","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.4210324453054885,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2025, very optimistic, Renew","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.42096020984342697,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2050, pessimistic, 440ppm","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.4338797191483058,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2050, pessimistic, BAU","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.4348244006935179,Success
+"electricity, at SOFC, tubular CHP, hybrid, 300kW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at SOFC, tubular CHP, hybrid, 300kW",kWh,0.41645853606111455,Success
+"electricity, at SOFC, tubular CHP, wood gas, 300kW | Scenario: 2025, very optimistic, 440ppm","electricity, at SOFC, tubular CHP, wood gas, 300kW",kWh,0.056243549895687,Success
+"electricity, at SOFC, tubular CHP, wood gas, 300kW | Scenario: 2025, very optimistic, Renew","electricity, at SOFC, tubular CHP, wood gas, 300kW",kWh,0.05427703621262047,Success
+"electricity, at hi-eff. gasif. (poplar) w. ICE, emiss.ctrl., S. EU, all. exergy | Scenario: Today","electricity, at hi-eff. gasif. (poplar) w. ICE, emiss.ctrl., S. EU, all. exergy",kWh,0.06397240791188132,Success
+"electricity, at hi-effic. gasifier (poplar) w. ICE, emiss.ctrl., alloc. exergy | Scenario: Today","electricity, at hi-effic. gasifier (poplar) w. ICE, emiss.ctrl., alloc. exergy",kWh,0.05641498438243125,Success
+"electricity, at hi-effic. gasifier (res.wood) w. ICE, emiss.ctrl., alloc. exergy | Scenario: Today","electricity, at hi-effic. gasifier (res.wood) w. ICE, emiss.ctrl., alloc. exergy",kWh,0.03700403268163434,Success
+"electricity, at offshore wind park 1068MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at offshore wind park 1068MW",kWh,0.002411122541679453,Success
+"electricity, at offshore wind park 1332MW | Scenario: 2025, very optimistic, 440ppm","electricity, at offshore wind park 1332MW",kWh,0.005073801079877837,Success
+"electricity, at offshore wind park 1332MW | Scenario: 2025, very optimistic, Renew","electricity, at offshore wind park 1332MW",kWh,0.005037221657934764,Success
+"electricity, at offshore wind park 1440MW | Scenario: 2050, pessimistic, 440ppm","electricity, at offshore wind park 1440MW",kWh,0.0061792999481943235,Success
+"electricity, at offshore wind park 1440MW | Scenario: 2050, pessimistic, BAU","electricity, at offshore wind park 1440MW",kWh,0.006689934629478574,Success
+"electricity, at offshore wind park 160MW | Scenario: Today","electricity, at offshore wind park 160MW",kWh,0.007460274303099807,Success
+"electricity, at offshore wind park 1944MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at offshore wind park 1944MW",kWh,0.002383345527259861,Success
+"electricity, at offshore wind park 2496MW | Scenario: 2050, very optimistic, 440ppm","electricity, at offshore wind park 2496MW",kWh,0.0024939081104989923,Success
+"electricity, at offshore wind park 2496MW | Scenario: 2050, very optimistic, Renew","electricity, at offshore wind park 2496MW",kWh,0.0025539037791701587,Success
+"electricity, at offshore wind park 752MW | Scenario: 2025, pessimistic, 440ppm","electricity, at offshore wind park 752MW",kWh,0.0022625926557568845,Success
+"electricity, at offshore wind park 752MW | Scenario: 2025, pessimistic, BAU","electricity, at offshore wind park 752MW",kWh,0.0024004786231208823,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, pessimistic, 440ppm","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,1.2525895361496522,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, pessimistic, BAU","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,1.2537527124045005,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,0.9952472073879347,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, very optimistic, 440ppm","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,0.9785988899681385,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2025, very optimistic, Renew","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,0.9784404183891191,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, pessimistic, 440ppm","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,1.2490208443565962,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, pessimistic, BAU","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,1.2514087261356532,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,0.9666900286308096,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, very optimistic, 440ppm","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,0.885127050454631,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: 2050, very optimistic, Renew","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,0.8853120353582259,Success
+"electricity, at proton exchange membrane fuel cell CHP 2kW | Scenario: Today","electricity, at proton exchange membrane fuel cell CHP 2kW",kWh,1.2559909108759948,Success
+"electricity, at solar tower, DNI2000, hybrid, with storage, 15MW | Scenario: Today","electricity, at solar tower, DNI2000, hybrid, with storage, 15MW",kWh,0.037738332742856574,Success
+"electricity, at solar tower, DNI2000, with storage, 15MW | Scenario: Today","electricity, at solar tower, DNI2000, with storage, 15MW",kWh,0.022026647450121787,Success
+"electricity, at solar trough, DNI2000, hybrid, with storage, 46MW | Scenario: Today","electricity, at solar trough, DNI2000, hybrid, with storage, 46MW",kWh,0.04833571539019996,Success
+"electricity, at steam turbine (poplar), emiss. ctrl., South EU, alloc. exergy | Scenario: Today","electricity, at steam turbine (poplar), emiss. ctrl., South EU, alloc. exergy",kWh,0.0726876986202299,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, 440ppm","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.06381335285802339,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, BAU","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.06419200371017102,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.06356838382013869,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, 440ppm","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.050999695468536735,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, Renew","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.05094450413204145,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, 440ppm","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.06332771319922716,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, BAU","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.06416069974892315,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.05052574815630093,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, 440ppm","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.049812634746964256,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, Renew","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.04988673668961742,Success
+"electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy | Scenario: Today","electricity, at steam turbine (poplar), emission ctrl., Centr. EU, alloc. exergy",kWh,0.06494782031077209,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, 440ppm","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.04035918766506299,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, pessimistic, BAU","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.040511701238028885,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, realistic-optimistic, 440ppm","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.04023084131967736,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, 440ppm","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.03206717870522219,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2025, very optimistic, Renew","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.032046476887895185,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, 440ppm","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.040166316976114586,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, pessimistic, BAU","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.040498616600076955,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, realistic-optimistic, 440ppm","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.031912599462010215,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, 440ppm","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.031758697438581604,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: 2050, very optimistic, Renew","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.03178659813944097,Success
+"electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy | Scenario: Today","electricity, at steam turbine (straw), emission ctrl., Centr. EU, alloc. exergy",kWh,0.0406750240346233,Success
+"electricity, from wave energy, 7MW | Scenario: 2025, pessimistic, 440ppm","electricity, from wave energy, 7MW",kWh,0.014118848306860552,Success
+"electricity, from wave energy, 7MW | Scenario: 2025, pessimistic, BAU","electricity, from wave energy, 7MW",kWh,0.01460114592162561,Success
+"electricity, from wave energy, 7MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, from wave energy, 7MW",kWh,0.008332670463337001,Success
+"electricity, from wave energy, 7MW | Scenario: 2025, very optimistic, 440ppm","electricity, from wave energy, 7MW",kWh,0.007794323225410269,Success
+"electricity, from wave energy, 7MW | Scenario: 2025, very optimistic, Renew","electricity, from wave energy, 7MW",kWh,0.007749115055019352,Success
+"electricity, from wave energy, 7MW | Scenario: 2050, pessimistic, 440ppm","electricity, from wave energy, 7MW",kWh,0.008415091118137163,Success
+"electricity, from wave energy, 7MW | Scenario: 2050, pessimistic, BAU","electricity, from wave energy, 7MW",kWh,0.008917951630303192,Success
+"electricity, from wave energy, 7MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, from wave energy, 7MW",kWh,0.008107823918754892,Success
+"electricity, from wave energy, 7MW | Scenario: 2050, very optimistic, 440ppm","electricity, from wave energy, 7MW",kWh,0.005199536130854155,Success
+"electricity, from wave energy, 7MW | Scenario: 2050, very optimistic, Renew","electricity, from wave energy, 7MW",kWh,0.005243809135803998,Success
+"electricity, from wave energy, 7MW | Scenario: Today","electricity, from wave energy, 7MW",kWh,0.5509728658961355,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.1915181675186517,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.2037924976015445,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.18596736935261507,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.1806380610973873,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.17842688419626093,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.1697252230300769,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.20125044159118377,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.16429139668277362,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.16020153176790128,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew","electricity, hard coal IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.1631822645260267,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.19359311581810418,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.206525334858375,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.187917321628304,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.1824683788396753,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.18013880111006234,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.17072492443422993,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.20393557338244772,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.16516270642167188,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.16101513930115782,Success
+"electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew","electricity, hard coal IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.1641551434614738,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.17643512392547506,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.182488884420501,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.1718632507917922,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.16743443672562874,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.16634268006983405,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.164843589185809,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.18033021350808798,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.16022886498256428,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.15640034459935967,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, hard coal IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.15787003007852535,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.1785100725610414,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.18522214939426238,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.17381329204239693,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.1692645943111287,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.16805440675765332,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.16584362827884086,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.18301621489340822,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.1611002452924765,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.15721407943055343,Success
+"electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, hard coal IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.15884330791710866,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.1554860902430052,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.1711525628913406,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.1389265376342421,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.1279846007345264,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.1255000968993257,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.11051392015523546,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.14644634625161992,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.09704895666884346,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0905293931372488,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.09351129023364928,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, hard coal plant 500MW class oxyf CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.15808486185732734,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.17457548728149974,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.14118167885486987,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.1300028774218992,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.12738792915837516,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.11163430343046452,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.1494554668146958,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.09794190348493394,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.09133074762997762,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.09447014692122853,Success
+"electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, hard coal plant 500MW class oxyf CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.2496797467390353,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.26453980302843,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.21924627272193123,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.20363518827264127,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.20132814451712647,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.19504329090882042,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.22829037184998408,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.1701544123806613,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.15979391181302802,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.16251138152750108,Success
+"electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, hard coal plant 500MW class post CCS, 200km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.2520276295387262,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.2676332377794163,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.22123637299844434,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.2054197448906012,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.20299723319676843,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.19602915977313365,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.23093780860393848,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.1709258738339488,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.16048633718415153,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.1633401169731288,Success
+"electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, hard coal plant 500MW class post CCS, 400km & 2500m deplet gasfield",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.13659506067356658,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.1444708002470756,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.1226169213700319,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.11342354987471119,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.11217354921976998,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.1050441574107787,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.12300440491890778,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.09288673698726485,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0867842269344329,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, hard coal power plant 500MW class oxyf CCS, 200km & 800m aquifer",kWh,0.08827792652990289,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.1391941425460266,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.14789372464491615,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.12487205530457683,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.11544173123093789,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.11406125787142035,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.10616459250519932,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.12601352583949935,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0937796441066146,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0875858713061092,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0892368273530029,Success
+"electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U","electricity, hard coal power plant 500MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.23260811904237325,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.24042835275618896,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.20485936661226914,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.19076085193655568,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.18954568014576417,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.19023120386062184,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.20766804054651636,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.1665579537344255,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.15655636737631604,Success
+"electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, hard coal power plant 500MW class post CCS, 200km & 800m aquifer",kWh,0.15798736243504424,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.23495599710215312,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.2435217904022407,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.20684835253942593,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.19254544284371602,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.19121456775259085,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.19121677756108782,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.2103153737904355,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.16732942858188435,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.15724908972367127,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.1588161716926206,Success
+"electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U","electricity, hard coal power plant 500MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal, at IGCC power plant 450MW",kWh,0.7096640154272895,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, pessimistic, BAU","electricity, hard coal, at IGCC power plant 450MW",kWh,0.7123221974637479,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal, at IGCC power plant 450MW",kWh,0.6962231000457948,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal, at IGCC power plant 450MW",kWh,0.6831523990079178,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2025, very optimistic, Renew","electricity, hard coal, at IGCC power plant 450MW",kWh,0.6826696528009141,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal, at IGCC power plant 450MW",kWh,0.6988905132380043,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, pessimistic, BAU","electricity, hard coal, at IGCC power plant 450MW",kWh,0.7056568281051225,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal, at IGCC power plant 450MW",kWh,0.6854549131072663,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal, at IGCC power plant 450MW",kWh,0.6727998662383539,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: 2050, very optimistic, Renew","electricity, hard coal, at IGCC power plant 450MW",kWh,0.6734487901315703,Success
+"electricity, hard coal, at IGCC power plant 450MW | Scenario: Today","electricity, hard coal, at IGCC power plant 450MW",kWh,0.8464788104044906,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal, at power plant 350 MW",kWh,0.8021152936285701,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2025, pessimistic, BAU","electricity, hard coal, at power plant 350 MW",kWh,0.8052760992713073,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal, at power plant 350 MW",kWh,0.7688474056942285,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal, at power plant 350 MW",kWh,0.7239408822401794,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2025, very optimistic, Renew","electricity, hard coal, at power plant 350 MW",kWh,0.7234025406792768,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal, at power plant 350 MW",kWh,0.749594183536493,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2050, pessimistic, BAU","electricity, hard coal, at power plant 350 MW",kWh,0.7572512755958295,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal, at power plant 350 MW",kWh,0.6935795736452816,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal, at power plant 350 MW",kWh,0.6562612943654789,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: 2050, very optimistic, Renew","electricity, hard coal, at power plant 350 MW",kWh,0.6569286942987942,Success
+"electricity, hard coal, at power plant 350 MW | Scenario: Today","electricity, hard coal, at power plant 350 MW",kWh,0.8447057663587383,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal, at power plant 600 MW",kWh,0.8019314201368226,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, 440ppm | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, BAU","electricity, hard coal, at power plant 600 MW",kWh,0.8050809608393984,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, pessimistic, BAU | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal, at power plant 600 MW",kWh,0.7686706413212625,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal, at power plant 600 MW",kWh,0.7237786569908732,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, 440ppm | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, Renew","electricity, hard coal, at power plant 600 MW",kWh,0.7232428328107658,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2025, very optimistic, Renew | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal, at power plant 600 MW",kWh,0.7494283190335532,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, 440ppm | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, BAU","electricity, hard coal, at power plant 600 MW",kWh,0.7570567684297411,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, pessimistic, BAU | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal, at power plant 600 MW",kWh,0.6934282757467576,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal, at power plant 600 MW",kWh,0.656131520123664,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, 440ppm | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, Renew","electricity, hard coal, at power plant 600 MW",kWh,0.6567957941889175,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: 2050, very optimistic, Renew | U","electricity, hard coal, at power plant 600 MW",kWh,0.0,Success
+"electricity, hard coal, at power plant 600 MW | Scenario: Today","electricity, hard coal, at power plant 600 MW",kWh,0.8444733110501612,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2025, pessimistic, 440ppm","electricity, hard coal, at power plant 800 MW",kWh,0.8019125017488304,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2025, pessimistic, BAU","electricity, hard coal, at power plant 800 MW",kWh,0.8050621844569739,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, hard coal, at power plant 800 MW",kWh,0.7686523538455937,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2025, very optimistic, 440ppm","electricity, hard coal, at power plant 800 MW",kWh,0.7237625951270583,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2025, very optimistic, Renew","electricity, hard coal, at power plant 800 MW",kWh,0.7232267816390328,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2050, pessimistic, 440ppm","electricity, hard coal, at power plant 800 MW",kWh,0.7494094111749697,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2050, pessimistic, BAU","electricity, hard coal, at power plant 800 MW",kWh,0.7570377348542623,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, hard coal, at power plant 800 MW",kWh,0.6934103660392732,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2050, very optimistic, 440ppm","electricity, hard coal, at power plant 800 MW",kWh,0.6559052401465212,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: 2050, very optimistic, Renew","electricity, hard coal, at power plant 800 MW",kWh,0.6565652797991728,Success
+"electricity, hard coal, at power plant 800 MW | Scenario: Today","electricity, hard coal, at power plant 800 MW",kWh,0.8260777601425995,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.1528409818419637,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.1658149785440239,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.14765953732649104,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.14263358553762873,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.14030290217645117,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.13024346470057102,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.1635218474087043,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.12511222089118815,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.12112525226237349,Success
+"electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew","electricity, lignite IGCC plant 400MW, CCS, 200km & 2500m depleted gasfield",kWh,0.12426638072770566,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.15543985373671101,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, pessimistic, BAU","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.1692381750227293,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.15009919752648898,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.1449205472885569,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2025, very optimistic, Renew","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.14244205982994176,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.13149462817336197,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, pessimistic, BAU","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.1668818865554998,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.1262011441684202,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.12214171233386366,Success
+"electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield | Scenario: 2050, very optimistic, Renew","electricity, lignite IGCC plant 400MW, CCS, 400km & 2500m depleted gasfield",kWh,0.1254821286001076,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.1339502479258443,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.1391324673510332,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.1300138042288092,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.12613348620823922,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.12520190138418608,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.12413633623856964,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.13734985742551997,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.12003589895172141,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.1163764629035765,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, lignite IGCC power plant 400MW, CCS, 200km & 800m aquifer",kWh,0.1176303020355404,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.15284098184196368,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.16581497854402394,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.13245347203910515,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.12842058795702896,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.1273409690062086,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.12538745757208167,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.14070897647312391,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.12112482237116635,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.11739279244156436,Success
+"electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, lignite IGCC power plant 400MW, CCS, 400km & 800m aquifer",kWh,0.1188459399637613,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.07156556856374204,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.08799316301460072,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.06291957708222189,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.05727814276776124,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.05467700371688312,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.039174205558779214,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.07675339700111548,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.03336706216291016,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.030902623068001733,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.03401480598785708,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, lignite plant 800 MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.07462108622814882,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0920179387227153,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.06556631318557846,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.05964851433561637,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.056894084650447214,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.04048482298979801,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0802727671608269,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.03441036435671748,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.03183935570303937,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.035135150072504,Success
+"electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, lignite plant 800 MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.18112037494611402,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.1965748810104173,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.15892489857501127,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.14734238837777958,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.1449448915405574,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.13541234306045163,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.17001974446753249,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.11781982924831515,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.110815687424592,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.11364464498687084,Success
+"electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, lignite plant 800 MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.18387920348309247,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.2002090759419025,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, pessimistic, BAU | U","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.16126107893214997,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.1494389412000225,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.14690557914026106,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2025, very optimistic, Renew | U","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.13656974177829603,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.17312840082377334,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.11872542966879186,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.11163042247215814,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.11461923394591843,Success
+"electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, very optimistic, Renew | U","electricity, lignite plant 800 MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite plant 800MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class oxyf CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, lignite plant 800MW class oxyf CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite plant 800MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class oxyf CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, lignite plant 800MW class oxyf CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite plant 800MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class post CCS, 200km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, lignite plant 800MW class post CCS, 200km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite plant 800MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite plant 800MW class post CCS, 400km & 2500m depl. gasfield | Scenario: 2050, pessimistic, BAU | U","electricity, lignite plant 800MW class post CCS, 400km & 2500m depl. gasfield",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0493534756126604,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.05662045216238129,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.04377694356495077,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.04017722109289975,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.03902595876660928,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.03277643549008368,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.04933485907412902,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.02850296446731652,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.026526068240823635,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.027898744606135537,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U","electricity, lignite power plant 800 MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.18464309545755897,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.19421349642511648,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.04642368221060331,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.04254745558738719,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.04124303987971919,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.034087072659641525,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.05285428984687486,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.029546403455465966,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.027462771854037053,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.02901917731700956,Success
+"electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U","electricity, lignite power plant 800 MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.16106562807032154,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.16825010496255505,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.14202916245892572,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.1322191144436069,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.13110382807279025,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.1297622099817241,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.14580658833485646,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.11359841947867187,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.10700869806394435,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.10832460013186392,Success
+"electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U","electricity, lignite power plant 800 MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.1638244932895639,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.17188430029544416,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, pessimistic, BAU | U","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.14436523060075845,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.13431525926743457,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.13306451742738815,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2025, very optimistic, Renew | U","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.13091972066103222,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.14891431740468974,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.11450391720529862,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, realistic-optimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.1078235898927481,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, 440ppm | U","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.10929922649423526,Success
+"electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer | Scenario: 2050, very optimistic, Renew | U","electricity, lignite power plant 800 MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite power plant 800MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class oxyf CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U","electricity, lignite power plant 800MW class oxyf CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite power plant 800MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class oxyf CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U","electricity, lignite power plant 800MW class oxyf CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite power plant 800MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class post CCS, 200km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U","electricity, lignite power plant 800MW class post CCS, 200km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, 440ppm | U","electricity, lignite power plant 800MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite power plant 800MW class post CCS, 400km & 800m aquifer | Scenario: 2050, pessimistic, BAU | U","electricity, lignite power plant 800MW class post CCS, 400km & 800m aquifer",kWh,0.0,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, pessimistic, 440ppm","electricity, lignite, at IGCC power plant 450MW",kWh,0.8045534346060288,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, pessimistic, BAU","electricity, lignite, at IGCC power plant 450MW",kWh,0.8057493958141927,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite, at IGCC power plant 450MW",kWh,0.7887342855186922,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, very optimistic, 440ppm","electricity, lignite, at IGCC power plant 450MW",kWh,0.6242021700256433,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2025, very optimistic, Renew","electricity, lignite, at IGCC power plant 450MW",kWh,0.6239890610706462,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, pessimistic, 440ppm","electricity, lignite, at IGCC power plant 450MW",kWh,0.6402233527896161,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, pessimistic, BAU","electricity, lignite, at IGCC power plant 450MW",kWh,0.6432040437969823,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite, at IGCC power plant 450MW",kWh,0.7791029351454214,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, very optimistic, 440ppm","electricity, lignite, at IGCC power plant 450MW",kWh,0.6167062318559814,Success
+"electricity, lignite, at IGCC power plant 450MW | Scenario: 2050, very optimistic, Renew","electricity, lignite, at IGCC power plant 450MW",kWh,0.6169915174872768,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2025, pessimistic, 440ppm","electricity, lignite, at power plant 950 MW",kWh,0.8554985625926685,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2025, pessimistic, BAU","electricity, lignite, at power plant 950 MW",kWh,0.8576243086508543,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, lignite, at power plant 950 MW",kWh,0.8202366763087823,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2025, very optimistic, 440ppm","electricity, lignite, at power plant 950 MW",kWh,0.7726281523185067,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2025, very optimistic, Renew","electricity, lignite, at power plant 950 MW",kWh,0.7722644411192581,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2050, pessimistic, 440ppm","electricity, lignite, at power plant 950 MW",kWh,0.8007910451367644,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2050, pessimistic, BAU","electricity, lignite, at power plant 950 MW",kWh,0.8059872095998869,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, lignite, at power plant 950 MW",kWh,0.7409887996134177,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2050, very optimistic, 440ppm","electricity, lignite, at power plant 950 MW",kWh,0.7018729399839992,Success
+"electricity, lignite, at power plant 950 MW | Scenario: 2050, very optimistic, Renew","electricity, lignite, at power plant 950 MW",kWh,0.7023232032401452,Success
+"electricity, lignite, at power plant 950 MW | Scenario: Today","electricity, lignite, at power plant 950 MW",kWh,0.934011748848573,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, pessimistic, 440ppm","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.13893791307027747,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, pessimistic, BAU","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.14418544460625143,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, realistic-optimistic, 440ppm","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.12394346680870032,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, very optimistic, 440ppm","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.11430765858101548,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2025, very optimistic, Renew","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.11338865550844243,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, pessimistic, 440ppm","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.12351351973193819,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, pessimistic, BAU","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.13640068653768936,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, realistic-optimistic, 440ppm","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.0955755576299188,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, very optimistic, 440ppm","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.08953194832218865,Success
+"electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield | Scenario: 2050, very optimistic, Renew","electricity, natural gas, CC plant, 500MWe post CCS, 400km&2500m deplet gasfield",kWh,0.09068363875934035,Success
+"electricity, natural gas, at cogeneration 200kWe lean burn, allocation exergy | Scenario: 2050, pessimistic, 440ppm","electricity, natural gas, at cogeneration 200kWe lean burn, allocation exergy",kWh,0.5457736292880927,Success
+"electricity, natural gas, at cogeneration 200kWe lean burn, allocation exergy | Scenario: 2050, pessimistic, BAU","electricity, natural gas, at cogeneration 200kWe lean burn, allocation exergy",kWh,0.5468960131976666,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, pessimistic, 440ppm","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.4069767271086466,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, pessimistic, BAU","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.40727362053166055,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.3913184461679288,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, very optimistic, 440ppm","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.3787911654386733,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2025, very optimistic, Renew","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.3787373725034368,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, pessimistic, 440ppm","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.39728634983365896,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, pessimistic, BAU","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.3980061051857499,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, realistic-optimistic, 440ppm","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.3627326564185855,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, very optimistic, 440ppm","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.3531618119577625,Success
+"electricity, natural gas, at combined cycle plant, 500MWe | Scenario: 2050, very optimistic, Renew","electricity, natural gas, at combined cycle plant, 500MWe",kWh,0.35323083202759836,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2025, pessimistic, 440ppm","electricity, natural gas, at turbine, 50MWe",kWh,0.6168330676203742,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2025, pessimistic, BAU","electricity, natural gas, at turbine, 50MWe",kWh,0.6172656269178292,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, natural gas, at turbine, 50MWe",kWh,0.5646271932163034,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2025, very optimistic, 440ppm","electricity, natural gas, at turbine, 50MWe",kWh,0.5427801650903264,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2025, very optimistic, Renew","electricity, natural gas, at turbine, 50MWe",kWh,0.5427072203970246,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2050, pessimistic, 440ppm","electricity, natural gas, at turbine, 50MWe",kWh,0.5868683516789708,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2050, pessimistic, BAU","electricity, natural gas, at turbine, 50MWe",kWh,0.5878893136768264,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2050, realistic-optimistic, 440ppm","electricity, natural gas, at turbine, 50MWe",kWh,0.5129752248950515,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2050, very optimistic, 440ppm","electricity, natural gas, at turbine, 50MWe",kWh,0.4963881973680029,Success
+"electricity, natural gas, at turbine, 50MWe | Scenario: 2050, very optimistic, Renew","electricity, natural gas, at turbine, 50MWe",kWh,0.49648238668365635,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2025, pessimistic, 440ppm","electricity, nuclear, at EFR reactor",kWh,0.001253061968353495,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2025, pessimistic, BAU","electricity, nuclear, at EFR reactor",kWh,0.001419635316390665,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2025, realistic-optimistic, 440ppm","electricity, nuclear, at EFR reactor",kWh,0.0012087319718165354,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2025, very optimistic, 440ppm","electricity, nuclear, at EFR reactor",kWh,0.0011412185954523418,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2025, very optimistic, Renew","electricity, nuclear, at EFR reactor",kWh,0.0011102328645719273,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2050, pessimistic, 440ppm","electricity, nuclear, at EFR reactor",kWh,0.0009913247553262974,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2050, pessimistic, BAU","electricity, nuclear, at EFR reactor",kWh,0.0014140324754665782,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2050, realistic-optimistic, 440ppm","electricity, nuclear, at EFR reactor",kWh,0.000909930213723785,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2050, very optimistic, 440ppm","electricity, nuclear, at EFR reactor",kWh,0.0008209894304256801,Success
+"electricity, nuclear, at EFR reactor | Scenario: 2050, very optimistic, Renew","electricity, nuclear, at EFR reactor",kWh,0.0008626791242275926,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2025, pessimistic, 440ppm","electricity, nuclear, at EPR reactor",kWh,0.004780825067188635,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2025, pessimistic, BAU","electricity, nuclear, at EPR reactor",kWh,0.0050549395558733366,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2025, realistic-optimistic, 440ppm","electricity, nuclear, at EPR reactor",kWh,0.0046904238672157315,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2025, very optimistic, 440ppm","electricity, nuclear, at EPR reactor",kWh,0.00455547828651681,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2025, very optimistic, Renew","electricity, nuclear, at EPR reactor",kWh,0.004504488737013266,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2050, pessimistic, 440ppm","electricity, nuclear, at EPR reactor",kWh,0.004364604344547052,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2050, pessimistic, BAU","electricity, nuclear, at EPR reactor",kWh,0.005043256318084693,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2050, realistic-optimistic, 440ppm","electricity, nuclear, at EPR reactor",kWh,0.004161040408990602,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2050, very optimistic, 440ppm","electricity, nuclear, at EPR reactor",kWh,0.004000897837927994,Success
+"electricity, nuclear, at EPR reactor | Scenario: 2050, very optimistic, Renew","electricity, nuclear, at EPR reactor",kWh,0.004069599011428761,Success
+"electricity, nuclear, at power plant boiling water reactor | Scenario: Today","electricity, nuclear, at power plant boiling water reactor",kWh,0.0075214573874164276,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, pessimistic, 440ppm","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.005531438853761595,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, pessimistic, BAU","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.005848536564405387,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, realistic-optimistic, 440ppm","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.005416691765913041,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, very optimistic, 440ppm","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.005244693278951256,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2025, very optimistic, Renew","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.005185931127511424,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, pessimistic, 440ppm","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.005052007828508089,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, pessimistic, BAU","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.005834663519503105,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, realistic-optimistic, 440ppm","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.004801634907028943,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, very optimistic, 440ppm","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.004582880792743671,Success
+"electricity, nuclear, at power plant pressure water reactor (N4-type) | Scenario: 2050, very optimistic, Renew","electricity, nuclear, at power plant pressure water reactor (N4-type)",kWh,0.0046617013768201305,Success
+"electricity, nuclear, at power plant pressure water reactor | Scenario: Today","electricity, nuclear, at power plant pressure water reactor",kWh,0.006150557164067561,Success
+"electricity, photovoltaic, flat roof, mc-Si, retrofit, Central Europe | Scenario: Today","electricity, photovoltaic, flat roof, mc-Si, retrofit, Central Europe",kWh,0.09368188868934448,Success
+"electricity, photovoltaic, flat roof, mc-Si, retrofit, Southern Europe | Scenario: Today","electricity, photovoltaic, flat roof, mc-Si, retrofit, Southern Europe",kWh,0.04995069644123319,Success
+"electricity, photovoltaic, flat roof, sc-Si, retrofit, Central Europe | Scenario: Today","electricity, photovoltaic, flat roof, sc-Si, retrofit, Central Europe",kWh,0.07798739816421245,Success
+"electricity, photovoltaic, flat roof, sc-Si, retrofit, Southern Europe | Scenario: Today","electricity, photovoltaic, flat roof, sc-Si, retrofit, Southern Europe",kWh,0.041582506607791475,Success
+"electricity, photovoltaic, ground mounted power plant, mc-Si, Central Europe | Scenario: Today","electricity, photovoltaic, ground mounted power plant, mc-Si, Central Europe",kWh,0.08904095613384956,Success
+"electricity, photovoltaic, ground mounted power plant, mc-Si, Southern Europe | Scenario: Today","electricity, photovoltaic, ground mounted power plant, mc-Si, Southern Europe",kWh,0.047413757128074704,Success
+"electricity, photovoltaic, ground mounted power plant, sc-Si, Central Europe | Scenario: Today","electricity, photovoltaic, ground mounted power plant, sc-Si, Central Europe",kWh,0.0731947564607544,Success
+"electricity, photovoltaic, ground mounted power plant, sc-Si, Southern Europe | Scenario: Today","electricity, photovoltaic, ground mounted power plant, sc-Si, Southern Europe",kWh,0.03897580494337624,Success
+"electricity, photovoltaic, tilted roof, mc-Si, integrated, Central Europe | Scenario: Today","electricity, photovoltaic, tilted roof, mc-Si, integrated, Central Europe",kWh,0.09260596171596874,Success
+"electricity, photovoltaic, tilted roof, mc-Si, integrated, Southern Europe | Scenario: Today","electricity, photovoltaic, tilted roof, mc-Si, integrated, Southern Europe",kWh,0.049439111089735706,Success
+"electricity, photovoltaic, tilted roof, mc-Si, retrofit, Central Europe | Scenario: Today","electricity, photovoltaic, tilted roof, mc-Si, retrofit, Central Europe",kWh,0.10057341794298987,Success
+"electricity, photovoltaic, tilted roof, mc-Si, retrofit, Southern Europe | Scenario: Today","electricity, photovoltaic, tilted roof, mc-Si, retrofit, Southern Europe",kWh,0.054364039018851014,Success
+"electricity, photovoltaic, tilted roof, sc-Si, integrated, Central Europe | Scenario: Today","electricity, photovoltaic, tilted roof, sc-Si, integrated, Central Europe",kWh,0.07605296991680549,Success
+"electricity, photovoltaic, tilted roof, sc-Si, integrated, Southern Europe | Scenario: Today","electricity, photovoltaic, tilted roof, sc-Si, integrated, Southern Europe",kWh,0.04060201288659466,Success
+"electricity, photovoltaic, tilted roof, sc-Si, retrofit, Central Europe | Scenario: Today","electricity, photovoltaic, tilted roof, sc-Si, retrofit, Central Europe",kWh,0.08313928855741694,Success
+"electricity, photovoltaic, tilted roof, sc-Si, retrofit, Southern Europe | Scenario: Today","electricity, photovoltaic, tilted roof, sc-Si, retrofit, Southern Europe",kWh,0.0449401117918116,Success
+"electricity, photovoltaic, vertical facade, mc-Si, integrated, Central Europe | Scenario: Today","electricity, photovoltaic, vertical facade, mc-Si, integrated, Central Europe",kWh,0.1563471852085791,Success
+"electricity, photovoltaic, vertical facade, mc-Si, integrated, Southern Europe | Scenario: Today","electricity, photovoltaic, vertical facade, mc-Si, integrated, Southern Europe",kWh,0.08334542350966083,Success
+"electricity, photovoltaic, vertical facade, sc-Si, integrated, Central Europe | Scenario: Today","electricity, photovoltaic, vertical facade, sc-Si, integrated, Central Europe",kWh,0.1255076187611087,Success
+"electricity, photovoltaic, vertical facade, sc-Si, integrated, Southern Europe | Scenario: Today","electricity, photovoltaic, vertical facade, sc-Si, integrated, Southern Europe",kWh,0.06690540377060666,Success
+"electricity, production mix UCTE | Scenario: 2025, pessimistic, 440ppm","electricity, production mix UCTE",kWh,0.2608747276211041,Success
+"electricity, production mix UCTE | Scenario: 2025, pessimistic, BAU","electricity, production mix UCTE",kWh,0.3735193959069667,Success
+"electricity, production mix UCTE | Scenario: 2025, very optimistic, 440ppm","electricity, production mix UCTE",kWh,0.2382193912785261,Success
+"electricity, production mix UCTE | Scenario: 2025, very optimistic, Renew","electricity, production mix UCTE",kWh,0.21694939704574806,Success
+"electricity, production mix UCTE | Scenario: 2050, pessimistic, 440ppm","electricity, production mix UCTE",kWh,0.07713152277050818,Success
+"electricity, production mix UCTE | Scenario: 2050, pessimistic, BAU","electricity, production mix UCTE",kWh,0.37087221899179573,Success
+"electricity, production mix UCTE | Scenario: 2050, realistic-optimistic, 440ppm","electricity, production mix UCTE",kWh,0.06398545565294983,Success
+"electricity, production mix UCTE | Scenario: 2050, very optimistic, 440ppm","electricity, production mix UCTE",kWh,0.06078229966390705,Success
+"electricity, production mix UCTE | Scenario: 2050, very optimistic, Renew","electricity, production mix UCTE",kWh,0.08946393455750935,Success
+"electricity, pv, ground mounted power plant, c-Si, low eff., Central EU | Scenario: 2050, realistic-optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, low eff., Central EU",kWh,0.011768089551640435,Success
+"electricity, pv, ground mounted power plant, c-Si, low eff., Southern EU | Scenario: 2050, realistic-optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, low eff., Southern EU",kWh,0.006026571444567812,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, thick, Central Europe",kWh,0.020241904991872672,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, thick, Central Europe",kWh,0.019344510387914356,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, ground mounted power plant, c-Si, thick, Central Europe",kWh,0.018848764629741756,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2050, very optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, thick, Central Europe",kWh,0.007993855360179762,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Central Europe | Scenario: 2050, very optimistic, Renew","electricity, pv, ground mounted power plant, c-Si, thick, Central Europe",kWh,0.008313637788716795,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe",kWh,0.010786989109212154,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe",kWh,0.010308772592332583,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe",kWh,0.010044589699611356,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2050, very optimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe",kWh,0.004083460062595198,Success
+"electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe | Scenario: 2050, very optimistic, Renew","electricity, pv, ground mounted power plant, c-Si, thick, Southern Europe",kWh,0.0042467924038771835,Success
+"electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2025, pessimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, very thick, Central EU",kWh,0.03228836017854581,Success
+"electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2025, pessimistic, BAU","electricity, pv, ground mounted power plant, c-Si, very thick, Central EU",kWh,0.03698987790962719,Success
+"electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2050, pessimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, very thick, Central EU",kWh,0.0176183683410377,Success
+"electricity, pv, ground mounted power plant, c-Si, very thick, Central EU | Scenario: 2050, pessimistic, BAU","electricity, pv, ground mounted power plant, c-Si, very thick, Central EU",kWh,0.024402307882181735,Success
+"electricity, pv, ground mounted power plant, c-Si, very thick, South. EU | Scenario: 2025, pessimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si, very thick, South. EU",kWh,0.01722045240643908,Success
+"electricity, pv, ground mounted power plant, c-Si, very thick, South. EU | Scenario: 2025, pessimistic, BAU","electricity, pv, ground mounted power plant, c-Si, very thick, South. EU",kWh,0.01972789295790255,Success
+"electricity, pv, ground mounted power plant, c-Si,very thick, Southern EU | Scenario: 2050, pessimistic, 440ppm","electricity, pv, ground mounted power plant, c-Si,very thick, Southern EU",kWh,0.008995490524571539,Success
+"electricity, pv, ground mounted power plant, c-Si,very thick, Southern EU | Scenario: 2050, pessimistic, BAU","electricity, pv, ground mounted power plant, c-Si,very thick, Southern EU",kWh,0.012459197020105443,Success
+"electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe",kWh,0.019380431746638623,Success
+"electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe",kWh,0.018546583133842345,Success
+"electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, ground mounted power plant, sc-Si, 100, Central Europe",kWh,0.018151528046421794,Success
+"electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe",kWh,0.010328491627608277,Success
+"electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe",kWh,0.009884106604169784,Success
+"electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, ground mounted power plant, sc-Si, 100, Southern Europe",kWh,0.009673576968406193,Success
+"electricity, pv, ground mounted power plant, sc-Si, 150, Central Europe | Scenario: 2025, pessimistic, 440ppm","electricity, pv, ground mounted power plant, sc-Si, 150, Central Europe",kWh,0.03275124862295219,Success
+"electricity, pv, ground mounted power plant, sc-Si, 150, Central Europe | Scenario: 2025, pessimistic, BAU","electricity, pv, ground mounted power plant, sc-Si, 150, Central Europe",kWh,0.03653715065933707,Success
+"electricity, pv, ground mounted power plant, sc-Si, 150, Southern Europe | Scenario: 2025, pessimistic, 440ppm","electricity, pv, ground mounted power plant, sc-Si, 150, Southern Europe",kWh,0.017467325385292325,Success
+"electricity, pv, ground mounted power plant, sc-Si, 150, Southern Europe | Scenario: 2025, pessimistic, BAU","electricity, pv, ground mounted power plant, sc-Si, 150, Southern Europe",kWh,0.019486468949742743,Success
+"electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, Central Europe",kWh,0.008076580062931509,Success
+"electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, Central Europe",kWh,0.007446725886288858,Success
+"electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, tilted roof, CdTe, integrated, Central Europe",kWh,0.007196015134683972,Success
+"electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2050, very optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, Central Europe",kWh,0.003870222998040115,Success
+"electricity, pv, tilted roof, CdTe, integrated, Central Europe | Scenario: 2050, very optimistic, Renew","electricity, pv, tilted roof, CdTe, integrated, Central Europe",kWh,0.004102747631959493,Success
+"electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, Southern Europe",kWh,0.004119456614183966,Success
+"electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, Southern Europe",kWh,0.003798203806292429,Success
+"electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, tilted roof, CdTe, integrated, Southern Europe",kWh,0.00367032482705823,Success
+"electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2050, very optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, Southern Europe",kWh,0.0019771493388745388,Success
+"electricity, pv, tilted roof, CdTe, integrated, Southern Europe | Scenario: 2050, very optimistic, Renew","electricity, pv, tilted roof, CdTe, integrated, Southern Europe",kWh,0.002095924466113954,Success
+"electricity, pv, tilted roof, CdTe, integrated, low eff, Central Europe | Scenario: 2025, pessimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, low eff, Central Europe",kWh,0.01240008745106941,Success
+"electricity, pv, tilted roof, CdTe, integrated, low eff, Central Europe | Scenario: 2025, pessimistic, BAU","electricity, pv, tilted roof, CdTe, integrated, low eff, Central Europe",kWh,0.014741286902685523,Success
+"electricity, pv, tilted roof, CdTe, integrated, low eff. Southern Europe | Scenario: 2025, pessimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, low eff. Southern Europe",kWh,0.006343010170677126,Success
+"electricity, pv, tilted roof, CdTe, integrated, low eff. Southern Europe | Scenario: 2025, pessimistic, BAU","electricity, pv, tilted roof, CdTe, integrated, low eff. Southern Europe",kWh,0.007540611371985273,Success
+"electricity, pv, tilted roof, CdTe, integrated, short, Central Europe | Scenario: 2050, realistic-optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, short, Central Europe",kWh,0.0038503740312883284,Success
+"electricity, pv, tilted roof, CdTe, integrated, short, Southern Europe | Scenario: 2050, realistic-optimistic, 440ppm","electricity, pv, tilted roof, CdTe, integrated, short, Southern Europe",kWh,0.0019647060294902146,Success
+"electricity, pv, tilted roof, CdTe, low eff. integrated, Central Europe | Scenario: 2050, pessimistic, 440ppm","electricity, pv, tilted roof, CdTe, low eff. integrated, Central Europe",kWh,0.005572515141633852,Success
+"electricity, pv, tilted roof, CdTe, low eff. integrated, Central Europe | Scenario: 2050, pessimistic, BAU","electricity, pv, tilted roof, CdTe, low eff. integrated, Central Europe",kWh,0.008931694082922112,Success
+"electricity, pv, tilted roof, CdTe, low eff.,  integrated, Southern EU | Scenario: 2050, pessimistic, 440ppm","electricity, pv, tilted roof, CdTe, low eff.,  integrated, Southern EU",kWh,0.0028422602361437206,Success
+"electricity, pv, tilted roof, CdTe, low eff.,  integrated, Southern EU | Scenario: 2050, pessimistic, BAU","electricity, pv, tilted roof, CdTe, low eff.,  integrated, Southern EU",kWh,0.004555613853081979,Success
+"electricity, pv, tilted roof, c-Si, integrated, low eff., Central Europe | Scenario: 2050, realistic-optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, low eff., Central Europe",kWh,0.012451905056369991,Success
+"electricity, pv, tilted roof, c-Si, integrated, low eff., Southern Europe | Scenario: 2050, realistic-optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, low eff., Southern Europe",kWh,0.006351310292465312,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe",kWh,0.021936634405741926,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe",kWh,0.020669676577451113,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe",kWh,0.020168253313280548,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2050, very optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe",kWh,0.00855430519560919,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe | Scenario: 2050, very optimistic, Renew","electricity, pv, tilted roof, c-Si, integrated, thick, Central Europe",kWh,0.008873822008121854,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe",kWh,0.011724756890378772,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe",kWh,0.011047596272853866,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe",kWh,0.010779592727071957,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2050, very optimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe",kWh,0.004366637066108926,Success
+"electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe | Scenario: 2050, very optimistic, Renew","electricity, pv, tilted roof, c-Si, integrated, thick, Southern Europe",kWh,0.004529733800287003,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2025, pessimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU",kWh,0.03638660503636273,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2025, pessimistic, BAU","electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU",kWh,0.04119028895202807,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2050, pessimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU",kWh,0.018610943348047842,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU | Scenario: 2050, pessimistic, BAU","electricity, pv, tilted roof, c-Si, integrated, very thick, Central EU",kWh,0.025371551032202656,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2025, pessimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU",kWh,0.0193583810405338,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2025, pessimistic, BAU","electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU",kWh,0.021913996881331638,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2050, pessimistic, 440ppm","electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU",kWh,0.009496491681959719,Success
+"electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU | Scenario: 2050, pessimistic, BAU","electricity, pv, tilted roof, c-Si, integrated, very thick, Southern EU",kWh,0.012946186355617766,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe",kWh,0.02074622181472577,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe",kWh,0.019568138567093236,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, tilted roof, sc-Si, integrated, 100, Central Europe",kWh,0.019170901302603703,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe | Scenario: 2025, realistic-optimistic, 440ppm","electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe",kWh,0.011088500323849225,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe | Scenario: 2025, very optimistic, 440ppm","electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe",kWh,0.010458833899556107,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe | Scenario: 2025, very optimistic, Renew","electricity, pv, tilted roof, sc-Si, integrated, 100, Southern Europe",kWh,0.010246516835629143,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 150, Central Europe | Scenario: 2025, pessimistic, 440ppm","electricity, pv, tilted roof, sc-Si, integrated, 150, Central Europe",kWh,0.0344481686304332,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 150, Central Europe | Scenario: 2025, pessimistic, BAU","electricity, pv, tilted roof, sc-Si, integrated, 150, Central Europe",kWh,0.03827077194565172,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 150, Southern Europe | Scenario: 2025, pessimistic, 440ppm","electricity, pv, tilted roof, sc-Si, integrated, 150, Southern Europe",kWh,0.018327071929492303,Success
+"electricity, pv, tilted roof, sc-Si, integrated, 150, Southern Europe | Scenario: 2025, pessimistic, BAU","electricity, pv, tilted roof, sc-Si, integrated, 150, Southern Europe",kWh,0.020360805520677372,Success
+"electricity, solar thermal, at solar trough, DNI2000, with storage, 46MW | Scenario: Today","electricity, solar thermal, at solar trough, DNI2000, with storage, 46MW",kWh,0.03224372629785562,Success
+"electricity, solar tower, with salt storage, at power plant, 180MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, solar tower, with salt storage, at power plant, 180MW",kWh,0.01359053073605648,Success
+"electricity, solar tower, with salt storage, at power plant, 180MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, solar tower, with salt storage, at power plant, 180MW",kWh,0.010829876289603657,Success
+"electricity, solar trough, PCM-storage, at power plant, 200MW | Scenario: 2025, realistic-optimistic, 440ppm","electricity, solar trough, PCM-storage, at power plant, 200MW",kWh,0.021575116894919037,Success
+"electricity, solar trough, concrete storage, at power plant, 180MW | Scenario: 2025, pessimistic, 440ppm","electricity, solar trough, concrete storage, at power plant, 180MW",kWh,0.014165945082349295,Success
+"electricity, solar trough, concrete storage, at power plant, 180MW | Scenario: 2025, pessimistic, BAU","electricity, solar trough, concrete storage, at power plant, 180MW",kWh,0.014640298307485707,Success
+"electricity, solar trough, salt storage, at power plant, 180MW | Scenario: 2025, pessimistic, 440ppm","electricity, solar trough, salt storage, at power plant, 180MW",kWh,0.024508103683257683,Success
+"electricity, solar trough, salt storage, at power plant, 180MW | Scenario: 2025, pessimistic, BAU","electricity, solar trough, salt storage, at power plant, 180MW",kWh,0.02498935187563065,Success
+"electricity, trough, at power plant, with salt storage, 400MW | Scenario: 2050, pessimistic, 440ppm","electricity, trough, at power plant, with salt storage, 400MW",kWh,0.020520544933933297,Success
+"electricity, trough, at power plant, with salt storage, 400MW | Scenario: 2050, pessimistic, BAU","electricity, trough, at power plant, with salt storage, 400MW",kWh,0.021535674924169537,Success
+"electricity, trough, with PCM-storage, at power plant, 400MW | Scenario: 2050, realistic-optimistic, 440ppm","electricity, trough, with PCM-storage, at power plant, 400MW",kWh,0.01667758598977634,Success
+"electricity, trough, with concrete storage, at power plant, 400MW | Scenario: 2050, pessimistic, 440ppm","electricity, trough, with concrete storage, at power plant, 400MW",kWh,0.011655990767327219,Success
+"electricity, trough, with concrete storage, at power plant, 400MW | Scenario: 2050, pessimistic, BAU","electricity, trough, with concrete storage, at power plant, 400MW",kWh,0.012646407292887246,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2025, pessimistic, 440ppm","ferronickel, 25% Ni, at plant",kg,9.048423095580919,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2025, pessimistic, BAU","ferronickel, 25% Ni, at plant",kg,9.98584743935834,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2025, realistic-optimistic, 440ppm","ferronickel, 25% Ni, at plant",kg,8.498313718500889,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2025, very optimistic, 440ppm","ferronickel, 25% Ni, at plant",kg,7.053527996309819,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2025, very optimistic, Renew","ferronickel, 25% Ni, at plant",kg,6.895369043593745,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2050, pessimistic, 440ppm","ferronickel, 25% Ni, at plant",kg,7.530217085053782,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2050, pessimistic, BAU","ferronickel, 25% Ni, at plant",kg,9.961980911443598,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2050, realistic-optimistic, 440ppm","ferronickel, 25% Ni, at plant",kg,6.636021838521561,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2050, very optimistic, 440ppm","ferronickel, 25% Ni, at plant",kg,4.306853775845548,Success
+"ferronickel, 25% Ni, at plant | Scenario: 2050, very optimistic, Renew","ferronickel, 25% Ni, at plant",kg,4.496181157774891,Success
+"ferronickel, 25% Ni, at plant | Scenario: Today","ferronickel, 25% Ni, at plant",kg,10.822338067639704,Success
+"flat glass, uncoated, at plant | Scenario: 2025, pessimistic, 440ppm","flat glass, uncoated, at plant",kg,0.9292511653299033,Success
+"flat glass, uncoated, at plant | Scenario: 2025, pessimistic, BAU","flat glass, uncoated, at plant",kg,0.9489575879358325,Success
+"flat glass, uncoated, at plant | Scenario: 2025, realistic-optimistic, 440ppm","flat glass, uncoated, at plant",kg,0.921530417491575,Success
+"flat glass, uncoated, at plant | Scenario: 2025, very optimistic, 440ppm","flat glass, uncoated, at plant",kg,0.8439366518061138,Success
+"flat glass, uncoated, at plant | Scenario: 2025, very optimistic, Renew","flat glass, uncoated, at plant",kg,0.8406024098196495,Success
+"flat glass, uncoated, at plant | Scenario: 2050, pessimistic, 440ppm","flat glass, uncoated, at plant",kg,0.8997234667561532,Success
+"flat glass, uncoated, at plant | Scenario: 2050, pessimistic, BAU","flat glass, uncoated, at plant",kg,0.9480497014999496,Success
+"flat glass, uncoated, at plant | Scenario: 2050, realistic-optimistic, 440ppm","flat glass, uncoated, at plant",kg,0.8050854002994867,Success
+"flat glass, uncoated, at plant | Scenario: 2050, very optimistic, 440ppm","flat glass, uncoated, at plant",kg,0.6720826473606024,Success
+"flat glass, uncoated, at plant | Scenario: 2050, very optimistic, Renew","flat glass, uncoated, at plant",kg,0.6761280318925953,Success
+"flat glass, uncoated, at plant | Scenario: Today","flat glass, uncoated, at plant",kg,0.9677928392576503,Success
+"hard coal supply, Europe | Scenario: Today | U","hard coal supply, Europe",kg,0.0,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, pessimistic, 440ppm","hydrogen, compressed gas, at hydrogen fuelling station",kg,14.080252956063871,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, pessimistic, BAU","hydrogen, compressed gas, at hydrogen fuelling station",kg,20.105359417548577,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, realistic-optimistic, 440ppm","hydrogen, compressed gas, at hydrogen fuelling station",kg,13.44315634325376,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, very optimistic, 440ppm","hydrogen, compressed gas, at hydrogen fuelling station",kg,12.85521837277008,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2025, very optimistic, Renew","hydrogen, compressed gas, at hydrogen fuelling station",kg,11.717611334819427,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, pessimistic, 440ppm","hydrogen, compressed gas, at hydrogen fuelling station",kg,4.256368744954439,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, pessimistic, BAU","hydrogen, compressed gas, at hydrogen fuelling station",kg,19.96304986247743,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, realistic-optimistic, 440ppm","hydrogen, compressed gas, at hydrogen fuelling station",kg,3.5405249101844105,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, very optimistic, 440ppm","hydrogen, compressed gas, at hydrogen fuelling station",kg,3.354787379089104,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: 2050, very optimistic, Renew","hydrogen, compressed gas, at hydrogen fuelling station",kg,4.888654036655867,Success
+"hydrogen, compressed gas, at hydrogen fuelling station | Scenario: Today","hydrogen, compressed gas, at hydrogen fuelling station",kg,0.8422645570569364,Success
+"nickel, 99.5%, at plant | Scenario: 2025, pessimistic, 440ppm","nickel, 99.5%, at plant",kg,9.094713988830684,Success
+"nickel, 99.5%, at plant | Scenario: 2025, pessimistic, BAU","nickel, 99.5%, at plant",kg,9.719676060987261,Success
+"nickel, 99.5%, at plant | Scenario: 2025, realistic-optimistic, 440ppm","nickel, 99.5%, at plant",kg,8.734281247956076,Success
+"nickel, 99.5%, at plant | Scenario: 2025, very optimistic, 440ppm","nickel, 99.5%, at plant",kg,7.9333531016272305,Success
+"nickel, 99.5%, at plant | Scenario: 2025, very optimistic, Renew","nickel, 99.5%, at plant",kg,7.827230203525668,Success
+"nickel, 99.5%, at plant | Scenario: 2050, pessimistic, 440ppm","nickel, 99.5%, at plant",kg,8.142310454356396,Success
+"nickel, 99.5%, at plant | Scenario: 2050, pessimistic, BAU","nickel, 99.5%, at plant",kg,9.693585412960475,Success
+"nickel, 99.5%, at plant | Scenario: 2050, realistic-optimistic, 440ppm","nickel, 99.5%, at plant",kg,7.444884923234953,Success
+"nickel, 99.5%, at plant | Scenario: 2050, very optimistic, 440ppm","nickel, 99.5%, at plant",kg,6.183032424183172,Success
+"nickel, 99.5%, at plant | Scenario: 2050, very optimistic, Renew","nickel, 99.5%, at plant",kg,6.311405422800427,Success
+"nickel, 99.5%, at plant | Scenario: Today","nickel, 99.5%, at plant",kg,10.327456210982099,Success
+"operation, hard coal IGCC power plant 450MW | Scenario: Today | U","operation, hard coal IGCC power plant 450MW",kWh,0.75224980219516,Success
+"operation, lorry 16t | Scenario: 2025, pessimistic, 440ppm","operation, lorry 16t",km,0.4258564580227085,Success
+"operation, lorry 16t | Scenario: 2025, pessimistic, BAU","operation, lorry 16t",km,0.42801821565780496,Success
+"operation, lorry 16t | Scenario: 2025, realistic-optimistic, 440ppm","operation, lorry 16t",km,0.41631107653854305,Success
+"operation, lorry 16t | Scenario: 2025, very optimistic, 440ppm","operation, lorry 16t",km,0.40630849185892104,Success
+"operation, lorry 16t | Scenario: 2025, very optimistic, Renew","operation, lorry 16t",km,0.4059192737325573,Success
+"operation, lorry 16t | Scenario: 2050, pessimistic, 440ppm","operation, lorry 16t",km,0.535234454917705,Success
+"operation, lorry 16t | Scenario: 2050, pessimistic, BAU","operation, lorry 16t",km,0.4089120693937947,Success
+"operation, lorry 16t | Scenario: 2050, realistic-optimistic, 440ppm","operation, lorry 16t",km,0.3894126258653213,Success
+"operation, lorry 16t | Scenario: 2050, very optimistic, 440ppm","operation, lorry 16t",km,0.37604273021979856,Success
+"operation, lorry 16t | Scenario: 2050, very optimistic, Renew","operation, lorry 16t",km,0.37654303648362686,Success
+"operation, lorry 28t | Scenario: 2025, pessimistic, 440ppm","operation, lorry 28t",km,0.8609472793303063,Success
+"operation, lorry 28t | Scenario: 2025, pessimistic, BAU","operation, lorry 28t",km,0.8645857003199049,Success
+"operation, lorry 28t | Scenario: 2025, realistic-optimistic, 440ppm","operation, lorry 28t",km,0.8410829778329889,Success
+"operation, lorry 28t | Scenario: 2025, very optimistic, 440ppm","operation, lorry 28t",km,0.8206788628834465,Success
+"operation, lorry 28t | Scenario: 2025, very optimistic, Renew","operation, lorry 28t",km,0.8200295186184995,Success
+"operation, lorry 28t | Scenario: 2050, pessimistic, 440ppm","operation, lorry 28t",km,1.0881635538483134,Success
+"operation, lorry 28t | Scenario: 2050, pessimistic, BAU","operation, lorry 28t",km,0.8251149988288572,Success
+"operation, lorry 28t | Scenario: 2050, realistic-optimistic, 440ppm","operation, lorry 28t",km,0.7879337519005983,Success
+"operation, lorry 28t | Scenario: 2050, very optimistic, 440ppm","operation, lorry 28t",km,0.7601578960349258,Success
+"operation, lorry 28t | Scenario: 2050, very optimistic, Renew","operation, lorry 28t",km,0.7609969563034767,Success
+"operation, lorry 32t | Scenario: 2025, pessimistic, 440ppm","operation, lorry 32t",km,0.7717660682748377,Success
+"operation, lorry 32t | Scenario: 2025, pessimistic, BAU","operation, lorry 32t",km,0.7757318618903916,Success
+"operation, lorry 32t | Scenario: 2025, realistic-optimistic, 440ppm","operation, lorry 32t",km,0.7539828587631977,Success
+"operation, lorry 32t | Scenario: 2025, very optimistic, 440ppm","operation, lorry 32t",km,0.7357485260308863,Success
+"operation, lorry 32t | Scenario: 2025, very optimistic, Renew","operation, lorry 32t",km,0.7350345974866819,Success
+"operation, lorry 32t | Scenario: 2050, pessimistic, 440ppm","operation, lorry 32t",km,0.9716594294009647,Success
+"operation, lorry 32t | Scenario: 2050, pessimistic, BAU","operation, lorry 32t",km,0.740528789906755,Success
+"operation, lorry 32t | Scenario: 2050, realistic-optimistic, 440ppm","operation, lorry 32t",km,0.7063779092272348,Success
+"operation, lorry 32t | Scenario: 2050, very optimistic, 440ppm","operation, lorry 32t",km,0.6814781389473534,Success
+"operation, lorry 32t | Scenario: 2050, very optimistic, Renew","operation, lorry 32t",km,0.6823907898918788,Success
+"operation, van < 3,5t | Scenario: 2025, very optimistic, 440ppm","operation, van < 3,5t",v*km,0.2156751735869568,Success
+"operation, van < 3,5t | Scenario: 2025, very optimistic, Renew","operation, van < 3,5t",v*km,0.2154559789899076,Success
+"operation, van < 3,5t | Scenario: 2050, pessimistic, 440ppm","operation, van < 3,5t",v*km,0.3539527143798592,Success
+"operation, van < 3,5t | Scenario: 2050, pessimistic, BAU","operation, van < 3,5t",v*km,0.2171449812560566,Success
+"operation, van < 3,5t | Scenario: 2050, realistic-optimistic, 440ppm","operation, van < 3,5t",v*km,0.20441621252839612,Success
+"operation, van < 3,5t | Scenario: 2050, very optimistic, 440ppm","operation, van < 3,5t",v*km,0.19591613282805712,Success
+"operation, van < 3,5t | Scenario: 2050, very optimistic, Renew","operation, van < 3,5t",v*km,0.19619220290277817,Success
+"pig iron, at plant | Scenario: 2025, pessimistic, 440ppm","pig iron, at plant",kg,1.0245386723230065,Success
+"pig iron, at plant | Scenario: 2025, pessimistic, BAU","pig iron, at plant",kg,1.045638765805475,Success
+"pig iron, at plant | Scenario: 2025, realistic-optimistic, 440ppm","pig iron, at plant",kg,0.9571490132713699,Success
+"pig iron, at plant | Scenario: 2025, very optimistic, 440ppm","pig iron, at plant",kg,0.889780967624858,Success
+"pig iron, at plant | Scenario: 2025, very optimistic, Renew","pig iron, at plant",kg,0.8860029217615054,Success
+"pig iron, at plant | Scenario: 2050, pessimistic, 440ppm","pig iron, at plant",kg,0.9907078087520604,Success
+"pig iron, at plant | Scenario: 2050, pessimistic, BAU","pig iron, at plant",kg,1.0450428311768503,Success
+"pig iron, at plant | Scenario: 2050, realistic-optimistic, 440ppm","pig iron, at plant",kg,0.8587916389837449,Success
+"pig iron, at plant | Scenario: 2050, very optimistic, 440ppm","pig iron, at plant",kg,0.7707559882942385,Success
+"pig iron, at plant | Scenario: 2050, very optimistic, Renew","pig iron, at plant",kg,0.7756553324990872,Success
+"pig iron, at plant | Scenario: Today","pig iron, at plant",kg,1.0639649910914857,Success
+"sinter, iron, at plant | Scenario: 2025, pessimistic, 440ppm","sinter, iron, at plant",kg,0.331260357541608,Success
+"sinter, iron, at plant | Scenario: 2025, pessimistic, BAU","sinter, iron, at plant",kg,0.33874748042282765,Success
+"sinter, iron, at plant | Scenario: 2025, realistic-optimistic, 440ppm","sinter, iron, at plant",kg,0.30328126380272846,Success
+"sinter, iron, at plant | Scenario: 2025, very optimistic, 440ppm","sinter, iron, at plant",kg,0.2752753528156408,Success
+"sinter, iron, at plant | Scenario: 2025, very optimistic, Renew","sinter, iron, at plant",kg,0.27390308216065534,Success
+"sinter, iron, at plant | Scenario: 2050, pessimistic, 440ppm","sinter, iron, at plant",kg,0.3192553230212815,Success
+"sinter, iron, at plant | Scenario: 2050, pessimistic, BAU","sinter, iron, at plant",kg,0.3385368185481117,Success
+"sinter, iron, at plant | Scenario: 2050, realistic-optimistic, 440ppm","sinter, iron, at plant",kg,0.2640140002580393,Success
+"sinter, iron, at plant | Scenario: 2050, very optimistic, 440ppm","sinter, iron, at plant",kg,0.24864161478285754,Success
+"sinter, iron, at plant | Scenario: 2050, very optimistic, Renew","sinter, iron, at plant",kg,0.2504832964965385,Success
+"sinter, iron, at plant | Scenario: Today","sinter, iron, at plant",kg,0.3452152592076048,Success
+"transport, lorry 16t | Scenario: Today","transport, lorry 16t",t*km,0.36644802371034346,Success
+"transport, lorry 28t | Scenario: Today","transport, lorry 28t",t*km,0.22361541905345644,Success
+"transport, lorry 32t | Scenario: Today","transport, lorry 32t",t*km,0.16485376175603672,Success
+"transport, van <3.5t | Scenario: Today","transport, van <3.5t",t*km,1.0833991829690697,Success
+"zinc for coating, at regional storage | Scenario: Today","zinc for coating, at regional storage",kg,2.4196437769419634,Success
