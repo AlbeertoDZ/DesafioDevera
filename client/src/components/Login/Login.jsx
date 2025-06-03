@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Eye, EyeOff } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 import './Login.scss';
@@ -12,14 +13,7 @@ const Login = () => {
   const [formErrors, setFormErrors] = useState({});
 
   const { login, loading, error, isAuthenticated, setError } = useAuth();
-
-  // Redirigir si ya está autenticado
-  useEffect(() => {
-    if (isAuthenticated()) {
-      // Aquí podrías redirigir al dashboard
-      console.log('Usuario ya autenticado');
-    }
-  }, [isAuthenticated]);
+  const navigate = useNavigate();
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -82,12 +76,9 @@ const Login = () => {
     
     if (result.success) {
       console.log('Login exitoso:', result.user);
-      alert(`¡Bienvenido ${result.user.name || result.user.email}!`);
-      // NO limpiar los campos en caso de éxito
     } else {
       console.log('Login fallido:', result.error);
-      // NO limpiar los campos en caso de error
-      // El error se mostrará automáticamente
+      // El error se mostrará automáticamente desde el hook
     }
   };
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
 // Configurar axios con base URL
@@ -72,10 +72,16 @@ export const useAuth = () => {
       localStorage.setItem('authToken', token);
       localStorage.setItem('userData', JSON.stringify(userData));
       
+      // Actualizar estado inmediatamente para trigger re-render
       setUser(userData);
-      setLoading(false);
-      // Limpiar error solo en caso de éxito
       setError(null);
+      setLoading(false);
+      
+      // Force navigation to dashboard using window.location
+      setTimeout(() => {
+        console.log('Login successful - redirecting to dashboard');
+        window.location.href = '/';
+      }, 200);
       
       return { success: true, user: userData };
     } catch (err) {
@@ -89,17 +95,29 @@ export const useAuth = () => {
 
   // Función de logout
   const logout = async () => {
+    setLoading(true);
+    
+    // Limpiar storage local inmediatamente
+    localStorage.removeItem('authToken');
+    localStorage.removeItem('userData');
+    
+    // Actualizar estado inmediatamente para trigger re-render
+    setUser(null);
+    setError(null);
+    setLoading(false);
+    
+    // Force navigation to login immediately using window.location
+    setTimeout(() => {
+      console.log('Logout successful - redirecting to login');
+      window.location.href = '/login';
+    }, 200);
+    
     try {
-      // Opcional: llamar al endpoint de logout en el server
+      // Opcional: llamar al endpoint de logout en el server (después del clear de estado)
       await axios.post('/users/logout');
     } catch (err) {
       console.error('Error during logout:', err);
-    } finally {
-      // Limpiar storage local
-      localStorage.removeItem('authToken');
-      localStorage.removeItem('userData');
-      setUser(null);
-      setError(null);
+      // No es crítico si falla el logout del servidor
     }
   };
 
@@ -128,10 +146,10 @@ export const useAuth = () => {
     }
   };
 
-  // Función para verificar si el usuario está autenticado
-  const isAuthenticated = () => {
+  // Función para verificar si el usuario está autenticado - usando useCallback para evitar recreación
+  const isAuthenticated = useCallback(() => {
     return !!user && !!localStorage.getItem('authToken');
-  };
+  }, [user]);
 
   // Función para actualizar datos del usuario
   const updateUser = (newUserData) => {
