@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Login from './components/Login/Login'
 import './App.css'
 import Home from "./components/Home/Home";
+import OnboardingContainer from './components/Onboarding/OnboardingContainer';
 import ProductDetail from "./components/ProductDetail/ProductDetail";
 import { useAuth } from './hooks/useAuth';
 
@@ -42,6 +43,10 @@ function App() {
           <Route 
             path="/product/:id" 
             element={isLoggedIn ? <div className="route-transition"><ProductDetail /></div> : <Navigate to="/login" replace />} 
+          />
+          <Route 
+            path="/onboarding" 
+            element={isLoggedIn ? <div className="route-transition"><OnboardingContainer /></div> : <Navigate to="/login" replace />} 
           />
           <Route 
             path="*" 
