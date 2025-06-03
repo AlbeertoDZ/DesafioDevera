@@ -1,7 +1,10 @@
 import { ChevronDown } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import './Header.scss';
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <header className="header">
       <div className="header-content">
@@ -9,12 +12,12 @@ const Header = () => {
           <h1 className="logo">devera.</h1>
           
           <nav className="header-nav">
-            <a href="#" className="nav-link active">
+            <button onClick={() => navigate('/')} className="nav-link active">
               Home
-            </a>
-            <a href="#" className="nav-link">
+            </button>
+            <button onClick={() => navigate('/onboarding')} className="nav-link">
               Onboarding chat
-            </a>
+            </button>
           </nav>
         </div>
         

@@ -41,6 +41,10 @@ function App() {
             element={isLoggedIn ? <div className="route-transition"><Home /></div> : <Navigate to="/login" replace />} 
           />
           <Route 
+            path="/dashboard" 
+            element={isLoggedIn ? <div className="route-transition"><Home /></div> : <Navigate to="/login" replace />} 
+          />
+          <Route 
             path="/product/:id" 
             element={isLoggedIn ? <div className="route-transition"><ProductDetail /></div> : <Navigate to="/login" replace />} 
           />

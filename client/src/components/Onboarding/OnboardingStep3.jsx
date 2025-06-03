@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './OnboardingStep3.scss';
 
 function OnboardingStep3({ products, onBack }) {
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [fileMap, setFileMap] = useState({});
+  const navigate = useNavigate();
 
   const handleToggle = (productName) => {
     setSelectedProducts((prev) =>
@@ -36,20 +38,43 @@ function OnboardingStep3({ products, onBack }) {
       formData.append(`productos[${i}][nombre]`, product.nombre);
       formData.append(`productos[${i}][url]`, product.url);
       formData.append(`productos[${i}][industria]`, product.industria);
-      if (fileMap[productName]) {
-        formData.append(`productos[${i}][archivo]`, fileMap[productName]);
+    });
+
+    // Agregar archivos en el orden correspondiente a los productos seleccionados
+    selectedProducts.forEach((productName) => {
+      const file = fileMap[productName];
+      if (file) {
+        formData.append('archivos', file);
       }
     });
 
+    // Log para debugging
+    console.log('📦 Enviando productos:', selectedProducts);
+    console.log('📁 Enviando archivos:', selectedProducts.filter(name => fileMap[name]).map(name => fileMap[name].name));
+
     try {
-      const res = await fetch('/api/subir-productos', {
+      const res = await fetch('/api/files/subir-productos', {
         method: 'POST',
         body: formData,
       });
-      alert(res.ok ? '¡Onboarding completado y productos subidos!' : 'Error al subir productos.');
+
+      const result = await res.json();
+      
+      if (res.ok) {
+        alert(`¡Onboarding completado!\n${result.data.totalProductos} productos y ${result.data.totalArchivos} archivos procesados.`);
+        console.log('✅ Respuesta del servidor:', result);
+        
+        // Redirigir al dashboard después de completar el onboarding
+        setTimeout(() => {
+          navigate('/');
+        }, 1500);
+      } else {
+        alert(`Error al subir productos: ${result.message}`);
+        console.error('❌ Error del servidor:', result);
+      }
     } catch (err) {
-      console.error("Error:", err);
-      alert("Error en la subida.");
+      console.error("❌ Error:", err);
+      alert("Error en la conexión con el servidor.");
     }
   };
 

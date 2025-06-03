@@ -11,6 +11,9 @@ app.use(cors());
 // Para poder leer JSON en las peticiones
 app.use(express.json());
 
+// Para poder leer form-data y URL-encoded data
+app.use(express.urlencoded({ extended: true }));
+
 //RUTAS API (deben ir antes del middleware de archivos estáticos)
 const usersRoutes = require("./routes/users.routes");
 app.use("/api/users", usersRoutes);  

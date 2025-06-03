@@ -46,6 +46,11 @@ $border-color: #e9ecef;
         font-weight: 500;
         padding: 8px 16px;
         border-radius: 6px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-size: inherit;
+        font-family: inherit;
         transition: all 0.2s ease;
         position: relative;
 

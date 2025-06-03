@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Download, FileText } from 'lucide-react';
+import { ArrowLeft, Download, FileText, Upload } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import './ProductDetail.scss';
@@ -7,6 +8,8 @@ import './ProductDetail.scss';
 const ProductDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const [uploading, setUploading] = useState(false);
+  const [productFiles, setProductFiles] = useState([]);
 
   // Mock data - en producción esto vendría de una API
   const products = {
@@ -112,6 +115,85 @@ const ProductDetail = () => {
     return '#ef4444'; // Rojo
   };
 
+  const handleFileUpload = async (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    setUploading(true);
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('product_id', id);
+
+    try {
+      const response = await fetch('/api/files/upload/', {
+        method: 'POST',
+        body: formData,
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert(`✅ Archivo "${file.name}" subido correctamente`);
+        // Actualizar lista de archivos del producto
+        fetchProductFiles();
+      } else {
+        alert(`❌ Error: ${result.message}`);
+      }
+    } catch (error) {
+      console.error('Error subiendo archivo:', error);
+      alert('❌ Error al subir el archivo');
+    } finally {
+      setUploading(false);
+      // Limpiar input
+      event.target.value = '';
+    }
+  };
+
+  const fetchProductFiles = async () => {
+    try {
+      const response = await fetch('/api/files/');
+      const result = await response.json();
+      
+      if (response.ok) {
+        // Filtrar archivos del producto actual
+        const filesForProduct = result.data.filter(file => 
+          file.product_id === parseInt(id)
+        );
+        setProductFiles(filesForProduct);
+      }
+    } catch (error) {
+      console.error('Error obteniendo archivos:', error);
+    }
+  };
+
+  const downloadFile = async (fileId, fileName) => {
+    try {
+      const response = await fetch(`/api/files/${fileId}`);
+      
+      if (response.ok) {
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+      } else {
+        alert('❌ Error al descargar el archivo');
+      }
+    } catch (error) {
+      console.error('Error descargando archivo:', error);
+      alert('❌ Error al descargar el archivo');
+    }
+  };
+
+  // Cargar archivos del producto al montar el componente  
+  useEffect(() => {
+    fetchProductFiles();
+  }, [id]);
+
   return (
     <main className="product-detail">
       <Header />
@@ -164,12 +246,42 @@ const ProductDetail = () => {
                 <span>Descargar reporte</span>
                 <Download size={20} />
               </div>
-              <div className="action-item">
-                <span>Adjuntar archivo</span>
-                <FileText size={20} />
+              <div className="action-item" onClick={() => document.getElementById('file-upload').click()}>
+                <span>{uploading ? 'Subiendo...' : 'Adjuntar archivo'}</span>
+                <Upload size={20} />
+                <input
+                  id="file-upload"
+                  type="file"
+                  hidden
+                  onChange={handleFileUpload}
+                  disabled={uploading}
+                  accept=".pdf,.doc,.docx,.txt,.jpg,.jpeg,.png"
+                />
               </div>
             </aside>
           </header>
+
+          {/* Mostrar archivos del producto */}
+          {productFiles.length > 0 && (
+            <section className="product-files">
+              <h3>Archivos del producto</h3>
+              <div className="files-list">
+                {productFiles.map(file => (
+                  <div key={file.file_id} className="file-item">
+                    <FileText size={16} />
+                    <span className="file-name">{file.original_name}</span>
+                    <span className="file-size">{(file.size / 1024).toFixed(1)} KB</span>
+                    <button 
+                      className="download-btn"
+                      onClick={() => downloadFile(file.file_id, file.original_name)}
+                    >
+                      <Download size={16} />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Product details */}
           <section className="product-details-grid">

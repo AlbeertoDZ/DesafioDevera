@@ -71,16 +71,15 @@ export const useAuth = () => {
       // Guardar token y datos del usuario
       localStorage.setItem('authToken', token);
       localStorage.setItem('userData', JSON.stringify(userData));
-      
-      // Actualizar estado inmediatamente para trigger re-render
+   
       setUser(userData);
       setError(null);
       setLoading(false);
       
-      // Force navigation to dashboard using window.location
+     
       setTimeout(() => {
-        console.log('Login successful - redirecting to dashboard');
-        window.location.href = '/';
+        console.log('Login successful - redirecting to onboarding');
+        window.location.href = '/onboarding';
       }, 200);
       
       return { success: true, user: userData };

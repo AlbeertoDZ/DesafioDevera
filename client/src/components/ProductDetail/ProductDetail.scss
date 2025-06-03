@@ -122,22 +122,30 @@
     .actions {
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 1rem;
 
       .action-item {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 0.5rem;
-        color: #64748b;
-        font-size: 0.875rem;
+        padding: 0.75rem 1rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
         cursor: pointer;
-        padding: 0.5rem;
-        border-radius: 0.375rem;
-        transition: background-color 0.2s;
-
+        transition: all 0.2s ease;
+        
         &:hover {
-          background-color: #f1f5f9;
-          color: #475569;
+          background-color: #f9fafb;
+          border-color: #d1d5db;
+        }
+        
+        span {
+          font-size: 0.9rem;
+          color: #374151;
+        }
+        
+        svg {
+          color: #6b7280;
         }
       }
     }
@@ -475,6 +483,82 @@
 
     .carbon-breakdown {
       grid-template-columns: 1fr;
+    }
+  }
+}
+
+// New styles for product files
+.product-files {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  
+  h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .files-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    
+    .file-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem;
+      background-color: white;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        border-color: #d1d5db;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      
+      svg {
+        color: #6b7280;
+        flex-shrink: 0;
+      }
+      
+      .file-name {
+        flex: 1;
+        font-size: 0.9rem;
+        color: #374151;
+        font-weight: 500;
+      }
+      
+      .file-size {
+        font-size: 0.8rem;
+        color: #9ca3af;
+        margin-right: 0.5rem;
+      }
+      
+      .download-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        background-color: #f3f4f6;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background-color: #e5e7eb;
+        }
+        
+        svg {
+          color: #6b7280;
+        }
+      }
     }
   }
 } 

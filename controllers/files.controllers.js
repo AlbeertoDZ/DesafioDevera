@@ -316,11 +316,194 @@ const listFiles = async (req, res) => {
     }
 };
 
+// NEW - Upload Products with Files (Onboarding)
+const uploadProductsWithFiles = async (req, res) => {
+  try {
+    console.log('📦 Recibiendo productos del onboarding...');
+    console.log('Body keys:', Object.keys(req.body));
+    console.log('Body:', req.body);
+    console.log('Files:', req.files);
+
+    let productos = [];
+    const archivosSubidos = [];
+
+    // El frontend envía los productos de diferentes maneras
+    if (req.body.productos) {
+      // Si viene como array de objetos directamente
+      if (Array.isArray(req.body.productos)) {
+        productos = req.body.productos;
+      } else {
+        productos = [req.body.productos];
+      }
+    } else {
+      // Si viene en formato productos[0][nombre], etc.
+      const productosMap = {};
+      
+      for (const key in req.body) {
+        console.log(`Procesando key: ${key} = ${req.body[key]}`);
+        const match = key.match(/productos\[(\d+)\]\[(\w+)\]/);
+        if (match) {
+          const index = parseInt(match[1]);
+          const field = match[2];
+          
+          if (!productosMap[index]) {
+            productosMap[index] = {};
+          }
+          productosMap[index][field] = req.body[key];
+          console.log(`Agregado: productos[${index}][${field}] = ${req.body[key]}`);
+        }
+      }
+
+      // Convertir el mapa a array
+      Object.keys(productosMap).forEach(index => {
+        productos.push(productosMap[index]);
+      });
+    }
+
+    console.log('✅ Productos parseados:', productos);
+
+    // Procesar archivos si existen
+    if (req.files && req.files.length > 0) {
+      console.log(`📁 Procesando ${req.files.length} archivos...`);
+      
+      for (let i = 0; i < req.files.length; i++) {
+        const file = req.files[i];
+        const producto = productos[i];
+        
+        if (file) {
+          try {
+            const fileData = {
+              originalName: file.originalname,
+              path: file.path,
+              productId: null // Se puede buscar el producto en BD si es necesario
+            };
+
+            const savedFile = await File.saveFileInfo(fileData);
+
+            archivosSubidos.push({
+              nombre: file.originalname,
+              filename: savedFile.name,
+              producto: producto ? producto.nombre : 'Sin producto',
+              fileId: savedFile.file_id
+            });
+
+            console.log(`✅ Archivo ${file.originalname} guardado${producto ? ` para producto ${producto.nombre}` : ''}`);
+          } catch (fileError) {
+            console.error(`❌ Error procesando archivo ${file.originalname}:`, fileError);
+          }
+        }
+      }
+    }
+
+    res.status(200).json({
+      success: true,
+      message: 'Productos y archivos procesados correctamente',
+      data: {
+        productos: productos,
+        archivos: archivosSubidos,
+        totalProductos: productos.length,
+        totalArchivos: archivosSubidos.length
+      }
+    });
+
+  } catch (error) {
+    console.error('❌ Error en uploadProductsWithFiles:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error al procesar productos y archivos',
+      error: error.message
+    });
+  }
+};
+
+// NEW - Handle Tally Webhook
+const handleTallyWebhook = async (req, res) => {
+  try {
+    console.log('🔗 Webhook de Tally recibido');
+    console.log('Body:', JSON.stringify(req.body, null, 2));
+
+    const { eventType, data } = req.body;
+
+    if (eventType === 'FORM_RESPONSE') {
+      console.log('📝 Procesando respuesta de formulario Tally');
+      
+      const { responseId, formName, fields } = data;
+      
+      // Procesar campos del formulario
+      const responseData = {};
+      const attachments = [];
+
+      fields.forEach(field => {
+        const { key, label, type, value } = field;
+        
+        if (type === 'FILE_UPLOAD' && value && value.length > 0) {
+          value.forEach(file => {
+            attachments.push({
+              fieldKey: key,
+              fieldLabel: label,
+              fileName: file.name,
+              fileUrl: file.url,
+              fileSize: file.size,
+              mimeType: file.mimeType
+            });
+          });
+        } else {
+          responseData[key] = value;
+        }
+      });
+
+      console.log('📊 Datos del formulario:', responseData);
+      console.log('📎 Archivos adjuntos:', attachments);
+
+      // Responder a Tally
+      res.status(200).json({
+        success: true,
+        message: 'Webhook procesado correctamente',
+        data: {
+          responseId,
+          formName,
+          fieldsProcessed: Object.keys(responseData).length,
+          filesProcessed: attachments.length
+        }
+      });
+
+    } else {
+      console.log(`ℹ️ Tipo de evento no manejado: ${eventType}`);
+      res.status(200).json({
+        success: true,
+        message: 'Evento recibido pero no procesado'
+      });
+    }
+
+  } catch (error) {
+    console.error('❌ Error en handleTallyWebhook:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error procesando webhook de Tally',
+      error: error.message
+    });
+  }
+};
+
+// Funciones de compatibilidad con nombres diferentes
+const getFiles = listFiles;
+const downloadFile = downloadFileById;
+const getFileByName = readFileByName;
+const deleteFile = deleteFileByName;
+
 module.exports = {
     uploadFile,
     uploadMultipleFiles,
     downloadFileById,
     readFileByName,
     deleteFileByName,
-    listFiles
+    listFiles,
+    // Nuevas funciones
+    uploadProductsWithFiles,
+    handleTallyWebhook,
+    // Alias para compatibilidad
+    getFiles,
+    downloadFile,
+    getFileByName,
+    deleteFile
 }; 

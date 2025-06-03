@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import OnboardingStep1 from './OnboardingStep1';
 import OnboardingStep2 from './OnboardingStep2';
 import OnboardingStep3 from './OnboardingStep3';
@@ -14,6 +15,7 @@ function OnboardingContainer() {
     products: [],  
   });
   const [loadingProducts, setLoadingProducts] = useState(false);
+  const navigate = useNavigate();
 
   const handleNext = () => setStep((prev) => prev + 1);
   const handleBack = () => setStep((prev) => prev - 1);
@@ -44,6 +46,15 @@ function OnboardingContainer() {
 
   return (
     <div className="onboarding-container">
+      <div className="onboarding-header">
+        <button 
+          className="skip-onboarding-btn"
+          onClick={() => navigate('/')}
+        >
+          Ir al Dashboard →
+        </button>
+      </div>
+      
       {step === 1 && (
         <OnboardingStep1
           onNext={handleURLSubmit} 
