@@ -15,6 +15,10 @@ app.use(express.json());
 const usersRoutes = require("./routes/users.routes");
 app.use("/api/users", usersRoutes);  
 
+// RUTAS DE ARCHIVOS
+const filesRoutes = require("./routes/files.routes");
+app.use("/api", filesRoutes);
+
 // Middleware para servir archivos estáticos de front
 app.use(express.static("public"));
 
