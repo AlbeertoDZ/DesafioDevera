@@ -59,7 +59,7 @@ const Navbar = () => {
 
       <nav ref={menuRef} className={`nav-menu ${menuOpen ? 'open' : ''}`}>
         <button onClick={() => { handleLinkClick(); navigate('/'); }} className="nav-link active">Home</button>
-        <button onClick={handleLinkClick} className="nav-link">Onboarding chat</button>
+        <button onClick={() => { handleLinkClick(); navigate('/onboarding'); }} className="nav-link">Onboarding chat</button>
 
         <div className="profile-mobile">
           <span className="username">{userDisplayName}</span>
