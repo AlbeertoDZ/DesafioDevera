@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Chocolate Chip Cookie Mix",
+    "url": "https://cookiechips.com/products/chocolate-chip",
+    "imagen": "https://cdn.shopify.com/s/files/1/1670/6745/files/chocolate-chip-cookie-mix.jpg?v=1682631130",
+    "industria": "Alimentos"
+  },
+  {
+    "nombre": "Cinnamon Sugar Cookie Mix",
+    "url": "https://cookiechips.com/products/cinnamon-sugar",
+    "imagen": "https://cdn.shopify.com/s/files/1/1670/6745/files/sugar-cookies-recipe-mix.jpg?v=1682614315",
+    "industria": "Alimentos"
+  },
+  {
+    "nombre": "Peanut Butter Cookie Mix",
+    "url": "https://cookiechips.com/products/peanut-butter",
+    "imagen": "https://cdn.shopify.com/s/files/1/1670/6745/files/peanut-butter-cookies.jpg?v=1682614347",
+    "industria": "Alimentos"
+  },
+  {
+    "nombre": "Sprinkle Sugar Cookie Mix",
+    "url": "https://cookiechips.com/products/sprinkle-sugar-cookies",
+    "imagen": "https://cdn.shopify.com/s/files/1/1670/6745/files/sugar-cookies.jpg?v=1682613706",
+    "industria": "Alimentos"
+  },
+  {
+    "nombre": "Baker's Bundle",
+    "url": "https://cookiechips.com/products/bakers-bundle",
+    "imagen": "https://cdn.shopify.com/s/files/1/1670/6745/files/cookie-mix-bundle.jpg?v=1682614419",
+    "industria": "Alimentos"
+  }
+]

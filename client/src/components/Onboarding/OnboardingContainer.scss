@@ -1,0 +1,11 @@
+.onboarding-container {
+    padding: 6rem; 
+  
+    @media (max-width: 1024px) {
+      padding: 4rem; 
+    }
+  
+    @media (max-width: 600px) {
+      padding: 2rem 1rem; 
+    }
+  }
