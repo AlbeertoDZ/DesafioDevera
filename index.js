@@ -22,6 +22,14 @@ app.use("/api/users", usersRoutes);
 const filesRoutes = require("./routes/files.routes");
 app.use("/api", filesRoutes);
 
+// RUTAS DE EMPRESAS
+const companiesRoutes = require("./routes/companies.routes");
+app.use("/api/companies", companiesRoutes);
+
+// RUTA PARA OBTENER CONTENIDO DE TABLAS
+const companiesController = require("./controllers/companies.controllers");
+app.get("/api/tables/:table_name", companiesController.getTableContent);
+
 // Middleware para servir archivos estáticos de front
 app.use(express.static("public"));
 
