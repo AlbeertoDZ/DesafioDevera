@@ -8,6 +8,20 @@ const queries = {
                  VALUES ($1, $2, $3, $4, NOW(), $5)
                  RETURNING *`,
 
+    //COMPANIES
+    createCompany: `INSERT INTO companies (
+                      name, employees, sustainability_report, renewable_sources_percentage,
+                      carbon_footprint_plan, non_renewable_matter_percentage, distance_less_400_percentage,
+                      social_projects, sustainability_criticism, equality_plan, wage_gap_gen,
+                      conciliation_measures, enps, relevant_inf
+                    )
+                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
+                    RETURNING *`,
+    
+    getTableContent: `SELECT * FROM {table_name} LIMIT $1 OFFSET $2`,
+    getTableContentWithId: `SELECT * FROM {table_name} ORDER BY id LIMIT $1 OFFSET $2`,
+    getTableCount: `SELECT COUNT(*) as total FROM {table_name}`,
+
     //PRODUCTS
     getAllProducts: `SELECT * FROM products;`,
     getProductById: `SELECT * FROM products WHERE id = $1`,
