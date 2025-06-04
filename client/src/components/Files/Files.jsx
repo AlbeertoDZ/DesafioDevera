@@ -1,9 +1,13 @@
 import React from 'react'
+import Header from "../Header/Header";
+import Tabs from "../Tabs/Tabs";
 
 const Files = () => {
   return (
     <div>
-      <h1>prueba</h1>
+      <Header />
+      <Tabs />
+      
     </div>
   )
 }

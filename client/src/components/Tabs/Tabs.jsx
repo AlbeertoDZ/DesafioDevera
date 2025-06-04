@@ -1,34 +1,28 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Tabs.scss';
 
-const Tabs = ({ onSelect }) => {
-  const [activeTab, setActiveTab] = useState('Mis productos');
+const Tabs = () => {
   const navigate = useNavigate();
+  const location = useLocation();
 
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-    onSelect?.(tab);
-  };
+  // Determinamos qué pestaña está activa en función de la ruta actual:
+  // - Si la URL es "/files", pintamos “Archivos” como activa.
+  // - En cualquier otro caso ("/" o "/dashboard"), pintamos “Mis productos”.
+  const activeTab = location.pathname === '/files' ? 'Archivos' : 'Mis productos';
 
   return (
     <div className="tabs-container">
       <button
         className={activeTab === 'Mis productos' ? 'tab active' : 'tab'}
-        onClick={() => {
-          handleTabClick('Mis productos');
-          navigate('/dashboard');
-        }}
+        onClick={() => navigate('/dashboard')}
       >
         Mis productos
       </button>
 
       <button
         className={activeTab === 'Archivos' ? 'tab active' : 'tab'}
-        onClick={() => {
-          handleTabClick('Archivos');
-          navigate('/files');
-        }}
+        onClick={() => navigate('/files')}
       >
         Archivos
       </button>
