@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
+import { Download, Eye, Files } from 'lucide-react';
 import './ProductTable.scss';
 
 const ProductTable = () => {
@@ -139,7 +140,7 @@ const ProductTable = () => {
           <span className="header-text">Status</span>
         </div>
 
-        <div className="cell">Ver</div>
+        <div className="cell">Ver producto</div>
         <div className="cell">Descargar</div>
         <div className="cell">Archivos</div>
       </div>
@@ -196,30 +197,30 @@ const ProductTable = () => {
                 </span>
               </div>
               <div className="cell">
-                <span className="label-mobile">Ver</span>
+                <span className="label-mobile">Ver producto</span>
                 <button
                   className="icon-button"
                   onClick={() => handleViewProduct(product.id)}
                 >
-                  👁
+                  <Eye size={20} />
                 </button>
               </div>
               <div className="cell">
                 <span className="label-mobile">Descargar</span>
                 <button
-                  className="icon-button"
+                  className="icon-button2"
                   onClick={() => alert(`Descargar ${product.name}`)}
                 >
-                  📥
+                  <Download size={20} />
                 </button>
               </div>
               <div className="cell">
                 <span className="label-mobile">Archivos</span>
                 <button
-                  className="icon-button"
+                  className="icon-button3"
                   onClick={() => alert(`Archivos de ${product.name}`)}
                 >
-                  📎
+                  <Files size={20} />
                 </button>
               </div>
             </div>
