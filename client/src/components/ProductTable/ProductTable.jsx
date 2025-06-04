@@ -1,12 +1,51 @@
+// src/components/ProductTable/ProductTable.jsx
 import { useNavigate } from 'react-router-dom';
-import { useContext } from 'react';
+import { useState, useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
 import './ProductTable.scss';
 
 const ProductTable = () => {
   const navigate = useNavigate();
-  const { searchTerm } = useContext(SearchContext); 
+  const { searchTerm } = useContext(SearchContext);
 
+  const [sortKey, setSortKey] = useState(null);
+  const [sortDirection, setSortDirection] = useState('asc');
+
+  const handleSort = (columnKey) => {
+    if (sortKey === columnKey) {
+      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
+    } else {
+      setSortKey(columnKey);
+      setSortDirection('asc');
+    }
+  };
+
+  // Subcomponente para encabezados ordenables
+  const SortableHeader = ({ label, columnKey }) => (
+    <div className="cell header-sortable" onClick={() => handleSort(columnKey)}>
+      <span className="header-text">{label}</span>
+      <span className="header-arrows">
+        <span
+          className={
+            'arrow arrow-up ' +
+            (sortKey === columnKey && sortDirection === 'asc' ? 'active' : '')
+          }
+        >
+          ↑
+        </span>
+        <span
+          className={
+            'arrow arrow-down ' +
+            (sortKey === columnKey && sortDirection === 'desc' ? 'active' : '')
+          }
+        >
+          ↓
+        </span>
+      </span>
+    </div>
+  );
+
+  // Array de productos de ejemplo
   const products = [
     {
       id: 1,
@@ -38,18 +77,54 @@ const ProductTable = () => {
       score: 'C',
       status: 'Finalizado',
     },
-  
+    // …añade más objetos si los necesitas…
   ];
 
-const normalizedTerm = searchTerm.trim().toLowerCase();
+  // Filtrado por término de búsqueda
+  const normalizedTerm = searchTerm.trim().toLowerCase();
+  const filteredProducts =
+    normalizedTerm === ''
+      ? products
+      : products.filter((product) =>
+          product.name.toLowerCase().trim().startsWith(normalizedTerm)
+        );
 
+  // Ordenamiento sobre el array filtrado (sin “status”)
+  const sortedProducts = (() => {
+    if (!sortKey) return filteredProducts;
+    const copia = [...filteredProducts];
 
-const filteredProducts =
-  normalizedTerm === ''
-    ? products
-    : products.filter((product) =>
-        product.name.toLowerCase().trim().startsWith(normalizedTerm)
-      );
+    copia.sort((a, b) => {
+      let aval, bval;
+      switch (sortKey) {
+        case 'name':
+          aval = a.name.toLowerCase();
+          bval = b.name.toLowerCase();
+          return aval.localeCompare(bval) * (sortDirection === 'asc' ? 1 : -1);
+
+        case 'footprint':
+          aval = parseFloat(a.footprint.replace(',', '.'));
+          bval = parseFloat(b.footprint.replace(',', '.'));
+          return (aval - bval) * (sortDirection === 'asc' ? 1 : -1);
+
+        case 'difference':
+          aval = parseFloat(a.difference.replace('%', ''));
+          bval = parseFloat(b.difference.replace('%', ''));
+          return (aval - bval) * (sortDirection === 'asc' ? 1 : -1);
+
+        case 'score':
+          aval = a.score.toLowerCase();
+          bval = b.score.toLowerCase();
+          return aval.localeCompare(bval) * (sortDirection === 'asc' ? 1 : -1);
+
+        // Eliminamos el case 'status' para que no aplique ordenamiento en esa columna
+        default:
+          return 0;
+      }
+    });
+
+    return copia;
+  })();
 
   const handleViewProduct = (productId) => {
     navigate(`/product/${productId}`);
@@ -58,20 +133,30 @@ const filteredProducts =
   return (
     <div className="table-wrapper">
       <div className="table-head table-row">
-        <div className="cell"><input type="checkbox" /></div>
-        <div className="cell">Producto</div>
-        <div className="cell">Huella de carbono</div>
-        <div className="cell">Diferencia huella</div>
-        <div className="cell">Score</div>
-        <div className="cell">Status</div>
+        <div className="cell">
+          <input type="checkbox" />
+        </div>
+
+        {/* Columnas con flechas y lógica de orden */}
+        <SortableHeader label="Producto" columnKey="name" />
+        <SortableHeader label="Huella de carbono" columnKey="footprint" />
+        <SortableHeader label="Diferencia huella" columnKey="difference" />
+        <SortableHeader label="Score" columnKey="score" />
+
+        {/* Columna “Status” sin flechas ni ordenamiento */}
+        <div className="cell">
+          <span className="header-text">Status</span>
+        </div>
+
+        {/* Columnas “Ver”, “Descargar” y “Archivos” (no ordenables) */}
         <div className="cell">Ver</div>
         <div className="cell">Descargar</div>
         <div className="cell">Archivos</div>
       </div>
 
       <div className="table-body">
-        {filteredProducts.length > 0 ? (
-          filteredProducts.map((product) => (
+        {sortedProducts.length > 0 ? (
+          sortedProducts.map((product) => (
             <div className="table-row" key={product.id}>
               <div className="cell">
                 <span className="label-mobile">Seleccionar</span>
