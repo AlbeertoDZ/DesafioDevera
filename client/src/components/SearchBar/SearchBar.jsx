@@ -1,6 +1,11 @@
+// src/components/SearchBar/SearchBar.jsx
+import { useContext } from 'react';
+import { SearchContext } from '../../context/SearchContext';
 import './SearchBar.scss';
 
-const TopBar = () => {
+const SearchBar = () => {
+  const { searchTerm, setSearchTerm } = useContext(SearchContext);
+
   return (
     <div className="top-bar">
       <div className="top-bar-left">
@@ -12,11 +17,14 @@ const TopBar = () => {
         </select>
         <span>entries</span>
       </div>
+
       <div className="top-bar-right">
         <input
           type="text"
-          placeholder="Search name, email, or etc."
+          placeholder="Buscar productos..."
           className="search-input"
+          value={searchTerm}                      // ya viene del contexto
+          onChange={(e) => setSearchTerm(e.target.value)} // lo actualiza en el contexto
         />
         <button className="export-button">
           <img src="/icons/download-icon.svg" alt="Export" />
@@ -27,4 +35,4 @@ const TopBar = () => {
   );
 };
 
-export default TopBar;
+export default SearchBar;

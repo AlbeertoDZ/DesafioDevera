@@ -1,14 +1,20 @@
+// src/components/ProductTable/ProductTable.jsx
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { SearchContext } from '../../context/SearchContext';
 import './ProductTable.scss';
 
 const ProductTable = () => {
   const navigate = useNavigate();
+  const { searchTerm } = useContext(SearchContext); // leo el término de búsqueda
 
+  // 1) Tu array “hardcodeado” de productos
   const products = [
     {
       id: 1,
       name: 'Elabaute',
-      image: 'https://dominandoelecommerce.com/wp-content/uploads/2019/06/fotografia-de-producto-para-tiendas-online.jpg',
+      image:
+        'https://dominandoelecommerce.com/wp-content/uploads/2019/06/fotografia-de-producto-para-tiendas-online.jpg',
       footprint: '5,78',
       difference: '-40%',
       score: 'A',
@@ -17,7 +23,8 @@ const ProductTable = () => {
     {
       id: 2,
       name: 'Natura Face',
-      image: 'https://comunicacionmarketing.es/wp-content/uploads/2019/11/Amazon-lucha-por-mantener-la-marca-de-Nike-en-su-marketplace.jpg',
+      image:
+        'https://comunicacionmarketing.es/wp-content/uploads/2019/11/Amazon-lucha-por-mantener-la-marca-de-Nike-en-su-marketplace.jpg',
       footprint: '4,21',
       difference: '-28%',
       score: 'B',
@@ -26,13 +33,28 @@ const ProductTable = () => {
     {
       id: 3,
       name: 'EcoLotion',
-      image: 'https://www.revistaeyn.com/binrepository/1280x900/40c0/1200d900/none/26086/CMVW/nike-air-vapormax-2020-0_EN1406339_MG223324389.jpg',
+      image:
+        'https://www.revistaeyn.com/binrepository/1280x900/40c0/1200d900/none/26086/CMVW/nike-air-vapormax-2020-0_EN1406339_MG223324389.jpg',
       footprint: '6,02',
       difference: '-35%',
       score: 'C',
       status: 'Finalizado',
     },
+    // …añade aquí más productos si los tienes…
   ];
+
+  // 1) Normalizamos el término de búsqueda:
+const normalizedTerm = searchTerm.trim().toLowerCase();
+
+// 2) Filtrado: si el campo está vacío, devolvemos todos.
+//    Si hay algo escrito, devolvemos únicamente los productos cuyo
+//    name, en minúsculas y sin espacios sobrantes, empiece con normalizedTerm.
+const filteredProducts =
+  normalizedTerm === ''
+    ? products
+    : products.filter((product) =>
+        product.name.toLowerCase().trim().startsWith(normalizedTerm)
+      );
 
   const handleViewProduct = (productId) => {
     navigate(`/product/${productId}`);
@@ -53,67 +75,88 @@ const ProductTable = () => {
       </div>
 
       <div className="table-body">
-        {products.map((product, index) => (
-          <div className="table-row" key={index}>
-            <div className="cell">
-              <span className="label-mobile">Seleccionar</span>
-              <input type="checkbox" />
-            </div>
-            <div className="cell">
-              <span className="label-mobile">Producto</span>
-              <div className="product-info">
-                <img src={product.image} alt={product.name} />
-                <span>{product.name}</span>
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product) => (
+            <div className="table-row" key={product.id}>
+              <div className="cell">
+                <span className="label-mobile">Seleccionar</span>
+                <input type="checkbox" />
               </div>
-            </div>
-            <div className="cell">
-              <span className="label-mobile">Huella de carbono</span>
-              <div>
-                <strong>{product.footprint}</strong>
-                <span> Kg Co2 Eq</span>
-              </div>
-            </div>
-            <div className="cell">
-              <span className="label-mobile">Diferencia huella</span>
-              <strong>{product.difference}</strong>
-            </div>
-            <div className="cell">
-              <span className="label-mobile">Score</span>
-              <div className="score-bar">
-                <span className="label">{product.score}</span>
-                <div className="bar">
-                  <div className="green"></div>
-                  <div className="yellow"></div>
-                  <div className="red"></div>
+              <div className="cell">
+                <span className="label-mobile">Producto</span>
+                <div className="product-info">
+                  <img src={product.image} alt={product.name} />
+                  <span>{product.name}</span>
                 </div>
               </div>
-            </div>
-            <div className="cell">
-              <span className="label-mobile">Status</span>
-              <span className={`status ${
-                product.status === 'Pendiente'
-                  ? 'pending'
-                  : product.status === 'En análisis'
-                  ? 'approved'
-                  : 'rejected'
-              }`}>
-                {product.status}
-              </span>
-            </div>
-            <div className="cell">
+              <div className="cell">
+                <span className="label-mobile">Huella de carbono</span>
+                <div>
+                  <strong>{product.footprint}</strong>
+                  <span> Kg Co2 Eq</span>
+                </div>
+              </div>
+              <div className="cell">
+                <span className="label-mobile">Diferencia huella</span>
+                <strong>{product.difference}</strong>
+              </div>
+              <div className="cell">
+                <span className="label-mobile">Score</span>
+                <div className="score-bar">
+                  <span className="label">{product.score}</span>
+                  <div className="bar">
+                    <div className="green"></div>
+                    <div className="yellow"></div>
+                    <div className="red"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="cell">
+                <span className="label-mobile">Status</span>
+                <span
+                  className={`status ${
+                    product.status === 'Pendiente'
+                      ? 'pending'
+                      : product.status === 'En análisis'
+                      ? 'approved'
+                      : 'rejected'
+                  }`}
+                >
+                  {product.status}
+                </span>
+              </div>
+              <div className="cell">
                 <span className="label-mobile">Ver</span>
-                <button className="icon-button" onClick={() => handleViewProduct(product.id)}>👁</button>
-                </div>
-                <div className="cell">
+                <button
+                  className="icon-button"
+                  onClick={() => handleViewProduct(product.id)}
+                >
+                  👁
+                </button>
+              </div>
+              <div className="cell">
                 <span className="label-mobile">Descargar</span>
-                <button className="icon-button" onClick={() => alert(`Descargar ${product.name}`)}>📥</button>
-                </div>
-                <div className="cell">
+                <button
+                  className="icon-button"
+                  onClick={() => alert(`Descargar ${product.name}`)}
+                >
+                  📥
+                </button>
+              </div>
+              <div className="cell">
                 <span className="label-mobile">Archivos</span>
-                <button className="icon-button" onClick={() => alert(`Archivos de ${product.name}`)}>📎</button>
-                </div>
-          </div>
-        ))}
+                <button
+                  className="icon-button"
+                  onClick={() => alert(`Archivos de ${product.name}`)}
+                >
+                  📎
+                </button>
+              </div>
+            </div>
+          ))
+        ) : (
+          <div className="no-results">No se encontraron productos.</div>
+        )}
       </div>
     </div>
   );
