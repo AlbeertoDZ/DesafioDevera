@@ -18,23 +18,35 @@ const queries = {
                     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
                     RETURNING *`,
     
+    createCompanyBasic: `INSERT INTO companies (name) VALUES ($1) RETURNING *`,
+    
     getTableContent: `SELECT * FROM {table_name} LIMIT $1 OFFSET $2`,
     getTableContentWithId: `SELECT * FROM {table_name} ORDER BY id LIMIT $1 OFFSET $2`,
     getTableCount: `SELECT COUNT(*) as total FROM {table_name}`,
+    getCompanyByName: `SELECT * FROM companies WHERE name = $1`,
 
     //PRODUCTS
     getAllProducts: `SELECT * FROM products;`,
     getProductById: `SELECT * FROM products WHERE id = $1`,
+    getProductByName: `SELECT * FROM products WHERE name = $1`,
+    createProduct: `INSERT INTO products (name, id_company, carbon_footprint, benchmark_percentage, impact_score, conclusion, raw_material, manufacturing, transport, packaging, footprint_difference, sustainability, image)
+                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
+                    RETURNING *`,
+    updateProduct: `UPDATE products SET 
+                    carbon_footprint = $2, benchmark_percentage = $3, impact_score = $4, 
+                    conclusion = $5, raw_material = $6, manufacturing = $7, transport = $8, 
+                    packaging = $9, footprint_difference = $10, sustainability = $11, image = $12
+                    WHERE id = $1 RETURNING *`,
 
     //FILES
-    saveFileInfo: `INSERT INTO files (name, product_id, content, created_at, image)
-                   VALUES ($1, $2, $3, NOW(), $4)
+    saveFileInfo: `INSERT INTO files (name, product_id, content, created_at)
+                   VALUES ($1, $2, $3, NOW())
                    RETURNING *`,
     
     getAllFiles: `SELECT f.file_id as id, f.name as original_name, f.name as filename,
                          'application/octet-stream' as mimetype,
                          length(f.content) as size, f.created_at as uploaded_at,
-                         f.product_id, f.image,
+                         f.product_id,
                          p.name as product_name
                   FROM files f 
                   LEFT JOIN products p ON f.product_id = p.id 
@@ -43,7 +55,7 @@ const queries = {
     getFileById: `SELECT f.file_id as id, f.name as original_name, f.name as filename,
                          'application/octet-stream' as mimetype,
                          length(f.content) as size, f.created_at as uploaded_at,
-                         f.product_id, f.image, f.content,
+                         f.product_id, f.content,
                          p.name as product_name
                   FROM files f 
                   LEFT JOIN products p ON f.product_id = p.id 
@@ -52,13 +64,20 @@ const queries = {
     getFileByName: `SELECT f.file_id as id, f.name as original_name, f.name as filename,
                            'application/octet-stream' as mimetype,
                            length(f.content) as size, f.created_at as uploaded_at,
-                           f.product_id, f.image, f.content,
+                           f.product_id, f.content,
                            p.name as product_name
                     FROM files f 
                     LEFT JOIN products p ON f.product_id = p.id 
-                    WHERE f.name = $1 OR f.image = $1`,
+                    WHERE f.name = $1`,
     
-    deleteFile: `DELETE FROM files WHERE name = $1 OR image = $1 RETURNING *`
-}
+    getFileByProductName: `SELECT f.file_id as id, f.name as original_name, f.name as filename,
+                                  'application/octet-stream' as mimetype,
+                                  length(f.content) as size, f.created_at as uploaded_at,
+                                  f.product_id, f.content,
+                                  p.name as product_name
+                           FROM files f 
+                           INNER JOIN products p ON f.product_id = p.id 
+                           WHERE p.name = $1`
+};
 
 module.exports = queries;
