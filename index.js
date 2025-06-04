@@ -1,9 +1,13 @@
 const express = require("express");
 const cors = require("cors");
+const helmet = require("helmet");
 const app = express();
 const path = require("path");
 
 require("dotenv").config(); // Cargar variables de entorno
+
+// Habilitar Helmet para seguridad
+app.use(helmet());
 
 //Habilitar CORS
 app.use(cors());
