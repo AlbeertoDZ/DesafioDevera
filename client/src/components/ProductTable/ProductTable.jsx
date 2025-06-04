@@ -1,4 +1,3 @@
-// src/components/ProductTable/ProductTable.jsx
 import { useNavigate } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
@@ -20,7 +19,6 @@ const ProductTable = () => {
     }
   };
 
-  // Subcomponente para encabezados ordenables
   const SortableHeader = ({ label, columnKey }) => (
     <div className="cell header-sortable" onClick={() => handleSort(columnKey)}>
       <span className="header-text">{label}</span>
@@ -45,7 +43,6 @@ const ProductTable = () => {
     </div>
   );
 
-  // Array de productos de ejemplo
   const products = [
     {
       id: 1,
@@ -77,10 +74,8 @@ const ProductTable = () => {
       score: 'C',
       status: 'Finalizado',
     },
-    // …añade más objetos si los necesitas…
   ];
 
-  // Filtrado por término de búsqueda
   const normalizedTerm = searchTerm.trim().toLowerCase();
   const filteredProducts =
     normalizedTerm === ''
@@ -89,7 +84,6 @@ const ProductTable = () => {
           product.name.toLowerCase().trim().startsWith(normalizedTerm)
         );
 
-  // Ordenamiento sobre el array filtrado (sin “status”)
   const sortedProducts = (() => {
     if (!sortKey) return filteredProducts;
     const copia = [...filteredProducts];
@@ -117,7 +111,6 @@ const ProductTable = () => {
           bval = b.score.toLowerCase();
           return aval.localeCompare(bval) * (sortDirection === 'asc' ? 1 : -1);
 
-        // Eliminamos el case 'status' para que no aplique ordenamiento en esa columna
         default:
           return 0;
       }
@@ -137,18 +130,15 @@ const ProductTable = () => {
           <input type="checkbox" />
         </div>
 
-        {/* Columnas con flechas y lógica de orden */}
         <SortableHeader label="Producto" columnKey="name" />
         <SortableHeader label="Huella de carbono" columnKey="footprint" />
         <SortableHeader label="Diferencia huella" columnKey="difference" />
         <SortableHeader label="Score" columnKey="score" />
 
-        {/* Columna “Status” sin flechas ni ordenamiento */}
         <div className="cell">
           <span className="header-text">Status</span>
         </div>
 
-        {/* Columnas “Ver”, “Descargar” y “Archivos” (no ordenables) */}
         <div className="cell">Ver</div>
         <div className="cell">Descargar</div>
         <div className="cell">Archivos</div>

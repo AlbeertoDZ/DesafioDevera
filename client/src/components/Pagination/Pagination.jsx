@@ -4,7 +4,7 @@ const Pagination = () => {
   return (
     <div className="pagination-wrapper">
       <div className="pagination-info">
-        Showing 3 to 10 of 20 entries
+        Mostrando 3 a 10 de 20 productos
       </div>
       <div className="pagination-controls">
         <button className="pagination-btn disabled">‹</button>
