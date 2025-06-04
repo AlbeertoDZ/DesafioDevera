@@ -217,7 +217,7 @@ const ProductTable = () => {
                 <span className="label-mobile">Archivos</span>
                 <button
                   className="icon-button"
-                  onClick={() => alert(`Archivos de ${product.name}`)}
+                  onClick={() => navigate('/files')}
                 >
                   📎
                 </button>

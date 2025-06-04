@@ -1,0 +1,20 @@
+.files-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em
+}
+
+.add-file-btn {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-radius: 2px;
+}
+
+.download-files-btn {
+    border: 1px solid #25A488;
+    color: rgb(27, 27, 27);
+    background-color: transparent;
+    border-radius: 2px;
+}

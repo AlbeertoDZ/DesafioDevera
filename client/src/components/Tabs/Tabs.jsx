@@ -6,9 +6,6 @@ const Tabs = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Determinamos qué pestaña está activa en función de la ruta actual:
-  // - Si la URL es "/files", pintamos “Archivos” como activa.
-  // - En cualquier otro caso ("/" o "/dashboard"), pintamos “Mis productos”.
   const activeTab = location.pathname === '/files' ? 'Archivos' : 'Mis productos';
 
   return (
