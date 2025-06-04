@@ -5,7 +5,7 @@
     overflow: hidden;
 
     .cell:first-child {
-        flex: 0 0 40px; // ancho fijo para el checkbox
+        flex: 0 0 40px; 
         justify-content: center;
       }
   
@@ -37,6 +37,8 @@
       display: flex;
       align-items: center;
       gap: 0.5rem;
+      justify-content: space-between;
+      cursor: pointer;
   
       .score-bar {
         width: 80%;
@@ -228,3 +230,6 @@
     padding: 0;
     transition: transform 0.1s ease-in-out;
   }
+
+  
+  
