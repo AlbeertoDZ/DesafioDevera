@@ -1,4 +1,3 @@
-// src/components/SearchBar/SearchBar.jsx
 import { useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
 import './SearchBar.scss';
@@ -23,8 +22,8 @@ const SearchBar = () => {
           type="text"
           placeholder="Buscar productos..."
           className="search-input"
-          value={searchTerm}                      // ya viene del contexto
-          onChange={(e) => setSearchTerm(e.target.value)} // lo actualiza en el contexto
+          value={searchTerm}                      
+          onChange={(e) => setSearchTerm(e.target.value)} 
         />
         <button className="export-button">
           <img src="/icons/download-icon.svg" alt="Export" />

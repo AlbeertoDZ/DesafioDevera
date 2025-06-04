@@ -7,14 +7,11 @@ import Home from './components/Home/Home';
 import OnboardingContainer from './components/Onboarding/OnboardingContainer';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import { useAuth } from './hooks/useAuth';
-
-// Importamos el provider que contiene el estado de búsqueda
 import { SearchProvider } from './context/SearchContext';
 
 function App() {
   const { user, loading } = useAuth();
 
-  // ① Mientras carga la autenticación, mostramos spinner
   if (loading) {
     return (
       <div className="App">
@@ -34,7 +31,6 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          {/* Ruta de login */}
           <Route
             path="/login"
             element={
@@ -47,8 +43,6 @@ function App() {
               )
             }
           />
-
-          {/* Ruta “/” envuelta con SearchProvider */}
           <Route
             path="/"
             element={
@@ -63,8 +57,6 @@ function App() {
               )
             }
           />
-
-          {/* Ruta “/dashboard” también usa Home, la envolvemos igual */}
           <Route
             path="/dashboard"
             element={
@@ -79,8 +71,6 @@ function App() {
               )
             }
           />
-
-          {/* ProductDetail (no necesita el SearchProvider) */}
           <Route
             path="/product/:id"
             element={
@@ -93,8 +83,6 @@ function App() {
               )
             }
           />
-
-          {/* Onboarding (tampoco necesita SearchProvider) */}
           <Route
             path="/onboarding"
             element={
@@ -107,8 +95,6 @@ function App() {
               )
             }
           />
-
-          {/* Ruta comodín */}
           <Route
             path="*"
             element={

@@ -1,4 +1,3 @@
-// src/components/ProductTable/ProductTable.jsx
 import { useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { SearchContext } from '../../context/SearchContext';
@@ -6,9 +5,8 @@ import './ProductTable.scss';
 
 const ProductTable = () => {
   const navigate = useNavigate();
-  const { searchTerm } = useContext(SearchContext); // leo el término de búsqueda
+  const { searchTerm } = useContext(SearchContext); 
 
-  // 1) Tu array “hardcodeado” de productos
   const products = [
     {
       id: 1,
@@ -40,15 +38,12 @@ const ProductTable = () => {
       score: 'C',
       status: 'Finalizado',
     },
-    // …añade aquí más productos si los tienes…
+  
   ];
 
-  // 1) Normalizamos el término de búsqueda:
 const normalizedTerm = searchTerm.trim().toLowerCase();
 
-// 2) Filtrado: si el campo está vacío, devolvemos todos.
-//    Si hay algo escrito, devolvemos únicamente los productos cuyo
-//    name, en minúsculas y sin espacios sobrantes, empiece con normalizedTerm.
+
 const filteredProducts =
   normalizedTerm === ''
     ? products
