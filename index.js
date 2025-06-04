@@ -34,6 +34,10 @@ app.use("/api/companies", companiesRoutes);
 const companiesController = require("./controllers/companies.controllers");
 app.get("/api/tables/:table_name", companiesController.getTableContent);
 
+// RUTAS ADICIONALES PARA ENDPOINTS ESPECÍFICOS
+app.post("/api/scrape_and_upload_products", companiesController.scrapeAndUploadProducts);
+app.get("/api/process_file/:file_id", companiesController.processFile);
+
 // Middleware para servir archivos estáticos de front
 app.use(express.static("public"));
 
