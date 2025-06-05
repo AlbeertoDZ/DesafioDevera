@@ -539,6 +539,7 @@ const getProductDetail = async (req, res) => {
       packaging: product.packaging,
       footprint_difference: product.footprint_difference,
       sustainability: product.sustainability,
+      image: product.image,
       
       // Datos mockeados para las vistas
       carbonFootprint: {
@@ -823,40 +824,13 @@ const generateProductReport = async (req, res) => {
 };
 
 /**
- * Download Company CSV
- * GET /csv/{nombre_empresa}
+ * Download All Products CSV
+ * GET /csv/all-products
  */
-const downloadCompanyCSV = async (req, res) => {
+const downloadAllProductsCSV = async (req, res) => {
   try {
-    const { nombre_empresa } = req.params;
-
-    if (!nombre_empresa) {
-      return res.status(400).json({
-        success: false,
-        message: 'Nombre de empresa requerido'
-      });
-    }
-
-    // Buscar empresa y sus productos
-    const companyResult = await db.query(queries.getCompanyByName, [nombre_empresa]);
-    
-    if (companyResult.rows.length === 0) {
-      return res.status(404).json({
-        success: false,
-        message: 'Empresa no encontrada'
-      });
-    }
-
-    const company = companyResult.rows[0];
-
-    // Obtener productos de la empresa
-    const productsResult = await db.query(`
-      SELECT p.*, c.name as company_name 
-      FROM products p 
-      LEFT JOIN companies c ON p.id_company = c.id 
-      WHERE c.name = $1
-      ORDER BY p.id
-    `, [nombre_empresa]);
+    // Obtener todos los productos con información de empresa
+    const productsResult = await db.query(queries.getAllProductsWithCompanyForCSV);
 
     const products = productsResult.rows;
 
@@ -886,15 +860,98 @@ const downloadCompanyCSV = async (req, res) => {
 
     // Configurar headers para descarga
     res.setHeader('Content-Type', 'text/csv; charset=utf-8');
-    res.setHeader('Content-Disposition', `attachment; filename="${nombre_empresa}_productos_${new Date().toISOString().split('T')[0]}.csv"`);
+    res.setHeader('Content-Disposition', `attachment; filename="todos_los_productos_${new Date().toISOString().split('T')[0]}.csv"`);
     
     res.status(200).send('\ufeff' + csvContent); // BOM para UTF-8
 
   } catch (error) {
-    console.error('Error al generar CSV:', error);
+    console.error('Error al generar CSV de todos los productos:', error);
     res.status(500).json({
       success: false,
       message: 'Error al generar archivo CSV',
+      error: error.message
+    });
+  }
+};
+
+/**
+ * Download Company CSV
+ * GET /csv/{nombre_empresa}
+ */
+const downloadCompanyCSV = async (req, res) => {
+  try {
+    const { nombre_empresa } = req.params;
+    
+    if (!nombre_empresa) {
+      return res.status(400).json({
+        success: false,
+        message: 'Nombre de empresa requerido'
+      });
+    }
+
+    // Obtener productos de la empresa específica
+    const result = await db.query(queries.getProductsByCompanyForCSV, [nombre_empresa]);
+    
+    if (result.rows.length === 0) {
+      return res.status(404).json({
+        success: false,
+        message: `No se encontraron productos para la empresa: ${nombre_empresa}`
+      });
+    }
+
+    // Generar CSV
+    const csvData = generateCSVFromProducts(result.rows);
+    
+    // Configurar headers para descarga
+    const filename = `productos_${nombre_empresa.replace(/\s+/g, '_')}_${new Date().toISOString().split('T')[0]}.csv`;
+    res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+    res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+    res.setHeader('Access-Control-Expose-Headers', 'Content-Disposition');
+    
+    res.send(csvData);
+    
+  } catch (error) {
+    console.error('Error generando CSV de empresa:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error generando archivo CSV',
+      error: error.message
+    });
+  }
+};
+
+// CLEANUP DATABASE - DELETE ALL DATA
+const cleanupDatabase = async (req, res) => {
+  try {
+    console.log('🧹 Iniciando limpieza de base de datos...');
+    
+    // Eliminar todos los productos
+    const productsResult = await db.query(queries.deleteAllProducts);
+    console.log(`✅ ${productsResult.rowCount} productos eliminados`);
+    
+    // Eliminar todas las empresas (manteniendo las primeras 6)
+    const companiesResult = await db.query(queries.deleteAllCompanies);
+    console.log(`✅ ${companiesResult.rowCount} empresas eliminadas`);
+    
+    // Eliminar todos los archivos
+    const filesResult = await db.query(queries.deleteAllFiles);
+    console.log(`✅ ${filesResult.rowCount} archivos eliminados`);
+    
+    res.status(200).json({
+      success: true,
+      message: 'Base de datos limpiada exitosamente',
+      data: {
+        productos_eliminados: productsResult.rowCount,
+        empresas_eliminadas: companiesResult.rowCount,
+        archivos_eliminados: filesResult.rowCount
+      }
+    });
+    
+  } catch (error) {
+    console.error('❌ Error limpiando base de datos:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error limpiando base de datos',
       error: error.message
     });
   }
@@ -908,5 +965,7 @@ module.exports = {
   getProductDetail,
   getAllProductsBasic,
   generateProductReport,
-  downloadCompanyCSV
+  downloadAllProductsCSV,
+  downloadCompanyCSV,
+  cleanupDatabase
 }

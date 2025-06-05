@@ -87,6 +87,7 @@ const queries = {
     deleteAllProducts: `DELETE FROM products`,
     deleteAllCompanies: `DELETE FROM companies WHERE id > 6`, // Keep first 6 companies
     deleteAllFiles: `DELETE FROM files`,
+    deleteProduct: `DELETE FROM products WHERE id = $1 RETURNING *`,
     
     // UPDATE QUERIES
     updateProductCategory: `UPDATE products SET category = $2 WHERE id = $1 RETURNING *`,
@@ -105,7 +106,19 @@ const queries = {
                               FROM products p 
                               LEFT JOIN companies c ON p.id_company = c.id 
                               WHERE c.name = $1
-                              ORDER BY p.id`
+                              ORDER BY p.id`,
+
+    // CSV EXPORT QUERIES
+    getAllProductsWithCompanyForCSV: `SELECT p.*, c.name as company_name 
+                                     FROM products p 
+                                     LEFT JOIN companies c ON p.id_company = c.id 
+                                     ORDER BY p.id`,
+    
+    getProductsByCompanyForCSV: `SELECT p.*, c.name as company_name 
+                                FROM products p 
+                                LEFT JOIN companies c ON p.id_company = c.id 
+                                WHERE c.name = $1
+                                ORDER BY p.id`
 };
 
 module.exports = queries;

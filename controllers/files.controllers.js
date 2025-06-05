@@ -395,20 +395,37 @@ const uploadProductsWithFiles = async (req, res) => {
       const producto = productos[i];
       
       try {
+        // Verificar si el producto Tesla ya existe en la BD
+        let existingProduct = null;
+        if (producto.imagen || producto.carbon_footprint) {
+          // Es un producto de Tesla, verificar si ya existe
+          const existingProductResult = await db.query(queries.getProductByName, [producto.nombre]);
+          if (existingProductResult.rows.length > 0) {
+            existingProduct = existingProductResult.rows[0];
+            console.log(`🔍 Producto Tesla existente encontrado: ${producto.nombre} (ID: ${existingProduct.id})`);
+          }
+        }
+        
+        // Usar datos de Tesla si están disponibles, de producto existente, o valores por defecto
+        const carbonFootprint = producto.carbon_footprint || existingProduct?.carbon_footprint || (Math.random() * 50 + 10).toFixed(2);
+        const impactScore = producto.impact_score || existingProduct?.impact_score || Math.floor(Math.random() * 40 + 60);
+        const sustainability = producto.sustainability || existingProduct?.sustainability || 'Alta';
+        const image = producto.imagen || existingProduct?.image || null;
+        
         const productValues = [
           producto.nombre,
           company.id,
-          (Math.random() * 50 + 10).toFixed(2), // carbon_footprint
+          carbonFootprint,
           Math.floor(Math.random() * 40 + 60).toString(), // benchmark_percentage
-          Math.floor(Math.random() * 40 + 60), // impact_score
+          impactScore,
           `Producto seleccionado en onboarding desde ${producto.url}`,
           'Materiales evaluados automáticamente',
           'Proceso de manufactura sostenible',
           'Logística optimizada',
           'Empaque eco-friendly',
           `-${Math.floor(Math.random() * 30 + 20)}%`, // footprint_difference
-          'Alta', // sustainability
-          null // image
+          sustainability,
+          image // Usar imagen de Tesla si está disponible
         ];
 
         const productResult = await db.query(queries.createProduct, productValues);
@@ -420,10 +437,11 @@ const uploadProductsWithFiles = async (req, res) => {
           industria: producto.industria,
           url: producto.url,
           created: true,
-          database_id: createdProduct.id
+          database_id: createdProduct.id,
+          image: image // Incluir imagen en la respuesta
         });
         
-        console.log(`✅ Producto guardado en BD: ${producto.nombre} (ID: ${createdProduct.id})`);
+        console.log(`✅ Producto guardado en BD: ${producto.nombre} (ID: ${createdProduct.id})${image ? ' con imagen' : ''}${existingProduct ? ' (datos de BD existente)' : ''}`);
       } catch (productError) {
         console.error(`❌ Error creando producto ${producto.nombre}:`, productError);
         // Si falla la creación, al menos agregarlo como simulado

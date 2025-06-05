@@ -56,6 +56,20 @@ function OnboardingStep4({ products = [], onBack, companyInfo }) {
         formData.append(`productos[${i}][nombre]`, product.nombre);
         formData.append(`productos[${i}][url]`, product.url);
         formData.append(`productos[${i}][industria]`, product.industria);
+        
+        // Agregar datos específicos de Tesla si están disponibles
+        if (product.imagen) {
+          formData.append(`productos[${i}][imagen]`, product.imagen);
+        }
+        if (product.carbon_footprint) {
+          formData.append(`productos[${i}][carbon_footprint]`, product.carbon_footprint);
+        }
+        if (product.impact_score) {
+          formData.append(`productos[${i}][impact_score]`, product.impact_score);
+        }
+        if (product.sustainability) {
+          formData.append(`productos[${i}][sustainability]`, product.sustainability);
+        }
       }
     });
 
@@ -146,10 +160,35 @@ function OnboardingStep4({ products = [], onBack, companyInfo }) {
                   onChange={() => handleToggle(product.nombre)}
                   disabled={isSubmitting}
                 />
+                
+                {/* Tesla Product Image */}
+                {product.imagen && (
+                  <div className="product-image">
+                    <img 
+                      src={product.imagen} 
+                      alt={product.nombre}
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                      }}
+                    />
+                  </div>
+                )}
+                
                 <div className="info">
                   <strong>{product.nombre}</strong>
                   <span className="industry">{product.industria}</span>
+                  
+                  {/* Tesla Product Extra Info */}
+                  {product.carbon_footprint && (
+                    <div className="tesla-info">
+                      <span className="carbon-footprint">🌱 {product.carbon_footprint} kg CO₂</span>
+                      {product.sustainability && (
+                        <span className="sustainability">♻️ {product.sustainability}</span>
+                      )}
+                    </div>
+                  )}
                 </div>
+                
                 <div className="upload">
                   <label
                     htmlFor={`file-${index}`}

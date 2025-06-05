@@ -562,7 +562,13 @@ const ProductDetail = () => {
           {/* Main product info */}
           <header className="product-header">
             <figure className="product-image">
-              <img src="https://via.placeholder.com/200x200/4ade80/ffffff?text=Producto" alt={product.name} />
+              <img 
+                src={product.image || "https://via.placeholder.com/200x200/4ade80/ffffff?text=Producto"} 
+                alt={product.name}
+                onError={(e) => {
+                  e.target.src = "https://via.placeholder.com/200x200/4ade80/ffffff?text=Producto";
+                }}
+              />
             </figure>
             
             <section className="product-title-section">

@@ -48,8 +48,15 @@ app.get("/api/products", companiesController.getAllProductsBasic);
 
 // NUEVOS ENDPOINTS DE LA API CON AGENTE IA
 app.post("/api/generate_product_report", companiesController.generateProductReport);
+app.get("/api/csv/all-products", companiesController.downloadAllProductsCSV);
 app.get("/api/csv/:nombre_empresa", companiesController.downloadCompanyCSV);
 app.put("/api/products/:product_id", productsController.updateProduct);
+
+// DELETE ENDPOINTS
+app.delete("/api/products/:product_id", productsController.deleteProduct);
+
+// CLEANUP ENDPOINT (TEMPORAL)
+app.post("/api/cleanup", companiesController.cleanupDatabase);
 
 // Middleware para servir archivos estáticos de front
 app.use(express.static("public"));

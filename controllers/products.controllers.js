@@ -130,9 +130,57 @@ const updateProduct = async (req, res) => {
     }
 }
 
+//Delete product
+const deleteProduct = async (req, res) => {
+    try {
+        const { product_id } = req.params;
+
+        if (!product_id) {
+            return res.status(400).json({
+                success: false,
+                message: 'ID de producto requerido'
+            });
+        }
+
+        // Verificar que el producto existe
+        const existingProduct = await db.query(queries.getProductById, [product_id]);
+        if (existingProduct.rows.length === 0) {
+            return res.status(404).json({
+                success: false,
+                message: 'Producto no encontrado'
+            });
+        }
+
+        // Eliminar el producto
+        const result = await db.query(queries.deleteProduct, [product_id]);
+
+        if (result.rows.length === 0) {
+            return res.status(500).json({
+                success: false,
+                message: 'Error al eliminar el producto'
+            });
+        }
+
+        res.status(200).json({
+            success: true,
+            message: 'Producto eliminado exitosamente',
+            data: result.rows[0]
+        });
+
+    } catch (error) {
+        console.error('Error al eliminar producto:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Error interno del servidor',
+            error: error.message
+        });
+    }
+}
+
 module.exports = {
     getAllProducts,
     getProductById,
     createProduct,
-    updateProduct
+    updateProduct,
+    deleteProduct
 }
