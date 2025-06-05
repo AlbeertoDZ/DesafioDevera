@@ -1,0 +1,293 @@
+.onboarding-step4 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .atras-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: none;
+    border: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      color: #25A488;
+      background: #f8fffe;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  .content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .company-info {
+    text-align: center;
+    margin: 1rem 0 2rem;
+    padding-top: 2rem;
+
+    h2 {
+      color: #333;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .ai-summary {
+      color: #666;
+      font-size: 1rem;
+      margin: 0;
+    }
+  }
+
+  h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  .step-description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+
+    .product-card {
+      border: 2px solid #e5e5e5;
+      border-radius: 12px;
+      padding: 1.5rem;
+      background: white;
+      transition: all 0.3s ease;
+      position: relative;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &:hover {
+        border-color: #25A488;
+        box-shadow: 0 4px 12px rgba(37, 164, 136, 0.1);
+      }
+
+      &.selected {
+        border-color: #25A488;
+        background: #f8fffe;
+        box-shadow: 0 4px 12px rgba(37, 164, 136, 0.15);
+      }
+
+      input[type="checkbox"] {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+
+      .info {
+        margin-bottom: 1rem;
+        flex-grow: 1;
+        padding-right: 2rem;
+
+        strong {
+          display: block;
+          color: #333;
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem;
+          line-height: 1.4;
+          font-weight: 600;
+        }
+
+        .industry {
+          color: #666;
+          font-size: 0.9rem;
+          background: #f0f0f0;
+          padding: 0.3rem 0.8rem;
+          border-radius: 15px;
+          display: inline-block;
+          font-weight: 500;
+        }
+      }
+
+      .upload {
+        .upload-label {
+          display: inline-block;
+          background: #25A488;
+          color: white;
+          padding: 0.5rem 1rem;
+          border-radius: 6px;
+          cursor: pointer;
+          font-size: 0.9rem;
+          transition: all 0.2s ease;
+          text-align: center;
+          width: 100%;
+
+          &:hover {
+            background: #1e8a73;
+          }
+
+          &.disabled {
+            background: #ccc;
+            cursor: not-allowed;
+          }
+        }
+
+        .archivo-subido {
+          margin-top: 0.5rem;
+          padding: 0.5rem;
+          background: #e8f5e8;
+          border-radius: 6px;
+          font-size: 0.85rem;
+          color: #2d5a2d;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .remove-file {
+            background: none;
+            border: none;
+            color: #d32f2f;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 0.2rem;
+
+            &:hover {
+              color: #b71c1c;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .summary {
+    text-align: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    
+    p {
+      margin: 0;
+      color: #333;
+      font-size: 1rem;
+
+      strong {
+        color: #25A488;
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    .finalizar-btn {
+      background: linear-gradient(135deg, #25A488, #1e8a73);
+      color: white;
+      border: none;
+      padding: 1rem 2.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(37, 164, 136, 0.3);
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(37, 164, 136, 0.4);
+      }
+
+      &:active {
+        transform: translateY(-1px);
+      }
+
+      &:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .no-products {
+    text-align: center;
+    padding: 3rem 2rem;
+
+    h2 {
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .retry-btn {
+      background: #25A488;
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 6px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background: #1e8a73;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+
+    .company-info h2 {
+      font-size: 1.4rem;
+    }
+
+    .product-list {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+
+      .product-card {
+        padding: 1rem;
+      }
+    }
+
+    .actions .finalizar-btn {
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+    }
+  }
+} 
