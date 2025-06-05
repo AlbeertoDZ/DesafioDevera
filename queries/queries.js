@@ -29,6 +29,10 @@ const queries = {
     getAllProducts: `SELECT * FROM products;`,
     getProductById: `SELECT * FROM products WHERE id = $1`,
     getProductByName: `SELECT * FROM products WHERE name = $1`,
+    getProductDetailById: `SELECT p.*, c.name as company_name 
+                          FROM products p 
+                          LEFT JOIN companies c ON p.id_company = c.id 
+                          WHERE p.id = $1`,
     createProduct: `INSERT INTO products (name, id_company, carbon_footprint, benchmark_percentage, impact_score, conclusion, raw_material, manufacturing, transport, packaging, footprint_difference, sustainability, image)
                     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
                     RETURNING *`,
@@ -77,7 +81,31 @@ const queries = {
                                   p.name as product_name
                            FROM files f 
                            INNER JOIN products p ON f.product_id = p.id 
-                           WHERE p.name = $1`
+                           WHERE p.name = $1`,
+
+    // CLEANUP QUERIES
+    deleteAllProducts: `DELETE FROM products`,
+    deleteAllCompanies: `DELETE FROM companies WHERE id > 6`, // Keep first 6 companies
+    deleteAllFiles: `DELETE FROM files`,
+    
+    // UPDATE QUERIES
+    updateProductCategory: `UPDATE products SET category = $2 WHERE id = $1 RETURNING *`,
+
+    // ADDITIONAL QUERIES FOR COMPANIES CONTROLLER
+    getAllProductsWithCompany: `SELECT p.id, p.name, p.carbon_footprint, p.impact_score, p.sustainability, p.category,
+                                       c.name as company_name
+                                FROM products p 
+                                LEFT JOIN companies c ON p.id_company = c.id 
+                                ORDER BY p.id 
+                                LIMIT $1 OFFSET $2`,
+    
+    getProductsCount: `SELECT COUNT(*) as total FROM products`,
+    
+    getProductsByCompanyName: `SELECT p.*, c.name as company_name 
+                              FROM products p 
+                              LEFT JOIN companies c ON p.id_company = c.id 
+                              WHERE c.name = $1
+                              ORDER BY p.id`
 };
 
 module.exports = queries;

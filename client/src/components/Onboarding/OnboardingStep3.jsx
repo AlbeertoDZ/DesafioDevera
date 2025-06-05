@@ -1,145 +1,51 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import './OnboardingStep3.scss';
 
-function OnboardingStep3({ products, onBack }) {
-  const [selectedProducts, setSelectedProducts] = useState([]);
-  const [fileMap, setFileMap] = useState({});
-  const navigate = useNavigate();
+function OnboardingStep3({ onNext, onBack }) {
+  const [tallyLoaded, setTallyLoaded] = useState(false);
 
-  const handleToggle = (productName) => {
-    setSelectedProducts((prev) =>
-      prev.includes(productName)
-        ? prev.filter((name) => name !== productName)
-        : [...prev, productName]
-    );
-  };
+  useEffect(() => {
+    const scriptId = 'tally-embed-script';
 
-  const handleFileChange = (productName, file) => {
-    setFileMap((prev) => ({
-      ...prev,
-      [productName]: file,
-    }));
-  };
-
-  const handleRemoveFile = (productName) => {
-    setFileMap((prev) => {
-      const updated = { ...prev };
-      delete updated[productName];
-      return updated;
-    });
-  };
-
-  const handleFinish = async () => {
-    const formData = new FormData();
-
-    selectedProducts.forEach((productName, i) => {
-      const product = products.find((p) => p.nombre === productName);
-      formData.append(`productos[${i}][nombre]`, product.nombre);
-      formData.append(`productos[${i}][url]`, product.url);
-      formData.append(`productos[${i}][industria]`, product.industria);
-    });
-
-    // Agregar archivos en el orden correspondiente a los productos seleccionados
-    selectedProducts.forEach((productName) => {
-      const file = fileMap[productName];
-      if (file) {
-        formData.append('archivos', file);
+    const loadTally = () => {
+      if (typeof Tally !== 'undefined') {
+        Tally.loadEmbeds();
+        setTallyLoaded(true);
       }
-    });
+    };
 
-    // Log para debugging
-    console.log('📦 Enviando productos:', selectedProducts);
-    console.log('📁 Enviando archivos:', selectedProducts.filter(name => fileMap[name]).map(name => fileMap[name].name));
-
-    try {
-      const res = await fetch('/api/files/subir-productos', {
-        method: 'POST',
-        body: formData,
-      });
-
-      const result = await res.json();
-      
-      if (res.ok) {
-        alert(`¡Onboarding completado!\n${result.data.totalProductos} productos y ${result.data.totalArchivos} archivos procesados.`);
-        console.log('✅ Respuesta del servidor:', result);
-        
-        // Redirigir al dashboard después de completar el onboarding
-        setTimeout(() => {
-          navigate('/');
-        }, 1500);
-      } else {
-        alert(`Error al subir productos: ${result.message}`);
-        console.error('❌ Error del servidor:', result);
-      }
-    } catch (err) {
-      console.error("❌ Error:", err);
-      alert("Error en la conexión con el servidor.");
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement('script');
+      script.id = scriptId;
+      script.src = 'https://tally.so/widgets/embed.js';
+      script.onload = loadTally;
+      document.body.appendChild(script);
+    } else {
+      loadTally();
     }
-  };
+  }, []);
 
   return (
     <div className="onboarding-step3">
-        <button className='atras-btn' onClick={onBack}>← Atrás</button>
-      <h2>Selecciona los productos que quieres mostrar</h2>
+      <button className='atras-btn' onClick={onBack}>← Atrás</button>
+      
+      <div className="content-container">
+        <h2>Completa este formulario para personalizar tu experiencia</h2>
+        
+        <div className="tally-container">
+          <iframe
+            data-tally-src="https://tally.so/embed/wL592l?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
+            title="Formulario Tally"
+            style={{ minHeight: '500px', width: '100%' }}
+          ></iframe>
+        </div>
 
-      <div className="product-list">
-        {products.map((product, index) => {
-          const isSelected = selectedProducts.includes(product.nombre);
-          const file = fileMap[product.nombre];
-
-          return (
-            <div key={index} className="product-card">
-              <input
-                type="checkbox"
-                checked={isSelected}
-                onChange={() => handleToggle(product.nombre)}
-              />
-              <img src={product.imagen} alt={product.nombre} />
-              <div className="info">
-                <strong>{product.nombre}</strong>
-                <span>{product.industria}</span>
-              </div>
-              <div className="upload">
-                <label
-                  htmlFor={`file-${index}`}
-                  className={`upload-label ${!isSelected ? 'disabled' : ''}`}
-                >
-                  Sube tu producto
-                  <input
-                    type="file"
-                    id={`file-${index}`}
-                    name={`file-${index}`}
-                    hidden
-                    disabled={!isSelected}
-                    accept="application/pdf"
-                    onChange={(e) => {
-                        handleFileChange(product.nombre, e.target.files[0]);
-                        e.target.value = null; 
-                    }}
-                    />
-                </label>
-
-                {file && (
-                    <div className="archivo-subido">
-                        📄 {file.name}
-                        <button
-                        type="button"
-                        className="remove-file"
-                        onClick={() => handleRemoveFile(product.nombre)}
-                        >
-                        ✖
-                        </button>
-                    </div>
-                    )}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className="actions">
-        <button className='finalizar-btn' onClick={handleFinish}>Enviar</button>
+        <div className="actions">
+          <button className="continue-btn" onClick={onNext}>
+            Continuar al último paso →
+          </button>
+        </div>
       </div>
     </div>
   );
