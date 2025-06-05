@@ -46,8 +46,7 @@ function OnboardingContainer() {
       console.log(`🔗 URL a analizar: ${data.url}`);
 
       // Simular productos del agente IA sin guardarlos en BD
-      // TODO: Aquí irá la llamada real al agente IA Python
-      const mockProducts = generateMockProducts(companyName, data.url);
+      const mockProducts = await generateMockProducts(companyName, data.url);
       
       console.log(`📊 Productos generados por IA: ${mockProducts.length}`);
 
@@ -94,13 +93,101 @@ function OnboardingContainer() {
     }
   };
 
-  // Función para generar productos mock sin guardar en BD
-  const generateMockProducts = (companyName, url) => {
+  // Función para generar productos mock o fetcher productos reales de Tesla
+  const generateMockProducts = async (companyName, url) => {
     const lowerCompany = companyName.toLowerCase();
     
     let products = [];
     
-    if (lowerCompany.includes('apple')) {
+    if (lowerCompany.includes('tesla')) {
+      console.log('🚗 Tesla detectado! Obteniendo productos reales de la base de datos...');
+      try {
+        // Obtener productos reales de Tesla desde la API
+        const response = await fetch('/api/tables/products?limit=20');
+        const data = await response.json();
+        
+        if (data.success && data.data.records) {
+          // Filtrar solo productos Tesla (id_company = 3)
+          const teslaProducts = data.data.records.filter(product => product.id_company === 3);
+          
+          console.log(`✅ ${teslaProducts.length} productos Tesla encontrados en BD`);
+          
+          // Si hay productos Tesla en BD, usarlos
+          if (teslaProducts.length > 0) {
+            // Convertir al formato esperado por el onboarding
+            products = teslaProducts.map(product => ({
+              nombre: product.name,
+              industria: product.category || 'Vehículos Eléctricos',
+              url: product.url || url,
+              imagen: product.image,
+              // Datos adicionales de Tesla para mostrar
+              carbon_footprint: product.carbon_footprint,
+              impact_score: product.impact_score,
+              sustainability: product.sustainability
+            }));
+            
+            console.log('🎯 Productos Tesla formateados para onboarding:', products);
+            return products;
+          }
+        }
+      } catch (error) {
+        console.error('❌ Error obteniendo productos Tesla reales:', error);
+      }
+      
+      console.log('🔄 Fallback a productos Tesla simulados completos...');
+      
+      // Fallback completo con productos Tesla incluyendo imágenes y datos de sostenibilidad
+      products = [
+        { 
+          nombre: 'Model 3', 
+          industria: 'Vehículos Eléctricos',
+          imagen: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD.jpg',
+          carbon_footprint: '8.2',
+          impact_score: 89,
+          sustainability: 'Muy Alta'
+        },
+        { 
+          nombre: 'Model Y', 
+          industria: 'Vehículos Eléctricos SUV',
+          imagen: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.jpg',
+          carbon_footprint: '9.1',
+          impact_score: 88,
+          sustainability: 'Muy Alta'
+        },
+        { 
+          nombre: 'Model S', 
+          industria: 'Vehículos Eléctricos Premium',
+          imagen: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD.jpg',
+          carbon_footprint: '10.3',
+          impact_score: 86,
+          sustainability: 'Muy Alta'
+        },
+        { 
+          nombre: 'Model X', 
+          industria: 'Vehículos Eléctricos SUV Premium',
+          imagen: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-LHD.jpg',
+          carbon_footprint: '12.5',
+          impact_score: 87,
+          sustainability: 'Muy Alta'
+        },
+        { 
+          nombre: 'Solar Panels', 
+          industria: 'Energía Solar',
+          imagen: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop.jpg',
+          carbon_footprint: '3.8',
+          impact_score: 91,
+          sustainability: 'Muy Alta'
+        },
+        { 
+          nombre: 'Solar Roof', 
+          industria: 'Energía Solar Residencial',
+          imagen: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-Global.jpg',
+          carbon_footprint: '2.5',
+          impact_score: 93,
+          sustainability: 'Muy Alta'
+        }
+      ];
+    } else if (lowerCompany.includes('apple')) {
       products = [
         { nombre: 'iPhone 15 Pro Eco', industria: 'Electrónicos Sostenibles' },
         { nombre: 'MacBook Air Reciclado', industria: 'Computadoras Verdes' },
@@ -108,15 +195,6 @@ function OnboardingContainer() {
         { nombre: 'Apple Watch Green', industria: 'Wearables Sostenibles' },
         { nombre: 'AirPods Recyclable', industria: 'Audio Ecológico' },
         { nombre: 'Mac Studio Renewable', industria: 'Computadoras Pro Verdes' }
-      ];
-    } else if (lowerCompany.includes('tesla')) {
-      products = [
-        { nombre: 'Model Y Renewable', industria: 'Vehículos Eléctricos' },
-        { nombre: 'Solar Roof V4', industria: 'Energía Solar' },
-        { nombre: 'Model S Plaid Green', industria: 'Vehículos Premium Eléctricos' },
-        { nombre: 'Powerwall Eco', industria: 'Almacenamiento Energético' },
-        { nombre: 'Cybertruck Carbon Zero', industria: 'Vehículos Comerciales Eléctricos' },
-        { nombre: 'Tesla Bot Sustainable', industria: 'Robótica Sostenible' }
       ];
     } else if (lowerCompany.includes('ferrari')) {
       products = [

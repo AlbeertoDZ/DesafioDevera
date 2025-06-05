@@ -14,4 +14,7 @@ router.post('/', productsControllers.createProduct);
 //Actualizar Producto
 router.put('/:product_id', productsControllers.updateProduct);
 
+//Eliminar Producto
+router.delete('/:product_id', productsControllers.deleteProduct);
+
 module.exports = router;
