@@ -4,26 +4,6 @@ Este proyecto es la solución al reto planteado por **Devera** dentro del **Desa
 
 ---
 
-## Índice
-
-1. [Descripción del Proyecto](#descripción-del-proyecto)  
-2. [Tecnologías Utilizadas](#tecnologías-utilizadas)  
-3. [Arquitectura General](#arquitectura-general)  
-4. [Flujo de Usuario](#flujo-de-usuario)  
-5. [Estructura del Repositorio](#estructura-del-repositorio)  
-6. [Instalación y Configuración](#instalación-y-configuración)  
-   - [Prerequisitos](#prerequisitos)  
-   - [Backend](#backend)  
-   - [Frontend](#frontend)  
-   - [Variables de Entorno](#variables-de-entorno)  
-   - [Base de Datos](#base-de-datos)  
-7. [Uso y Endpoints Principales](#uso-y-endpoints-principales)  
-   - [Autenticación](#autenticación)  
-   - [Onboarding](#onboarding)  
-   - [Productos](#productos)  
-   - [Archivos](#archivos)  
----
-
 ## Descripción del Proyecto
 
 Devera busca que cualquier marca, sin importar su tamaño, pueda **medir**, **comparar** y **comunicar** el impacto ambiental de sus productos de forma sencilla. Para ello, automatiza el Análisis de Ciclo de Vida (ACV) mediante IA y necesita una interfaz web amigable donde los usuarios:
@@ -112,13 +92,3 @@ A continuación se describen los principales pasos que vivirá un usuario en la 
        - **Comparativa**: % vs benchmark, gráficas de barras circulares.  
        - **Conclusiones**, **Detalle de categorías**, **Sostenibilidad de la marca**, **Información marketing**.  
      - Lista de **archivos adjuntos**: nombre, tamaño, botón de descarga. Se obtienen desde la tabla `files` filtrando `product_id = :id`.  
-
-5. **Archivos Generales**  
-   - Ruta `/files` (opcional según requerimientos):  
-     - Muestra todos los archivos subidos por el usuario (independientemente del producto).  
-     - Permite descargarlos individualmente o descargar todos en un ZIP (implementación pendiente/botón no funcional).  
-     - Botón “+ Añadir más archivos” abre file input y agrega a una lista temporal en memoria (no hay persistencia si recarga).  
-
-6. **Cierre de Sesión**  
-   - El usuario pulsa “Cerrar Sesión” en el header. El token se elimina de `localStorage` y se redirige a `/login`.  
-   - Al caducar el token, el frontend detecta (401) y fuerza logout.  
