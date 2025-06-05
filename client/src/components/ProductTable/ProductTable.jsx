@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { useState, useContext } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import { SearchContext } from '../../context/SearchContext';
 import { Download, Eye, Files } from 'lucide-react';
 import './ProductTable.scss';
@@ -10,6 +10,55 @@ const ProductTable = () => {
 
   const [sortKey, setSortKey] = useState(null);
   const [sortDirection, setSortDirection] = useState('asc');
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // Fetch products from API
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch('/api/products');
+        const result = await response.json();
+        
+        if (response.ok && Array.isArray(result)) {
+          // Transform API data to match component expectations
+          const transformedProducts = result.map(product => ({
+            id: product.id,
+            name: product.name,
+            company: product.company_name || 'N/A',
+            image: product.image || 'https://via.placeholder.com/150x150/cccccc/666666?text=Producto',
+            footprint: parseFloat(product.carbon_footprint || 0).toFixed(1),
+            difference: product.footprint_difference || '-20%',
+            score: getScoreGrade(product.impact_score),
+            status: 'Finalizado'
+          }));
+          setProducts(transformedProducts);
+        } else {
+          console.error('Error fetching products: Invalid response format');
+          setProducts([]);
+        }
+      } catch (error) {
+        console.error('Error fetching products:', error);
+        setProducts([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  // Helper function to convert impact score to letter grade
+  const getScoreGrade = (score) => {
+    if (!score) return 'F';
+    const numScore = parseInt(score);
+    if (numScore >= 90) return 'A';
+    if (numScore >= 80) return 'B';
+    if (numScore >= 70) return 'C';
+    if (numScore >= 60) return 'D';
+    return 'F';
+  };
 
   const handleSort = (columnKey) => {
     if (sortKey === columnKey) {
@@ -43,39 +92,6 @@ const ProductTable = () => {
       </span>
     </div>
   );
-
-  const products = [
-    {
-      id: 1,
-      name: 'Elabaute',
-      image:
-        'https://dominandoelecommerce.com/wp-content/uploads/2019/06/fotografia-de-producto-para-tiendas-online.jpg',
-      footprint: '5,78',
-      difference: '-40%',
-      score: 'A',
-      status: 'Pendiente',
-    },
-    {
-      id: 2,
-      name: 'Natura Face',
-      image:
-        'https://comunicacionmarketing.es/wp-content/uploads/2019/11/Amazon-lucha-por-mantener-la-marca-de-Nike-en-su-marketplace.jpg',
-      footprint: '4,21',
-      difference: '-28%',
-      score: 'B',
-      status: 'En análisis',
-    },
-    {
-      id: 3,
-      name: 'EcoLotion',
-      image:
-        'https://www.revistaeyn.com/binrepository/1280x900/40c0/1200d900/none/26086/CMVW/nike-air-vapormax-2020-0_EN1406339_MG223324389.jpg',
-      footprint: '6,02',
-      difference: '-35%',
-      score: 'C',
-      status: 'Finalizado',
-    },
-  ];
 
   const normalizedTerm = searchTerm.trim().toLowerCase();
   const filteredProducts =
@@ -123,6 +139,16 @@ const ProductTable = () => {
   const handleViewProduct = (productId) => {
     navigate(`/product/${productId}`);
   };
+
+  if (loading) {
+    return (
+      <div className="table-wrapper">
+        <div className="loading-state">
+          <p>Cargando productos...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="table-wrapper">

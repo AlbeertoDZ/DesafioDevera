@@ -1,20 +1,149 @@
-.files-tab {
+    .files-page {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-    padding: 2em
-}
+    flex-direction: column;
+    gap: 1rem;
+  
 
-.add-file-btn {
-    background-color: rgb(26, 26, 26);
-    color: white;
-    border-radius: 2px;
-}
-
-.download-files-btn {
-    border: 1px solid #25A488;
-    color: rgb(27, 27, 27);
-    background-color: transparent;
-    border-radius: 2px;
-}
+    .files-tab {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1em;
+      padding: 2em;
+    }
+  
+    .add-file-btn {
+      background-color: rgb(26, 26, 26);
+      color: white;
+      border-radius: 2px;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.95rem;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.2s ease;
+  
+      &:hover {
+        background-color: rgb(50, 50, 50);
+      }
+    }
+  
+    .download-files-btn {
+      border: 1px solid #25a488;
+      color: rgb(27, 27, 27);
+      background-color: transparent;
+      border-radius: 2px;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: background-color 0.2s ease, color 0.2s ease;
+  
+      &:hover {
+        background-color: #25a488;
+        color: #fff;
+      }
+    }
+  
+    .files-container {
+      width: 100%;
+      min-height: 200px;
+      background-color: #fff;
+      border: 1px solid #e2e8f0; /* gris claro */
+      border-radius: 8px;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      box-sizing: border-box;
+      justify-content: flex-start;
+  
+      .placeholder {
+        color: #718096;
+        font-size: 0.95rem;
+        margin: 0 auto;
+      }
+  
+      .file-item {
+        width: 120px;
+        height: 120px;
+        background-color: #f9fafb;
+        border: 1px solid #cbd5e0;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        box-sizing: border-box;
+  
+        .file-icon {
+          font-size: 2rem;
+        }
+  
+        .file-name {
+          margin-top: 0.5rem;
+          font-size: 0.85rem;
+          text-align: center;
+          color: #4a5568;
+          word-break: break-word;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .files-page {
+      .files-tab {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 1.5rem 1rem;
+      }
+  
+      .files-container {
+        padding: 0.75rem;
+  
+        .file-item {
+          width: 45%;
+          height: 100px;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 0.5rem;
+  
+          .file-icon {
+            font-size: 1.5rem;
+          }
+          .file-name {
+            margin-top: 0;
+            font-size: 0.9rem;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1024px) and (min-width: 769px) {
+    .files-page {
+      .files-tab {
+        gap: 0.75rem;
+        padding: 1rem;
+      }
+  
+      .files-container {
+        .file-item {
+          width: 30%;
+          height: 100px;
+  
+          .file-icon {
+            font-size: 1.75rem;
+          }
+          .file-name {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }

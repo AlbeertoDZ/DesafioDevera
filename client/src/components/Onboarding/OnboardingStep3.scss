@@ -1,128 +1,119 @@
 .onboarding-step3 {
-    padding: 2rem;
-  
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  position: relative;
+
+  .atras-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: none;
+    border: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      color: #25A488;
+      background: #f8fffe;
+    }
+  }
+
+  .content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
     h2 {
-      margin-bottom: 1.5rem;
-    }
-  
-    .product-list {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-  
-    .product-card {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      border: 1px solid #eaeaea;
-      border-radius: 2px;
-      padding: 1rem;
-      background: #fff;
-      box-shadow: 0 2px 10px rgba(92, 92, 92, 0.08);
-  
-      input[type="checkbox"] {
-        margin-right: 0.5rem;
-        transform: scale(1.2);
-      }
-  
-      img {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-        border-radius: 2px;
-        flex-shrink: 0;
-      }
-  
-      .info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-grow: 1;
-  
-        strong {
-          font-size: 1rem;
-          margin-bottom: 0.25rem;
-        }
-  
-        span {
-          color: #666;
-          font-size: 0.85rem;
-        }
-      }
-  
-      .upload {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-  
-        label {
-          margin-bottom: 0.3rem;
-          color: #fdfdfd;
-        }
-  
-        input[type="file"] {
-          max-width: 150px;
-        }
-      }
-    }
-  
-    .actions {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: flex-end;
-  
-      .finalizar-btn {
-        background-color: #191919;
-        color: #fff;
-        border-radius: 2px;
-        padding: 1em;
-        font-weight: 500;
-      }
-    }
-  
-    .atras-btn {
-      background: none;
-      border: none;
-      color: #191919;
-      font-weight: 500;
-      font-size: 1rem;
-      cursor: pointer;
-      padding: 0.5rem 1rem;
-      transition: color 0.2s ease;
-  
-      &:hover {
-        color: #25A488;
-      }
-    }
-  
-    .upload-label {
-      background-color: #25A488;
-      color: #ffffff;
-      padding: 1rem 1rem;
-      border-radius: 2px;
-      cursor: pointer;
-      font-size: 1rem;
-      display: inline-block;
-      font-weight: 500;
-    }
-  
-    .archivo-subido {
-      display: flex;
-      align-items: center;
-      margin-top: 0.5rem;
-      gap: 0.5rem;
-      font-size: 0.9rem;
+      text-align: center;
       color: #333;
-  
-      .remove-file {
-        background: none;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .tally-container {
+      flex: 1;
+      min-height: 500px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+      iframe {
+        width: 100%;
         border: none;
-        color: #e74c3c;
+        border-radius: 8px;
+        min-height: 500px;
+      }
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+
+      .continue-btn {
+        background-color: #25A488;
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 6px;
+        font-weight: 500;
         font-size: 1rem;
         cursor: pointer;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        &:hover {
+          background-color: #1e8a73;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(37, 164, 136, 0.3);
+        }
+
+        &:active {
+          transform: translateY(0);
+        }
       }
     }
   }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    
+    .content-container {
+      gap: 1.5rem;
+
+      h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .tally-container {
+        min-height: 400px;
+
+        iframe {
+          min-height: 400px;
+        }
+      }
+
+      .actions {
+        padding: 0.5rem 0;
+        
+        .continue-btn {
+          padding: 0.65rem 1.5rem;
+          font-size: 0.95rem;
+        }
+      }
+    }
+  }
+}

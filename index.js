@@ -30,13 +30,26 @@ app.use("/api", filesRoutes);
 const companiesRoutes = require("./routes/companies.routes");
 app.use("/api/companies", companiesRoutes);
 
+// RUTAS DE PRODUCTOS
+const productsRoutes = require("./routes/products.routes");
+app.use("/api/products", productsRoutes);
+
 // RUTA PARA OBTENER CONTENIDO DE TABLAS
 const companiesController = require("./controllers/companies.controllers");
+const productsController = require("./controllers/products.controllers");
+
 app.get("/api/tables/:table_name", companiesController.getTableContent);
 
 // RUTAS ADICIONALES PARA ENDPOINTS ESPECÍFICOS
 app.post("/api/scrape_and_upload_products", companiesController.scrapeAndUploadProducts);
 app.get("/api/process_file/:file_id", companiesController.processFile);
+app.get("/api/products/:id/detail", companiesController.getProductDetail);
+app.get("/api/products", companiesController.getAllProductsBasic);
+
+// NUEVOS ENDPOINTS DE LA API CON AGENTE IA
+app.post("/api/generate_product_report", companiesController.generateProductReport);
+app.get("/api/csv/:nombre_empresa", companiesController.downloadCompanyCSV);
+app.put("/api/products/:product_id", productsController.updateProduct);
 
 // Middleware para servir archivos estáticos de front
 app.use(express.static("public"));

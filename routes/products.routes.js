@@ -11,4 +11,7 @@ router.get('/id/:id', productsControllers.getProductById);
 //Crear Producto
 router.post('/', productsControllers.createProduct);
 
+//Actualizar Producto
+router.put('/:product_id', productsControllers.updateProduct);
+
 module.exports = router;

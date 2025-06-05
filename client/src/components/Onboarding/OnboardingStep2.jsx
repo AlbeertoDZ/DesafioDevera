@@ -1,49 +1,63 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './OnboardingStep2.scss';
 
-function OnboardingStep2({ onNext, loading }) {
-  const [formSent, setFormSent] = useState(false);
-
+function OnboardingStep2({ onBack, onNext, loading, aiError, aiCompleted, url }) {
+  
+  // Auto-advance to next step when AI completes successfully
   useEffect(() => {
-    const scriptId = 'tally-embed-script';
-
-    const loadTally = () => {
-      if (typeof Tally !== 'undefined') {
-        Tally.loadEmbeds();
-
-        setTimeout(() => {
-          setFormSent(true);
-        }, 15000); 
-      }
-    };
-
-    if (!document.getElementById(scriptId)) {
-      const script = document.createElement('script');
-      script.id = scriptId;
-      script.src = 'https://tally.so/widgets/embed.js';
-      script.onload = loadTally;
-      document.body.appendChild(script);
-    } else {
-      loadTally();
+    if (aiCompleted && !aiError && !loading) {
+      const timer = setTimeout(() => {
+        onNext();
+      }, 2000); // Wait 2 seconds to show success message
+      
+      return () => clearTimeout(timer);
     }
-  }, []);
+  }, [aiCompleted, aiError, loading, onNext]);
 
   return (
     <div className="onboarding-step2">
-      {loading && <p>Cargando productos...</p>}
-
-      <iframe
-        data-tally-src="https://tally.so/embed/wL592l?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-        loading="lazy"
-        title="Formulario Tally"
-        style={{ minHeight: '500px', width: '100%' }}
-      ></iframe>
-
-        {formSent && (
-        <div className="next-button-wrapper">
-            <button onClick={onNext}>Ir al ultimo paso</button>
+      <button className='atras-btn' onClick={onBack} disabled={loading}>← Atrás</button>
+      
+      {loading ? (
+        <div className="loading-container">
+          <div className="loading-spinner">🤖</div>
+          <h2>Agente IA analizando tu sitio web...</h2>
+          <p className="loading-url">📱 Procesando: <strong>{url}</strong></p>
+          <div className="loading-steps">
+            <div className="step active">🔍 Escaneando productos</div>
+            <div className="step active">📊 Analizando sostenibilidad</div>
+            <div className="step active">🧮 Calculando huella de carbono</div>
+            <div className="step">✅ Generando resultados</div>
+          </div>
+          <p className="loading-note">Esto puede tomar unos segundos...</p>
         </div>
-        )}
+      ) : aiError ? (
+        <div className="error-container">
+          <div className="error-icon">⚠️</div>
+          <h2>Error en el Agente IA</h2>
+          <p className="error-message">{aiError}</p>
+          <p className="error-note">Se usarán productos de ejemplo para continuar</p>
+          <button className="continue-btn" onClick={onNext}>
+            Continuar con datos de ejemplo →
+          </button>
+        </div>
+      ) : aiCompleted ? (
+        <div className="success-container">
+          <div className="success-icon">✅</div>
+          <h2>¡Análisis completado exitosamente!</h2>
+          <p>El agente IA ha procesado tu sitio web y encontrado productos</p>
+          <p className="auto-advance">Avanzando automáticamente al siguiente paso...</p>
+          <button className="continue-btn" onClick={onNext}>
+            Continuar ahora →
+          </button>
+        </div>
+      ) : (
+        <div className="waiting-container">
+          <div className="waiting-icon">⏳</div>
+          <h2>Preparando análisis...</h2>
+          <p>Iniciando el agente IA...</p>
+        </div>
+      )}
     </div>
   );
 }

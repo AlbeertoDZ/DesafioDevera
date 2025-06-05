@@ -561,4 +561,544 @@
       }
     }
   }
+}
+
+// CONCLUSIONES
+.conclusions-content {
+  .summary-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+    }
+    
+    p {
+      color: #475569;
+      line-height: 1.6;
+    }
+  }
+  
+  .conclusions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .strengths-box, .improvements-box {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      
+      li {
+        padding: 0.5rem 0;
+        color: #475569;
+        border-bottom: 1px solid #f1f5f9;
+        
+        &:last-child {
+          border-bottom: none;
+        }
+        
+        &:before {
+          content: "• ";
+          color: #22c55e;
+          font-weight: bold;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+  
+  .improvements-box ul li:before {
+    color: #f59e0b;
+  }
+  
+  .certifications-box {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1rem;
+    }
+    
+    .certifications-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      
+      .certification-badge {
+        background: linear-gradient(135deg, #22c55e, #16a34a);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+    }
+  }
+  
+  .impact-box {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    
+    h3 {
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+    }
+    
+    .impact-assessment {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+  }
+}
+
+// CATEGORÍAS
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  
+  .category-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .category-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      
+      h3 {
+        color: #1e293b;
+        font-size: 1.1rem;
+        margin: 0;
+      }
+      
+      .category-score {
+        background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.875rem;
+      }
+    }
+    
+    p {
+      color: #475569;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+    
+    .category-metrics {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      
+      span {
+        color: #64748b;
+        font-size: 0.875rem;
+      }
+      
+      .certifications {
+        display: flex;
+        gap: 0.25rem;
+        
+        .cert-tag {
+          background: #f1f5f9;
+          color: #475569;
+          padding: 0.25rem 0.5rem;
+          border-radius: 6px;
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+// COMPARATIVA
+.comparison-content {
+  .market-position {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1rem;
+    }
+    
+    .position-badge {
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      color: #475569;
+      font-size: 1.1rem;
+    }
+  }
+  
+  .competitors-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+    }
+    
+    .competitors-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      
+      .competitor-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background: #f8fafc;
+        border-radius: 8px;
+        
+        .competitor-name {
+          font-weight: 500;
+          color: #1e293b;
+        }
+        
+        .competitor-metrics {
+          display: flex;
+          gap: 1rem;
+          
+          span {
+            color: #64748b;
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+  }
+  
+  .industry-average {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    
+    h3 {
+      margin-bottom: 1rem;
+    }
+    
+    .average-metric span {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+  }
+}
+
+// SOSTENIBILIDAD DE MARCA
+.brand-content {
+  .brand-score {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1rem;
+    }
+    
+    .score-display {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+  
+  .initiatives-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+    }
+    
+    .initiatives-list {
+      list-style: none;
+      padding: 0;
+      
+      li {
+        padding: 1rem 0;
+        color: #475569;
+        border-bottom: 1px solid #f1f5f9;
+        
+        &:last-child {
+          border-bottom: none;
+        }
+        
+        &:before {
+          content: "🚀 ";
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+  
+  .social-impact, .transparency {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+    }
+    
+    .social-metrics, .transparency-metrics {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      
+      .metric {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem;
+        background: #f8fafc;
+        border-radius: 8px;
+        
+        .label {
+          color: #475569;
+          font-weight: 500;
+        }
+        
+        .value {
+          color: #1e293b;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+// MARKETING
+.marketing-content {
+  .target-audience {
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    
+    h3 {
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+  }
+  
+  .benefits-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+    }
+    
+    .benefits-list {
+      list-style: none;
+      padding: 0;
+      
+      li {
+        padding: 0.75rem 0;
+        color: #475569;
+        border-bottom: 1px solid #f1f5f9;
+        
+        &:last-child {
+          border-bottom: none;
+        }
+        
+        &:before {
+          content: "✨ ";
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+  
+  .claims-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+    }
+    
+    .claims-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      
+      .claim-badge {
+        background: linear-gradient(135deg, #22c55e, #16a34a);
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 0.875rem;
+      }
+    }
+  }
+  
+  .messaging-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    
+    h3 {
+      color: #1e293b;
+      margin-bottom: 1.5rem;
+    }
+    
+    .messaging-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      
+      .message-item {
+        background: #f8fafc;
+        padding: 1rem;
+        border-radius: 8px;
+        color: #475569;
+        font-style: italic;
+        border-left: 4px solid #3b82f6;
+      }
+    }
+  }
+  
+  .channels-pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+    
+    .channels, .pricing {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      
+      h3 {
+        color: #1e293b;
+        margin-bottom: 1rem;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        
+        li {
+          padding: 0.5rem 0;
+          color: #475569;
+          
+          &:before {
+            content: "📢 ";
+            margin-right: 0.5rem;
+          }
+        }
+      }
+      
+      p {
+        color: #475569;
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+// Loading state
+.loading {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #64748b;
+  font-size: 1.1rem;
 } 

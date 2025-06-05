@@ -3,7 +3,7 @@ import "./OnboardingStep1.scss";
 
 function OnboardingStep1({ onNext }) {
   const [url, setUrl] = useState('');
-  const [sales, setSales] = useState({});
+  const [companyName, setCompanyName] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault(); 
@@ -11,8 +11,12 @@ function OnboardingStep1({ onNext }) {
       alert("Por favor ingresa una URL");
       return;
     }
+    if (!companyName) {
+      alert("Por favor ingresa el nombre de la empresa");
+      return;
+    }
 
-    onNext({ url, sales });
+    onNext({ url, companyName, sales: {} });
   };
 
   return (
@@ -27,25 +31,20 @@ function OnboardingStep1({ onNext }) {
             id="url"
             name="url"
             value={url}
+            placeholder="https://ejemplo.com"
             onChange={(e) => setUrl(e.target.value)}
           />
         </div>
         
         <div className='attach-section-container'>  
-          <label htmlFor="sales">Introduce % ventas por país</label>
+          <label htmlFor="companyName">Nombre de la empresa</label>
           <input
             type="text"
-            id="sales"
-            name="sales"
-            placeholder=''
-            onChange={(e) => {
-              try {
-                const parsed = JSON.parse(e.target.value);
-                setSales(parsed);
-              } catch {
-                setSales({});
-              }
-            }}
+            id="companyName"
+            name="companyName"
+            value={companyName}
+            placeholder="Mi Empresa S.A."
+            onChange={(e) => setCompanyName(e.target.value)}
           />
         </div>
         <button type="submit">Siguiente</button>

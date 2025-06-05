@@ -1,8 +1,10 @@
 .onboarding-step2 {
     padding: 2rem;
     display: flex;
-    flex-direction: column; // 👈 importante
+    flex-direction: column;
     align-items: center;
+    min-height: 60vh;
+    position: relative;
   
     iframe {
       max-width: 100%;
@@ -30,5 +32,306 @@
       cursor: pointer;
       line-height: 1;
       white-space: nowrap;
+    }
+  
+    .atras-btn {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background: none;
+      border: none;
+      color: #666;
+      font-weight: 500;
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      
+      &:hover:not(:disabled) {
+        color: #25A488;
+        background: #f8fffe;
+      }
+      
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  
+    // Estados de contenido centrados
+    .loading-container,
+    .error-container, 
+    .success-container,
+    .waiting-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 500px;
+      margin: auto;
+      padding: 2rem;
+    }
+  
+    // LOADING STATE
+    .loading-container {
+      .loading-spinner {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        animation: bounce 2s infinite;
+      }
+      
+      h2 {
+        color: #333;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+      
+      .loading-url {
+        background: #f0f8ff;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        margin: 1rem 0 2rem 0;
+        border-left: 4px solid #25A488;
+        font-size: 0.95rem;
+        
+        strong {
+          color: #25A488;
+          word-break: break-all;
+        }
+      }
+      
+      .loading-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin: 2rem 0;
+        align-items: flex-start;
+        
+        .step {
+          padding: 0.5rem 1rem;
+          border-radius: 20px;
+          background: #f5f5f5;
+          color: #999;
+          font-size: 0.9rem;
+          transition: all 0.3s ease;
+          
+          &.active {
+            background: #e8f5f2;
+            color: #25A488;
+            animation: pulse 2s infinite;
+          }
+        }
+      }
+      
+      .loading-note {
+        color: #666;
+        font-style: italic;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+  
+    // ERROR STATE  
+    .error-container {
+      .error-icon {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        animation: shake 0.5s ease-in-out;
+      }
+      
+      h2 {
+        color: #e74c3c;
+        margin-bottom: 1rem;
+      }
+      
+      .error-message {
+        background: #ffeaea;
+        color: #c0392b;
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        border-left: 4px solid #e74c3c;
+        margin: 1rem 0;
+        font-weight: 500;
+      }
+      
+      .error-note {
+        color: #666;
+        margin-bottom: 2rem;
+        font-style: italic;
+      }
+      
+      .continue-btn {
+        background-color: #f39c12;
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 6px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        
+        &:hover {
+          background-color: #e67e22;
+        }
+      }
+    }
+  
+    // SUCCESS STATE
+    .success-container {
+      .success-icon {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        animation: successPulse 1.5s ease-out;
+      }
+      
+      h2 {
+        color: #27ae60;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        color: #666;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+      
+      .auto-advance {
+        background: #e8f5f2;
+        color: #25A488;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        font-weight: 500;
+        margin: 1.5rem 0;
+        animation: fadeInUp 0.5s ease-out;
+      }
+      
+      .continue-btn {
+        background-color: #25A488;
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 6px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        
+        &:hover {
+          background-color: #1e8a73;
+        }
+      }
+    }
+  
+    // WAITING STATE
+    .waiting-container {
+      .waiting-icon {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        animation: rotate 2s linear infinite;
+      }
+      
+      h2 {
+        color: #666;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        color: #999;
+      }
+    }
+  
+    // ANIMATIONS
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+  
+    @keyframes pulse {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.7;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  
+    @keyframes shake {
+      0%, 100% {
+        transform: translateX(0);
+      }
+      10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+      }
+      20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+      }
+    }
+  
+    @keyframes successPulse {
+      0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+      }
+      50% {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
+    // RESPONSIVE
+    @media (max-width: 768px) {
+      padding: 1rem;
+      
+      .loading-container,
+      .error-container, 
+      .success-container,
+      .waiting-container {
+        padding: 1rem;
+      }
+      
+      .loading-spinner,
+      .error-icon,
+      .success-icon,
+      .waiting-icon {
+        font-size: 3rem;
+      }
+      
+      h2 {
+        font-size: 1.25rem;
+      }
     }
   }
