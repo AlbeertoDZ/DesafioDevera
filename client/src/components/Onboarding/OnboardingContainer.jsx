@@ -4,6 +4,7 @@ import OnboardingStep1 from './OnboardingStep1';
 import OnboardingStep2 from './OnboardingStep2';
 import OnboardingStep3 from './OnboardingStep3';
 import OnboardingStep4 from './OnboardingStep4';
+import Header from '../Header/Header';
 import "./OnboardingContainer.scss";
 
 
@@ -145,15 +146,20 @@ function OnboardingContainer() {
   };
 
   return (
-    <div className="onboarding-container">
-      <div className="onboarding-header">
-        <button 
-          className="skip-onboarding-btn"
-          onClick={() => navigate('/')}
-        >
-          Ir al Dashboard →
-        </button>
-      </div>
+  
+    <div>
+         <Header />
+    
+          <div className="skip-button-wrapper">
+            <button 
+              className="skip-onboarding-btn"
+              onClick={() => navigate('/')}
+            >
+              Ir al Dashboard →
+            </button>
+          </div>
+    
+          <div className="onboarding-container">
       
       {step === 1 && (
         <OnboardingStep1
@@ -188,6 +194,7 @@ function OnboardingContainer() {
         />
       )}
     </div>
+  </div>
   );
 }
 

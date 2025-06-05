@@ -20,12 +20,17 @@
   margin-bottom: 20px;
 }
 
+.skip-button-wrapper {
+  padding: 2em;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .skip-onboarding-btn {
-  background: transparent;
-  border: 2px solid #007bff;
-  color: #007bff;
-  padding: 8px 16px;
-  border-radius: 6px;
+  background: rgb(66, 113, 255);
+  color: #ffffff;
+  padding: 1em;
+  border-radius: 2px;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
