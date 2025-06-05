@@ -10,7 +10,6 @@ const Home = () => (
     <Tabs />
     <SearchBar />
     <ProductTable />
-    <Pagination />
   </div>
 );
 
