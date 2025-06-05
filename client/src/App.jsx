@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home/Home';
 import OnboardingContainer from './components/Onboarding/OnboardingContainer';
 import ProductDetail from './components/ProductDetail/ProductDetail';
+import Files from './components/Files/Files';
 import { useAuth } from './hooks/useAuth';
 import { SearchProvider } from './context/SearchContext';
 
@@ -94,6 +95,18 @@ function App() {
               )
             }
           />
+           <Route                              
+            path="/files"                    
+            element={                        
+              isLoggedIn ? (                
+                <div className="route-transition">
+                  <Files />                
+                </div>
+             ) : (
+               <Navigate to="/login" replace />
+             )
+            }
+         /> 
           <Route
             path="*"
             element={

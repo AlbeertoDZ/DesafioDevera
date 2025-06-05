@@ -242,12 +242,17 @@ const ProductTable = () => {
               </div>
               <div className="cell">
                 <span className="label-mobile">Archivos</span>
+                <div className="cell">
+                <span className="label-mobile">Archivos</span>
                 <button
                   className="icon-button3"
-                  onClick={() => alert(`Archivos de ${product.name}`)}
+                  onClick={() => {
+                    navigate('/files');
+                  }}
                 >
                   <Files size={20} />
                 </button>
+              </div>
               </div>
             </div>
           ))

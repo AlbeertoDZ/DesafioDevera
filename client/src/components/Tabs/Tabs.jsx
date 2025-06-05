@@ -1,34 +1,27 @@
-// src/components/Tabs/Tabs.jsx
 import React, { useState } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Tabs.scss';
 
-const Tabs = ({ onSelect }) => {
-  const [activeTab, setActiveTab] = useState('Mis productos');
+const Tabs = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-    onSelect?.(tab);
-  };
+  const activeTab = location.pathname === '/files' ? 'Archivos' : 'Mis productos';
 
   return (
     <div className="tabs-container">
       <button
         className={activeTab === 'Mis productos' ? 'tab active' : 'tab'}
-        onClick={() => handleTabClick('Mis productos')}
+        onClick={() => navigate('/dashboard')}
       >
         Mis productos
       </button>
+
       <button
-        className={activeTab === 'Archivos' ? 'tab' : 'tab disabled'}
-        disabled
+        className={activeTab === 'Archivos' ? 'tab active' : 'tab'}
+        onClick={() => navigate('/files')}
       >
         Archivos
-      </button>
-      <button
-        className={activeTab === 'Información general' ? 'tab' : 'tab disabled'}
-        disabled
-      >
-        Información general
       </button>
     </div>
   );
