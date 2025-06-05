@@ -1,9 +1,15 @@
-    .files-page {
+/* ==============================
+   Files.scss
+   ============================== */
+
+   .files-page {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   
-
+    /* ─────────────────────────────────────────────────────────────
+       Barra superior de botones (“+ Añadir más archivos” y “Descargar archivos”)
+    ───────────────────────────────────────────────────────────── */
     .files-tab {
       display: flex;
       align-items: center;
@@ -12,6 +18,7 @@
       padding: 2em;
     }
   
+    /* “+ Añadir más archivos” */
     .add-file-btn {
       background-color: rgb(26, 26, 26);
       color: white;
@@ -27,6 +34,7 @@
       }
     }
   
+    /* “📂 Descargar archivos” */
     .download-files-btn {
       border: 1px solid #25a488;
       color: rgb(27, 27, 27);
@@ -46,11 +54,14 @@
       }
     }
   
+    /* ─────────────────────────────────────────────────────────────
+       Contenedor principal para las “tarjetas” de archivos
+    ───────────────────────────────────────────────────────────── */
     .files-container {
       width: 100%;
       min-height: 200px;
       background-color: #fff;
-      border: 1px solid #e2e8f0; /* gris claro */
+      border: 1px solid #e2e8f0; /* gris muy claro */
       border-radius: 8px;
       padding: 1rem;
       display: flex;
@@ -60,14 +71,50 @@
       justify-content: flex-start;
   
       .placeholder {
-        color: #718096;
+        color: #718096; /* gris medio */
         font-size: 0.95rem;
         margin: 0 auto;
       }
   
-      .file-item {
+      /* ────────────────────────────────────────────────────────────
+         Cada archivo tiene:
+           – Un wrapper relativo (.file-item-wrapper)
+           – Un botón “X” en absolute para eliminar
+           – Un enlace .file-item que descarga el blob
+      ──────────────────────────────────────────────────────────── */
+      .file-item-wrapper {
+        position: relative;
         width: 120px;
         height: 120px;
+      }
+  
+      /* Botón “X” para eliminar (es un child de .file-item-wrapper) */
+      .remove-file-btn {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        width: 20px;
+        height: 20px;
+        border: none;
+        color: rgb(255, 32, 32);
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.2s ease;
+  
+        &:hover {
+          background-color: #c53030; /* rojo más oscuro al pasar el ratón */
+        }
+      }
+  
+      /* Tarjeta de cada archivo: el <a> que descargará el blob */
+      .file-item {
+        width: 100%;
+        height: 100%;
         background-color: #f9fafb;
         border: 1px solid #cbd5e0;
         border-radius: 6px;
@@ -77,11 +124,19 @@
         justify-content: center;
         padding: 0.5rem;
         box-sizing: border-box;
+        text-decoration: none; /* Quitar subrayado del <a> */
+        color: inherit; /* Heredar el color de texto */
   
+        &:hover {
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+  
+        /* Icono del archivo (ej. “📄”) */
         .file-icon {
           font-size: 2rem;
         }
   
+        /* Nombre del archivo */
         .file-name {
           margin-top: 0.5rem;
           font-size: 0.85rem;
@@ -92,6 +147,10 @@
       }
     }
   }
+  
+  /* ==============================
+     Responsive (opcional)
+     ============================== */
   
   @media (max-width: 768px) {
     .files-page {
@@ -104,9 +163,14 @@
       .files-container {
         padding: 0.75rem;
   
-        .file-item {
+        /* En pantallas pequeñas, las tarjetas ocupan más ancho y
+           se colocan en fila de 2 (aprox). */
+        .file-item-wrapper {
           width: 45%;
           height: 100px;
+        }
+  
+        .file-item {
           flex-direction: row;
           align-items: center;
           justify-content: flex-start;
@@ -115,6 +179,7 @@
           .file-icon {
             font-size: 1.5rem;
           }
+  
           .file-name {
             margin-top: 0;
             font-size: 0.9rem;
@@ -133,10 +198,12 @@
       }
   
       .files-container {
-        .file-item {
+        .file-item-wrapper {
           width: 30%;
           height: 100px;
+        }
   
+        .file-item {
           .file-icon {
             font-size: 1.75rem;
           }
