@@ -48,18 +48,34 @@ const Files = () => {
           📂 Descargar archivos
         </button>
       </div>
+
       <div className="files-container">
         {filesList.length === 0 ? (
           <div className="placeholder">
             No hay archivos cargados aún.
           </div>
         ) : (
-          filesList.map((file, idx) => (
-            <div key={idx} className="file-item">
-              <div className="file-icon">📄</div>
-              <div className="file-name">{file.name}</div>
-            </div>
-          ))
+          filesList.map((file, idx) => {
+            // Para cada archivo, creamos un ObjectURL que servirá de href
+            const objectURL = URL.createObjectURL(file);
+
+            return (
+              <a
+                key={idx}
+                href={objectURL}
+                download={file.name}
+                className="file-item"
+                // Opcional: revocar el ObjectURL después de usarlo
+                onClick={() => {
+                  // Demoramos un tick para que comience la descarga y luego revocamos
+                  setTimeout(() => URL.revokeObjectURL(objectURL), 1000);
+                }}
+              >
+                <div className="file-icon">📄</div>
+                <div className="file-name">{file.name}</div>
+              </a>
+            );
+          })
         )}
       </div>
     </div>
