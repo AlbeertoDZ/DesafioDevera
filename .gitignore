@@ -1,0 +1,14 @@
+node_modules/
+.env
+dist/
+
+# Archivos subidos por usuarios
+uploads/
+
+# Data
+venv/
+*.env
+__pycache__/
+*.pyc
+*.tmp
+*.swp

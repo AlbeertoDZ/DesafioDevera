@@ -1,0 +1,71 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 1.2rem 1.5rem;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    
+    .top-bar-right {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  
+    .top-bar-right {
+      gap: 0.75rem;
+  
+      .search-input {
+        padding: 0.4rem 0.8rem;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        width: 240px;
+      }
+  
+      .export-button {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        border: none;
+        background: none;
+        color: #4f4f4f;
+        font-weight: 400;
+        cursor: pointer;
+  
+        img {
+          width: 18px;
+          height: 18px;
+        }
+  
+        .extension {
+          font-weight: 400;
+        }
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    // Media query dentro de .top-bar → válido en SCSS
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 1rem;
+  
+      .top-bar-left {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+      }
+  
+      .top-bar-right {
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 100%;
+  
+        .search-input {
+          width: 80%;
+        }
+      }
+    }
+  }

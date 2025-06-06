@@ -1,0 +1,608 @@
+Acrylonitrile-Butadiene-Styrene granulate (ABS), production mix, at plant
+Aerated concrete block, production mix, at plant, mix of P2 04 and P4 05, average density 433 kg/m3
+Aerated concrete block, production mix, at plant, type P4 05 reinforced, average density 485 kg/m3
+Aluminium extrusion profile, production mix, at plant, primary production, aluminium semi-finished extrusion product, including primary production, transformation and   recycling
+Aluminium sheet, production mix, at plant, primary production, aluminium semi-finished sheet product, including primary production, transformation and recycling
+Anhydrite (CaSO4), production mix, at plant, technology mix of natural (33%), thermal (33%) and synthetic (33%) produced anhydrite, grinded and purified product
+Articulated lorry transport, Euro 0, 1, 2, 3, 4 mix, 40 t total weight, 27 t max payload
+Articulated lorry transport, Euro 0, 1, 2, 3, 4 mix, 40 t total weight, 27 t max payload
+Barge, technology mix, 1.228 t pay load capacity
+Barge, technology mix, 1.228 t pay load capacity
+Bentonite granular, sodium activated, Production at plant, 1000 kg of bentonite sodium activated granular with a particle size ranging from 0.5 to 5 mm and a moisture content ranging between 8 and 13%, stored in silo, ready to be shipped in bulk., none
+Bentonite powder, sodium activated, Production at plant, 1000 kg of bentonite  sodium activated powder with particle sizes below 74 µm and a moisture content ranging between 8 and 12%, stored in silo, ready to be shipped in bulk., None
+Benzene, production mix, at plant, technology mix, from pyrolysis gasoline, reformate and toluene dealkylation, liquid
+Beverage carton converting, converting mix, at plant, Converting, beverage carton
+Bulk carrier ocean, technology mix, 100.000-200.000 dwt
+Bulk carrier ocean, technology mix, 100.000-200.000 dwt
+Calcium carbonate > 63 microns, at plant, Production
+Calcium silicate, production mix, at plant, blocks and elements, density 1400 to 2000 kg/m3
+Chlorine, production mix for PVC production, at plant
+Compressed air, production mix, 10 bar, high efficiency, low power consumption
+Compressed air, production mix, 10 bar, low efficiency, high power consumption
+Compressed air, production mix, 14 bar, high efficiency, low power consumption
+Compressed air, production mix, 14 bar, low efficiency, high power consumption
+Compressed air, production mix, 7 bar, high efficiency, low power consumption
+Compressed air, production mix, 7 bar, low efficiency, high power consumption
+Compressed air, production mix, at plant, 10 bar, high efficiency, low power consumption
+Compressed air, production mix, at plant, 10 bar, low efficiency, high power consumption
+Compressed air, production mix, at plant, 14 bar, high efficiency, low power consumption
+Compressed air, production mix, at plant, 14 bar, low efficiency, high power consumption
+Compressed air, production mix, at plant, 7 bar, high efficiency, low power consumption
+Compressed air, production mix, at plant, 7 bar, low efficiency, high power consumption
+Container glass (delivered to the end user of the contained product, reuse rate: 7%), production mix at plant, technology mix
+Container ship ocean, technology mix, 27.500 dwt pay load capacity
+Container ship ocean, technology mix, 27.500 dwt pay load capacity
+Continuous filament glass fibre (assembled rovings), at plant
+Continuous filament glass fibre (direct rovings), at plant
+Continuous filament glass fibre (dry chopped strands), at plant
+Continuous filament glass fibre (wet chopped strands), at plant
+Copper sheet, consumption mix, at plant, technology mix, 0,6 mm thickness
+Copper sheet; technology mix; market mix, at plant; 0,6 mm thickness, Technology and Market Mix for Sheet fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathode production...
+Copper tube, consumption mix, at plant, technology mix, diameter 15 mm, 1 mm thickness
+Copper tube; technology mix; market mix, at plant; diameter 15 mm, 1 mm thickness, Technology and Market Mix for Tube fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathod...
+Copper wire, consumption mix, at plant, technology mix, cross section 1 mmy
+Copper wire; technology mix; market mix, at plant; cross section 1 mm, Technology and Market Mix for Wire fabrication representing main European production countries, Market Mix for Copper cathode in Europe (primary and secondary Cu cathode production...
+Corrugated board boxes, production mix, at plant, technology mix, 16,6 % primary fibre, 83,4 % recycled fibre
+Crushed stone 16/32, production mix, at plant, open pit mining, undried
+De-ionised water, production mix, at plant, reverse osmosis, from groundwater
+De-ionised water, production mix, at plant, reverse osmosis, from surface water
+Diesel mix at refinery, production mix, at refinery, from crude oil and bio components, fuel supply, 10 ppm sulphur, 5.75 wt.% bio components
+Diesel, consumption mix, at refinery, from crude oil, 200 ppm sulphur
+Drinking water, production mix, at plant, water purification treatment, from groundwater
+Drinking water, production mix, at plant, water purification treatment, from surface water
+Dummy_Aluminum oxide (alumina)
+Dummy_Aluminum scrap
+Dummy_BF Gas Sludge
+Dummy_BF Shop Dust
+Dummy_BF Slag
+Dummy_BOF Gas Dust
+Dummy_BOF Slag
+Dummy_BOF Slag
+Dummy_Battery
+Dummy_CaF2 (low radioactice)
+Dummy_Chemicals (unspecified)
+Dummy_Chromium Solution
+Dummy_Cold Rolling Sludge
+Dummy_Cold rolling emulsion treatment sludge
+Dummy_Continuous Casting Sludge
+Dummy_Cooling water
+Dummy_Cryolite
+Dummy_EAF Dust
+Dummy_Flue dust
+Dummy_Glass for recovery (shards)
+Dummy_Gypsum
+Dummy_Gypsum (FDI)
+Dummy_Gypsum (contaminated)
+Dummy_Hazardous non organic waste for disposal (unspecific)
+Dummy_Hazardous organic waste for disposal (unspecific)
+Dummy_Hazardous waste (underground deposit)
+Dummy_Hazardous waste (unspec.)
+Dummy_Highly radioactive waste
+Dummy_Hot Rolling Sludge
+Dummy_Hydrogen
+Dummy_Iron scrap
+Dummy_LPG - liquefied petroleum gas
+Dummy_Lead scrap
+Dummy_Limestone
+Dummy_Low radioactive wastes
+Dummy_Medium and low radioactive liquid waste
+Dummy_Medium and low radioactive wastes
+Dummy_Mineral waste
+Dummy_Neutralized residues
+Dummy_Non Hazardous non organic waste for disposal (unspecific sludges and dusts)
+Dummy_Overburden (deposited)
+Dummy_Pickled hot rolled coil sludge
+Dummy_Plastic (unspecified)
+Dummy_Plutonium as residual product
+Dummy_Production residues (unspecified)
+Dummy_Radioactive tailings
+Dummy_Recycling goods
+Dummy_Refractory
+Dummy_Refractory
+Dummy_Rolling gravel
+Dummy_Rolling tinder
+Dummy_Scoria
+Dummy_Secondary Steel Making Slag
+Dummy_Secondary fuel
+Dummy_Secondary fuel renewable
+Dummy_Sinter / Pellet Dust
+Dummy_Slag
+Dummy_Slag
+Dummy_Slag (Iron plate production)
+Dummy_Slag (Mn 6,5%)
+Dummy_Slag (Uranium conversion)
+Dummy_Slag (containing Pb)
+Dummy_Slag (containing V)
+Dummy_Slag (containing precious metal)
+Dummy_Slag (unspecified)
+Dummy_Sludge
+Dummy_Sludge (from processing)
+Dummy_Steel scrap
+Dummy_Steel scrap (St)
+Dummy_Steel scrap (external supply)
+Dummy_Sulphuric acid
+Dummy_Tailings
+Dummy_Uranium depleted
+Dummy_Waste (solid)
+Dummy_Waste (unspecified)
+Dummy_Waste for recovery (unspecific)
+Dummy_Waste paper
+Dummy_Waste radioactive
+Dummy_Water (desalinated; deionized)
+Dummy_Water for industrial use
+Dummy_Wood
+Dummy_Wooden pallet (EURO)
+Dummy_Zinc dust
+Dummy_carcass meal
+Dummy_cargo
+Dummy_cullet float glass
+Dummy_electricity
+Dummy_energy (recovered)
+Dummy_excavated material
+Dummy_gypsum suspension
+Dummy_hydrated lime dry slaked
+Dummy_iron chloride
+Dummy_municipal waste (unspecified)
+Dummy_phosphoric acid
+Dummy_polyethylene low density foil(PE-LD)
+Dummy_printing ink
+Dummy_secondary fuel
+Dummy_secondary fuel renewable
+Dummy_spoil (unspecified)
+Dummy_unspecified radioactive waste
+Dummy_waste paper (unspecified)
+Dummy_zinc calcine
+Dummy_zinc dross
+Dummy_zinc oxide
+Dummy_zinc scrap
+Electricity Mix, consumption mix, at consumer, AC, 115-220V
+Electricity Mix, consumption mix, at consumer, AC, 125-220V
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 220V
+Electricity Mix, consumption mix, at consumer, AC, 230-240V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 230V
+Electricity Mix, consumption mix, at consumer, AC, 240V
+Electricity Mix, consumption mix, at consumer, AC, 240V
+Electricity Mix, consumption mix, at consumer, AC, < 1kV
+Electricity Mix, consumption mix, at consumer, AC, < 1kV
+Electricity from hydro power, production mix, at power plant, AC, 230V
+Electricity from hydroelectric power plants, production mix, at power plant, AC, < 1kV
+Electricity from wind power, production mix, at power plant, AC, < 1kV
+Electricity from wind power, production mix, at power plant, AC, <1kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix 1kV-60kV, consumption mix, at consumer, AC, 1kV - 60kV
+Electricity grid mix, consumption mix, at consumer, AC, 220V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, 230V
+Electricity grid mix, consumption mix, at consumer, AC, < 1kV
+Ethene (Ethylene), production mix, at plant, from steam cracking, gaseous
+Excavator, technology mix, 100 kW, Construction
+Excavator, technology mix, 500 kW, Mining
+GCC dry, Production at plant, Ground Calcium Carbonate (GCC) - dry, uncoated, with a CaCO3 content of 98% or more, a median particle size ranging typically from 2.5 to 5 µm, ready to be shipped in bulk. Production at plant., None
+GCC slurry, Production at plant, Ground Calcium Carbonate (GCC) - slurry, unbleached and uncoated, with a solid content of 75% in the slurry, a CaCO3 content of 98% or more, a median particle size ranging typically from 1 to 3 µm, ready to be shipped ...
+Gasoline (regular), consumption mix, at refinery, from crude oil, 100 ppm sulphur
+Gasoline mix (regular) at refinery, production mix, at refinery, from crude oil and bio components, fuel supply, 10 ppm sulphur, 5.75 wt.% bio components
+Glass wool, production mix, at plant, fleece, density between 10 to 100 kg/m3
+Graphic Paper,  production mix, at plant,  technology mix,  79% primary fibre, 21% recycled fibre
+Gravel 2/32, production mix, at plant, wet and dry quarry, undried
+Gypsum plaster (CaSO4 alpha hemihydrates), production mix, at plant, via calcination of calcium sulphate dihydrate, grinded and purified product
+Gypsum plaster (CaSO4 beta hemihydrates), production mix, at plant, technology mix of natural gypsum (45%) and gypsum from flue gas desulphurisation (55%), grinded and purified product
+Gypsum plasterboard, production mix at factory, technology mix of plasterboard production, 12.5 mm thick, 10kg/m2
+Gypsum stone (CaSO4-dihydrate), production mix, at plant, underground and open pit mining, grinded and purified product
+Hard Coal, consumption mix, at power plant, from underground and open pit mining
+Hard coal mix, consumption mix, at consumer, technology mix
+Heat, consumption mix, at consumer, residential heating systems from light fuel oil (low sulphur), condensing boiler, max. heat output 14,9   kW, at a temperature level of 55°C
+Heat, consumption mix, at consumer, residential heating systems from natural gas, condensing boiler, max. heat output 14,9 kW, at a temperature level of 55°C
+Heat, consumption mix, at consumer, residential heating systems from wood pellets, boiler, max. heat output 14,9 kW, at a temperature level of 70°C
+Heavy fuel oil at refinery (1.0wt.% S), production mix, at refinery, from crude oil, fuel supply, 1 wt.% sulphur
+Heavy fuel oil, consumption mix, at refinery, from crude oil
+High impact polystyrene granulate (HIPS), production mix, at plant
+Hydrogen chloride gas (HCl), production mix for PVC production, at plant
+Kaolin coarse filler , at plant, Production
+Kerosene / Jet A1 at refinery, production mix, at refinery, from crude oil, fuel supply, 480 ppm sulphur
+Kerosene, consumption mix, at refinery, from crude oil, 700 ppm sulphur
+Landfill of biodegradable waste, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment
+Landfill of ferro metals, at landfill site, landfill including leachate treatment and without collection, transport and pre-treatment
+Landfill of glass/inert waste, at landfill site, landfill including leachate treatment and without collection, transport and pre-treatment
+Landfill of municipal solid waste, AT, DE, IT, LU, NL, SE, CH technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment
+Landfill of municipal solid waste, BE, DK technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment
+Landfill of municipal solid waste, ES, GR, PT technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment
+Landfill of municipal solid waste, FR, GB, IE, FI, NO technology mix, at landfill site, landfill including landfill gas utilisation and leachate treatment, without collection, transport and   pre-treatment
+Landfill of paper waste, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment
+Landfill of plastic waste, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment
+Landfill of textiles, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment
+Landfill of untreated wood, at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment
+Landfill of wood products (OSB, particle board), at landfill site, landfill including landfill gas utilisation and leachate treatment and without collection, transport and   pre-treatment
+Lead primary and secondary mix , production mix, at producer, technology mix, primary 46% /  secondary 54%
+Lead sheet mix, production mix, at producer, technology mix, secondary
+Lead, consumption mix, at plant, primary
+Light fuel oil at refinery, production mix, at refinery, from crude oil, fuel supply, 0.1 wt.% sulphur
+Light fuel oil, consumption mix, at refinery, from crude oil, 2000 ppm sulphur
+Lightweight concrete block, production mix, at plant, expanded clay as base material
+Lignite mix, consumption mix, at consumer, technology mix
+Lignite, consumption mix, at power plant, from open pit mining
+Liquid Packaging Board (LPB) production, production mix, at plant, production, mineral coated LPB (n=4), basis weight: 266 g/m2
+Lorry transport, Euro 0, 1, 2, 3, 4 mix, 22 t total weight, 17,3 t max payload
+Lorry transport, Euro 0, 1, 2, 3, 4 mix, 22 t total weight, 17,3t max payload
+Mining Truck, technology mix, 220 t payload, 1.700 kW
+Mining Truck, technology mix, 220 t payload, 1.700 kW
+Naphtha, consumption mix, at refinery, from crude oil
+Natural Gas Mix, consumption mix, at consumer, technology mix, onshore and offshore production incl. pipeline and LNG transprt
+Natural Gas, consumption mix, at consumer, from onshore and offshore production incl. pipeline and LNG transport, desulphurised
+Nitrogen, production mix, at plant, via cryogenic air separation, gaseous
+Nylon 6 glass filled (PA 6 GF), production mix, at plant
+Nylon 6 granulate (PA 6), production mix, at plant
+Nylon 66 GF 30 compound (PA 66 GF 30), production mix, at plant
+Nylon 66 granulate (PA 66), production mix, at plant
+Oriented Strand Board, production mix, at plant, OSB III, 4,8% water content
+Oxygen, production mix, at plant, via cryogenic air separation, gaseous
+PCC dry, Production at plant, Precipitated Calcium Carbonate (PCC) - dry, uncoated, with a CaCO3 content of 98% or more, a median particle size ranging typically from 1 to 3 µm, ready to be shipped either in bulk or bags. Production at plant., None
+PCC slurry, Production at plant, Precipitated Calcium Carbonate (PCC) - slurry, uncoated, with a solid content ranging from 15% to 40% in the slurry, a CaCO3 content of 98% or more, a median particle size ranging typically from 0.3 to 3 µm, ready to b...
+Particle board, production mix, at plant, P2 (Standard FPY), 7,8% water content
+Particle board, production mix, at plant, P5 (V100), 7,8% water content
+Pine log with bark, production mix entry to saw mill, at plant, refostered managed forest, 44% water content
+Pine wood, production mix, at saw mill, timber, 40% water content
+Plane, technology mix, cargo, 68 t payload
+Plane, technology mix, cargo, 68 t payload
+Polyacrylonitrile fibres (PAN), production mix, at plant, from acrylonitrile and methacrylate, PAN without additives
+Polyamide 6.6 fibres (PA 6.6), production mix, at plant, from adipic acid and hexamethylene diamine (HMDA), PA 6.6 granulate without additives
+Polybutadiene granulate (PB), production mix, at plant
+Polycarbonate granulate (PC), production mix, at plant
+Polyethylene high density granulate (PE-HD), production mix, at plant
+Polyethylene low density granulate (PE-LD), production mix, at plant
+Polyethylene low linear density granulate (PE-LLD), production mix, at plant
+Polyethylene terephthalate (PET) granulate, production mix, at plant, amorphous
+Polyethylene terephthalate (PET) granulate, production mix, at plant, bottle grade
+Polyethylene terephthalate fibres (PET), production mix, at plant, via dimethyl terephthalate (DMT), PET granulate without additives
+Polymethyl methacrylate (PMMA) beads, production mix, at plant
+Polypropylene fibres (PP), production mix, at plant, crude oil based, PP granulate without additives
+Polypropylene granulate (PP), production mix, at plant
+Polystyrene (general purpose) granulate (GPPS), production mix, at plant, crystal form is pure polystyrene with few additives, used when clarity is required even though it is very   brittle
+Polystyrene expandable granulate (EPS), production mix, at plant
+Polyvinylchloride resin (B-PVC), production mix, at plant, bulk polymerisation
+Polyvinylchloride resin (E-PVC), production mix, at plant, emulsion polymerisation
+Polyvinylchloride resin (S-PVC), production mix, at plant, suspension polymerisation
+Porocalce plaster production, Production mix at plant - Southern Italy, Porocalce plaster - Milling and mixing of sand, perlite, expanded glass, calcium hydroxide, 1 kg, Plaster
+Portland cement (CEM I), CEMBUREAU production mix, at plant, CEMBUREAU technology mix, EN 197-1
+Pre-cast concrete, production mix, at plant, minimum reinforcement, concrete type C20/25, without consideration of casings
+Process Steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Heavy fuel oil 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from Light fuel oil 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from heavy fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from light fuel oil, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90 %, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas 90%, consumption mix, at power plant, heat plant, MJ, 90 % efficiency
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process steam from natural gas, consumption mix, at plant, heat plant, MJ
+Process water, production mix, at plant, ion exchange, from groundwater
+Process water, production mix, at plant, ion exchange, from surface water
+Propene (Propylene), production mix, at plant, from steam cracking, gaseous
+Rail transport, technology mix, diesel driven, cargo
+Rail transport, technology mix, diesel driven, cargo
+Rail transport, technology mix, electricity driven, cargo
+Rail transport, technology mix, electricity driven, cargo
+Rock wool, production mix, at plant, fleece, density between 30 to 180 kg/m3
+Sand 0/2, production mix, at plant, wet and dry quarry, undried
+Small lorry transport, Euro 0, 1, 2, 3, 4 mix, 7,5 t total weight, 3,3 t max payload
+Small lorry transport, Euro 0, 1, 2, 3, 4 mix, 7,5 t total weight, 3,3 t max payload
+Sodium chloride (NaCl, dissolved), production mix for PVC production, at plant
+Sodium hydroxide, production mix for PVC production, at plant, 100% NaOH
+Special high grade zinc, production mix, at plant, primary production
+Spruce log with bark, production mix entry to saw mill, at plant, refostered managed forest, 44% water content
+Spruce wood, production mix, at saw mill, timber, 40% water content
+Steel hot dip galvanized (ILCD), production mix, at plant, blast furnace route, 1kg, typical thickness between 0.3 - 3 mm. typical width between 600 - 2100 mm.
+Steel hot dip galvanized, including recycling, production mix, at plant, blast furnace route, 1kg, typical thickness between 0.3 - 3 mm. typical width between 600 - 2100 mm.
+Steel hot rolled coil (ILCD), production mix, at plant, blast furnace route, 1kg, typical thickness between 2 - 7 mm. typical width between 600 - 2100 mm
+Steel hot rolled coil, including recycling, production mix, at plant, blast furnace route, 1kg, typical thickness between 2 - 7 mm. typical width between 600 - 2100 mm
+Steel hot rolled coil, production mix, at plant, blast furnace route, thickness 2 to 7 mm, width 600 to 2100 mm
+Steel hot rolled section, production mix, at plant, blast furnace and electric arc furnace route,
+Steel rebar, production mix, at plant, blast furnace and electric arc furnace route,
+Steel sections (ILCD), production mix, at plant, blast furnace route / electric arc furnace route, 1 kg
+Steel sections, including recycling, production mix, at plant, blast furnace route / electric arc furnace route, 1kg
+Steel tinplate without EoL recycling  (collection year 2012/2013), European, production mix, at plant, blast furnace route, 1kg, typical thickness between 0.13 - 0.49 mm. typical width between 600 - 1100 mm.
+Sulphur, consumption mix, at refinery, from crude oil, elemental sulphur
+Titanium Dioxide, production mix, at plant, Chloride and sulphate processes, > 80% TiO2
+Very fine milled silica sand d50 = 20 micrometer, at plant, Production, median diameter of silica sand grains is 20 micrometers
+Vinyl chloride monomer (VCM), production mix for PVC production , at plant
+Waste incineration of biodegradable waste fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of biodegradable waste fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of ferro metals, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of ferro metals, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of glass/inert material, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of glass/inert material, at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of paper fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of paper fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (Nylon 6 GF 30, Nylon 66 GF 30), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (Nylon 6 GF 30, Nylon 66 GF 30), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (Nylon 6, Nylon 66, PAN), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (Nylon 6, Nylon 66, PAN), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (PE, PP, PS, PB), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (PE, PP, PS, PB), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (PET, PMMA, PC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (PET, PMMA, PC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (rigid PVC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (rigid PVC), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (unspecified) fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of plastics (unspecified) fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of textile fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of textile fraction in municipal solid waste (MSW), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of untreated wood (10,7% water content), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of untreated wood (10,7% water content), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of wood products (OSB, particle board), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste incineration of wood products (OSB, particle board), at plant, average European waste-to-energy plant, without collection, transport and pre-treatment
+Waste water treatment, at waste water treatment plant, chemical reduction/oxidation process, municipal waste water
+Waste water treatment, at waste water treatment plant, domestic waste water according to the Directive 91/271/EEC concerning urban waste water treatment
+Waste water treatment, at waste water treatment plant, industrial waste water according to the Directive 91/271/EEC concerning urban waste water treatment, organic contaminated
+Waste water treatment, at waste water treatment plant, industrial waste water according to the Directive 91/271/EEC concerning urban waste water treatment, slightly organic and anorganic contaminated
+Waste water treatment, at waste water treatment plant, industrial waste water according to the Directive 91/271/EEC concerning urban waste water treatment, slightly organic contaminated
+cartonboard sheets; mixed technology; production mix, at plant; 46% primary fibre, 54% recovered fibre (en)
+corrugated board sheets, production mix, at plant, technology mix, 18% primary fibre, 82 % recycled fibre

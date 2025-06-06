@@ -1,0 +1,125 @@
+// Variables de mensajes
+$bot-bg: #f8f9fa;
+$user-bg: #00bcd4;
+$text-primary: #1a1a1a;
+$text-secondary: #6c757d;
+$text-white: #ffffff;
+
+.message {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 12px;
+
+  &.bot {
+    .message-avatar {
+      .bot-avatar {
+        width: 40px;
+        height: 40px;
+        background-color: $text-primary;
+        color: $text-white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 14px;
+      }
+    }
+
+    .message-content {
+      max-width: 70%;
+
+      .message-bubble {
+        background-color: $bot-bg;
+        border-radius: 18px 18px 18px 4px;
+        padding: 12px 16px;
+
+        .message-text {
+          margin: 0;
+          color: $text-primary;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+      }
+
+      .message-time {
+        font-size: 12px;
+        color: $text-secondary;
+        margin-top: 4px;
+        margin-left: 16px;
+      }
+    }
+  }
+
+  &.user {
+    flex-direction: row-reverse;
+
+    .message-avatar {
+      .user-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .message-content {
+      max-width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .message-bubble {
+        background-color: $user-bg;
+        border-radius: 18px 18px 4px 18px;
+        padding: 12px 16px;
+
+        .message-text {
+          margin: 0;
+          color: $text-white;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+      }
+
+      .message-time {
+        font-size: 12px;
+        color: $text-secondary;
+        margin-top: 4px;
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .message {
+    margin-bottom: 16px;
+
+    &.bot,
+    &.user {
+      .message-content {
+        max-width: 85%;
+      }
+    }
+
+    .message-avatar {
+      .bot-avatar,
+      .user-avatar {
+        width: 32px;
+        height: 32px;
+      }
+
+      .bot-avatar {
+        font-size: 12px;
+      }
+    }
+  }
+} 

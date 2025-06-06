@@ -1,0 +1,76 @@
+const express = require("express");
+const cors = require("cors");
+const helmet = require("helmet");
+const app = express();
+const path = require("path");
+
+require("dotenv").config(); // Cargar variables de entorno
+
+// Habilitar Helmet para seguridad
+app.use(helmet());
+
+//Habilitar CORS
+app.use(cors());
+
+// Para poder leer JSON en las peticiones
+app.use(express.json());
+
+// Para poder leer form-data y URL-encoded data
+app.use(express.urlencoded({ extended: true }));
+
+//RUTAS API (deben ir antes del middleware de archivos estáticos)
+const usersRoutes = require("./routes/users.routes");
+app.use("/api/users", usersRoutes);  
+
+// RUTAS DE ARCHIVOS
+const filesRoutes = require("./routes/files.routes");
+app.use("/api", filesRoutes);
+
+// RUTAS DE EMPRESAS
+const companiesRoutes = require("./routes/companies.routes");
+app.use("/api/companies", companiesRoutes);
+
+// RUTAS DE PRODUCTOS
+const productsRoutes = require("./routes/products.routes");
+app.use("/api/products", productsRoutes);
+
+// RUTA PARA OBTENER CONTENIDO DE TABLAS
+const companiesController = require("./controllers/companies.controllers");
+const productsController = require("./controllers/products.controllers");
+
+app.get("/api/tables/:table_name", companiesController.getTableContent);
+
+// RUTAS ADICIONALES PARA ENDPOINTS ESPECÍFICOS
+app.post("/api/scrape_and_upload_products", companiesController.scrapeAndUploadProducts);
+app.get("/api/process_file/:file_id", companiesController.processFile);
+app.get("/api/products/:id/detail", companiesController.getProductDetail);
+app.get("/api/products", companiesController.getAllProductsBasic);
+
+// NUEVOS ENDPOINTS DE LA API CON AGENTE IA
+app.post("/api/generate_product_report", companiesController.generateProductReport);
+app.get("/api/csv/all-products", companiesController.downloadAllProductsCSV);
+app.get("/api/csv/:nombre_empresa", companiesController.downloadCompanyCSV);
+app.put("/api/products/:product_id", productsController.updateProduct);
+
+// DELETE ENDPOINTS
+app.delete("/api/products/:product_id", productsController.deleteProduct);
+
+// CLEANUP ENDPOINT (TEMPORAL)
+app.post("/api/cleanup", companiesController.cleanupDatabase);
+
+// Middleware para servir archivos estáticos de front
+app.use(express.static("public"));
+
+// Servir archivos generados por Vite en /client/dist
+app.use(express.static(path.join(__dirname, "client", "dist")));
+
+// Catch-all handler: envía el frontend para todas las rutas que no sean API
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"));
+});
+
+//Iniciar el servidor
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Servidor escuchando en http://localhost:${port}`);
+});

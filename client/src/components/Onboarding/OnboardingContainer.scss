@@ -1,0 +1,44 @@
+.onboarding-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+  @media (max-width: 1024px) {
+    padding: 4rem; 
+  }
+
+  @media (max-width: 600px) {
+    padding: 2rem 1rem; 
+  }
+}
+
+.onboarding-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.skip-button-wrapper {
+  padding: 2em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skip-onboarding-btn {
+  background: rgb(66, 113, 255);
+  color: #ffffff;
+  padding: 1em;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: #007bff;
+    color: white;
+    transform: translateX(2px);
+  }
+}

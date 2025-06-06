@@ -1,0 +1,50 @@
+.tabs-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .tabs-container {
+    display: flex;
+    padding: 1.2em;
+    margin-top: 1em;
+  
+    @media (max-width: 768px) { // Tablet
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    @media (max-width: 480px) { // Mobile
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 100%;
+      align-items: center;
+    }
+  }
+  
+  .tab {
+    padding: 1.2em;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+    &.active {
+      color: rgb(255, 255, 255);
+      background-color: #25A488;
+      border-radius: 2px;
+    }
+
+    &.disabled {
+        color: rgb(90, 90, 90);
+        border-radius: 2px;
+      }
+  
+    @media (max-width: 768px) {
+      width: 90%;
+      text-align: center;
+      padding: 0.8rem;
+      font-size: 0.9rem;
+    }
+  }
